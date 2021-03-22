@@ -1,2 +1,2 @@
 # kunpengacclibdict
-加速库的字典，工具链可以自动根据字典获取内容更新
+kunpengacclibdict is the dictionary for Kunpeng Library. The tool chain can automatically obtain and update content based on the dictionary.
