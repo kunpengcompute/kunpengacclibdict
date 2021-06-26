@@ -635,21 +635,3783 @@
     {
       "name": "vadd_s8",
       "full name": "int8x8_t vadd_s8(int8x8_t __a, int8x8_t __b)",
-      "Intel name": "_mm_add_epi8",
+      "Intel name": "_mm_add_pi8",
       "Intel ASM": "paddb",
       "Arm ASM": "add",
       "function_en": "[vector] add [8]",
       "function_cn": "[向量]加[8]"
     },
     {
+      "name": "vaddq_s8",
+      "full name": "int8x16_t vaddq_s8(int8x16_t a, int8x16_t b)",
+      "Intel name": "_mm_add_epi8",
+      "Intel Asm": "paddw",
+      "Arm Asm": "add",
+      "function_en": "[vector] add [8]",
+      "function_cn": "[向量] 加 [8]"
+    },
+    {
+      "name": "vadd_s16",
+      "full name": "int16x4_t vadd_s16(int16x4_t a, int16x4_t b)",
+      "Intel name": "_mm_add_pi16",
+      "Intel Asm": "paddw",
+      "Arm Asm": "add",
+      "function_en": "[vector] add [16]",
+      "function_cn": "[向量] 加 [16]"
+    },
+    {
+      "name": "vaddq_s16",
+      "full name": "int16x8_t vaddq_s16(int16x8_t a, int16x8_t b)",
+      "Intel name": "_mm_add_epi16",
+      "Intel Asm": "paddw",
+      "Arm Asm": "add",
+      "function_en": "[vector] add [16]",
+      "function_cn": "[向量] 加 [16]"
+    },
+    {
       "name": "vadd_s32",
-      "full name": "int32x2_t vadd_s32(int32x2_t __a, int32x2_t __b)",
-      "Intel name": "_mm_add_epi32",
-      "Intel ASM": "paddd",
-      "Arm ASM": "add",
+      "full name": "int32x2_t vadd_s32(int32x2_t a, int32x2_t b)",
+      "Intel name": "_mm_add_pi32",
+      "Intel Asm": "paddd",
+      "Arm Asm": "add",
       "function_en": "[vector] add [32]",
-      "function_cn": "[向量]加[32]"
-    }
+      "function_cn": "[向量] 加 [32]"
+    },
+    {
+      "name": "vaddq_s32",
+      "full name": "int32x4_t vaddq_s32(int32x4_t a, int32x4_t b)",
+      "Intel name": "_mm_add_epi32",
+      "Intel Asm": "paddd",
+      "Arm Asm": "add",
+      "function_en": "[vector] add [32]",
+      "function_cn": "[向量] 加 [32]"
+    },
+    {
+      "name": "vadd_s64",
+      "full name": "int64x1_t vadd_s64(int64x1_t a, int64x1_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "add",
+      "function_en": "[vector] add [64]",
+      "function_cn": "[向量] 加 [64]"
+    },
+    {
+      "name": "vaddq_s64",
+      "full name": "int64x2_t vaddq_s64(int64x2_t a, int64x2_t b)",
+      "Intel name": "_mm_add_epi64",
+      "Intel Asm": "paddq",
+      "Arm Asm": "add",
+      "function_en": "[vector] add [64]",
+      "function_cn": "[向量] 加 [64]"
+    },
+    {
+      "name": "vadd_u8",
+      "full name": "uint8x8_t vadd_u8(uint8x8_t a, uint8x8_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "add",
+      "function_en": "[vector] add [8]",
+      "function_cn": "[向量] 加 [8]"
+    },
+    {
+      "name": "vaddq_u8",
+      "full name": "uint8x16_t vaddq_u8(uint8x16_t a, uint8x16_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "add",
+      "function_en": "[vector] add [8]",
+      "function_cn": "[向量] 加 [8]"
+    },
+    {
+      "name": "vadd_u16",
+      "full name": "uint16x4_t vadd_u16(uint16x4_t a, uint16x4_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "add",
+      "function_en": "[vector] add [16]",
+      "function_cn": "[向量] 加 [16]"
+    },
+    {
+      "name": "vaddq_u16",
+      "full name": "uint16x8_t vaddq_u16(uint16x8_t a, uint16x8_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "add",
+      "function_en": "[vector] add [16]",
+      "function_cn": "[向量] 加 [16]"
+    },
+    {
+      "name": "vadd_u32",
+      "full name": "uint32x2_t vadd_u32(uint32x2_t a, uint32x2_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "add",
+      "function_en": "[vector] add [32]",
+      "function_cn": "[向量] 加 [32]"
+    },
+    {
+      "name": "vaddq_u32",
+      "full name": "uint32x4_t vaddq_u32(uint32x4_t a, uint32x4_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "add",
+      "function_en": "[vector] add [32]",
+      "function_cn": "[向量] 加 [32]"
+    },
+    {
+      "name": "vadd_u64",
+      "full name": "uint64x1_t vadd_u64(uint64x1_t a, uint64x1_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "add",
+      "function_en": "[vector] add [64]",
+      "function_cn": "[向量] 加 [64]"
+    },
+    {
+      "name": "vaddq_u64",
+      "full name": "uint64x2_t vaddq_u64(uint64x2_t a, uint64x2_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "add",
+      "function_en": "[vector] add [64]",
+      "function_cn": "[向量] 加 [64]"
+    },
+    {
+      "name": "vadd_f32",
+      "full name": "float32x2_t vadd_f32(float32x2_t a, float32x2_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "fadd",
+      "function_en": "[vector] add [32]",
+      "function_cn": "[向量] 加 [32]"
+    },
+    {
+      "name": "vaddq_f32",
+      "full name": "float32x4_t vaddq_f32(float32x4_t a, float32x4_t b)",
+      "Intel name": "_mm_add_ps",
+      "Intel Asm": "addps",
+      "Arm Asm": "fadd",
+      "function_en": "[vector] add [32]",
+      "function_cn": "[向量] 加 [32]"
+    },
+    {
+      "name": "vadd_f64",
+      "full name": "float64x1_t vadd_f64(float64x1_t a, float64x1_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "fadd",
+      "function_en": "[vector] add [64]",
+      "function_cn": "[向量] 加 [64]"
+    },
+    {
+      "name": "vaddq_f64",
+      "full name": "float64x2_t vaddq_f64(float64x2_t a, float64x2_t b)",
+      "Intel name": "_mm_add_pd",
+      "Intel Asm": "addpd",
+      "Arm Asm": "fadd",
+      "function_en": "[vector] add [64]",
+      "function_cn": "[向量] 加 [64]"
+    },
+    {
+      "name": "vaddd_s64",
+      "full name": "int64_t vaddd_s64(int64_t a, int64_t b)",
+      "Intel name": "_mm_add_si64",
+      "Intel Asm": "paddq",
+      "Arm Asm": "add",
+      "function_en": "[scalar] add [64]",
+      "function_cn": "[标量] 加 [64]"
+    },
+    {
+      "name": "vaddd_u64",
+      "full name": "uint64_t vaddd_u64(uint64_t a, uint64_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "add",
+      "function_en": "[scalar] add [64]",
+      "function_cn": "[标量] 加 [64]"
+    },
+    {
+      "name": "vqadd_s8",
+      "full name": "int8x8_t vqadd_s8(int8x8_t a, int8x8_t b)",
+      "Intel name": "_mm_adds_pi8",
+      "Intel Asm": "paddsb",
+      "Arm Asm": "sqadd",
+      "function_en": "[vector] sqadd [8]",
+      "function_cn": "[向量] 饱和加 [8]"
+    },
+    {
+      "name": "vqaddq_s8",
+      "full name": "int8x16_t vqaddq_s8(int8x16_t a, int8x16_t b)",
+      "Intel name": "_mm_adds_epi8",
+      "Intel Asm": "paddsb",
+      "Arm Asm": "sqadd",
+      "function_en": "[vector] sqadd [8]",
+      "function_cn": "[向量] 饱和加 [8]"
+    },
+    {
+      "name": "vqadd_s16",
+      "full name": "int16x4_t vqadd_s16(int16x4_t a, int16x4_t b)",
+      "Intel name": "_mm_adds_pi16",
+      "Intel Asm": "paddsw",
+      "Arm Asm": "sqadd",
+      "function_en": "[vector] sqadd [16]",
+      "function_cn": "[向量] 饱和加 [16]"
+    },
+    {
+      "name": "vqaddq_s16",
+      "full name": "int16x8_t vqaddq_s16(int16x8_t a, int16x8_t b)",
+      "Intel name": "_mm_adds_epi16",
+      "Intel Asm": "paddsw",
+      "Arm Asm": "sqadd",
+      "function_en": "[vector] sqadd [16]",
+      "function_cn": "[向量] 饱和加 [16]"
+    },
+    {
+      "name": "vqadd_s32",
+      "full name": "int32x2_t vqadd_s32(int32x2_t a, int32x2_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "sqadd",
+      "function_en": "[vector] sqadd [32]",
+      "function_cn": "[向量] 饱和加 [32]"
+    },
+    {
+      "name": "vqaddq_s32",
+      "full name": "int32x4_t vqaddq_s32(int32x4_t a, int32x4_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "sqadd",
+      "function_en": "[vector] sqadd [32]",
+      "function_cn": "[向量] 饱和加 [32]"
+    },
+    {
+      "name": "vqadd_s64",
+      "full name": "int64x1_t vqadd_s64(int64x1_t a, int64x1_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "sqadd",
+      "function_en": "[vector] sqadd [64]",
+      "function_cn": "[向量] 饱和加 [64]"
+    },
+    {
+      "name": "vqaddq_s64",
+      "full name": "int64x2_t vqaddq_s64(int64x2_t a, int64x2_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "sqadd",
+      "function_en": "[vector] sqadd [64]",
+      "function_cn": "[向量] 饱和加 [64]"
+    },
+    {
+      "name": "vqadd_u8",
+      "full name": "uint8x8_t vqadd_u8(uint8x8_t a, uint8x8_t b)",
+      "Intel name": "_mm_adds_pu8",
+      "Intel Asm": "paddusb",
+      "Arm Asm": "uqadd",
+      "function_en": "[vector] uqadd [8]",
+      "function_cn": "[向量] 饱和加 [8]"
+    },
+    {
+      "name": "vqaddq_u8",
+      "full name": "uint8x16_t vqaddq_u8(uint8x16_t a, uint8x16_t b)",
+      "Intel name": "_mm_adds_epu8",
+      "Intel Asm": "paddusb",
+      "Arm Asm": "uqadd",
+      "function_en": "[vector] uqadd [8]",
+      "function_cn": "[向量] 饱和加 [8]"
+    },
+    {
+      "name": "vqadd_u16",
+      "full name": "uint16x4_t vqadd_u16(uint16x4_t a, uint16x4_t b)",
+      "Intel name": "_mm_adds_pu16",
+      "Intel Asm": "paddusw",
+      "Arm Asm": "uqadd",
+      "function_en": "[vector] uqadd [16]",
+      "function_cn": "[向量] 饱和加 [16]"
+    },
+    {
+      "name": "vqaddq_u16",
+      "full name": "uint16x8_t vqaddq_u16(uint16x8_t a, uint16x8_t b)",
+      "Intel name": "_mm_adds_epu16",
+      "Intel Asm": "paddusw",
+      "Arm Asm": "uqadd",
+      "function_en": "[vector] uqadd [16]",
+      "function_cn": "[向量] 饱和加 [16]"
+    },
+    {
+      "name": "vqadd_u32",
+      "full name": "uint32x2_t vqadd_u32(uint32x2_t a, uint32x2_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "uqadd",
+      "function_en": "[vector] uqadd [32]",
+      "function_cn": "[向量] 饱和加 [32]"
+    },
+    {
+      "name": "vqaddq_u32",
+      "full name": "uint32x4_t vqaddq_u32(uint32x4_t a, uint32x4_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "uqadd",
+      "function_en": "[vector] uqadd [32]",
+      "function_cn": "[向量] 饱和加 [32]"
+    },
+    {
+      "name": "vqadd_u64",
+      "full name": "uint64x1_t vqadd_u64(uint64x1_t a, uint64x1_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "uqadd",
+      "function_en": "[vector] uqadd [64]",
+      "function_cn": "[向量] 饱和加 [64]"
+    },
+    {
+      "name": "vqaddq_u64",
+      "full name": "uint64x2_t vqaddq_u64(uint64x2_t a, uint64x2_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "uqadd",
+      "function_en": "[vector] uqadd [64]",
+      "function_cn": "[向量] 饱和加 [64]"
+    },
+    {
+      "name": "vqaddb_s8",
+      "full name": "int8_t vqaddb_s8(int8_t a, int8_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "sqadd",
+      "function_en": "[scalar] sqadd [8]",
+      "function_cn": "[标量] 饱和加 [8]"
+    },
+    {
+      "name": "vqaddh_s16",
+      "full name": "int16_t vqaddh_s16(int16_t a, int16_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "sqadd",
+      "function_en": "[scalar] sqadd [16]",
+      "function_cn": "[标量] 饱和加 [16]"
+    },
+    {
+      "name": "vqadds_s32",
+      "full name": "int32_t vqadds_s32(int32_t a, int32_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "sqadd",
+      "function_en": "[scalar] sqadd [32]",
+      "function_cn": "[标量] 饱和加 [32]"
+    },
+    {
+      "name": "vqaddd_s64",
+      "full name": "int64_t vqaddd_s64(int64_t a, int64_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "sqadd",
+      "function_en": "[scalar] sqadd [64]",
+      "function_cn": "[标量] 饱和加 [64]"
+    },
+    {
+      "name": "vqaddb_u8",
+      "full name": "uint8_t vqaddb_u8(uint8_t a, uint8_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "uqadd",
+      "function_en": "[scalar] uqadd [8]",
+      "function_cn": "[标量] 饱和加 [8]"
+    },
+    {
+      "name": "vqaddh_u16",
+      "full name": "uint16_t vqaddh_u16(uint16_t a, uint16_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "uqadd",
+      "function_en": "[scalar] uqadd [16]",
+      "function_cn": "[标量] 饱和加 [16]"
+    },
+    {
+      "name": "vqadds_u32",
+      "full name": "uint32_t vqadds_u32(uint32_t a, uint32_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "uqadd",
+      "function_en": "[scalar] uqadd [32]",
+      "function_cn": "[标量] 饱和加 [32]"
+    },
+    {
+      "name": "vqaddd_u64",
+      "full name": "uint64_t vqaddd_u64(uint64_t a, uint64_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "uqadd",
+      "function_en": "[scalar] uqadd [64]",
+      "function_cn": "[标量] 饱和加 [64]"
+    },
+    {
+      "name": "vuqadd_s8",
+      "full name": "int8x8_t vuqadd_s8(int8x8_t a, uint8x8_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "suqadd",
+      "function_en": "[vector] suqadd [8]",
+      "function_cn": "[向量] 饱和加 [8]"
+    },
+    {
+      "name": "vuqaddq_s8",
+      "full name": "int8x16_t vuqaddq_s8(int8x16_t a, uint8x16_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "suqadd",
+      "function_en": "[vector] suqadd [8]",
+      "function_cn": "[向量] 饱和加 [8]"
+    },
+    {
+      "name": "vuqadd_s16",
+      "full name": "int16x4_t vuqadd_s16(int16x4_t a, uint16x4_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "suqadd",
+      "function_en": "[vector] suqadd [16]",
+      "function_cn": "[向量] 饱和加 [16]"
+    },
+    {
+      "name": "vuqaddq_s16",
+      "full name": "int16x8_t vuqaddq_s16(int16x8_t a, uint16x8_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "suqadd",
+      "function_en": "[vector] suqadd [16]",
+      "function_cn": "[向量] 饱和加 [16]"
+    },
+    {
+      "name": "vuqadd_s32",
+      "full name": "int32x2_t vuqadd_s32(int32x2_t a, uint32x2_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "suqadd",
+      "function_en": "[vector] suqadd [32]",
+      "function_cn": "[向量] 饱和加 [32]"
+    },
+    {
+      "name": "vuqaddq_s32",
+      "full name": "int32x4_t vuqaddq_s32(int32x4_t a, uint32x4_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "suqadd",
+      "function_en": "[vector] suqadd [32]",
+      "function_cn": "[向量] 饱和加 [32]"
+    },
+    {
+      "name": "vuqadd_s64",
+      "full name": "int64x1_t vuqadd_s64(int64x1_t a, uint64x1_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "suqadd",
+      "function_en": "[vector] suqadd [64]",
+      "function_cn": "[向量] 饱和加 [64]"
+    },
+    {
+      "name": "vuqaddq_s64",
+      "full name": "int64x2_t vuqaddq_s64(int64x2_t a, uint64x2_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "suqadd",
+      "function_en": "[vector] suqadd [64]",
+      "function_cn": "[向量] 饱和加 [64]"
+    },
+    {
+      "name": "vuqaddb_s8",
+      "full name": "int8_t vuqaddb_s8(int8_t a, uint8_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "suqadd",
+      "function_en": "[scalar] suqadd [8]",
+      "function_cn": "[标量] 饱和加 [8]"
+    },
+    {
+      "name": "vuqaddh_s16",
+      "full name": "int16_t vuqaddh_s16(int16_t a, uint16_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "suqadd",
+      "function_en": "[scalar] suqadd [16]",
+      "function_cn": "[标量] 饱和加 [16]"
+    },
+    {
+      "name": "vuqadds_s32",
+      "full name": "int32_t vuqadds_s32(int32_t a, uint32_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "suqadd",
+      "function_en": "[scalar] suqadd [32]",
+      "function_cn": "[标量] 饱和加 [32]"
+    },
+    {
+      "name": "vuqaddd_s64",
+      "full name": "int64_t vuqaddd_s64(int64_t a, uint64_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "suqadd",
+      "function_en": "[scalar] suqadd [64]",
+      "function_cn": "[标量] 饱和加 [64]"
+    },
+    {
+      "name": "vsqadd_u8",
+      "full name": "uint8x8_t vsqadd_u8(uint8x8_t a, int8x8_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "usqadd",
+      "function_en": "[vector] usqadd [8]",
+      "function_cn": "[向量] 饱和加 [8]"
+    },
+    {
+      "name": "vsqaddq_u8",
+      "full name": "uint8x16_t vsqaddq_u8(uint8x16_t a, int8x16_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "usqadd",
+      "function_en": "[vector] usqadd [8]",
+      "function_cn": "[向量] 饱和加 [8]"
+    },
+    {
+      "name": "vsqadd_u16",
+      "full name": "uint16x4_t vsqadd_u16(uint16x4_t a, int16x4_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "usqadd",
+      "function_en": "[vector] usqadd [16]",
+      "function_cn": "[向量] 饱和加 [16]"
+    },
+    {
+      "name": "vsqaddq_u16",
+      "full name": "uint16x8_t vsqaddq_u16(uint16x8_t a, int16x8_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "usqadd",
+      "function_en": "[vector] usqadd [16]",
+      "function_cn": "[向量] 饱和加 [16]"
+    },
+    {
+      "name": "vsqadd_u32",
+      "full name": "uint32x2_t vsqadd_u32(uint32x2_t a, int32x2_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "usqadd",
+      "function_en": "[vector] usqadd [32]",
+      "function_cn": "[向量] 饱和加 [32]"
+    },
+    {
+      "name": "vsqaddq_u32",
+      "full name": "uint32x4_t vsqaddq_u32(uint32x4_t a, int32x4_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "usqadd",
+      "function_en": "[vector] usqadd [32]",
+      "function_cn": "[向量] 饱和加 [32]"
+    },
+    {
+      "name": "vsqadd_u64",
+      "full name": "uint64x1_t vsqadd_u64(uint64x1_t a, int64x1_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "usqadd",
+      "function_en": "[vector] usqadd [64]",
+      "function_cn": "[向量] 饱和加 [64]"
+    },
+    {
+      "name": "vsqaddq_u64",
+      "full name": "uint64x2_t vsqaddq_u64(uint64x2_t a, int64x2_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "usqadd",
+      "function_en": "[vector] usqadd [64]",
+      "function_cn": "[向量] 饱和加 [64]"
+    },
+    {
+      "name": "vsqaddb_u8",
+      "full name": "uint8_t vsqaddb_u8(uint8_t a, int8_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "usqadd",
+      "function_en": "[scalar] usqadd [8]",
+      "function_cn": "[标量] 饱和加 [8]"
+    },
+    {
+      "name": "vsqaddh_u16",
+      "full name": "uint16_t vsqaddh_u16(uint16_t a, int16_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "usqadd",
+      "function_en": "[scalar] usqadd [16]",
+      "function_cn": "[标量] 饱和加 [16]"
+    },
+    {
+      "name": "vsqadds_u32",
+      "full name": "uint32_t vsqadds_u32(uint32_t a, int32_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "usqadd",
+      "function_en": "[scalar] usqadd [32]",
+      "function_cn": "[标量] 饱和加 [32]"
+    },
+    {
+      "name": "vsqaddd_u64",
+      "full name": "uint64_t vsqaddd_u64(uint64_t a, int64_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "usqadd",
+      "function_en": "[scalar] usqadd [64]",
+      "function_cn": "[标量] 饱和加 [64]"
+    },
+    {
+      "name": "vaddhn_s16",
+      "full name": "int8x8_t vaddhn_s16(int16x8_t a, int16x8_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "addhn",
+      "function_en": "[vector] addhn [16]",
+      "function_cn": "[向量] 窄型加 [16]"
+    },
+    {
+      "name": "vaddhn_s32",
+      "full name": "int16x4_t vaddhn_s32(int32x4_t a, int32x4_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "addhn",
+      "function_en": "[vector] addhn [32]",
+      "function_cn": "[向量] 窄型加 [32]"
+    },
+    {
+      "name": "vaddhn_s64",
+      "full name": "int32x2_t vaddhn_s64(int64x2_t a, int64x2_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "addhn",
+      "function_en": "[vector] addhn [64]",
+      "function_cn": "[向量] 窄型加 [64]"
+    },
+    {
+      "name": "vaddhn_u16",
+      "full name": "uint8x8_t vaddhn_u16(uint16x8_t a, uint16x8_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "addhn",
+      "function_en": "[vector] addhn [16]",
+      "function_cn": "[向量] 窄型加 [16]"
+    },
+    {
+      "name": "vaddhn_u32",
+      "full name": "uint16x4_t vaddhn_u32(uint32x4_t a, uint32x4_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "addhn",
+      "function_en": "[vector] addhn [32]",
+      "function_cn": "[向量] 窄型加 [32]"
+    },
+    {
+      "name": "vaddhn_u64",
+      "full name": "uint32x2_t vaddhn_u64(uint64x2_t a, uint64x2_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "addhn",
+      "function_en": "[vector] addhn [64]",
+      "function_cn": "[向量] 窄型加 [64]"
+    },
+    {
+      "name": "vaddhn_high_s16",
+      "full name": "int8x16_t vaddhn_high_s16(int8x8_t r, int16x8_t a, int16x8_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "addhn2",
+      "function_en": "[vector] addhn2 [16]",
+      "function_cn": "[向量] 窄型加 [16]"
+    },
+    {
+      "name": "vaddhn_high_s32",
+      "full name": "int16x8_t vaddhn_high_s32(int16x4_t r, int32x4_t a, int32x4_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "addhn2",
+      "function_en": "[vector] addhn2 [32]",
+      "function_cn": "[向量] 窄型加 [32]"
+    },
+    {
+      "name": "vaddhn_high_s64",
+      "full name": "int32x4_t vaddhn_high_s64(int32x2_t r, int64x2_t a, int64x2_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "addhn2",
+      "function_en": "[vector] addhn2 [64]",
+      "function_cn": "[向量] 窄型加 [64]"
+    },
+    {
+      "name": "vaddhn_high_u16",
+      "full name": "uint8x16_t vaddhn_high_u16(uint8x8_t r, uint16x8_t a, uint16x8_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "addhn2",
+      "function_en": "[vector] addhn2 [16]",
+      "function_cn": "[向量] 窄型加 [16]"
+    },
+    {
+      "name": "vaddhn_high_u32",
+      "full name": "uint16x8_t vaddhn_high_u32(uint16x4_t r, uint32x4_t a, uint32x4_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "addhn2",
+      "function_en": "[vector] addhn2 [32]",
+      "function_cn": "[向量] 窄型加 [32]"
+    },
+    {
+      "name": "vaddhn_high_u64",
+      "full name": "uint32x4_t vaddhn_high_u64(uint32x2_t r, uint64x2_t a, uint64x2_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "addhn2",
+      "function_en": "[vector] addhn2 [64]",
+      "function_cn": "[向量] 窄型加 [64]"
+    },
+    {
+      "name": "vraddhn_s16",
+      "full name": "int8x8_t vraddhn_s16(int16x8_t a, int16x8_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "raddhn",
+      "function_en": "[vector] raddhn [16]",
+      "function_cn": "[向量] 窄型加 [16]"
+    },
+    {
+      "name": "vraddhn_s32",
+      "full name": "int16x4_t vraddhn_s32(int32x4_t a, int32x4_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "raddhn",
+      "function_en": "[vector] raddhn [32]",
+      "function_cn": "[向量] 窄型加 [32]"
+    },
+    {
+      "name": "vraddhn_s64",
+      "full name": "int32x2_t vraddhn_s64(int64x2_t a, int64x2_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "raddhn",
+      "function_en": "[vector] raddhn [64]",
+      "function_cn": "[向量] 窄型加 [64]"
+    },
+    {
+      "name": "vraddhn_u16",
+      "full name": "uint8x8_t vraddhn_u16(uint16x8_t a, uint16x8_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "raddhn",
+      "function_en": "[vector] raddhn [16]",
+      "function_cn": "[向量] 窄型加 [16]"
+    },
+    {
+      "name": "vraddhn_u32",
+      "full name": "uint16x4_t vraddhn_u32(uint32x4_t a, uint32x4_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "raddhn",
+      "function_en": "[vector] raddhn [32]",
+      "function_cn": "[向量] 窄型加 [32]"
+    },
+    {
+      "name": "vraddhn_u64",
+      "full name": "uint32x2_t vraddhn_u64(uint64x2_t a, uint64x2_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "raddhn",
+      "function_en": "[vector] raddhn [64]",
+      "function_cn": "[向量] 窄型加 [64]"
+    },
+    {
+      "name": "vraddhn_high_s16",
+      "full name": "int8x16_t vraddhn_high_s16(int8x8_t r, int16x8_t a, int16x8_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "raddhn2",
+      "function_en": "[vector] raddhn2 [16]",
+      "function_cn": "[向量] 窄型加 [16]"
+    },
+    {
+      "name": "vraddhn_high_s32",
+      "full name": "int16x8_t vraddhn_high_s32(int16x4_t r, int32x4_t a, int32x4_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "raddhn2",
+      "function_en": "[vector] raddhn2 [32]",
+      "function_cn": "[向量] 窄型加 [32]"
+    },
+    {
+      "name": "vraddhn_high_s64",
+      "full name": "int32x4_t vraddhn_high_s64(int32x2_t r, int64x2_t a, int64x2_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "raddhn2",
+      "function_en": "[vector] raddhn2 [64]",
+      "function_cn": "[向量] 窄型加 [64]"
+    },
+    {
+      "name": "vraddhn_high_u16",
+      "full name": "uint8x16_t vraddhn_high_u16(uint8x8_t r, uint16x8_t a, uint16x8_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "raddhn2",
+      "function_en": "[vector] raddhn2 [16]",
+      "function_cn": "[向量] 窄型加 [16]"
+    },
+    {
+      "name": "vraddhn_high_u32",
+      "full name": "uint16x8_t vraddhn_high_u32(uint16x4_t r, uint32x4_t a, uint32x4_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "raddhn2",
+      "function_en": "[vector] raddhn2 [32]",
+      "function_cn": "[向量] 窄型加 [32]"
+    },
+    {
+      "name": "vraddhn_high_u64",
+      "full name": "uint32x4_t vraddhn_high_u64(uint32x2_t r, uint64x2_t a, uint64x2_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "raddhn2",
+      "function_en": "[vector] raddhn2 [64]",
+      "function_cn": "[向量] 窄型加 [64]"
+    },
+    {
+      "name": "vaddl_s8",
+      "full name": "int16x8_t vaddl_s8(int8x8_t a, int8x8_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "saddl",
+      "function_en": "[vector] saddl [8]",
+      "function_cn": "[向量] 加 [8]"
+    },
+    {
+      "name": "vaddl_s16",
+      "full name": "int32x4_t vaddl_s16(int16x4_t a, int16x4_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "saddl",
+      "function_en": "[vector] saddl [16]",
+      "function_cn": "[向量] 加 [16]"
+    },
+    {
+      "name": "vaddl_s32",
+      "full name": "int64x2_t vaddl_s32(int32x2_t a, int32x2_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "saddl",
+      "function_en": "[vector] saddl [32]",
+      "function_cn": "[向量] 加 [32]"
+    },
+    {
+      "name": "vaddl_u8",
+      "full name": "uint16x8_t vaddl_u8(uint8x8_t a, uint8x8_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "uaddl",
+      "function_en": "[vector] uaddl [8]",
+      "function_cn": "[向量] 加 [8]"
+    },
+    {
+      "name": "vaddl_u16",
+      "full name": "uint32x4_t vaddl_u16(uint16x4_t a, uint16x4_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "uaddl",
+      "function_en": "[vector] uaddl [16]",
+      "function_cn": "[向量] 加 [16]"
+    },
+    {
+      "name": "vaddl_u32",
+      "full name": "uint64x2_t vaddl_u32(uint32x2_t a, uint32x2_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "uaddl",
+      "function_en": "[vector] uaddl [32]",
+      "function_cn": "[向量] 加 [32]"
+    },
+    {
+      "name": "vaddl_high_s8",
+      "full name": "int16x8_t vaddl_high_s8(int8x16_t a, int8x16_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "saddl2",
+      "function_en": "[vector] saddl2 [8]",
+      "function_cn": "[向量] 加 [8]"
+    },
+    {
+      "name": "vaddl_high_s16",
+      "full name": "int32x4_t vaddl_high_s16(int16x8_t a, int16x8_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "saddl2",
+      "function_en": "[vector] saddl2 [16]",
+      "function_cn": "[向量] 加 [16]"
+    },
+    {
+      "name": "vaddl_high_s32",
+      "full name": "int64x2_t vaddl_high_s32(int32x4_t a, int32x4_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "saddl2",
+      "function_en": "[vector] saddl2 [32]",
+      "function_cn": "[向量] 加 [32]"
+    },
+    {
+      "name": "vaddl_high_u8",
+      "full name": "uint16x8_t vaddl_high_u8(uint8x16_t a, uint8x16_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "uaddl2",
+      "function_en": "[vector] uaddl2 [8]",
+      "function_cn": "[向量] 加 [8]"
+    },
+    {
+      "name": "vaddl_high_u16",
+      "full name": "uint32x4_t vaddl_high_u16(uint16x8_t a, uint16x8_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "uaddl2",
+      "function_en": "[vector] uaddl2 [16]",
+      "function_cn": "[向量] 加 [16]"
+    },
+    {
+      "name": "vaddl_high_u32",
+      "full name": "uint64x2_t vaddl_high_u32(uint32x4_t a, uint32x4_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "uaddl2",
+      "function_en": "[vector] uaddl2 [32]",
+      "function_cn": "[向量] 加 [32]"
+    },
+    {
+      "name": "vaddw_s8",
+      "full name": "int16x8_t vaddw_s8(int16x8_t a, int8x8_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "saddw",
+      "function_en": "[vector] saddw [8]",
+      "function_cn": "[向量] 加 [8]"
+    },
+    {
+      "name": "vaddw_s16",
+      "full name": "int32x4_t vaddw_s16(int32x4_t a, int16x4_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "saddw",
+      "function_en": "[vector] saddw [16]",
+      "function_cn": "[向量] 加 [16]"
+    },
+    {
+      "name": "vaddw_s32",
+      "full name": "int64x2_t vaddw_s32(int64x2_t a, int32x2_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "saddw",
+      "function_en": "[vector] saddw [32]",
+      "function_cn": "[向量] 加 [32]"
+    },
+    {
+      "name": "vaddw_u8",
+      "full name": "uint16x8_t vaddw_u8(uint16x8_t a, uint8x8_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "uaddw",
+      "function_en": "[vector] uaddw [8]",
+      "function_cn": "[向量] 加 [8]"
+    },
+    {
+      "name": "vaddw_u16",
+      "full name": "uint32x4_t vaddw_u16(uint32x4_t a, uint16x4_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "uaddw",
+      "function_en": "[vector] uaddw [16]",
+      "function_cn": "[向量] 加 [16]"
+    },
+    {
+      "name": "vaddw_u32",
+      "full name": "uint64x2_t vaddw_u32(uint64x2_t a, uint32x2_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "uaddw",
+      "function_en": "[vector] uaddw [32]",
+      "function_cn": "[向量] 加 [32]"
+    },
+    {
+      "name": "vaddw_high_s8",
+      "full name": "int16x8_t vaddw_high_s8(int16x8_t a, int8x16_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "saddw2",
+      "function_en": "[vector] saddw2 [8]",
+      "function_cn": "[向量] 加 [8]"
+    },
+    {
+      "name": "vaddw_high_s16",
+      "full name": "int32x4_t vaddw_high_s16(int32x4_t a, int16x8_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "saddw2",
+      "function_en": "[vector] saddw2 [16]",
+      "function_cn": "[向量] 加 [16]"
+    },
+    {
+      "name": "vaddw_high_s32",
+      "full name": "int64x2_t vaddw_high_s32(int64x2_t a, int32x4_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "saddw2",
+      "function_en": "[vector] saddw2 [32]",
+      "function_cn": "[向量] 加 [32]"
+    },
+    {
+      "name": "vaddw_high_u8",
+      "full name": "uint16x8_t vaddw_high_u8(uint16x8_t a, uint8x16_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "uaddw2",
+      "function_en": "[vector] uaddw2 [8]",
+      "function_cn": "[向量] 加 [8]"
+    },
+    {
+      "name": "vaddw_high_u16",
+      "full name": "uint32x4_t vaddw_high_u16(uint32x4_t a, uint16x8_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "uaddw2",
+      "function_en": "[vector] uaddw2 [16]",
+      "function_cn": "[向量] 加 [16]"
+    },
+    {
+      "name": "vaddw_high_u32",
+      "full name": "uint64x2_t vaddw_high_u32(uint64x2_t a, uint32x4_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "uaddw2",
+      "function_en": "[vector] uaddw2 [32]",
+      "function_cn": "[向量] 加 [32]"
+    },
+    {
+      "name": "vhadd_s8",
+      "full name": "int8x8_t vhadd_s8(int8x8_t a, int8x8_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "shadd",
+      "function_en": "[vector] shadd [8]",
+      "function_cn": "[向量] 相加并右移一位 [8]"
+    },
+    {
+      "name": "vhaddq_s8",
+      "full name": "int8x16_t vhaddq_s8(int8x16_t a, int8x16_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "shadd",
+      "function_en": "[vector] shadd [8]",
+      "function_cn": "[向量] 相加并右移一位 [8]"
+    },
+    {
+      "name": "vhadd_s16",
+      "full name": "int16x4_t vhadd_s16(int16x4_t a, int16x4_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "shadd",
+      "function_en": "[vector] shadd [16]",
+      "function_cn": "[向量] 相加并右移一位 [16]"
+    },
+    {
+      "name": "vhaddq_s16",
+      "full name": "int16x8_t vhaddq_s16(int16x8_t a, int16x8_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "shadd",
+      "function_en": "[vector] shadd [16]",
+      "function_cn": "[向量] 相加并右移一位 [16]"
+    },
+    {
+      "name": "vhadd_s32",
+      "full name": "int32x2_t vhadd_s32(int32x2_t a, int32x2_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "shadd",
+      "function_en": "[vector] shadd [32]",
+      "function_cn": "[向量] 相加并右移一位 [32]"
+    },
+    {
+      "name": "vhaddq_s32",
+      "full name": "int32x4_t vhaddq_s32(int32x4_t a, int32x4_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "shadd",
+      "function_en": "[vector] shadd [32]",
+      "function_cn": "[向量] 相加并右移一位 [32]"
+    },
+    {
+      "name": "vhadd_u8",
+      "full name": "uint8x8_t vhadd_u8(uint8x8_t a, uint8x8_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "uhadd",
+      "function_en": "[vector] uhadd [8]",
+      "function_cn": "[向量] 相加并右移一位 [8]"
+    },
+    {
+      "name": "vhaddq_u8",
+      "full name": "uint8x16_t vhaddq_u8(uint8x16_t a, uint8x16_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "uhadd",
+      "function_en": "[vector] uhadd [8]",
+      "function_cn": "[向量] 相加并右移一位 [8]"
+    },
+    {
+      "name": "vhadd_u16",
+      "full name": "uint16x4_t vhadd_u16(uint16x4_t a, uint16x4_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "uhadd",
+      "function_en": "[vector] uhadd [16]",
+      "function_cn": "[向量] 相加并右移一位 [16]"
+    },
+    {
+      "name": "vhaddq_u16",
+      "full name": "uint16x8_t vhaddq_u16(uint16x8_t a, uint16x8_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "uhadd",
+      "function_en": "[vector] uhadd [16]",
+      "function_cn": "[向量] 相加并右移一位 [16]"
+    },
+    {
+      "name": "vhadd_u32",
+      "full name": "uint32x2_t vhadd_u32(uint32x2_t a, uint32x2_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "uhadd",
+      "function_en": "[vector] uhadd [32]",
+      "function_cn": "[向量] 相加并右移一位 [32]"
+    },
+    {
+      "name": "vhaddq_u32",
+      "full name": "uint32x4_t vhaddq_u32(uint32x4_t a, uint32x4_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "uhadd",
+      "function_en": "[vector] uhadd [32]",
+      "function_cn": "[向量] 相加并右移一位 [32]"
+    },
+    {
+      "name": "vrhadd_s8",
+      "full name": "int8x8_t vrhadd_s8(int8x8_t a, int8x8_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "srhadd",
+      "function_en": "[vector] srhadd [8]",
+      "function_cn": "[向量] 相加并右移一位 [8]"
+    },
+    {
+      "name": "vrhaddq_s8",
+      "full name": "int8x16_t vrhaddq_s8(int8x16_t a, int8x16_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "srhadd",
+      "function_en": "[vector] srhadd [8]",
+      "function_cn": "[向量] 相加并右移一位 [8]"
+    },
+    {
+      "name": "vrhadd_s16",
+      "full name": "int16x4_t vrhadd_s16(int16x4_t a, int16x4_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "srhadd",
+      "function_en": "[vector] srhadd [16]",
+      "function_cn": "[向量] 相加并右移一位 [16]"
+    },
+    {
+      "name": "vrhaddq_s16",
+      "full name": "int16x8_t vrhaddq_s16(int16x8_t a, int16x8_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "srhadd",
+      "function_en": "[vector] srhadd [16]",
+      "function_cn": "[向量] 相加并右移一位 [16]"
+    },
+    {
+      "name": "vrhadd_s32",
+      "full name": "int32x2_t vrhadd_s32(int32x2_t a, int32x2_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "srhadd",
+      "function_en": "[vector] srhadd [32]",
+      "function_cn": "[向量] 相加并右移一位 [32]"
+    },
+    {
+      "name": "vrhaddq_s32",
+      "full name": "int32x4_t vrhaddq_s32(int32x4_t a, int32x4_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "srhadd",
+      "function_en": "[vector] srhadd [32]",
+      "function_cn": "[向量] 相加并右移一位 [32]"
+    },
+    {
+      "name": "vrhadd_u8",
+      "full name": "uint8x8_t vrhadd_u8(uint8x8_t a, uint8x8_t b)",
+      "Intel name": "_mm_avg_pu8",
+      "Intel Asm": "pavgb",
+      "Arm Asm": "urhadd",
+      "function_en": "[vector] urhadd [8]",
+      "function_cn": "[向量] 相加并右移一位 [8]"
+    },
+    {
+      "name": "vrhaddq_u8",
+      "full name": "uint8x16_t vrhaddq_u8(uint8x16_t a, uint8x16_t b)",
+      "Intel name": "_mm_avg_epu8",
+      "Intel Asm": "pavgb",
+      "Arm Asm": "urhadd",
+      "function_en": "[vector] urhadd [8]",
+      "function_cn": "[向量] 相加并右移一位 [8]"
+    },
+    {
+      "name": "vrhadd_u16",
+      "full name": "uint16x4_t vrhadd_u16(uint16x4_t a, uint16x4_t b)",
+      "Intel name": "_mm_avg_pu16",
+      "Intel Asm": "pavgw",
+      "Arm Asm": "urhadd",
+      "function_en": "[vector] urhadd [16]",
+      "function_cn": "[向量] 相加并右移一位 [16]"
+    },
+    {
+      "name": "vrhaddq_u16",
+      "full name": "uint16x8_t vrhaddq_u16(uint16x8_t a, uint16x8_t b)",
+      "Intel name": "_mm_avg_epu16",
+      "Intel Asm": "pavgw",
+      "Arm Asm": "urhadd",
+      "function_en": "[vector] urhadd [16]",
+      "function_cn": "[向量] 相加并右移一位 [16]"
+    },
+    {
+      "name": "vrhadd_u32",
+      "full name": "uint32x2_t vrhadd_u32(uint32x2_t a, uint32x2_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "urhadd",
+      "function_en": "[vector] urhadd [32]",
+      "function_cn": "[向量] 相加并右移一位 [32]"
+    },
+    {
+      "name": "vrhaddq_u32",
+      "full name": "uint32x4_t vrhaddq_u32(uint32x4_t a, uint32x4_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "urhadd",
+      "function_en": "[vector] urhadd [32]",
+      "function_cn": "[向量] 相加并右移一位 [32]"
+    },
+	{
+	  "name": "vmul_s8",
+	  "full name": "int8x8_t vmul_s8(int8x8_t a, int8x8_t b)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "mul",
+	  "function_en": "[vector] mul [8]",
+	  "function_cn": "[向量] 乘 [8]"
+	},
+	{
+	  "name": "vmulq_s8",
+	  "full name": "int8x16_t vmulq_s8(int8x16_t a, int8x16_t b)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "mul",
+	  "function_en": "[vector] mul [8]",
+	  "function_cn": "[向量] 乘 [8]"
+	},
+	{
+	  "name": "vmul_s16",
+	  "full name": "int16x4_t vmul_s16(int16x4_t a, int16x4_t b)",
+	  "Intel name": "_mm_mullo_pi16",
+	  "Intel Asm": "pmullw",
+	  "Arm Asm": "mul",
+	  "function_en": "[vector] mul [16]",
+	  "function_cn": "[向量] 乘 [16]"
+	},
+	{
+	  "name": "vmulq_s16",
+	  "full name": "int16x8_t vmulq_s16(int16x8_t a, int16x8_t b)",
+	  "Intel name": "_mm_mullo_epi16",
+	  "Intel Asm": "pmullw",
+	  "Arm Asm": "mul",
+	  "function_en": "[vector] mul [16]",
+	  "function_cn": "[向量] 乘 [16]"
+	},
+	{
+	  "name": "vmul_s32",
+	  "full name": "int32x2_t vmul_s32(int32x2_t a, int32x2_t b)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "mul",
+	  "function_en": "[vector] mul [32]",
+	  "function_cn": "[向量] 乘 [32]"
+	},
+	{
+	  "name": "vmulq_s32",
+	  "full name": "int32x4_t vmulq_s32(int32x4_t a, int32x4_t b)",
+	  "Intel name": "_mm_mullo_epi32",
+	  "Intel Asm": "pmulld",
+	  "Arm Asm": "mul",
+	  "function_en": "[vector] mul [32]",
+	  "function_cn": "[向量] 乘 [32]"
+	},
+	{
+	  "name": "vmul_u8",
+	  "full name": "uint8x8_t vmul_u8(uint8x8_t a, uint8x8_t b)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "mul",
+	  "function_en": "[vector] mul [8]",
+	  "function_cn": "[向量] 乘 [8]"
+	},
+	{
+	  "name": "vmulq_u8",
+	  "full name": "uint8x16_t vmulq_u8(uint8x16_t a, uint8x16_t b)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "mul",
+	  "function_en": "[vector] mul [8]",
+	  "function_cn": "[向量] 乘 [8]"
+	},
+	{
+	  "name": "vmul_u16",
+	  "full name": "uint16x4_t vmul_u16(uint16x4_t a, uint16x4_t b)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "mul",
+	  "function_en": "[vector] mul [16]",
+	  "function_cn": "[向量] 乘 [16]"
+	},
+	{
+	  "name": "vmulq_u16",
+	  "full name": "uint16x8_t vmulq_u16(uint16x8_t a, uint16x8_t b)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "mul",
+	  "function_en": "[vector] mul [16]",
+	  "function_cn": "[向量] 乘 [16]"
+	},
+	{
+	  "name": "vmul_u32",
+	  "full name": "uint32x2_t vmul_u32(uint32x2_t a, uint32x2_t b)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "mul",
+	  "function_en": "[vector] mul [32]",
+	  "function_cn": "[向量] 乘 [32]"
+	},
+	{
+	  "name": "vmulq_u32",
+	  "full name": "uint32x4_t vmulq_u32(uint32x4_t a, uint32x4_t b)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "mul",
+	  "function_en": "[vector] mul [32]",
+	  "function_cn": "[向量] 乘 [32]"
+	},
+	{
+	  "name": "vmul_f32",
+	  "full name": "float32x2_t vmul_f32(float32x2_t a, float32x2_t b)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "fmul",
+	  "function_en": "[vector] fmul [32]",
+	  "function_cn": "[向量] 乘 [32]"
+	},
+	{
+	  "name": "vmulq_f32",
+	  "full name": "float32x4_t vmulq_f32(float32x4_t a, float32x4_t b)",
+	  "Intel name": "_mm_mul_ps",
+	  "Intel Asm": "mulps",
+	  "Arm Asm": "fmul",
+	  "function_en": "[vector] fmul [32]",
+	  "function_cn": "[向量] 乘 [32]"
+	},
+	{
+	  "name": "vmul_p8",
+	  "full name": "poly8x8_t vmul_p8(poly8x8_t a, poly8x8_t b)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "pmul",
+	  "function_en": "[vector] pmul [8]",
+	  "function_cn": "[向量] 多项式乘 [8]"
+	},
+	{
+	  "name": "vmulq_p8",
+	  "full name": "poly8x16_t vmulq_p8(poly8x16_t a, poly8x16_t b)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "pmul",
+	  "function_en": "[vector] pmul [8]",
+	  "function_cn": "[向量] 多项式乘 [8]"
+	},
+	{
+	  "name": "vmul_f64",
+	  "full name": "float64x1_t vmul_f64(float64x1_t a, float64x1_t b)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "fmul",
+	  "function_en": "[vector] fmul [64]",
+	  "function_cn": "[向量] 乘 [64]"
+	},
+	{
+	  "name": "vmulq_f64",
+	  "full name": "float64x2_t vmulq_f64(float64x2_t a, float64x2_t b)",
+	  "Intel name": "_mm_mul_pd",
+	  "Intel Asm": "mulpd",
+	  "Arm Asm": "fmul",
+	  "function_en": "[vector] fmul [64]",
+	  "function_cn": "[向量] 乘 [64]"
+	},
+	{
+	  "name": "vmulx_f32",
+	  "full name": "float32x2_t vmulx_f32(float32x2_t a, float32x2_t b)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "fmulx",
+	  "function_en": "[vector] fmulx [32]",
+	  "function_cn": "[向量] 乘 [32]"
+	},
+	{
+	  "name": "vmulxq_f32",
+	  "full name": "float32x4_t vmulxq_f32(float32x4_t a, float32x4_t b)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "fmulx",
+	  "function_en": "[vector] fmulx [32]",
+	  "function_cn": "[向量] 乘 [32]"
+	},
+	{
+	  "name": "vmulx_f64",
+	  "full name": "float64x1_t vmulx_f64(float64x1_t a, float64x1_t b)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "fmulx",
+	  "function_en": "[vector] fmulx [64]",
+	  "function_cn": "[向量] 乘 [64]"
+	},
+	{
+	  "name": "vmulxq_f64",
+	  "full name": "float64x2_t vmulxq_f64(float64x2_t a, float64x2_t b)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "fmulx",
+	  "function_en": "[vector] fmulx [64]",
+	  "function_cn": "[向量] 乘 [64]"
+	},
+	{
+	  "name": "vmulxs_f32",
+	  "full name": "float32_t vmulxs_f32(float32_t a, float32_t b)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "fmulx",
+	  "function_en": "[vector] fmulx [32]",
+	  "function_cn": "[向量] 乘 [32]"
+	},
+	{
+	  "name": "vmulxd_f64",
+	  "full name": "float64_t vmulxd_f64(float64_t a, float64_t b)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "fmulx",
+	  "function_en": "[vector] fmulx [64]",
+	  "function_cn": "[向量] 乘 [64]"
+	},
+	{
+	  "name": "vmulx_lane_f32",
+	  "full name": "float32x2_t vmulx_lane_f32(float32x2_t a, float32x2_t v, const int lane)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "fmulx",
+	  "function_en": "[vector] fmulx [32]",
+	  "function_cn": "[向量] 乘 [32]"
+	},
+	{
+	  "name": "vmulxq_lane_f32",
+	  "full name": "float32x4_t vmulxq_lane_f32(float32x4_t a, float32x2_t v, const int lane)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "fmulx",
+	  "function_en": "[vector] fmulx [32]",
+	  "function_cn": "[向量] 乘 [32]"
+	},
+	{
+	  "name": "vmulx_lane_f64",
+	  "full name": "float64x1_t vmulx_lane_f64(float64x1_t a, float64x1_t v, const int lane)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "fmulx",
+	  "function_en": "[vector] fmulx [64]",
+	  "function_cn": "[向量] 乘 [64]"
+	},
+	{
+	  "name": "vmulxq_lane_f64",
+	  "full name": "float64x2_t vmulxq_lane_f64(float64x2_t a, float64x1_t v, const int lane)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "fmulx",
+	  "function_en": "[vector] fmulx [64]",
+	  "function_cn": "[向量] 乘 [64]"
+	},
+	{
+	  "name": "vmulxs_lane_f32",
+	  "full name": "float32_t vmulxs_lane_f32(float32_t a, float32x2_t v, const int lane)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "fmulx",
+	  "function_en": "[vector] fmulx [32]",
+	  "function_cn": "[向量] 乘 [32]"
+	},
+	{
+	  "name": "vmulxd_lane_f64",
+	  "full name": "float64_t vmulxd_lane_f64(float64_t a, float64x1_t v, const int lane)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "fmulx",
+	  "function_en": "[vector] fmulx [64]",
+	  "function_cn": "[向量] 乘 [64]"
+	},
+	{
+	  "name": "vmulx_laneq_f32",
+	  "full name": "float32x2_t vmulx_laneq_f32(float32x2_t a, float32x4_t v, const int lane)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "fmulx",
+	  "function_en": "[vector] fmulx [32]",
+	  "function_cn": "[向量] 乘 [32]"
+	},
+	{
+	  "name": "vmulxq_laneq_f32",
+	  "full name": "float32x4_t vmulxq_laneq_f32(float32x4_t a, float32x4_t v, const int lane)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "fmulx",
+	  "function_en": "[vector] fmulx [32]",
+	  "function_cn": "[向量] 乘 [32]"
+	},
+	{
+	  "name": "vmulx_laneq_f64",
+	  "full name": "float64x1_t vmulx_laneq_f64(float64x1_t a, float64x2_t v, const int lane)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "fmulx",
+	  "function_en": "[vector] fmulx [64]",
+	  "function_cn": "[向量] 乘 [64]"
+	},
+	{
+	  "name": "vmulxq_laneq_f64",
+	  "full name": "float64x2_t vmulxq_laneq_f64(float64x2_t a, float64x2_t v, const int lane)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "fmulx",
+	  "function_en": "[vector] fmulx [64]",
+	  "function_cn": "[向量] 乘 [64]"
+	},
+	{
+	  "name": "vmulxs_laneq_f32",
+	  "full name": "float32_t vmulxs_laneq_f32(float32_t a, float32x4_t v, const int lane)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "fmulx",
+	  "function_en": "[vector] fmulx [32]",
+	  "function_cn": "[向量] 乘 [32]"
+	},
+	{
+	  "name": "vmulxd_laneq_f64",
+	  "full name": "float64_t vmulxd_laneq_f64(float64_t a, float64x2_t v, const int lane)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "fmulx",
+	  "function_en": "[vector] fmulx [64]",
+	  "function_cn": "[向量] 乘 [64]"
+	},
+	{
+	  "name": "vdiv_f32",
+	  "full name": "float32x2_t vdiv_f32(float32x2_t a, float32x2_t b)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "fdiv",
+	  "function_en": "[vector] fdiv [32]",
+	  "function_cn": "[向量] 除 [32]"
+	},
+	{
+	  "name": "vdivq_f32",
+	  "full name": "float32x4_t vdivq_f32(float32x4_t a, float32x4_t b)",
+	  "Intel name": "_mm_div_ps",
+	  "Intel Asm": "divps",
+	  "Arm Asm": "fdiv",
+	  "function_en": "[vector] fdiv [32]",
+	  "function_cn": "[向量] 除 [32]"
+	},
+	{
+	  "name": "vdiv_f64",
+	  "full name": "float64x1_t vdiv_f64(float64x1_t a, float64x1_t b)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "fdiv",
+	  "function_en": "[vector] fdiv [64]",
+	  "function_cn": "[向量] 除 [64]"
+	},
+	{
+	  "name": "vdivq_f64",
+	  "full name": "float64x2_t vdivq_f64(float64x2_t a, float64x2_t b)",
+	  "Intel name": "_mm_div_pd",
+	  "Intel Asm": "divpd",
+	  "Arm Asm": "fdiv",
+	  "function_en": "[vector] fdiv [64]",
+	  "function_cn": "[向量] 除 [64]"
+	},
+	{
+	  "name": "vmla_s8",
+	  "full name": "int8x8_t vmla_s8(int8x8_t a, int8x8_t b, int8x8_t c)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "mla",
+	  "function_en": "[vector] mla [8]",
+	  "function_cn": "[向量] 乘加 [8]"
+	},
+	{
+	  "name": "vmlaq_s8",
+	  "full name": "int8x16_t vmlaq_s8(int8x16_t a, int8x16_t b, int8x16_t c)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "mla",
+	  "function_en": "[vector] mla [8]",
+	  "function_cn": "[向量] 乘加 [8]"
+	},
+	{
+	  "name": "vmla_s16",
+	  "full name": "int16x4_t vmla_s16(int16x4_t a, int16x4_t b, int16x4_t c)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "mla",
+	  "function_en": "[vector] mla [16]",
+	  "function_cn": "[向量] 乘加 [16]"
+	},
+	{
+	  "name": "vmlaq_s16",
+	  "full name": "int16x8_t vmlaq_s16(int16x8_t a, int16x8_t b, int16x8_t c)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "mla",
+	  "function_en": "[vector] mla [16]",
+	  "function_cn": "[向量] 乘加 [16]"
+	},
+	{
+	  "name": "vmla_s32",
+	  "full name": "int32x2_t vmla_s32(int32x2_t a, int32x2_t b, int32x2_t c)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "mla",
+	  "function_en": "[vector] mla [32]",
+	  "function_cn": "[向量] 乘加 [32]"
+	},
+	{
+	  "name": "vmlaq_s32",
+	  "full name": "int32x4_t vmlaq_s32(int32x4_t a, int32x4_t b, int32x4_t c)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "mla",
+	  "function_en": "[vector] mla [32]",
+	  "function_cn": "[向量] 乘加 [32]"
+	},
+	{
+	  "name": "vmla_u8",
+	  "full name": "uint8x8_t vmla_u8(uint8x8_t a, uint8x8_t b, uint8x8_t c)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "mla",
+	  "function_en": "[vector] mla [8]",
+	  "function_cn": "[向量] 乘加 [8]"
+	},
+	{
+	  "name": "vmlaq_u8",
+	  "full name": "uint8x16_t vmlaq_u8(uint8x16_t a, uint8x16_t b, uint8x16_t c)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "mla",
+	  "function_en": "[vector] mla [8]",
+	  "function_cn": "[向量] 乘加 [8]"
+	},
+	{
+	  "name": "vmla_u16",
+	  "full name": "uint16x4_t vmla_u16(uint16x4_t a, uint16x4_t b, uint16x4_t c)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "mla",
+	  "function_en": "[vector] mla [16]",
+	  "function_cn": "[向量] 乘加 [16]"
+	},
+	{
+	  "name": "vmlaq_u16",
+	  "full name": "uint16x8_t vmlaq_u16(uint16x8_t a, uint16x8_t b, uint16x8_t c)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "mla",
+	  "function_en": "[vector] mla [16]",
+	  "function_cn": "[向量] 乘加 [16]"
+	},
+	{
+	  "name": "vmla_u32",
+	  "full name": "uint32x2_t vmla_u32(uint32x2_t a, uint32x2_t b, uint32x2_t c)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "mla",
+	  "function_en": "[vector] mla [32]",
+	  "function_cn": "[向量] 乘加 [32]"
+	},
+	{
+	  "name": "vmlaq_u32",
+	  "full name": "uint32x4_t vmlaq_u32(uint32x4_t a, uint32x4_t b, uint32x4_t c)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "mla",
+	  "function_en": "[vector] mla [32]",
+	  "function_cn": "[向量] 乘加 [32]"
+	},
+	{
+	  "name": "vmla_f32",
+	  "full name": "float32x2_t vmla_f32(float32x2_t a, float32x2_t b, float32x2_t c)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "",
+	  "function_en": "[vector] flma [32]",
+	  "function_cn": "[向量] 乘加 [32]"
+	},
+	{
+	  "name": "vmlaq_f32",
+	  "full name": "float32x4_t vmlaq_f32(float32x4_t a, float32x4_t b, float32x4_t c)",
+	  "Intel name": "_mm_fmadd_ps",
+	  "Intel Asm": "vfmadd132ps",
+	  "Arm Asm": "fmla",
+	  "function_en": "[vector] fmla [32]",
+	  "function_cn": "[向量] 乘加 [32]"
+	},
+	{
+	  "name": "vmla_f64",
+	  "full name": "float64x1_t vmla_f64(float64x1_t a, float64x1_t b, float64x1_t c)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "fmla",
+	  "function_en": "[vector] fmla [64]",
+	  "function_cn": "[向量] 乘加 [64]"
+	},
+	{
+	  "name": "vmlaq_f64",
+	  "full name": "float64x2_t vmlaq_f64(float64x2_t a, float64x2_t b, float64x2_t c)",
+	  "Intel name": "_mm_fmadd_pd",
+	  "Intel Asm": "vfmadd132pd",
+	  "Arm Asm": "fmla",
+	  "function_en": "[vector] fmla [64]",
+	  "function_cn": "[向量] 乘加 [64]"
+	},
+	{
+	  "name": "vmlal_s8",
+	  "full name": "int16x8_t vmlal_s8(int16x8_t a, int8x8_t b, int8x8_t c)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "smlal",
+	  "function_en": "[vector] smlal [8]",
+	  "function_cn": "[向量] 乘加 [8]"
+	},
+	{
+	  "name": "vmlal_s16",
+	  "full name": "int32x4_t vmlal_s16(int32x4_t a, int16x4_t b, int16x4_t c)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "smlal",
+	  "function_en": "[vector] smlal [16]",
+	  "function_cn": "[向量] 乘加 [16]"
+	},
+	{
+	  "name": "vmlal_s32",
+	  "full name": "int64x2_t vmlal_s32(int64x2_t a, int32x2_t b, int32x2_t c)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "smlal",
+	  "function_en": "[vector] smlal [32]",
+	  "function_cn": "[向量] 乘加 [32]"
+	},
+	{
+	  "name": "vmlal_u8",
+	  "full name": "uint16x8_t vmlal_u8(uint16x8_t a, uint8x8_t b, uint8x8_t c)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "umlal",
+	  "function_en": "[vector] umlal [8]",
+	  "function_cn": "[向量] 乘加 [8]"
+	},
+	{
+	  "name": "vmlal_u16",
+	  "full name": "uint32x4_t vmlal_u16(uint32x4_t a, uint16x4_t b, uint16x4_t c)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "umlal",
+	  "function_en": "[vector] umlal [16]",
+	  "function_cn": "[向量] 乘加 [16]"
+	},
+	{
+	  "name": "vmlal_u32",
+	  "full name": "uint64x2_t vmlal_u32(uint64x2_t a, uint32x2_t b, uint32x2_t c)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "umlal",
+	  "function_en": "[vector] umlal [32]",
+	  "function_cn": "[向量] 乘加 [32]"
+	},
+	{
+	  "name": "vmlal_high_s8",
+	  "full name": "int16x8_t vmlal_high_s8(int16x8_t a, int8x16_t b, int8x16_t c)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "smlal2",
+	  "function_en": "[vector] smlal2 [8]",
+	  "function_cn": "[向量] 乘加 [8]"
+	},
+	{
+	  "name": "vmlal_high_s16",
+	  "full name": "int32x4_t vmlal_high_s16(int32x4_t a, int16x8_t b, int16x8_t c)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "smlal2",
+	  "function_en": "[vector] smlal2 [16]",
+	  "function_cn": "[向量] 乘加 [16]"
+	},
+	{
+	  "name": "vmlal_high_s32",
+	  "full name": "int64x2_t vmlal_high_s32(int64x2_t a, int32x4_t b, int32x4_t c)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "smlal2",
+	  "function_en": "[vector] smlal2 [32]",
+	  "function_cn": "[向量] 乘加 [32]"
+	},
+	{
+	  "name": "vmlal_high_u8",
+	  "full name": "uint16x8_t vmlal_high_u8(uint16x8_t a, uint8x16_t b, uint8x16_t c)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "umlal2",
+	  "function_en": "[vector] umlal2 [8]",
+	  "function_cn": "[向量] 乘加 [8]"
+	},
+	{
+	  "name": "vmlal_high_u16",
+	  "full name": "uint32x4_t vmlal_high_u16(uint32x4_t a, uint16x8_t b, uint16x8_t c)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "umlal2",
+	  "function_en": "[vector] umlal2 [16]",
+	  "function_cn": "[向量] 乘加 [16]"
+	},
+	{
+	  "name": "vmlal_high_u32",
+	  "full name": "uint64x2_t vmlal_high_u32(uint64x2_t a, uint32x4_t b, uint32x4_t c)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "umlal2",
+	  "function_en": "[vector] umlal2 [16]",
+	  "function_cn": "[向量] 乘加 [16]"
+	},
+	{
+	  "name": "vmls_s8",
+	  "full name": "int8x8_t vmls_s8(int8x8_t a, int8x8_t b, int8x8_t c)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "mls",
+	  "function_en": "[vector] mls [8]",
+	  "function_cn": "[向量] 乘减 [8]"
+	},
+	{
+	  "name": "vmlsq_s8",
+	  "full name": "int8x16_t vmlsq_s8(int8x16_t a, int8x16_t b, int8x16_t c)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "mls",
+	  "function_en": "[vector] mls [8]",
+	  "function_cn": "[向量] 乘减 [8]"
+	},
+	{
+	  "name": "vmls_s16",
+	  "full name": "int16x4_t vmls_s16(int16x4_t a, int16x4_t b, int16x4_t c)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "mls",
+	  "function_en": "[vector] mls [16]",
+	  "function_cn": "[向量] 乘减 [16]"
+	},
+	{
+	  "name": "vmlsq_s16",
+	  "full name": "int16x8_t vmlsq_s16(int16x8_t a, int16x8_t b, int16x8_t c)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "mls",
+	  "function_en": "[vector] mls [16]",
+	  "function_cn": "[向量] 乘减 [16]"
+	},
+	{
+	  "name": "vmls_s32",
+	  "full name": "int32x2_t vmls_s32(int32x2_t a, int32x2_t b, int32x2_t c)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "mls",
+	  "function_en": "[vector] mls [32]",
+	  "function_cn": "[向量] 乘减 [32]"
+	},
+	{
+	  "name": "vmlsq_s32",
+	  "full name": "int32x4_t vmlsq_s32(int32x4_t a, int32x4_t b, int32x4_t c)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "mls",
+	  "function_en": "[vector] mls [32]",
+	  "function_cn": "[向量] 乘减 [32]"
+	},
+	{
+	  "name": "vmls_u8",
+	  "full name": "uint8x8_t vmls_u8(uint8x8_t a, uint8x8_t b, uint8x8_t c)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "mls",
+	  "function_en": "[vector] mls [8]",
+	  "function_cn": "[向量] 乘减 [8]"
+	},
+	{
+	  "name": "vmlsq_u8",
+	  "full name": "uint8x16_t vmlsq_u8(uint8x16_t a, uint8x16_t b, uint8x16_t c)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "mls",
+	  "function_en": "[vector] mls [8]",
+	  "function_cn": "[向量] 乘减 [8]"
+	},
+	{
+	  "name": "vmls_u16",
+	  "full name": "uint16x4_t vmls_u16(uint16x4_t a, uint16x4_t b, uint16x4_t c)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "mls",
+	  "function_en": "[vector] mls [16]",
+	  "function_cn": "[向量] 乘减 [16]"
+	},
+	{
+	  "name": "vmlsq_u16",
+	  "full name": "uint16x8_t vmlsq_u16(uint16x8_t a, uint16x8_t b, uint16x8_t c)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "mls",
+	  "function_en": "[vector] mls [16]",
+	  "function_cn": "[向量] 乘减 [16]"
+	},
+	{
+	  "name": "vmls_u32",
+	  "full name": "uint32x2_t vmls_u32(uint32x2_t a, uint32x2_t b, uint32x2_t c)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "mls",
+	  "function_en": "[vector] mls [32]",
+	  "function_cn": "[向量] 乘减 [32]"
+	},
+	{
+	  "name": "vmlsq_u32",
+	  "full name": "uint32x4_t vmlsq_u32(uint32x4_t a, uint32x4_t b, uint32x4_t c)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "mls",
+	  "function_en": "[vector] mls [32]",
+	  "function_cn": "[向量] 乘减 [32]"
+	},
+	{
+	  "name": "vmls_f32",
+	  "full name": "float32x2_t vmls_f32(float32x2_t a, float32x2_t b, float32x2_t c)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "fmls",
+	  "function_en": "[vector] fmls [32]",
+	  "function_cn": "[向量] 乘减 [32]"
+	},
+	{
+	  "name": "vmlsq_f32",
+	  "full name": "float32x4_t vmlsq_f32(float32x4_t a, float32x4_t b, float32x4_t c)",
+	  "Intel name": "_mm_fmsub_ps",
+	  "Intel Asm": "vfmsub132ps",
+	  "Arm Asm": "fmls",
+	  "function_en": "[vector] fmls [32]",
+	  "function_cn": "[向量] 乘减 [32]"
+	},
+	{
+	  "name": "vmls_f64",
+	  "full name": "float64x1_t vmls_f64(float64x1_t a, float64x1_t b, float64x1_t c)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "fmls",
+	  "function_en": "[vector] fmls [64]",
+	  "function_cn": "[向量] 乘减 [64]"
+	},
+	{
+	  "name": "vmlsq_f64",
+	  "full name": "float64x2_t vmlsq_f64(float64x2_t a, float64x2_t b, float64x2_t c)",
+	  "Intel name": "_mm_fmsub_pd",
+	  "Intel Asm": "vfmsub132pd",
+	  "Arm Asm": "fmls",
+	  "function_en": "[vector] fmls [64]",
+	  "function_cn": "[向量] 乘减 [64]"
+	},
+	{
+	  "name": "vmlsl_s8",
+	  "full name": "int16x8_t vmlsl_s8(int16x8_t a, int8x8_t b, int8x8_t c)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "smlsl",
+	  "function_en": "[vector] smlsl [8]",
+	  "function_cn": "[向量] 乘减 [8]"
+	},
+	{
+	  "name": "vmlsl_s16",
+	  "full name": "int32x4_t vmlsl_s16(int32x4_t a, int16x4_t b, int16x4_t c)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "smlsl",
+	  "function_en": "[vector] smlsl [16]",
+	  "function_cn": "[向量] 乘减 [16]"
+	},
+	{
+	  "name": "vmlsl_s32",
+	  "full name": "int64x2_t vmlsl_s32(int64x2_t a, int32x2_t b, int32x2_t c)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "smlsl",
+	  "function_en": "[vector] smlsl [32]",
+	  "function_cn": "[向量] 乘减 [32]"
+	},
+	{
+	  "name": "vmlsl_u8",
+	  "full name": "uint16x8_t vmlsl_u8(uint16x8_t a, uint8x8_t b, uint8x8_t c)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "umlsl",
+	  "function_en": "[vector] umlsl [8]",
+	  "function_cn": "[向量] 乘减 [8]"
+	},
+	{
+	  "name": "vmlsl_u16",
+	  "full name": "uint32x4_t vmlsl_u16(uint32x4_t a, uint16x4_t b, uint16x4_t c)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "umlsl",
+	  "function_en": "[vector] umlsl [16]",
+	  "function_cn": "[向量] 乘减 [16]"
+	},
+	{
+	  "name": "vmlsl_u32",
+	  "full name": "uint64x2_t vmlsl_u32(uint64x2_t a, uint32x2_t b, uint32x2_t c)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "umlsl",
+	  "function_en": "[vector] umlsl [32]",
+	  "function_cn": "[向量] 乘减 [32]"
+	},
+	{
+	  "name": "vmlsl_high_s8",
+	  "full name": "int16x8_t vmlsl_high_s8(int16x8_t a, int8x16_t b, int8x16_t c)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "smlsl2",
+	  "function_en": "[vector] smlsl2 [8]",
+	  "function_cn": "[向量] 乘减 [8]"
+	},
+	{
+	  "name": "vmlsl_high_s16",
+	  "full name": "int32x4_t vmlsl_high_s16(int32x4_t a, int16x8_t b, int16x8_t c)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "smlsl2",
+	  "function_en": "[vector] smlsl2 [16]",
+	  "function_cn": "[向量] 乘减 [16]"
+	},
+	{
+	  "name": "vmlsl_high_s32",
+	  "full name": "int64x2_t vmlsl_high_s32(int64x2_t a, int32x4_t b, int32x4_t c)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "smlsl2",
+	  "function_en": "[vector] smlsl2 [32]",
+	  "function_cn": "[向量] 乘减 [32]"
+	},
+	{
+	  "name": "vmlsl_high_u8",
+	  "full name": "uint16x8_t vmlsl_high_u8(uint16x8_t a, uint8x16_t b, uint8x16_t c)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "umlsl2",
+	  "function_en": "[vector] umlsl2 [8]",
+	  "function_cn": "[向量] 乘减 [8]"
+	},
+	{
+	  "name": "vmlsl_high_u16",
+	  "full name": "uint32x4_t vmlsl_high_u16(uint32x4_t a, uint16x8_t b, uint16x8_t c)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "umlsl2",
+	  "function_en": "[vector] umlsl2 [16]",
+	  "function_cn": "[向量] 乘减 [16]"
+	},
+	{
+	  "name": "vmlsl_high_u32",
+	  "full name": "uint64x2_t vmlsl_high_u32(uint64x2_t a, uint32x4_t b, uint32x4_t c)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "umlsl2",
+	  "function_en": "[vector] umlsl2 [32]",
+	  "function_cn": "[向量] 乘减 [32]"
+	},
+	{
+	  "name": "vfma_f32",
+	  "full name": "float32x2_t vfma_f32(float32x2_t a, float32x2_t b, float32x2_t c)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "fmla",
+	  "function_en": "[vector] fmla [32]",
+	  "function_cn": "[向量] 乘加 [32]"
+	},
+	{
+	  "name": "vfmaq_f32",
+	  "full name": "float32x4_t vfmaq_f32(float32x4_t a, float32x4_t b, float32x4_t c)",
+	  "Intel name": "_mm_fmadd_ps",
+	  "Intel Asm": "vfmadd132ps",
+	  "Arm Asm": "fmla",
+	  "function_en": "[vector] fmla [32]",
+	  "function_cn": "[向量] 乘加 [32]"
+	},
+	{
+	  "name": "vfma_f64",
+	  "full name": "float64x1_t vfma_f64(float64x1_t a, float64x1_t b, float64x1_t c)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "fmadd",
+	  "function_en": "[vector] fmadd [64]",
+	  "function_cn": "[向量] 乘加 [64]"
+	},
+	{
+	  "name": "vfmaq_f64",
+	  "full name": "float64x2_t vfmaq_f64(float64x2_t a, float64x2_t b, float64x2_t c)",
+	  "Intel name": "_mm_fmadd_pd",
+	  "Intel Asm": "vfmadd132pd",
+	  "Arm Asm": "fmla",
+	  "function_en": "[vector] fmla [64]",
+	  "function_cn": "[向量] 乘加 [64]"
+	},
+	{
+	  "name": "vfma_lane_f32",
+	  "full name": "float32x2_t vfma_lane_f32(float32x2_t a, float32x2_t b, float32x2_t v, const int lane)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "fmla",
+	  "function_en": "[vector] fmla [32]",
+	  "function_cn": "[向量] 乘加 [32]"
+	},
+	{
+	  "name": "vfmaq_lane_f32",
+	  "full name": "float32x4_t vfmaq_lane_f32(float32x4_t a, float32x4_t b, float32x2_t v, const int lane)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "fmla",
+	  "function_en": "[vector] fmla [32]",
+	  "function_cn": "[向量] 乘加 [32]"
+	},
+	{
+	  "name": "vfma_lane_f64",
+	  "full name": "float64x1_t vfma_lane_f64(float64x1_t a, float64x1_t b, float64x1_t v, const int lane)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "fmla",
+	  "function_en": "[vector] fmla [64]",
+	  "function_cn": "[向量] 乘加 [64]"
+	},
+	{
+	  "name": "vfmaq_lane_f64",
+	  "full name": "float64x2_t vfmaq_lane_f64(float64x2_t a, float64x2_t b, float64x1_t v, const int lane)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "fmla",
+	  "function_en": "[vector] fmla [64]",
+	  "function_cn": "[向量] 乘加 [64]"
+	},
+	{
+	  "name": "vfmas_lane_f32",
+	  "full name": "float32_t vfmas_lane_f32(float32_t a, float32_t b, float32x2_t v, const int lane)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "fmla",
+	  "function_en": "[vector] fmla [32]",
+	  "function_cn": "[向量] 乘加 [32]"
+	},
+	{
+	  "name": "vfmad_lane_f64",
+	  "full name": "float64_t vfmad_lane_f64(float64_t a, float64_t b, float64x1_t v, const int lane)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "fmla",
+	  "function_en": "[vector] fmla [64]",
+	  "function_cn": "[向量] 乘加 [64]"
+	},
+	{
+	  "name": "vfma_laneq_f32",
+	  "full name": "float32x2_t vfma_laneq_f32(float32x2_t a, float32x2_t b, float32x4_t v, const int lane)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "fmla",
+	  "function_en": "[vector] fmla [32]",
+	  "function_cn": "[向量] 乘加 [32]"
+	},
+	{
+	  "name": "vfmaq_laneq_f32",
+	  "full name": "float32x4_t vfmaq_laneq_f32(float32x4_t a, float32x4_t b, float32x4_t v, const int lane)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "fmla",
+	  "function_en": "[vector] fmla [32]",
+	  "function_cn": "[向量] 乘加 [32]"
+	},
+	{
+	  "name": "vfma_laneq_f64",
+	  "full name": "float64x1_t vfma_laneq_f64(float64x1_t a, float64x1_t b, float64x2_t v, const int lane)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "fmla",
+	  "function_en": "[vector] fmla [64]",
+	  "function_cn": "[向量] 乘加 [64]"
+	},
+	{
+	  "name": "vfmaq_laneq_f64",
+	  "full name": "float64x2_t vfmaq_laneq_f64(float64x2_t a, float64x2_t b, float64x2_t v, const int lane)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "fmla",
+	  "function_en": "[vector] fmla [64]",
+	  "function_cn": "[向量] 乘加 [64]"
+	},
+	{
+	  "name": "vfmas_laneq_f32",
+	  "full name": "float32_t vfmas_laneq_f32(float32_t a, float32_t b, float32x4_t v, const int lane)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "fmla",
+	  "function_en": "[vector] fmla [32]",
+	  "function_cn": "[向量] 乘加 [32]"
+	},
+	{
+	  "name": "vfmad_laneq_f64",
+	  "full name": "float64_t vfmad_laneq_f64(float64_t a, float64_t b, float64x2_t v, const int lane)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "fmla",
+	  "function_en": "[vector] fmla [64]",
+	  "function_cn": "[向量] 乘加 [64]"
+	},
+	{
+	  "name": "vfms_f32",
+	  "full name": "float32x2_t vfms_f32(float32x2_t a, float32x2_t b, float32x2_t c)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "fmls",
+	  "function_en": "[vector] fmls [32]",
+	  "function_cn": "[向量] 乘减 [32]"
+	},
+	{
+	  "name": "vfmsq_f32",
+	  "full name": "float32x4_t vfmsq_f32(float32x4_t a, float32x4_t b, float32x4_t c)",
+	  "Intel name": "_mm_fmsub_ps",
+	  "Intel Asm": "vfmsub132ps",
+	  "Arm Asm": "fmls",
+	  "function_en": "[vector] fmls [32]",
+	  "function_cn": "[向量] 乘减 [32]"
+	},
+	{
+	  "name": "vfms_f64",
+	  "full name": "float64x1_t vfms_f64(float64x1_t a, float64x1_t b, float64x1_t c)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "fmsub",
+	  "function_en": "[vector] fmsub [64]",
+	  "function_cn": "[向量] 乘减 [64]"
+	},
+	{
+	  "name": "vfmsq_f64",
+	  "full name": "float64x2_t vfmsq_f64(float64x2_t a, float64x2_t b, float64x2_t c)",
+	  "Intel name": "_mm_fmsub_pd",
+	  "Intel Asm": "vfmsub132pd",
+	  "Arm Asm": "fmls",
+	  "function_en": "[vector] fmls [64]",
+	  "function_cn": "[向量] 乘减 [64]"
+	},
+	{
+	  "name": "vfms_lane_f32",
+	  "full name": "float32x2_t vfms_lane_f32(float32x2_t a, float32x2_t b, float32x2_t v, const int lane)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "fmls",
+	  "function_en": "[vector] fmls [32]",
+	  "function_cn": "[向量] 乘减 [32]"
+	},
+	{
+	  "name": "vfmsq_lane_f32",
+	  "full name": "float32x4_t vfmsq_lane_f32(float32x4_t a, float32x4_t b, float32x2_t v, const int lane)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "fmls",
+	  "function_en": "[vector] fmls [32]",
+	  "function_cn": "[向量] 乘减 [32]"
+	},
+	{
+	  "name": "vfms_lane_f64",
+	  "full name": "float64x1_t vfms_lane_f64(float64x1_t a, float64x1_t b, float64x1_t v, const int lane)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "fmls",
+	  "function_en": "[vector] fmls [64]",
+	  "function_cn": "[向量] 乘减 [64]"
+	},
+	{
+	  "name": "vfmsq_lane_f64",
+	  "full name": "float64x2_t vfmsq_lane_f64(float64x2_t a, float64x2_t b, float64x1_t v, const int lane)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "fmls",
+	  "function_en": "[vector] fmls [64]",
+	  "function_cn": "[向量] 乘减 [64]"
+	},
+	{
+	  "name": "vfmss_lane_f32",
+	  "full name": "float32_t vfmss_lane_f32(float32_t a, float32_t b, float32x2_t v, const int lane)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "fmls",
+	  "function_en": "[vector] fmls [32]",
+	  "function_cn": "[向量] 乘减 [32]"
+	},
+	{
+	  "name": "vfmsd_lane_f64",
+	  "full name": "float64_t vfmsd_lane_f64(float64_t a, float64_t b, float64x1_t v, const int lane)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "fmls",
+	  "function_en": "[vector] fmls [64]",
+	  "function_cn": "[向量] 乘减 [64]"
+	},
+	{
+	  "name": "vfms_laneq_f32",
+	  "full name": "float32x2_t vfms_laneq_f32(float32x2_t a, float32x2_t b, float32x4_t v, const int lane)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "fmls",
+	  "function_en": "[vector] fmls [32]",
+	  "function_cn": "[向量] 乘减 [32]"
+	},
+	{
+	  "name": "vfmsq_laneq_f32",
+	  "full name": "float32x4_t vfmsq_laneq_f32(float32x4_t a, float32x4_t b, float32x4_t v, const int lane)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "fmls",
+	  "function_en": "[vector] fmls [32]",
+	  "function_cn": "[向量] 乘减 [32]"
+	},
+	{
+	  "name": "vfms_laneq_f64",
+	  "full name": "float64x1_t vfms_laneq_f64(float64x1_t a, float64x1_t b, float64x2_t v, const int lane)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "fmls",
+	  "function_en": "[vector] fmls [64]",
+	  "function_cn": "[向量] 乘减 [64]"
+	},
+	{
+	  "name": "vfmsq_laneq_f64",
+	  "full name": "float64x2_t vfmsq_laneq_f64(float64x2_t a, float64x2_t b, float64x2_t v, const int lane)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "fmls",
+	  "function_en": "[vector] fmls [64]",
+	  "function_cn": "[向量] 乘减 [64]"
+	},
+	{
+	  "name": "vfmss_laneq_f32",
+	  "full name": "float32_t vfmss_laneq_f32(float32_t a, float32_t b, float32x4_t v, const int lane)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "fmls",
+	  "function_en": "[vector] fmls [32]",
+	  "function_cn": "[向量] 乘减 [32]"
+	},
+	{
+	  "name": "vfmsd_laneq_f64",
+	  "full name": "float64_t vfmsd_laneq_f64(float64_t a, float64_t b, float64x2_t v, const int lane)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "fmls",
+	  "function_en": "[vector] fmls [64]",
+	  "function_cn": "[向量] 乘减 [64]"
+	},
+	{
+	  "name": "vqdmulh_s16",
+	  "full name": "int16x4_t vqdmulh_s16(int16x4_t a, int16x4_t b)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "sqdmulh",
+	  "function_en": "[vector] sqdmulh [16]",
+	  "function_cn": "[向量] 饱和加倍乘 [16]"
+	},
+	{
+	  "name": "vqdmulhq_s16",
+	  "full name": "int16x8_t vqdmulhq_s16(int16x8_t a, int16x8_t b)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "sqdmulh",
+	  "function_en": "[vector] sqdmulh [16]",
+	  "function_cn": "[向量] 饱和加倍乘 [16]"
+	},
+	{
+	  "name": "vqdmulh_s32",
+	  "full name": "int32x2_t vqdmulh_s32(int32x2_t a, int32x2_t b)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "sqdmulh",
+	  "function_en": "[vector] sqdmulh [32]",
+	  "function_cn": "[向量] 饱和加倍乘 [32]"
+	},
+	{
+	  "name": "vqdmulhq_s32",
+	  "full name": "int32x4_t vqdmulhq_s32(int32x4_t a, int32x4_t b)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "sqdmulh",
+	  "function_en": "[vector] sqdmulh [32]",
+	  "function_cn": "[向量] 饱和加倍乘 [32]"
+	},
+	{
+	  "name": "vqdmulhh_s16",
+	  "full name": "int16_t vqdmulhh_s16(int16_t a, int16_t b)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "sqdmulh",
+	  "function_en": "[scalar] sqdmulh [16]",
+	  "function_cn": "[标量] 饱和加倍乘 [16]"
+	},
+	{
+	  "name": "vqdmulhs_s32",
+	  "full name": "int32_t vqdmulhs_s32(int32_t a, int32_t b)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "sqdmulh",
+	  "function_en": "[scalar] sqdmulh [32]",
+	  "function_cn": "[标量] 饱和加倍乘 [32]"
+	},
+	{
+	  "name": "vqrdmulh_s16",
+	  "full name": "int16x4_t vqrdmulh_s16(int16x4_t a, int16x4_t b)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "sqrdmulh",
+	  "function_en": "[vector] sqrdmulh [16]",
+	  "function_cn": "[向量] 饱和加倍乘 [16]"
+	},
+	{
+	  "name": "vqrdmulhq_s16",
+	  "full name": "int16x8_t vqrdmulhq_s16(int16x8_t a, int16x8_t b)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "sqrdmulh",
+	  "function_en": "[vector] sqrdmulh [16]",
+	  "function_cn": "[向量] 饱和加倍乘 [16]"
+	},
+	{
+	  "name": "vqrdmulh_s32",
+	  "full name": "int32x2_t vqrdmulh_s32(int32x2_t a, int32x2_t b)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "sqrdmulh",
+	  "function_en": "[vector] sqrdmulh [32]",
+	  "function_cn": "[向量] 饱和加倍乘 [32]"
+	},
+	{
+	  "name": "vqrdmulhq_s32",
+	  "full name": "int32x4_t vqrdmulhq_s32(int32x4_t a, int32x4_t b)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "sqrdmulh",
+	  "function_en": "[vector] sqrdmulh [32]",
+	  "function_cn": "[向量] 饱和加倍乘 [32]"
+	},
+	{
+	  "name": "vqrdmulhh_s16",
+	  "full name": "int16_t vqrdmulhh_s16(int16_t a, int16_t b)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "sqrdmulh",
+	  "function_en": "[scalar] sqrdmulh [16]",
+	  "function_cn": "[标量] 饱和加倍乘 [16]"
+	},
+	{
+	  "name": "vqrdmulhs_s32",
+	  "full name": "int32_t vqrdmulhs_s32(int32_t a, int32_t b)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "sqrdmulh",
+	  "function_en": "[scalar] sqrdmulh [32]",
+	  "function_cn": "[标量] 饱和加倍乘 [32]"
+	},
+	{
+	  "name": "vqdmlal_s16",
+	  "full name": "int32x4_t vqdmlal_s16(int32x4_t a, int16x4_t b, int16x4_t c)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "sqdmlal",
+	  "function_en": "[vector] sqdmlal [16]",
+	  "function_cn": "[向量] 饱和加倍乘加 [16]"
+	},
+	{
+	  "name": "vqdmlal_s32",
+	  "full name": "int64x2_t vqdmlal_s32(int64x2_t a, int32x2_t b, int32x2_t c)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "sqdmlal",
+	  "function_en": "[vector] sqdmlal [32]",
+	  "function_cn": "[向量] 饱和加倍乘加 [32]"
+	},
+	{
+	  "name": "vqdmlalh_s16",
+	  "full name": "int32_t vqdmlalh_s16(int32_t a, int16_t b, int16_t c)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "sqdmlal",
+	  "function_en": "[scalar] sqdmlal [16]",
+	  "function_cn": "[标量] 饱和加倍乘加 [16]"
+	},
+	{
+	  "name": "vqdmlals_s32",
+	  "full name": "int64_t vqdmlals_s32(int64_t a, int32_t b, int32_t c)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "sqdmlal",
+	  "function_en": "[scalar] sqdmlal [32]",
+	  "function_cn": "[标量] 饱和加倍乘加 [32]"
+	},
+	{
+	  "name": "vqdmlal_high_s16",
+	  "full name": "int32x4_t vqdmlal_high_s16(int32x4_t a, int16x8_t b, int16x8_t c)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "sqdmlal2",
+	  "function_en": "[vector] sqdmlal2 [16]",
+	  "function_cn": "[向量] 饱和加倍乘加 [16]"
+	},
+	{
+	  "name": "vqdmlal_high_s32",
+	  "full name": "int64x2_t vqdmlal_high_s32(int64x2_t a, int32x4_t b, int32x4_t c)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "sqdmlal2",
+	  "function_en": "[vector] sqdmlal2 [32]",
+	  "function_cn": "[向量] 饱和加倍乘加 [32]"
+	},
+	{
+	  "name": "vqdmlsl_s16",
+	  "full name": "int32x4_t vqdmlsl_s16(int32x4_t a, int16x4_t b, int16x4_t c)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "sqdmlsl",
+	  "function_en": "[vector] sqdmlsl [16]",
+	  "function_cn": "[向量] 饱和加倍乘减 [16]"
+	},
+	{
+	  "name": "vqdmlsl_s32",
+	  "full name": "int64x2_t vqdmlsl_s32(int64x2_t a, int32x2_t b, int32x2_t c)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "sqdmlsl",
+	  "function_en": "[vector] sqdmlsl [32]",
+	  "function_cn": "[向量] 饱和加倍乘减 [32]"
+	},
+	{
+	  "name": "vqdmlslh_s16",
+	  "full name": "int32_t vqdmlslh_s16(int32_t a, int16_t b, int16_t c)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "sqdmlsl",
+	  "function_en": "[scalar] sqdmlsl [16]",
+	  "function_cn": "[标量] 饱和加倍乘减 [16]"
+	},
+	{
+	  "name": "vqdmlsls_s32",
+	  "full name": "int64_t vqdmlsls_s32(int64_t a, int32_t b, int32_t c)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "sqdmlsl",
+	  "function_en": "[scalar] sqdmlsl [32]",
+	  "function_cn": "[标量] 饱和加倍乘减 [32]"
+	},
+	{
+	  "name": "vqdmlsl_high_s16",
+	  "full name": "int32x4_t vqdmlsl_high_s16(int32x4_t a, int16x8_t b, int16x8_t c)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "sqdmlsl2",
+	  "function_en": "[vector] sqdmlsl2 [16]",
+	  "function_cn": "[向量] 饱和加倍乘减 [16]"
+	},
+	{
+	  "name": "vqdmlsl_high_s32",
+	  "full name": "int64x2_t vqdmlsl_high_s32(int64x2_t a, int32x4_t b, int32x4_t c)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "sqdmlsl2",
+	  "function_en": "[vector] sqdmlsl2 [32]",
+	  "function_cn": "[向量] 饱和加倍乘减 [32]"
+	},
+	{
+	  "name": "vmull_s8",
+	  "full name": "int16x8_t vmull_s8(int8x8_t a, int8x8_t b)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "smull",
+	  "function_en": "[vector] smull [8]",
+	  "function_cn": "[向量] 长型乘 [8]"
+	},
+	{
+	  "name": "vmull_s16",
+	  "full name": "int32x4_t vmull_s16(int16x4_t a, int16x4_t b)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "smull",
+	  "function_en": "[vector] smull [16]",
+	  "function_cn": "[向量] 长型乘 [16]"
+	},
+	{
+	  "name": "vmull_s32",
+	  "full name": "int64x2_t vmull_s32(int32x2_t a, int32x2_t b)",
+	  "Intel name": "_mm_mul_epi32",
+	  "Intel Asm": "pmuldp",
+	  "Arm Asm": "smull",
+	  "function_en": "[vector] smull [32]",
+	  "function_cn": "[向量] 长型乘 [32]"
+	},
+	{
+	  "name": "vmull_u8",
+	  "full name": "uint16x8_t vmull_u8(uint8x8_t a, uint8x8_t b)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "umull",
+	  "function_en": "[vector] umull [8]",
+	  "function_cn": "[向量] 长型乘 [8]"
+	},
+	{
+	  "name": "vmull_u16",
+	  "full name": "uint32x4_t vmull_u16(uint16x4_t a, uint16x4_t b)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "umull",
+	  "function_en": "[vector] umull [16]",
+	  "function_cn": "[向量] 长型乘 [16]"
+	},
+	{
+	  "name": "vmull_u32",
+	  "full name": "uint64x2_t vmull_u32(uint32x2_t a, uint32x2_t b)",
+	  "Intel name": "_mm_mul_epu32",
+	  "Intel Asm": "pmuludq",
+	  "Arm Asm": "umull",
+	  "function_en": "[vector] umull [32]",
+	  "function_cn": "[向量] 长型乘 [32]"
+	},
+	{
+	  "name": "vmull_p8",
+	  "full name": "poly16x8_t vmull_p8(poly8x8_t a, poly8x8_t b)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "pmull",
+	  "function_en": "[vector] pmull [8]",
+	  "function_cn": "[向量] 长型乘 [8]"
+	},
+	{
+	  "name": "vmull_high_s8",
+	  "full name": "int16x8_t vmull_high_s8(int8x16_t a, int8x16_t b)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "smull2",
+	  "function_en": "[vector] smull2 [8]",
+	  "function_cn": "[向量] 长型乘 [8]"
+	},
+	{
+	  "name": "vmull_high_s16",
+	  "full name": "int32x4_t vmull_high_s16(int16x8_t a, int16x8_t b)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "smull2",
+	  "function_en": "[vector] smull2 [16]",
+	  "function_cn": "[向量] 长型乘 [16]"
+	},
+	{
+	  "name": "vmull_high_s32",
+	  "full name": "int64x2_t vmull_high_s32(int32x4_t a, int32x4_t b)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "smull2",
+	  "function_en": "[vector] smull2 [32]",
+	  "function_cn": "[向量] 长型乘 [32]"
+	},
+	{
+	  "name": "vmull_high_u8",
+	  "full name": "uint16x8_t vmull_high_u8(uint8x16_t a, uint8x16_t b)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "umull2",
+	  "function_en": "[vector] umull2 [8]",
+	  "function_cn": "[向量] 长型乘 [8]"
+	},
+	{
+	  "name": "vmull_high_u16",
+	  "full name": "uint32x4_t vmull_high_u16(uint16x8_t a, uint16x8_t b)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "umull2",
+	  "function_en": "[vector] umull2 [16]",
+	  "function_cn": "[向量] 长型乘 [16]"
+	},
+	{
+	  "name": "vmull_high_u32",
+	  "full name": "uint64x2_t vmull_high_u32(uint32x4_t a, uint32x4_t b)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "umull2",
+	  "function_en": "[vector] umull2 [32]",
+	  "function_cn": "[向量] 长型乘 [32]"
+	},
+	{
+	  "name": "vmull_high_p8",
+	  "full name": "poly16x8_t vmull_high_p8(poly8x16_t a, poly8x16_t b)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "pmull2",
+	  "function_en": "[vector] pmull2 [8]",
+	  "function_cn": "[向量] 长型乘 [8]"
+	},
+	{
+	  "name": "vqdmull_s16",
+	  "full name": "int32x4_t vqdmull_s16(int16x4_t a, int16x4_t b)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "sqdmull",
+	  "function_en": "[vector] sqdmull [16]",
+	  "function_cn": "[向量] 饱和加倍长型乘 [16]"
+	},
+	{
+	  "name": "vqdmull_s32",
+	  "full name": "int64x2_t vqdmull_s32(int32x2_t a, int32x2_t b)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "sqdmull",
+	  "function_en": "[vector] sqdmull [32]",
+	  "function_cn": "[向量] 饱和加倍长型乘 [32]"
+	},
+	{
+	  "name": "vqdmullh_s16",
+	  "full name": "int32_t vqdmullh_s16(int16_t a, int16_t b)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "sqdmull",
+	  "function_en": "[scalar] sqdmull [16]",
+	  "function_cn": "[标量] 饱和加倍长型乘 [16]"
+	},
+	{
+	  "name": "vqdmulls_s32",
+	  "full name": "int64_t vqdmulls_s32(int32_t a, int32_t b)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "sqdmull",
+	  "function_en": "[scalar] sqdmull [32]",
+	  "function_cn": "[标量] 饱和加倍长型乘 [32]"
+	},
+	{
+	  "name": "vqdmull_high_s16",
+	  "full name": "int32x4_t vqdmull_high_s16(int16x8_t a, int16x8_t b)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "sqdmull2",
+	  "function_en": "[vector] sqdmull2 [16]",
+	  "function_cn": "[向量] 饱和加倍长型乘 [16]"
+	},
+	{
+	  "name": "vqdmull_high_s32",
+	  "full name": "int64x2_t vqdmull_high_s32(int32x4_t a, int32x4_t b)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "sqdmull2",
+	  "function_en": "[vector] sqdmull2 [32]",
+	  "function_cn": "[向量] 饱和加倍长型乘 [32]"
+	},
+	{
+	  "name": "vsub_s8",
+	  "full name": "int8x8_t vsub_s8(int8x8_t a, int8x8_t b)",
+	  "Intel name": "_mm_sub_pi8",
+	  "Intel Asm": "psubb",
+	  "Arm Asm": "sub",
+	  "function_en": "[vector] sub [8]",
+	  "function_cn": "[向量] 减 [8]"
+	},
+	{
+	  "name": "vsubq_s8",
+	  "full name": "int8x16_t vsubq_s8(int8x16_t a, int8x16_t b)",
+	  "Intel name": "_mm_sub_epi8",
+	  "Intel Asm": "psubb",
+	  "Arm Asm": "sub",
+	  "function_en": "[vector] sub [8]",
+	  "function_cn": "[向量] 减 [8]"
+	},
+	{
+	  "name": "vsub_s16",
+	  "full name": "int16x4_t vsub_s16(int16x4_t a, int16x4_t b)",
+	  "Intel name": "_mm_sub_pi16",
+	  "Intel Asm": "psubw",
+	  "Arm Asm": "sub",
+	  "function_en": "[vector] sub [16]",
+	  "function_cn": "[向量] 减 [16]"
+	},
+	{
+	  "name": "vsubq_s16",
+	  "full name": "int16x8_t vsubq_s16(int16x8_t a, int16x8_t b)",
+	  "Intel name": "_mm_sub_epi16",
+	  "Intel Asm": "psubw",
+	  "Arm Asm": "sub",
+	  "function_en": "[vector] sub [16]",
+	  "function_cn": "[向量] 减 [16]"
+	},
+	{
+	  "name": "vsub_s32",
+	  "full name": "int32x2_t vsub_s32(int32x2_t a, int32x2_t b)",
+	  "Intel name": "_mm_sub_pi32",
+	  "Intel Asm": "psubd",
+	  "Arm Asm": "sub",
+	  "function_en": "[vector] sub [32]",
+	  "function_cn": "[向量] 减 [32]"
+	},
+	{
+	  "name": "vsubq_s32",
+	  "full name": "int32x4_t vsubq_s32(int32x4_t a, int32x4_t b)",
+	  "Intel name": "_mm_sub_epi32",
+	  "Intel Asm": "psubd",
+	  "Arm Asm": "sub",
+	  "function_en": "[vector] sub [32]",
+	  "function_cn": "[向量] 减 [32]"
+	},
+	{
+	  "name": "vsub_s64",
+	  "full name": "int64x1_t vsub_s64(int64x1_t a, int64x1_t b)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "sub",
+	  "function_en": "[vector] sub [64]",
+	  "function_cn": "[向量] 减 [64]"
+	},
+	{
+	  "name": "vsubq_s64",
+	  "full name": "int64x2_t vsubq_s64(int64x2_t a, int64x2_t b)",
+	  "Intel name": "_mm_sub_epi64",
+	  "Intel Asm": "psubq",
+	  "Arm Asm": "sub",
+	  "function_en": "[vector] sub [64]",
+	  "function_cn": "[向量] 减 [64]"
+	},
+	{
+	  "name": "vsub_u8",
+	  "full name": "uint8x8_t vsub_u8(uint8x8_t a, uint8x8_t b)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "sub",
+	  "function_en": "[vector] sub [8]",
+	  "function_cn": "[向量] 减 [8]"
+	},
+	{
+	  "name": "vsubq_u8",
+	  "full name": "uint8x16_t vsubq_u8(uint8x16_t a, uint8x16_t b)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "sub",
+	  "function_en": "[vector] sub [8]",
+	  "function_cn": "[向量] 减 [8]"
+	},
+	{
+	  "name": "vsub_u16",
+	  "full name": "uint16x4_t vsub_u16(uint16x4_t a, uint16x4_t b)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "sub",
+	  "function_en": "[vector] sub [16]",
+	  "function_cn": "[向量] 减 [16]"
+	},
+	{
+	  "name": "vsubq_u16",
+	  "full name": "uint16x8_t vsubq_u16(uint16x8_t a, uint16x8_t b)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "sub",
+	  "function_en": "[vector] sub [16]",
+	  "function_cn": "[向量] 减 [16]"
+	},
+	{
+	  "name": "vsub_u32",
+	  "full name": "uint32x2_t vsub_u32(uint32x2_t a, uint32x2_t b)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "sub",
+	  "function_en": "[vector] sub [32]",
+	  "function_cn": "[向量] 减 [32]"
+	},
+	{
+	  "name": "vsubq_u32",
+	  "full name": "uint32x4_t vsubq_u32(uint32x4_t a, uint32x4_t b)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "sub",
+	  "function_en": "[vector] sub [32]",
+	  "function_cn": "[向量] 减 [32]"
+	},
+	{
+	  "name": "vsub_u64",
+	  "full name": "uint64x1_t vsub_u64(uint64x1_t a, uint64x1_t b)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "sub",
+	  "function_en": "[vector] sub [64]",
+	  "function_cn": "[向量] 减 [64]"
+	},
+	{
+	  "name": "vsubq_u64",
+	  "full name": "uint64x2_t vsubq_u64(uint64x2_t a, uint64x2_t b)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "sub",
+	  "function_en": "[vector] sub [64]",
+	  "function_cn": "[向量] 减 [64]"
+	},
+	{
+	  "name": "vsub_f32",
+	  "full name": "float32x2_t vsub_f32(float32x2_t a, float32x2_t b)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "fsub",
+	  "function_en": "[vector] fsub [32]",
+	  "function_cn": "[向量] 减 [32]"
+	},
+	{
+	  "name": "vsubq_f32",
+	  "full name": "float32x4_t vsubq_f32(float32x4_t a, float32x4_t b)",
+	  "Intel name": "_mm_sub_ps",
+	  "Intel Asm": "subps",
+	  "Arm Asm": "fsub",
+	  "function_en": "[vector] fsub [32]",
+	  "function_cn": "[向量] 减 [32]"
+	},
+	{
+	  "name": "vsub_f64",
+	  "full name": "float64x1_t vsub_f64(float64x1_t a, float64x1_t b)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "fsub",
+	  "function_en": "[vector] fsub [64]",
+	  "function_cn": "[向量] 减 [64]"
+	},
+	{
+	  "name": "vsubq_f64",
+	  "full name": "float64x2_t vsubq_f64(float64x2_t a, float64x2_t b)",
+	  "Intel name": "_mm_sub_pd",
+	  "Intel Asm": "subpd",
+	  "Arm Asm": "fsub",
+	  "function_en": "[vector] fsub [64]",
+	  "function_cn": "[向量] 减 [64]"
+	},
+	{
+	  "name": "vsubd_s64",
+	  "full name": "int64_t vsubd_s64(int64_t a, int64_t b)",
+	  "Intel name": "_mm_sub_si64",
+	  "Intel Asm": "psubq",
+	  "Arm Asm": "sub",
+	  "function_en": "[scalar] sub [64]",
+	  "function_cn": "[标量] 减 [64]"
+	},
+	{
+	  "name": "vsubd_u64",
+	  "full name": "uint64_t vsubd_u64(uint64_t a, uint64_t b)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "sub",
+	  "function_en": "[scalar] sub [64]",
+	  "function_cn": "[标量] 减 [64]"
+	},
+	{
+	  "name": "vsubl_s8",
+	  "full name": "int16x8_t vsubl_s8(int8x8_t a, int8x8_t b)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "ssubl",
+	  "function_en": "[vector] ssubl [8]",
+	  "function_cn": "[向量] 减 [8]"
+	},
+	{
+	  "name": "vsubl_s16",
+	  "full name": "int32x4_t vsubl_s16(int16x4_t a, int16x4_t b)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "ssubl",
+	  "function_en": "[vector] ssubl [16]",
+	  "function_cn": "[向量] 减 [16]"
+	},
+	{
+	  "name": "vsubl_s32",
+	  "full name": "int64x2_t vsubl_s32(int32x2_t a, int32x2_t b)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "ssubl",
+	  "function_en": "[vector] ssubl [32]",
+	  "function_cn": "[向量] 减 [32]"
+	},
+	{
+	  "name": "vsubl_u8",
+	  "full name": "uint16x8_t vsubl_u8(uint8x8_t a, uint8x8_t b)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "usubl",
+	  "function_en": "[vector] usubl [8]",
+	  "function_cn": "[向量] 减 [8]"
+	},
+	{
+	  "name": "vsubl_u16",
+	  "full name": "uint32x4_t vsubl_u16(uint16x4_t a, uint16x4_t b)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "usubl",
+	  "function_en": "[vector] usubl [16]",
+	  "function_cn": "[向量] 减 [16]"
+	},
+	{
+	  "name": "vsubl_u32",
+	  "full name": "uint64x2_t vsubl_u32(uint32x2_t a, uint32x2_t b)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "usubl",
+	  "function_en": "[vector] usubl [32]",
+	  "function_cn": "[向量] 减 [32]"
+	},
+	{
+	  "name": "vsubl_high_s8",
+	  "full name": "int16x8_t vsubl_high_s8(int8x16_t a, int8x16_t b)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "ssubl2",
+	  "function_en": "[vector] ssubl2 [8]",
+	  "function_cn": "[向量] 减 [8]"
+	},
+	{
+	  "name": "vsubl_high_s16",
+	  "full name": "int32x4_t vsubl_high_s16(int16x8_t a, int16x8_t b)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "ssubl2",
+	  "function_en": "[vector] ssubl2 [16]",
+	  "function_cn": "[向量] 减 [16]"
+	},
+	{
+	  "name": "vsubl_high_s32",
+	  "full name": "int64x2_t vsubl_high_s32(int32x4_t a, int32x4_t b)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "ssubl2",
+	  "function_en": "[vector] ssubl2 [32]",
+	  "function_cn": "[向量] 减 [32]"
+	},
+	{
+	  "name": "vsubl_high_u8",
+	  "full name": "uint16x8_t vsubl_high_u8(uint8x16_t a, uint8x16_t b)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "usubl2",
+	  "function_en": "[vector] usubl2 [8]",
+	  "function_cn": "[向量] 减 [8]"
+	},
+	{
+	  "name": "vsubl_high_u16",
+	  "full name": "uint32x4_t vsubl_high_u16(uint16x8_t a, uint16x8_t b)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "usubl2",
+	  "function_en": "[vector] usubl2 [16]",
+	  "function_cn": "[向量] 减 [16]"
+	},
+	{
+	  "name": "vsubl_high_u32",
+	  "full name": "uint64x2_t vsubl_high_u32(uint32x4_t a, uint32x4_t b)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "usubl2",
+	  "function_en": "[vector] usubl2 [32]",
+	  "function_cn": "[向量] 减 [32]"
+	},
+	{
+	  "name": "vsubw_s8",
+	  "full name": "int16x8_t vsubw_s8(int16x8_t a, int8x8_t b)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "ssubw",
+	  "function_en": "[vector] ssubw [8]",
+	  "function_cn": "[向量] 减 [8]"
+	},
+	{
+	  "name": "vsubw_s16",
+	  "full name": "int32x4_t vsubw_s16(int32x4_t a, int16x4_t b)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "ssubw",
+	  "function_en": "[vector] ssubw [16]",
+	  "function_cn": "[向量] 减 [16]"
+	},
+	{
+	  "name": "vsubw_s32",
+	  "full name": "int64x2_t vsubw_s32(int64x2_t a, int32x2_t b)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "ssubw",
+	  "function_en": "[vector] ssubw [32]",
+	  "function_cn": "[向量] 减 [32]"
+	},
+	{
+	  "name": "vsubw_u8",
+	  "full name": "uint16x8_t vsubw_u8(uint16x8_t a, uint8x8_t b)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "usubw",
+	  "function_en": "[vector] usubw [8]",
+	  "function_cn": "[向量] 减 [8]"
+	},
+	{
+	  "name": "vsubw_u16",
+	  "full name": "uint32x4_t vsubw_u16(uint32x4_t a, uint16x4_t b)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "usubw",
+	  "function_en": "[vector] usubw [16]",
+	  "function_cn": "[向量] 减 [16]"
+	},
+	{
+	  "name": "vsubw_u32",
+	  "full name": "uint64x2_t vsubw_u32(uint64x2_t a, uint32x2_t b)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "usubw",
+	  "function_en": "[vector] usubw [32]",
+	  "function_cn": "[向量] 减 [32]"
+	},
+	{
+	  "name": "vsubw_high_s8",
+	  "full name": "int16x8_t vsubw_high_s8(int16x8_t a, int8x16_t b)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "ssubw2",
+	  "function_en": "[vector] ssubw2 [8]",
+	  "function_cn": "[向量] 减 [8]"
+	},
+	{
+	  "name": "vsubw_high_s16",
+	  "full name": "int32x4_t vsubw_high_s16(int32x4_t a, int16x8_t b)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "ssubw2",
+	  "function_en": "[vector] ssubw2 [16]",
+	  "function_cn": "[向量] 减 [16]"
+	},
+	{
+	  "name": "vsubw_high_s32",
+	  "full name": "int64x2_t vsubw_high_s32(int64x2_t a, int32x4_t b)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "ssubw2",
+	  "function_en": "[vector] ssubw2 [32]",
+	  "function_cn": "[向量] 减 [32]"
+	},
+	{
+	  "name": "vsubw_high_u8",
+	  "full name": "uint16x8_t vsubw_high_u8(uint16x8_t a, uint8x16_t b)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "usubw2",
+	  "function_en": "[vector] usubw2 [8]",
+	  "function_cn": "[向量] 减 [8]"
+	},
+	{
+	  "name": "vsubw_high_u16",
+	  "full name": "uint32x4_t vsubw_high_u16(uint32x4_t a, uint16x8_t b)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "usubw2",
+	  "function_en": "[vector] usubw2 [16]",
+	  "function_cn": "[向量] 减 [16]"
+	},
+	{
+	  "name": "vsubw_high_u32",
+	  "full name": "uint64x2_t vsubw_high_u32(uint64x2_t a, uint32x4_t b)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "usubw2",
+	  "function_en": "[vector] usubw2 [32]",
+	  "function_cn": "[向量] 减 [32]"
+	},
+	{
+	  "name": "vhsub_s8",
+	  "full name": "int8x8_t vhsub_s8(int8x8_t a, int8x8_t b)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "shsub",
+	  "function_en": "[vector] shsub [8]",
+	  "function_cn": "[向量] 相减并右移一位 [8]"
+	},
+	{
+	  "name": "vhsubq_s8",
+	  "full name": "int8x16_t vhsubq_s8(int8x16_t a, int8x16_t b)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "shsub",
+	  "function_en": "[vector] shsub [8]",
+	  "function_cn": "[向量] 相减并右移一位 [8]"
+	},
+	{
+	  "name": "vhsub_s16",
+	  "full name": "int16x4_t vhsub_s16(int16x4_t a, int16x4_t b)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "shsub",
+	  "function_en": "[vector] shsub [16]",
+	  "function_cn": "[向量] 相减并右移一位 [16]"
+	},
+	{
+	  "name": "vhsubq_s16",
+	  "full name": "int16x8_t vhsubq_s16(int16x8_t a, int16x8_t b)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "shsub",
+	  "function_en": "[vector] shsub [16]",
+	  "function_cn": "[向量] 相减并右移一位 [16]"
+	},
+	{
+	  "name": "vhsub_s32",
+	  "full name": "int32x2_t vhsub_s32(int32x2_t a, int32x2_t b)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "shsub",
+	  "function_en": "[vector] shsub [32]",
+	  "function_cn": "[向量] 相减并右移一位 [32]"
+	},
+	{
+	  "name": "vhsubq_s32",
+	  "full name": "int32x4_t vhsubq_s32(int32x4_t a, int32x4_t b)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "shsub",
+	  "function_en": "[vector] shsub [32]",
+	  "function_cn": "[向量] 相减并右移一位 [32]"
+	},
+	{
+	  "name": "vhsub_u8",
+	  "full name": "uint8x8_t vhsub_u8(uint8x8_t a, uint8x8_t b)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "uhsub",
+	  "function_en": "[vector] uhsub [8]",
+	  "function_cn": "[向量] 相减并右移一位 [8]"
+	},
+	{
+	  "name": "vhsubq_u8",
+	  "full name": "uint8x16_t vhsubq_u8(uint8x16_t a, uint8x16_t b)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "uhsub",
+	  "function_en": "[vector] uhsub [8]",
+	  "function_cn": "[向量] 相减并右移一位 [8]"
+	},
+	{
+	  "name": "vhsub_u16",
+	  "full name": "uint16x4_t vhsub_u16(uint16x4_t a, uint16x4_t b)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "uhsub",
+	  "function_en": "[vector] uhsub [16]",
+	  "function_cn": "[向量] 相减并右移一位 [16]"
+	},
+	{
+	  "name": "vhsubq_u16",
+	  "full name": "uint16x8_t vhsubq_u16(uint16x8_t a, uint16x8_t b)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "uhsub",
+	  "function_en": "[vector] uhsub [16]",
+	  "function_cn": "[向量] 相减并右移一位 [16]"
+	},
+	{
+	  "name": "vhsub_u32",
+	  "full name": "uint32x2_t vhsub_u32(uint32x2_t a, uint32x2_t b)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "uhsub",
+	  "function_en": "[vector] uhsub [32]",
+	  "function_cn": "[向量] 相减并右移一位 [32]"
+	},
+	{
+	  "name": "vhsubq_u32",
+	  "full name": "uint32x4_t vhsubq_u32(uint32x4_t a, uint32x4_t b)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "uhsub",
+	  "function_en": "[vector] uhsub [32]",
+	  "function_cn": "[向量] 相减并右移一位 [32]"
+	},
+	{
+	  "name": "vqsub_s8",
+	  "full name": "int8x8_t vqsub_s8(int8x8_t a, int8x8_t b)",
+	  "Intel name": "_mm_subs_pi8",
+	  "Intel Asm": "psubsb",
+	  "Arm Asm": "sqsub",
+	  "function_en": "[vector] sqsub [8]",
+	  "function_cn": "[向量] 饱和减 [8]"
+	},
+	{
+	  "name": "vqsubq_s8",
+	  "full name": "int8x16_t vqsubq_s8(int8x16_t a, int8x16_t b)",
+	  "Intel name": "_mm_subs_epi8",
+	  "Intel Asm": "psubsb",
+	  "Arm Asm": "sqsub",
+	  "function_en": "[vector] sqsub [8]",
+	  "function_cn": "[向量] 饱和减 [8]"
+	},
+	{
+	  "name": "vqsub_s16",
+	  "full name": "int16x4_t vqsub_s16(int16x4_t a, int16x4_t b)",
+	  "Intel name": "_mm_subs_pi16",
+	  "Intel Asm": "psubsw",
+	  "Arm Asm": "sqsub",
+	  "function_en": "[vector] sqsub [16]",
+	  "function_cn": "[向量] 饱和减 [16]"
+	},
+	{
+	  "name": "vqsubq_s16",
+	  "full name": "int16x8_t vqsubq_s16(int16x8_t a, int16x8_t b)",
+	  "Intel name": "_mm_subs_epi16",
+	  "Intel Asm": "psubsw",
+	  "Arm Asm": "sqsub",
+	  "function_en": "[vector] sqsub [16]",
+	  "function_cn": "[向量] 饱和减 [16]"
+	},
+	{
+	  "name": "vqsub_s32",
+	  "full name": "int32x2_t vqsub_s32(int32x2_t a, int32x2_t b)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "sqsub",
+	  "function_en": "[vector] sqsub [32]",
+	  "function_cn": "[向量] 饱和减 [32]"
+	},
+	{
+	  "name": "vqsubq_s32",
+	  "full name": "int32x4_t vqsubq_s32(int32x4_t a, int32x4_t b)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "sqsub",
+	  "function_en": "[vector] sqsub [32]",
+	  "function_cn": "[向量] 饱和减 [32]"
+	},
+	{
+	  "name": "vqsub_s64",
+	  "full name": "int64x1_t vqsub_s64(int64x1_t a, int64x1_t b)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "sqsub",
+	  "function_en": "[vector] sqsub [64]",
+	  "function_cn": "[向量] 饱和减 [64]"
+	},
+	{
+	  "name": "vqsubq_s64",
+	  "full name": "int64x2_t vqsubq_s64(int64x2_t a, int64x2_t b)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "sqsub",
+	  "function_en": "[vector] sqsub [64]",
+	  "function_cn": "[向量] 饱和减 [64]"
+	},
+	{
+	  "name": "vqsub_u8",
+	  "full name": "uint8x8_t vqsub_u8(uint8x8_t a, uint8x8_t b)",
+	  "Intel name": "_mm_subs_pu8",
+	  "Intel Asm": "psubusb",
+	  "Arm Asm": "uqsub",
+	  "function_en": "[vector] uqsub [8]",
+	  "function_cn": "[向量] 饱和减 [8]"
+	},
+	{
+	  "name": "vqsubq_u8",
+	  "full name": "uint8x16_t vqsubq_u8(uint8x16_t a, uint8x16_t b)",
+	  "Intel name": "_mm_subs_epu8",
+	  "Intel Asm": "psubusb",
+	  "Arm Asm": "uqsub",
+	  "function_en": "[vector] uqsub [8]",
+	  "function_cn": "[向量] 饱和减 [8]"
+	},
+	{
+	  "name": "vqsub_u16",
+	  "full name": "uint16x4_t vqsub_u16(uint16x4_t a, uint16x4_t b)",
+	  "Intel name": "_mm_subs_pu16",
+	  "Intel Asm": "psubusw",
+	  "Arm Asm": "uqsub",
+	  "function_en": "[vector] uqsub [16]",
+	  "function_cn": "[向量] 饱和减 [16]"
+	},
+	{
+	  "name": "vqsubq_u16",
+	  "full name": "uint16x8_t vqsubq_u16(uint16x8_t a, uint16x8_t b)",
+	  "Intel name": "_mm_subs_epu16",
+	  "Intel Asm": "psubusw",
+	  "Arm Asm": "uqsub",
+	  "function_en": "[vector] uqsub [16]",
+	  "function_cn": "[向量] 饱和减 [16]"
+	},
+	{
+	  "name": "vqsub_u32",
+	  "full name": "uint32x2_t vqsub_u32(uint32x2_t a, uint32x2_t b)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "uqsub",
+	  "function_en": "[vector] uqsub [32]",
+	  "function_cn": "[向量] 饱和减 [32]"
+	},
+	{
+	  "name": "vqsubq_u32",
+	  "full name": "uint32x4_t vqsubq_u32(uint32x4_t a, uint32x4_t b)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "uqsub",
+	  "function_en": "[vector] uqsub [32]",
+	  "function_cn": "[向量] 饱和减 [32]"
+	},
+	{
+	  "name": "vqsub_u64",
+	  "full name": "uint64x1_t vqsub_u64(uint64x1_t a, uint64x1_t b)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "uqsub",
+	  "function_en": "[vector] uqsub [64]",
+	  "function_cn": "[向量] 饱和减 [64]"
+	},
+	{
+	  "name": "vqsubq_u64",
+	  "full name": "uint64x2_t vqsubq_u64(uint64x2_t a, uint64x2_t b)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "uqsub",
+	  "function_en": "[vector] uqsub [64]",
+	  "function_cn": "[向量] 饱和减 [64]"
+	},
+	{
+	  "name": "vqsubb_s8",
+	  "full name": "int8_t vqsubb_s8(int8_t a, int8_t b)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "sqsub",
+	  "function_en": "[scalar] sqsub [8]",
+	  "function_cn": "[标量] 饱和减 [8]"
+	},
+	{
+	  "name": "vqsubh_s16",
+	  "full name": "int16_t vqsubh_s16(int16_t a, int16_t b)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "sqsub",
+	  "function_en": "[scalar] sqsub [16]",
+	  "function_cn": "[标量] 饱和减 [16]"
+	},
+	{
+	  "name": "vqsubs_s32",
+	  "full name": "int32_t vqsubs_s32(int32_t a, int32_t b)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "sqsub",
+	  "function_en": "[scalar] sqsub [32]",
+	  "function_cn": "[标量] 饱和减 [32]"
+	},
+	{
+	  "name": "vqsubd_s64",
+	  "full name": "int64_t vqsubd_s64(int64_t a, int64_t b)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "sqsub",
+	  "function_en": "[scalar] sqsub [64]",
+	  "function_cn": "[标量] 饱和减 [64]"
+	},
+	{
+	  "name": "vqsubb_u8",
+	  "full name": "uint8_t vqsubb_u8(uint8_t a, uint8_t b)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "uqsub",
+	  "function_en": "[scalar] uqsub [8]",
+	  "function_cn": "[标量] 饱和减 [8]"
+	},
+	{
+	  "name": "vqsubh_u16",
+	  "full name": "uint16_t vqsubh_u16(uint16_t a, uint16_t b)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "uqsub",
+	  "function_en": "[scalar] uqsub [16]",
+	  "function_cn": "[标量] 饱和减 [16]"
+	},
+	{
+	  "name": "vqsubs_u32",
+	  "full name": "uint32_t vqsubs_u32(uint32_t a, uint32_t b)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "uqsub",
+	  "function_en": "[scalar] uqsub [32]",
+	  "function_cn": "[标量] 饱和减 [32]"
+	},
+	{
+	  "name": "vqsubd_u64",
+	  "full name": "uint64_t vqsubd_u64(uint64_t a, uint64_t b)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "uqsub",
+	  "function_en": "[scalar] uqsub [64]",
+	  "function_cn": "[标量] 饱和减 [64]"
+	},
+	{
+	  "name": "vsubhn_s16",
+	  "full name": "int8x8_t vsubhn_s16(int16x8_t a, int16x8_t b)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "subhn",
+	  "function_en": "[vector] subhn [16]",
+	  "function_cn": "[向量] 窄型减 [16]"
+	},
+	{
+	  "name": "vsubhn_s32",
+	  "full name": "int16x4_t vsubhn_s32(int32x4_t a, int32x4_t b)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "subhn",
+	  "function_en": "[vector] subhn [32]",
+	  "function_cn": "[向量] 窄型减 [32]"
+	},
+	{
+	  "name": "vsubhn_s64",
+	  "full name": "int32x2_t vsubhn_s64(int64x2_t a, int64x2_t b)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "subhn",
+	  "function_en": "[vector] subhn [64]",
+	  "function_cn": "[向量] 窄型减 [64]"
+	},
+	{
+	  "name": "vsubhn_u16",
+	  "full name": "uint8x8_t vsubhn_u16(uint16x8_t a, uint16x8_t b)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "subhn",
+	  "function_en": "[vector] subhn [16]",
+	  "function_cn": "[向量] 窄型减 [16]"
+	},
+	{
+	  "name": "vsubhn_u32",
+	  "full name": "uint16x4_t vsubhn_u32(uint32x4_t a, uint32x4_t b)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "subhn",
+	  "function_en": "[vector] subhn [32]",
+	  "function_cn": "[向量] 窄型减 [32]"
+	},
+	{
+	  "name": "vsubhn_u64",
+	  "full name": "uint32x2_t vsubhn_u64(uint64x2_t a, uint64x2_t b)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "subhn",
+	  "function_en": "[vector] subhn [64]",
+	  "function_cn": "[向量] 窄型减 [64]"
+	},
+	{
+	  "name": "vsubhn_high_s16",
+	  "full name": "int8x16_t vsubhn_high_s16(int8x8_t r, int16x8_t a, int16x8_t b)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "subhn2",
+	  "function_en": "[vector] subhn2 [16]",
+	  "function_cn": "[向量] 窄型减 [16]"
+	},
+	{
+	  "name": "vsubhn_high_s32",
+	  "full name": "int16x8_t vsubhn_high_s32(int16x4_t r, int32x4_t a, int32x4_t b)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "subhn2",
+	  "function_en": "[vector] subhn2 [32]",
+	  "function_cn": "[向量] 窄型减 [32]"
+	},
+	{
+	  "name": "vsubhn_high_s64",
+	  "full name": "int32x4_t vsubhn_high_s64(int32x2_t r, int64x2_t a, int64x2_t b)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "subhn2",
+	  "function_en": "[vector] subhn2 [64]",
+	  "function_cn": "[向量] 窄型减 [64]"
+	},
+	{
+	  "name": "vsubhn_high_u16",
+	  "full name": "uint8x16_t vsubhn_high_u16(uint8x8_t r, uint16x8_t a, uint16x8_t b)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "subhn2",
+	  "function_en": "[vector] subhn2 [16]",
+	  "function_cn": "[向量] 窄型减 [16]"
+	},
+	{
+	  "name": "vsubhn_high_u32",
+	  "full name": "uint16x8_t vsubhn_high_u32(uint16x4_t r, uint32x4_t a, uint32x4_t b)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "subhn2",
+	  "function_en": "[vector] subhn2 [32]",
+	  "function_cn": "[向量] 窄型减 [32]"
+	},
+	{
+	  "name": "vsubhn_high_u64",
+	  "full name": "uint32x4_t vsubhn_high_u64(uint32x2_t r, uint64x2_t a, uint64x2_t b)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "subhn2",
+	  "function_en": "[vector] subhn2 [64]",
+	  "function_cn": "[向量] 窄型减 [64]"
+	},
+	{
+	  "name": "vrsubhn_s16",
+	  "full name": "int8x8_t vrsubhn_s16(int16x8_t a, int16x8_t b)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "rsubhn",
+	  "function_en": "[vector] rsubhn [16]",
+	  "function_cn": "[向量] 窄型减 [16]"
+	},
+	{
+	  "name": "vrsubhn_s32",
+	  "full name": "int16x4_t vrsubhn_s32(int32x4_t a, int32x4_t b)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "rsubhn",
+	  "function_en": "[vector] rsubhn [32]",
+	  "function_cn": "[向量] 窄型减 [32]"
+	},
+	{
+	  "name": "vrsubhn_s64",
+	  "full name": "int32x2_t vrsubhn_s64(int64x2_t a, int64x2_t b)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "rsubhn",
+	  "function_en": "[vector] rsubhn [64]",
+	  "function_cn": "[向量] 窄型减 [64]"
+	},
+	{
+	  "name": "vrsubhn_u16",
+	  "full name": "uint8x8_t vrsubhn_u16(uint16x8_t a, uint16x8_t b)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "rsubhn",
+	  "function_en": "[vector] rsubhn [16]",
+	  "function_cn": "[向量] 窄型减 [16]"
+	},
+	{
+	  "name": "vrsubhn_u32",
+	  "full name": "uint16x4_t vrsubhn_u32(uint32x4_t a, uint32x4_t b)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "rsubhn",
+	  "function_en": "[vector] rsubhn [32]",
+	  "function_cn": "[向量] 窄型减 [32]"
+	},
+	{
+	  "name": "vrsubhn_u64",
+	  "full name": "uint32x2_t vrsubhn_u64(uint64x2_t a, uint64x2_t b)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "rsubhn",
+	  "function_en": "[vector] rsubhn [64]",
+	  "function_cn": "[向量] 窄型减 [64]"
+	},
+	{
+	  "name": "vrsubhn_high_s16",
+	  "full name": "int8x16_t vrsubhn_high_s16(int8x8_t r, int16x8_t a, int16x8_t b)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "rsubhn2",
+	  "function_en": "[vector] rsubhn2 [16]",
+	  "function_cn": "[向量] 窄型减 [16]"
+	},
+	{
+	  "name": "vrsubhn_high_s32",
+	  "full name": "int16x8_t vrsubhn_high_s32(int16x4_t r, int32x4_t a, int32x4_t b)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "rsubhn2",
+	  "function_en": "[vector] rsubhn2 [32]",
+	  "function_cn": "[向量] 窄型减 [32]"
+	},
+	{
+	  "name": "vrsubhn_high_s64",
+	  "full name": "int32x4_t vrsubhn_high_s64(int32x2_t r, int64x2_t a, int64x2_t b)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "rsubhn2",
+	  "function_en": "[vector] rsubhn2 [64]",
+	  "function_cn": "[向量] 窄型减 [64]"
+	},
+	{
+	  "name": "vrsubhn_high_u16",
+	  "full name": "uint8x16_t vrsubhn_high_u16(uint8x8_t r, uint16x8_t a, uint16x8_t b)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "rsubhn2",
+	  "function_en": "[vector] rsubhn2 [16]",
+	  "function_cn": "[向量] 窄型减 [16]"
+	},
+	{
+	  "name": "vrsubhn_high_u32",
+	  "full name": "uint16x8_t vrsubhn_high_u32(uint16x4_t r, uint32x4_t a, uint32x4_t b)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "rsubhn2",
+	  "function_en": "[vector] rsubhn2 [32]",
+	  "function_cn": "[向量] 窄型减 [32]"
+	},
+	{
+	  "name": "vrsubhn_high_u64",
+	  "full name": "uint32x4_t vrsubhn_high_u64(uint32x2_t r, uint64x2_t a, uint64x2_t b)",
+	  "Intel name": "",
+	  "Intel Asm": "",
+	  "Arm Asm": "rsubhn2",
+	  "function_en": "[vector] rsubhn2 [64]",
+	  "function_cn": "[向量] 窄型减 [64]"
+	},
   ]
 }
 
