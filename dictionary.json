@@ -629,7 +629,1483 @@
       "desc_en": "OpenSSL RSA public key encryption interface",
       "benefit_cn": "基于鲲鹏加速器实现RSA/AES/SM3/SM4/MD5/DH性能加速",
       "benefit_en": "RSA/AES/SM3/SM4/MD5/DH performance accelerated based on the Kunpeng accelerator"
-    }
+    },
+    {
+      "name": "vsadd",
+      "library": "KML_VML",
+      "headerfile": "",
+      "desc_cn": "单精度浮点类型加法函数",
+      "desc_en": "Single-precision floating-point real type adds vectors",
+      "benefit_cn": "通过Neon指令优化、内联汇编等方法，充分利用鲲鹏架构下的寄存器特点，实现了在鲲鹏服务器上的性能提升",
+      "benefit_en": "Using methods such as NEON instruction optimization and inline assembly.It makes full use of register features in the Kunpeng architecture to improve performance of Kunpeng servers"
+    },
+    {
+      "name": "vdadd",
+      "library": "KML_VML",
+      "headerfile": "",
+      "desc_cn": "双精度浮点类型加法函数",
+      "desc_en": "Double-precision floating-point real type adds vectors",
+      "benefit_cn": "通过Neon指令优化、内联汇编等方法，充分利用鲲鹏架构下的寄存器特点，实现了在鲲鹏服务器上的性能提升",
+      "benefit_en": "Using methods such as NEON instruction optimization and inline assembly.It makes full use of register features in the Kunpeng architecture to improve performance of Kunpeng servers"
+    },
+    {
+      "name": "vssub",
+      "library": "KML_VML",
+      "headerfile": "",
+      "desc_cn": "单精度浮点类型减法函数",
+      "desc_en": "Single-precision floating-point real type subtracts vectors",
+      "benefit_cn": "通过Neon指令优化、内联汇编等方法，充分利用鲲鹏架构下的寄存器特点，实现了在鲲鹏服务器上的性能提升",
+      "benefit_en": "Using methods such as NEON instruction optimization and inline assembly.It makes full use of register features in the Kunpeng architecture to improve performance of Kunpeng servers"
+    },
+    {
+      "name": "vdsub",
+      "library": "KML_VML",
+      "headerfile": "",
+      "desc_cn": "双精度浮点类型减法函数",
+      "desc_en": "Double-precision floating-point real type subtracts vectors",
+      "benefit_cn": "通过Neon指令优化、内联汇编等方法，充分利用鲲鹏架构下的寄存器特点，实现了在鲲鹏服务器上的性能提升",
+      "benefit_en": "Using methods such as NEON instruction optimization and inline assembly.It makes full use of register features in the Kunpeng architecture to improve performance of Kunpeng servers"
+    },
+    {
+      "name": "vssqr",
+      "library": "KML_VML",
+      "headerfile": "",
+      "desc_cn": "单精度浮点类型平方函数",
+      "desc_en": "Single-precision floating-point real type squares a vector",
+      "benefit_cn": "通过Neon指令优化、内联汇编等方法，充分利用鲲鹏架构下的寄存器特点，实现了在鲲鹏服务器上的性能提升",
+      "benefit_en": "Using methods such as NEON instruction optimization and inline assembly.It makes full use of register features in the Kunpeng architecture to improve performance of Kunpeng servers"
+    },
+    {
+      "name": "vdsqr",
+      "library": "KML_VML",
+      "headerfile": "",
+      "desc_cn": "双精度浮点类型平方函数",
+      "desc_en": "Double-precision floating-point real type squares a vector",
+      "benefit_cn": "通过Neon指令优化、内联汇编等方法，充分利用鲲鹏架构下的寄存器特点，实现了在鲲鹏服务器上的性能提升",
+      "benefit_en": "Using methods such as NEON instruction optimization and inline assembly.It makes full use of register features in the Kunpeng architecture to improve performance of Kunpeng servers"
+    },
+    {
+      "name": "vsmul",
+      "library": "KML_VML",
+      "headerfile": "",
+      "desc_cn": "单精度浮点类型乘法函数",
+      "desc_en": "Single-precision floating-point real type multiplies vectors",
+      "benefit_cn": "通过Neon指令优化、内联汇编等方法，充分利用鲲鹏架构下的寄存器特点，实现了在鲲鹏服务器上的性能提升",
+      "benefit_en": "Using methods such as NEON instruction optimization and inline assembly.It makes full use of register features in the Kunpeng architecture to improve performance of Kunpeng servers"
+    },
+    {
+      "name": "vdmul",
+      "library": "KML_VML",
+      "headerfile": "",
+      "desc_cn": "双精度浮点类型乘法函数",
+      "desc_en": "Double-precision floating-point real type multiplies vectors",
+      "benefit_cn": "通过Neon指令优化、内联汇编等方法，充分利用鲲鹏架构下的寄存器特点，实现了在鲲鹏服务器上的性能提升",
+      "benefit_en": "Using methods such as NEON instruction optimization and inline assembly.It makes full use of register features in the Kunpeng architecture to improve performance of Kunpeng servers"
+    },
+    {
+      "name": "vsdiv",
+      "library": "KML_VML",
+      "headerfile": "",
+      "desc_cn": "单精度浮点类型除法函数",
+      "desc_en": "Computes the quotient of single-precision floating-point real type vectors",
+      "benefit_cn": "通过Neon指令优化、内联汇编等方法，充分利用鲲鹏架构下的寄存器特点，实现了在鲲鹏服务器上的性能提升",
+      "benefit_en": "Using methods such as NEON instruction optimization and inline assembly.It makes full use of register features in the Kunpeng architecture to improve performance of Kunpeng servers"
+    },
+    {
+      "name": "vddiv",
+      "library": "KML_VML",
+      "headerfile": "",
+      "desc_cn": "双精度浮点类型除法函数",
+      "desc_en": "Computes the quotient of double-precision floating-point real type vectors",
+      "benefit_cn": "通过Neon指令优化、内联汇编等方法，充分利用鲲鹏架构下的寄存器特点，实现了在鲲鹏服务器上的性能提升",
+      "benefit_en": "Using methods such as NEON instruction optimization and inline assembly.It makes full use of register features in the Kunpeng architecture to improve performance of Kunpeng servers"
+    },
+    {
+      "name": "vssqrt",
+      "library": "KML_VML",
+      "headerfile": "",
+      "desc_cn": "单精度浮点类型开方函数",
+      "desc_en": "Computes the square root of a single-precision floating-point real type vector",
+      "benefit_cn": "通过Neon指令优化、内联汇编等方法，充分利用鲲鹏架构下的寄存器特点，实现了在鲲鹏服务器上的性能提升",
+      "benefit_en": "Using methods such as NEON instruction optimization and inline assembly.It makes full use of register features in the Kunpeng architecture to improve performance of Kunpeng servers"
+    },
+    {
+      "name": "vdsqrt",
+      "library": "KML_VML",
+      "headerfile": "",
+      "desc_cn": "双精度浮点类型开方函数",
+      "desc_en": "Computes the square root of a double-precision floating-point real type vector",
+      "benefit_cn": "通过Neon指令优化、内联汇编等方法，充分利用鲲鹏架构下的寄存器特点，实现了在鲲鹏服务器上的性能提升",
+      "benefit_en": "Using methods such as NEON instruction optimization and inline assembly.It makes full use of register features in the Kunpeng architecture to improve performance of Kunpeng servers"
+    },
+    {
+      "name": "vspow",
+      "library": "KML_VML",
+      "headerfile": "",
+      "desc_cn": "单精度浮点类型幂函数",
+      "desc_en": "Raises a single-precision floating-point real type vector to the specified power",
+      "benefit_cn": "通过Neon指令优化、内联汇编等方法，充分利用鲲鹏架构下的寄存器特点，实现了在鲲鹏服务器上的性能提升",
+      "benefit_en": "Using methods such as NEON instruction optimization and inline assembly.It makes full use of register features in the Kunpeng architecture to improve performance of Kunpeng servers"
+    },
+    {
+      "name": "vdpow",
+      "library": "KML_VML",
+      "headerfile": "",
+      "desc_cn": "双精度浮点类型幂函数",
+      "desc_en": "Raises a double-precision floating-point real type vector to the specified power",
+      "benefit_cn": "通过Neon指令优化、内联汇编等方法，充分利用鲲鹏架构下的寄存器特点，实现了在鲲鹏服务器上的性能提升",
+      "benefit_en": "Using methods such as NEON instruction optimization and inline assembly.It makes full use of register features in the Kunpeng architecture to improve performance of Kunpeng servers"
+    },
+    {
+      "name": "vsexp",
+      "library": "KML_VML",
+      "headerfile": "",
+      "desc_cn": "单精度浮点类型以自然对数为底的指数函数",
+      "desc_en": "Computes the base-e exponential of a single-precision floating-point real type vector",
+      "benefit_cn": "通过Neon指令优化、内联汇编等方法，充分利用鲲鹏架构下的寄存器特点，实现了在鲲鹏服务器上的性能提升",
+      "benefit_en": "Using methods such as NEON instruction optimization and inline assembly.It makes full use of register features in the Kunpeng architecture to improve performance of Kunpeng servers"
+    },
+    {
+      "name": "vdexp",
+      "library": "KML_VML",
+      "headerfile": "",
+      "desc_cn": "双精度浮点类型以自然对数为底的指数函数",
+      "desc_en": "Computes the base-e exponential of a double-precision floating-point real type vector",
+      "benefit_cn": "通过Neon指令优化、内联汇编等方法，充分利用鲲鹏架构下的寄存器特点，实现了在鲲鹏服务器上的性能提升",
+      "benefit_en": "Using methods such as NEON instruction optimization and inline assembly.It makes full use of register features in the Kunpeng architecture to improve performance of Kunpeng servers"
+    },
+    {
+      "name": "vsln",
+      "library": "KML_VML",
+      "headerfile": "",
+      "desc_cn": "单精度浮点类型以自然对数为底的对数函数",
+      "desc_en": "Computes the base-e logarithm of a single-precision floating-point real type vector",
+      "benefit_cn": "通过Neon指令优化、内联汇编等方法，充分利用鲲鹏架构下的寄存器特点，实现了在鲲鹏服务器上的性能提升",
+      "benefit_en": "Using methods such as NEON instruction optimization and inline assembly.It makes full use of register features in the Kunpeng architecture to improve performance of Kunpeng servers"
+    },
+    {
+      "name": "vdln",
+      "library": "KML_VML",
+      "headerfile": "",
+      "desc_cn": "双精度浮点类型以自然对数为底的对数函数",
+      "desc_en": "Computes the base-e logarithm of a double-precision floating-point real type vector",
+      "benefit_cn": "通过Neon指令优化、内联汇编等方法，充分利用鲲鹏架构下的寄存器特点，实现了在鲲鹏服务器上的性能提升",
+      "benefit_en": "Using methods such as NEON instruction optimization and inline assembly.It makes full use of register features in the Kunpeng architecture to improve performance of Kunpeng servers"
+    },
+    {
+      "name": "vslog10",
+      "library": "KML_VML",
+      "headerfile": "",
+      "desc_cn": "单精度浮点类型以10为底的对数函数",
+      "desc_en": "Computes the base-10 logarithm of a single-precision floating-point real type vector",
+      "benefit_cn": "通过Neon指令优化、内联汇编等方法，充分利用鲲鹏架构下的寄存器特点，实现了在鲲鹏服务器上的性能提升",
+      "benefit_en": "Using methods such as NEON instruction optimization and inline assembly.It makes full use of register features in the Kunpeng architecture to improve performance of Kunpeng servers"
+    },
+    {
+      "name": "vdlog10",
+      "library": "KML_VML",
+      "headerfile": "",
+      "desc_cn": "双精度浮点类型以10为底的对数函数",
+      "desc_en": "Computes the base-10 logarithm of a double-precision floating-point real type vector",
+      "benefit_cn": "通过Neon指令优化、内联汇编等方法，充分利用鲲鹏架构下的寄存器特点，实现了在鲲鹏服务器上的性能提升",
+      "benefit_en": "Using methods such as NEON instruction optimization and inline assembly.It makes full use of register features in the Kunpeng architecture to improve performance of Kunpeng servers"
+    },
+    {
+      "name": "vscos",
+      "library": "KML_VML",
+      "headerfile": "",
+      "desc_cn": "单精度浮点类型余弦函数",
+      "desc_en": "Computes the cosine of a single-precision floating-point real type vector",
+      "benefit_cn": "通过Neon指令优化、内联汇编等方法，充分利用鲲鹏架构下的寄存器特点，实现了在鲲鹏服务器上的性能提升",
+      "benefit_en": "Using methods such as NEON instruction optimization and inline assembly.It makes full use of register features in the Kunpeng architecture to improve performance of Kunpeng servers"
+    },
+    {
+      "name": "vdcos",
+      "library": "KML_VML",
+      "headerfile": "",
+      "desc_cn": "双精度浮点类型余弦函数",
+      "desc_en": "Computes the cosine of a double-precision floating-point real type vector",
+      "benefit_cn": "通过Neon指令优化、内联汇编等方法，充分利用鲲鹏架构下的寄存器特点，实现了在鲲鹏服务器上的性能提升",
+      "benefit_en": "Using methods such as NEON instruction optimization and inline assembly.It makes full use of register features in the Kunpeng architecture to improve performance of Kunpeng servers"
+    },
+    {
+      "name": "vssin",
+      "library": "KML_VML",
+      "headerfile": "",
+      "desc_cn": "单精度浮点类型正弦函数",
+      "desc_en": "Computes the sine of a single-precision floating-point real type vector",
+      "benefit_cn": "通过Neon指令优化、内联汇编等方法，充分利用鲲鹏架构下的寄存器特点，实现了在鲲鹏服务器上的性能提升",
+      "benefit_en": "Using methods such as NEON instruction optimization and inline assembly.It makes full use of register features in the Kunpeng architecture to improve performance of Kunpeng servers"
+    },
+    {
+      "name": "vdsin",
+      "library": "KML_VML",
+      "headerfile": "",
+      "desc_cn": "双精度浮点类型正弦函数",
+      "desc_en": "Computes the sine of a double-precision floating-point real type vector",
+      "benefit_cn": "通过Neon指令优化、内联汇编等方法，充分利用鲲鹏架构下的寄存器特点，实现了在鲲鹏服务器上的性能提升",
+      "benefit_en": "Using methods such as NEON instruction optimization and inline assembly.It makes full use of register features in the Kunpeng architecture to improve performance of Kunpeng servers"
+    },
+    {
+      "name": "vstan",
+      "library": "KML_VML",
+      "headerfile": "",
+      "desc_cn": "单精度浮点类型正切函数",
+      "desc_en": "Computes the tangent of a single-precision floating-point real type vector",
+      "benefit_cn": "通过Neon指令优化、内联汇编等方法，充分利用鲲鹏架构下的寄存器特点，实现了在鲲鹏服务器上的性能提升",
+      "benefit_en": "Using methods such as NEON instruction optimization and inline assembly.It makes full use of register features in the Kunpeng architecture to improve performance of Kunpeng servers"
+    },
+    {
+      "name": "vdtan",
+      "library": "KML_VML",
+      "headerfile": "",
+      "desc_cn": "双精度浮点类型正切函数",
+      "desc_en": "Computes the tangent of a double-precision floating-point real type vector",
+      "benefit_cn": "通过Neon指令优化、内联汇编等方法，充分利用鲲鹏架构下的寄存器特点，实现了在鲲鹏服务器上的性能提升",
+      "benefit_en": "Using methods such as NEON instruction optimization and inline assembly.It makes full use of register features in the Kunpeng architecture to improve performance of Kunpeng servers"
+    },
+    {
+      "name": "vsatan",
+      "library": "KML_VML",
+      "headerfile": "",
+      "desc_cn": "单精度浮点类型反正切函数",
+      "desc_en": "Computes the arc tangent of a single-precision floating-point real type vector",
+      "benefit_cn": "通过Neon指令优化、内联汇编等方法，充分利用鲲鹏架构下的寄存器特点，实现了在鲲鹏服务器上的性能提升",
+      "benefit_en": "Using methods such as NEON instruction optimization and inline assembly.It makes full use of register features in the Kunpeng architecture to improve performance of Kunpeng servers"
+    },
+    {
+      "name": "vdatan",
+      "library": "KML_VML",
+      "headerfile": "",
+      "desc_cn": "双精度浮点类型反正切函数",
+      "desc_en": "Computes the arc tangent of a double-precision floating-point real type vector",
+      "benefit_cn": "通过Neon指令优化、内联汇编等方法，充分利用鲲鹏架构下的寄存器特点，实现了在鲲鹏服务器上的性能提升",
+      "benefit_en": "Using methods such as NEON instruction optimization and inline assembly.It makes full use of register features in the Kunpeng architecture to improve performance of Kunpeng servers"
+    },
+    {
+      "name": "vsatan2",
+      "library": "KML_VML",
+      "headerfile": "",
+      "desc_cn": "单精度浮点类型两个变量四个象限下的反正切函数",
+      "desc_en": "Computes the four-quadrant arc tangent of two variables",
+      "benefit_cn": "通过Neon指令优化、内联汇编等方法，充分利用鲲鹏架构下的寄存器特点，实现了在鲲鹏服务器上的性能提升",
+      "benefit_en": "Using methods such as NEON instruction optimization and inline assembly.It makes full use of register features in the Kunpeng architecture to improve performance of Kunpeng servers"
+    },
+    {
+      "name": "vdatan2",
+      "library": "KML_VML",
+      "headerfile": "",
+      "desc_cn": "双精度浮点类型两个变量四个象限下的反正切函数",
+      "desc_en": "Computes the four-quadrant arc tangent of two variables",
+      "benefit_cn": "通过Neon指令优化、内联汇编等方法，充分利用鲲鹏架构下的寄存器特点，实现了在鲲鹏服务器上的性能提升",
+      "benefit_en": "Using methods such as NEON instruction optimization and inline assembly.It makes full use of register features in the Kunpeng architecture to improve performance of Kunpeng servers"
+    },
+    {
+      "name": "vssincos",
+      "library": "KML_VML",
+      "headerfile": "",
+      "desc_cn": "单精度浮点类型正弦函数与余弦函数",
+      "desc_en": "Computes the sine and cosine of a single-precision floating-point real type vector",
+      "benefit_cn": "通过Neon指令优化、内联汇编等方法，充分利用鲲鹏架构下的寄存器特点，实现了在鲲鹏服务器上的性能提升",
+      "benefit_en": "Using methods such as NEON instruction optimization and inline assembly.It makes full use of register features in the Kunpeng architecture to improve performance of Kunpeng servers"
+    },
+    {
+      "name": "vdsincos",
+      "library": "KML_VML",
+      "headerfile": "",
+      "desc_cn": "双精度浮点类型正弦函数与余弦函数",
+      "desc_en": "Computes the sine and cosine of a double-precision floating-point real type vector",
+      "benefit_cn": "通过Neon指令优化、内联汇编等方法，充分利用鲲鹏架构下的寄存器特点，实现了在鲲鹏服务器上的性能提升",
+      "benefit_en": "Using methods such as NEON instruction optimization and inline assembly.It makes full use of register features in the Kunpeng architecture to improve performance of Kunpeng servers"
+    },
+    {
+      "name": "vssinh",
+      "library": "KML_VML",
+      "headerfile": "",
+      "desc_cn": "单精度浮点类型双曲正弦函数",
+      "desc_en": "Computes the hyperbolic sine of a single-precision floating-point real type vector",
+      "benefit_cn": "通过Neon指令优化、内联汇编等方法，充分利用鲲鹏架构下的寄存器特点，实现了在鲲鹏服务器上的性能提升",
+      "benefit_en": "Using methods such as NEON instruction optimization and inline assembly.It makes full use of register features in the Kunpeng architecture to improve performance of Kunpeng servers"
+    },
+    {
+      "name": "vdsinh",
+      "library": "KML_VML",
+      "headerfile": "",
+      "desc_cn": "双精度浮点类型双曲正弦函数",
+      "desc_en": "Computes the hyperbolic sine of a double-precision floating-point real type vector",
+      "benefit_cn": "通过Neon指令优化、内联汇编等方法，充分利用鲲鹏架构下的寄存器特点，实现了在鲲鹏服务器上的性能提升",
+      "benefit_en": "Using methods such as NEON instruction optimization and inline assembly.It makes full use of register features in the Kunpeng architecture to improve performance of Kunpeng servers"
+    },
+    {
+      "name": "vscosh",
+      "library": "KML_VML",
+      "headerfile": "",
+      "desc_cn": "单精度浮点类型双曲余弦函数",
+      "desc_en": "Computes the hyperbolic cosine of a single-precision floating-point real type vector",
+      "benefit_cn": "通过Neon指令优化、内联汇编等方法，充分利用鲲鹏架构下的寄存器特点，实现了在鲲鹏服务器上的性能提升",
+      "benefit_en": "Using methods such as NEON instruction optimization and inline assembly.It makes full use of register features in the Kunpeng architecture to improve performance of Kunpeng servers"
+    },
+    {
+      "name": "vdcosh",
+      "library": "KML_VML",
+      "headerfile": "",
+      "desc_cn": "双精度浮点类型双曲余弦函数",
+      "desc_en": "Computes the hyperbolic cosine of a double-precision floating-point real type vector",
+      "benefit_cn": "通过Neon指令优化、内联汇编等方法，充分利用鲲鹏架构下的寄存器特点，实现了在鲲鹏服务器上的性能提升",
+      "benefit_en": "Using methods such as NEON instruction optimization and inline assembly.It makes full use of register features in the Kunpeng architecture to improve performance of Kunpeng servers"
+    },
+    {
+      "name": "vstanh",
+      "library": "KML_VML",
+      "headerfile": "",
+      "desc_cn": "单精度浮点类型双曲正切函数",
+      "desc_en": "Computes the hyperbolic tangent of a single-precision floating-point real type vector",
+      "benefit_cn": "通过Neon指令优化、内联汇编等方法，充分利用鲲鹏架构下的寄存器特点，实现了在鲲鹏服务器上的性能提升",
+      "benefit_en": "Using methods such as NEON instruction optimization and inline assembly.It makes full use of register features in the Kunpeng architecture to improve performance of Kunpeng servers"
+    },
+    {
+      "name": "vdtanh",
+      "library": "KML_VML",
+      "headerfile": "",
+      "desc_cn": "双精度浮点类型双曲正切函数",
+      "desc_en": "Computes the hyperbolic tangent of a double-precision floating-point real type vector",
+      "benefit_cn": "通过Neon指令优化、内联汇编等方法，充分利用鲲鹏架构下的寄存器特点，实现了在鲲鹏服务器上的性能提升",
+      "benefit_en": "Using methods such as NEON instruction optimization and inline assembly.It makes full use of register features in the Kunpeng architecture to improve performance of Kunpeng servers"
+    },
+    {
+      "name": "vsasinh",
+      "library": "KML_VML",
+      "headerfile": "",
+      "desc_cn": "单精度浮点类型双曲反正弦函数",
+      "desc_en": "Computes the hyperbolic arc sine of a single-precision floating-point real type vector",
+      "benefit_cn": "通过Neon指令优化、内联汇编等方法，充分利用鲲鹏架构下的寄存器特点，实现了在鲲鹏服务器上的性能提升",
+      "benefit_en": "Using methods such as NEON instruction optimization and inline assembly.It makes full use of register features in the Kunpeng architecture to improve performance of Kunpeng servers"
+    },
+    {
+      "name": "vdasinh",
+      "library": "KML_VML",
+      "headerfile": "",
+      "desc_cn": "双精度浮点类型双曲反正弦函数",
+      "desc_en": "Computes the hyperbolic arc sine of a double-precision floating-point real type vector",
+      "benefit_cn": "通过Neon指令优化、内联汇编等方法，充分利用鲲鹏架构下的寄存器特点，实现了在鲲鹏服务器上的性能提升",
+      "benefit_en": "Using methods such as NEON instruction optimization and inline assembly.It makes full use of register features in the Kunpeng architecture to improve performance of Kunpeng servers"
+    },
+    {
+      "name": "vsacosh",
+      "library": "KML_VML",
+      "headerfile": "",
+      "desc_cn": "单精度浮点类型双曲反余弦函数",
+      "desc_en": "Computes hyperbolic arc cosine of a single-precision floating-point real type vector",
+      "benefit_cn": "通过Neon指令优化、内联汇编等方法，充分利用鲲鹏架构下的寄存器特点，实现了在鲲鹏服务器上的性能提升",
+      "benefit_en": "Using methods such as NEON instruction optimization and inline assembly.It makes full use of register features in the Kunpeng architecture to improve performance of Kunpeng servers"
+    },
+    {
+      "name": "vdacosh",
+      "library": "KML_VML",
+      "headerfile": "",
+      "desc_cn": "双精度浮点类型双曲反余弦函数",
+      "desc_en": "Computes the hyperbolic arc cosine of a double-precision floating-point real type vector",
+      "benefit_cn": "通过Neon指令优化、内联汇编等方法，充分利用鲲鹏架构下的寄存器特点，实现了在鲲鹏服务器上的性能提升",
+      "benefit_en": "Using methods such as NEON instruction optimization and inline assembly.It makes full use of register features in the Kunpeng architecture to improve performance of Kunpeng servers"
+    },
+    {
+      "name": "vsatanh",
+      "library": "KML_VML",
+      "headerfile": "",
+      "desc_cn": "单精度浮点类型双曲反正切函数",
+      "desc_en": "Computes the hyperbolic arc tangent of a single-precision floating-point real type vector",
+      "benefit_cn": "通过Neon指令优化、内联汇编等方法，充分利用鲲鹏架构下的寄存器特点，实现了在鲲鹏服务器上的性能提升",
+      "benefit_en": "Using methods such as NEON instruction optimization and inline assembly.It makes full use of register features in the Kunpeng architecture to improve performance of Kunpeng servers"
+    },
+    {
+      "name": "vdatanh",
+      "library": "KML_VML",
+      "headerfile": "",
+      "desc_cn": "双精度浮点类型双曲反正切函数",
+      "desc_en": "Computes the hyperbolic arc tangent of a double-precision floating-point real type vector",
+      "benefit_cn": "通过Neon指令优化、内联汇编等方法，充分利用鲲鹏架构下的寄存器特点，实现了在鲲鹏服务器上的性能提升",
+      "benefit_en": "Using methods such as NEON instruction optimization and inline assembly.It makes full use of register features in the Kunpeng architecture to improve performance of Kunpeng servers"
+    },
+    {
+      "name": "sin",
+      "library": "KML_MATH",
+      "headerfile": "",
+      "desc_cn": "双精度浮点类型正弦函数",
+      "desc_en": "Computes the sine of double-precision floating-point real type x",
+      "benefit_cn": "通过周期函数规约、算法改进等手段，提供了基于鲲鹏芯片性能提升较大的函数实现",
+      "benefit_en": "Provides functions with high performance that is based on Kunpeng processors by means of Periodic function range reduction and algorithm improvement"
+    },
+    {
+      "name": "sinf",
+      "library": "KML_MATH",
+      "headerfile": "",
+      "desc_cn": "单精度浮点类型正弦函数",
+      "desc_en": "Computes the sine of single-precision floating-point real type x",
+      "benefit_cn": "通过周期函数规约、算法改进等手段，提供了基于鲲鹏芯片性能提升较大的函数实现",
+      "benefit_en": "Provides functions with high performance that is based on Kunpeng processors by means of Periodic function range reduction and algorithm improvement"
+    },
+    {
+      "name": "csin",
+      "library": "KML_MATH",
+      "headerfile": "",
+      "desc_cn": "双精度复数类型正弦函数",
+      "desc_en": "Computes the sine of double-precision floating-point complex type x",
+      "benefit_cn": "通过周期函数规约、算法改进等手段，提供了基于鲲鹏芯片性能提升较大的函数实现",
+      "benefit_en": "Provides functions with high performance that is based on Kunpeng processors by means of Periodic function range reduction and algorithm improvement"
+    },
+    {
+      "name": "csinf",
+      "library": "KML_MATH",
+      "headerfile": "",
+      "desc_cn": "单精度复数类型正弦函数",
+      "desc_en": "Computes the sine of single-precision floating-point complex type x",
+      "benefit_cn": "通过周期函数规约、算法改进等手段，提供了基于鲲鹏芯片性能提升较大的函数实现",
+      "benefit_en": "Provides functions with high performance that is based on Kunpeng processors by means of Periodic function range reduction and algorithm improvement"
+    },
+    {
+      "name": "cos",
+      "library": "KML_MATH",
+      "headerfile": "",
+      "desc_cn": "双精度浮点类型余弦函数",
+      "desc_en": "Computes the cosine of double-precision floating-point real type x",
+      "benefit_cn": "通过周期函数规约、算法改进等手段，提供了基于鲲鹏芯片性能提升较大的函数实现",
+      "benefit_en": "Provides functions with high performance that is based on Kunpeng processors by means of Periodic function range reduction and algorithm improvement"
+    },
+    {
+      "name": "cosf",
+      "library": "KML_MATH",
+      "headerfile": "",
+      "desc_cn": "单精度浮点类型余弦函数",
+      "desc_en": "Computes the cosine of single-precision floating-point real type x",
+      "benefit_cn": "通过周期函数规约、算法改进等手段，提供了基于鲲鹏芯片性能提升较大的函数实现",
+      "benefit_en": "Provides functions with high performance that is based on Kunpeng processors by means of Periodic function range reduction and algorithm improvement"
+    },
+    {
+      "name": "ccos",
+      "library": "KML_MATH",
+      "headerfile": "",
+      "desc_cn": "双精度复数类型余弦函数",
+      "desc_en": "Computes the cosine of double-precision floating-point complex type x",
+      "benefit_cn": "通过周期函数规约、算法改进等手段，提供了基于鲲鹏芯片性能提升较大的函数实现",
+      "benefit_en": "Provides functions with high performance that is based on Kunpeng processors by means of Periodic function range reduction and algorithm improvement"
+    },
+    {
+      "name": "ccosf",
+      "library": "KML_MATH",
+      "headerfile": "",
+      "desc_cn": "单精度复数类型余弦函数",
+      "desc_en": "Computes the cosine of single-precision floating-point complex type x",
+      "benefit_cn": "通过周期函数规约、算法改进等手段，提供了基于鲲鹏芯片性能提升较大的函数实现",
+      "benefit_en": "Provides functions with high performance that is based on Kunpeng processors by means of Periodic function range reduction and algorithm improvement"
+    },
+    {
+      "name": "sincos",
+      "library": "KML_MATH",
+      "headerfile": "",
+      "desc_cn": "双精度浮点类型正弦、余弦函数",
+      "desc_en": "Computes the sine and cosine of double-precision floating-point real type x",
+      "benefit_cn": "通过周期函数规约、算法改进等手段，提供了基于鲲鹏芯片性能提升较大的函数实现",
+      "benefit_en": "Provides functions with high performance that is based on Kunpeng processors by means of Periodic function range reduction and algorithm improvement"
+    },
+    {
+      "name": "sincosf",
+      "library": "KML_MATH",
+      "headerfile": "",
+      "desc_cn": "单精度浮点类型正弦、余弦函数",
+      "desc_en": "Computes the sine and cosine of single-precision floating-point real type x",
+      "benefit_cn": "通过周期函数规约、算法改进等手段，提供了基于鲲鹏芯片性能提升较大的函数实现",
+      "benefit_en": "Provides functions with high performance that is based on Kunpeng processors by means of Periodic function range reduction and algorithm improvement"
+    },
+    {
+      "name": "csincos",
+      "library": "KML_MATH",
+      "headerfile": "",
+      "desc_cn": "双精度复数类型正弦、余弦函数",
+      "desc_en": "Computes the sine and cosine of double-precision floating-point complex type x",
+      "benefit_cn": "通过周期函数规约、算法改进等手段，提供了基于鲲鹏芯片性能提升较大的函数实现",
+      "benefit_en": "Provides functions with high performance that is based on Kunpeng processors by means of Periodic function range reduction and algorithm improvement"
+    },
+    {
+      "name": "csincosf",
+      "library": "KML_MATH",
+      "headerfile": "",
+      "desc_cn": "单精度复数类型正弦、余弦函数",
+      "desc_en": "Computes the sine and cosine of single-precision floating-point complex type x",
+      "benefit_cn": "通过周期函数规约、算法改进等手段，提供了基于鲲鹏芯片性能提升较大的函数实现",
+      "benefit_en": "Provides functions with high performance that is based on Kunpeng processors by means of Periodic function range reduction and algorithm improvement"
+    },
+    {
+      "name": "tan",
+      "library": "KML_MATH",
+      "headerfile": "",
+      "desc_cn": "双精度浮点类型正切函数",
+      "desc_en": "Computes the tangent of double-precision floating-point real type x",
+      "benefit_cn": "通过周期函数规约、算法改进等手段，提供了基于鲲鹏芯片性能提升较大的函数实现",
+      "benefit_en": "Provides functions with high performance that is based on Kunpeng processors by means of Periodic function range reduction and algorithm improvement"
+    },
+    {
+      "name": "tanf",
+      "library": "KML_MATH",
+      "headerfile": "",
+      "desc_cn": "单精度浮点类型正切函数",
+      "desc_en": "Computes the tangent of single-precision floating-point real type x",
+      "benefit_cn": "通过周期函数规约、算法改进等手段，提供了基于鲲鹏芯片性能提升较大的函数实现",
+      "benefit_en": "Provides functions with high performance that is based on Kunpeng processors by means of Periodic function range reduction and algorithm improvement"
+    },
+    {
+      "name": "ctan",
+      "library": "KML_MATH",
+      "headerfile": "",
+      "desc_cn": "双精度复数类型正切函数",
+      "desc_en": "Computes the tangent of double-precision floating-point complex type x",
+      "benefit_cn": "通过周期函数规约、算法改进等手段，提供了基于鲲鹏芯片性能提升较大的函数实现",
+      "benefit_en": "Provides functions with high performance that is based on Kunpeng processors by means of Periodic function range reduction and algorithm improvement"
+    },
+    {
+      "name": "ctanf",
+      "library": "KML_MATH",
+      "headerfile": "",
+      "desc_cn": "单精度复数类型正切函数",
+      "desc_en": "Computes the tangent of single-precision floating-point complex type x",
+      "benefit_cn": "通过周期函数规约、算法改进等手段，提供了基于鲲鹏芯片性能提升较大的函数实现",
+      "benefit_en": "Provides functions with high performance that is based on Kunpeng processors by means of Periodic function range reduction and algorithm improvement"
+    },
+    {
+      "name": "asin",
+      "library": "KML_MATH",
+      "headerfile": "",
+      "desc_cn": "双精度浮点类型反正弦函数",
+      "desc_en": "Computes the arc sine of double-precision floating-point real type x",
+      "benefit_cn": "通过周期函数规约、算法改进等手段，提供了基于鲲鹏芯片性能提升较大的函数实现",
+      "benefit_en": "Provides functions with high performance that is based on Kunpeng processors by means of Periodic function range reduction and algorithm improvement"
+    },
+    {
+      "name": "asinf",
+      "library": "KML_MATH",
+      "headerfile": "",
+      "desc_cn": "单精度浮点类型反正弦函数",
+      "desc_en": "Computes the arc sine of single-precision floating-point real type x",
+      "benefit_cn": "通过周期函数规约、算法改进等手段，提供了基于鲲鹏芯片性能提升较大的函数实现",
+      "benefit_en": "Provides functions with high performance that is based on Kunpeng processors by means of Periodic function range reduction and algorithm improvement"
+    },
+    {
+      "name": "casin",
+      "library": "KML_MATH",
+      "headerfile": "",
+      "desc_cn": "双精度复数类型反正弦函数",
+      "desc_en": "Computes the arc sine of double-precision floating-point complex type x",
+      "benefit_cn": "通过周期函数规约、算法改进等手段，提供了基于鲲鹏芯片性能提升较大的函数实现",
+      "benefit_en": "Provides functions with high performance that is based on Kunpeng processors by means of Periodic function range reduction and algorithm improvement"
+    },
+    {
+      "name": "casinf",
+      "library": "KML_MATH",
+      "headerfile": "",
+      "desc_cn": "单精度复数类型反正弦函数",
+      "desc_en": "Computes the arc sine of single-precision floating-point complex type x",
+      "benefit_cn": "通过周期函数规约、算法改进等手段，提供了基于鲲鹏芯片性能提升较大的函数实现",
+      "benefit_en": "Provides functions with high performance that is based on Kunpeng processors by means of Periodic function range reduction and algorithm improvement"
+    },
+    {
+      "name": "acos",
+      "library": "KML_MATH",
+      "headerfile": "",
+      "desc_cn": "双精度浮点类型反余弦函数",
+      "desc_en": "Computes the arc cosine of double-precision floating-point real type x",
+      "benefit_cn": "通过周期函数规约、算法改进等手段，提供了基于鲲鹏芯片性能提升较大的函数实现",
+      "benefit_en": "Provides functions with high performance that is based on Kunpeng processors by means of Periodic function range reduction and algorithm improvement"
+    },
+    {
+      "name": "acosf",
+      "library": "KML_MATH",
+      "headerfile": "",
+      "desc_cn": "单精度浮点类型反余弦函数",
+      "desc_en": "Computes the arc cosine of single-precision floating-point real type x",
+      "benefit_cn": "通过周期函数规约、算法改进等手段，提供了基于鲲鹏芯片性能提升较大的函数实现",
+      "benefit_en": "Provides functions with high performance that is based on Kunpeng processors by means of Periodic function range reduction and algorithm improvement"
+    },
+    {
+      "name": "cacos",
+      "library": "KML_MATH",
+      "headerfile": "",
+      "desc_cn": "双精度复数类型反余弦函数",
+      "desc_en": "Computes the arc cosine of double-precision floating-point complex type x",
+      "benefit_cn": "通过周期函数规约、算法改进等手段，提供了基于鲲鹏芯片性能提升较大的函数实现",
+      "benefit_en": "Provides functions with high performance that is based on Kunpeng processors by means of Periodic function range reduction and algorithm improvement"
+    },
+    {
+      "name": "cacosf",
+      "library": "KML_MATH",
+      "headerfile": "",
+      "desc_cn": "单精度复数类型反余弦函数",
+      "desc_en": "Computes the arc cosine of single-precision floating-point complex type x",
+      "benefit_cn": "通过周期函数规约、算法改进等手段，提供了基于鲲鹏芯片性能提升较大的函数实现",
+      "benefit_en": "Provides functions with high performance that is based on Kunpeng processors by means of Periodic function range reduction and algorithm improvement"
+    },
+    {
+      "name": "atan",
+      "library": "KML_MATH",
+      "headerfile": "",
+      "desc_cn": "双精度浮点类型反正切函数",
+      "desc_en": "Computes the arc tangent of double-precision floating-point real type x",
+      "benefit_cn": "通过周期函数规约、算法改进等手段，提供了基于鲲鹏芯片性能提升较大的函数实现",
+      "benefit_en": "Provides functions with high performance that is based on Kunpeng processors by means of Periodic function range reduction and algorithm improvement"
+    },
+    {
+      "name": "atanf",
+      "library": "KML_MATH",
+      "headerfile": "",
+      "desc_cn": "单精度浮点类型反正切函数",
+      "desc_en": "Computes the arc tangent of single-precision floating-point real type x",
+      "benefit_cn": "通过周期函数规约、算法改进等手段，提供了基于鲲鹏芯片性能提升较大的函数实现",
+      "benefit_en": "Provides functions with high performance that is based on Kunpeng processors by means of Periodic function range reduction and algorithm improvement"
+    },
+    {
+      "name": "catan",
+      "library": "KML_MATH",
+      "headerfile": "",
+      "desc_cn": "双精度复数类型反正切函数",
+      "desc_en": "Computes the arc tangent of double-precision floating-point complex type x",
+      "benefit_cn": "通过周期函数规约、算法改进等手段，提供了基于鲲鹏芯片性能提升较大的函数实现",
+      "benefit_en": "Provides functions with high performance that is based on Kunpeng processors by means of Periodic function range reduction and algorithm improvement"
+    },
+    {
+      "name": "catanf",
+      "library": "KML_MATH",
+      "headerfile": "",
+      "desc_cn": "单精度复数类型反正切函数",
+      "desc_en": "Computes the arc tangent of single-precision floating-point complex type x",
+      "benefit_cn": "通过周期函数规约、算法改进等手段，提供了基于鲲鹏芯片性能提升较大的函数实现",
+      "benefit_en": "Provides functions with high performance that is based on Kunpeng processors by means of Periodic function range reduction and algorithm improvement"
+    },
+    {
+      "name": "atan2",
+      "library": "KML_MATH",
+      "headerfile": "",
+      "desc_cn": "双精度浮点类型反正切函数",
+      "desc_en": "Computes the arc tangent of double-precision floating-point real type x",
+      "benefit_cn": "通过周期函数规约、算法改进等手段，提供了基于鲲鹏芯片性能提升较大的函数实现",
+      "benefit_en": "Provides functions with high performance that is based on Kunpeng processors by means of Periodic function range reduction and algorithm improvement"
+    },
+    {
+      "name": "atan2f",
+      "library": "KML_MATH",
+      "headerfile": "",
+      "desc_cn": "单精度浮点类型反正切函数",
+      "desc_en": "Computes the arc tangent of single-precision floating-point real type x",
+      "benefit_cn": "通过周期函数规约、算法改进等手段，提供了基于鲲鹏芯片性能提升较大的函数实现",
+      "benefit_en": "Provides functions with high performance that is based on Kunpeng processors by means of Periodic function range reduction and algorithm improvement"
+    },
+    {
+      "name": "catan2",
+      "library": "KML_MATH",
+      "headerfile": "",
+      "desc_cn": "双精度复数类型反正切函数",
+      "desc_en": "Computes the arc tangent of double-precision floating-point complex type x",
+      "benefit_cn": "通过周期函数规约、算法改进等手段，提供了基于鲲鹏芯片性能提升较大的函数实现",
+      "benefit_en": "Provides functions with high performance that is based on Kunpeng processors by means of Periodic function range reduction and algorithm improvement"
+    },
+    {
+      "name": "catan2f",
+      "library": "KML_MATH",
+      "headerfile": "",
+      "desc_cn": "单精度复数类型反正切函数",
+      "desc_en": "Computes the arc tangent of single-precision floating-point complex type x",
+      "benefit_cn": "通过周期函数规约、算法改进等手段，提供了基于鲲鹏芯片性能提升较大的函数实现",
+      "benefit_en": "Provides functions with high performance that is based on Kunpeng processors by means of Periodic function range reduction and algorithm improvement"
+    },
+    {
+      "name": "sinh",
+      "library": "KML_MATH",
+      "headerfile": "",
+      "desc_cn": "双精度浮点类型双曲正弦函数",
+      "desc_en": "Computes the hyperbolic sine of double-precision floating-point real type x",
+      "benefit_cn": "通过周期函数规约、算法改进等手段，提供了基于鲲鹏芯片性能提升较大的函数实现",
+      "benefit_en": "Provides functions with high performance that is based on Kunpeng processors by means of Periodic function range reduction and algorithm improvement"
+    },
+    {
+      "name": "sinhf",
+      "library": "KML_MATH",
+      "headerfile": "",
+      "desc_cn": "单精度浮点类型双曲正弦函数",
+      "desc_en": "Computes the hyperbolic sine of single-precision floating-point real type x",
+      "benefit_cn": "通过周期函数规约、算法改进等手段，提供了基于鲲鹏芯片性能提升较大的函数实现",
+      "benefit_en": "Provides functions with high performance that is based on Kunpeng processors by means of Periodic function range reduction and algorithm improvement"
+    },
+    {
+      "name": "csinh",
+      "library": "KML_MATH",
+      "headerfile": "",
+      "desc_cn": "双精度复数类型双曲正弦函数",
+      "desc_en": "Computes the hyperbolic sine of double-precision floating-point complex type x",
+      "benefit_cn": "通过周期函数规约、算法改进等手段，提供了基于鲲鹏芯片性能提升较大的函数实现",
+      "benefit_en": "Provides functions with high performance that is based on Kunpeng processors by means of Periodic function range reduction and algorithm improvement"
+    },
+    {
+      "name": "csinhf",
+      "library": "KML_MATH",
+      "headerfile": "",
+      "desc_cn": "单精度复数类型双曲正弦函数",
+      "desc_en": "Computes the hyperbolic sine of single-precision floating-point complex type x",
+      "benefit_cn": "通过周期函数规约、算法改进等手段，提供了基于鲲鹏芯片性能提升较大的函数实现",
+      "benefit_en": "Provides functions with high performance that is based on Kunpeng processors by means of Periodic function range reduction and algorithm improvement"
+    },
+    {
+      "name": "cosh",
+      "library": "KML_MATH",
+      "headerfile": "",
+      "desc_cn": "双精度浮点类型双曲余弦函数",
+      "desc_en": "Computes the hyperbolic cosine of double-precision floating-point real type x",
+      "benefit_cn": "通过周期函数规约、算法改进等手段，提供了基于鲲鹏芯片性能提升较大的函数实现",
+      "benefit_en": "Provides functions with high performance that is based on Kunpeng processors by means of Periodic function range reduction and algorithm improvement"
+    },
+    {
+      "name": "coshf",
+      "library": "KML_MATH",
+      "headerfile": "",
+      "desc_cn": "单精度浮点类型双曲余弦函数",
+      "desc_en": "Computes the hyperbolic cosine of single-precision floating-point real type x",
+      "benefit_cn": "通过周期函数规约、算法改进等手段，提供了基于鲲鹏芯片性能提升较大的函数实现",
+      "benefit_en": "Provides functions with high performance that is based on Kunpeng processors by means of Periodic function range reduction and algorithm improvement"
+    },
+    {
+      "name": "ccosh",
+      "library": "KML_MATH",
+      "headerfile": "",
+      "desc_cn": "双精度复数类型双曲余弦函数",
+      "desc_en": "Computes the hyperbolic cosine of double-precision floating-point complex type x",
+      "benefit_cn": "通过周期函数规约、算法改进等手段，提供了基于鲲鹏芯片性能提升较大的函数实现",
+      "benefit_en": "Provides functions with high performance that is based on Kunpeng processors by means of Periodic function range reduction and algorithm improvement"
+    },
+    {
+      "name": "ccoshf",
+      "library": "KML_MATH",
+      "headerfile": "",
+      "desc_cn": "单精度复数类型双曲余弦函数",
+      "desc_en": "Computes the hyperbolic cosine of single-precision floating-point complex type x",
+      "benefit_cn": "通过周期函数规约、算法改进等手段，提供了基于鲲鹏芯片性能提升较大的函数实现",
+      "benefit_en": "Provides functions with high performance that is based on Kunpeng processors by means of Periodic function range reduction and algorithm improvement"
+    },
+    {
+      "name": "tanh",
+      "library": "KML_MATH",
+      "headerfile": "",
+      "desc_cn": "双精度浮点类型双曲正切函数",
+      "desc_en": "Computes the hyperbolic tangent of double-precision floating-point real type x",
+      "benefit_cn": "通过周期函数规约、算法改进等手段，提供了基于鲲鹏芯片性能提升较大的函数实现",
+      "benefit_en": "Provides functions with high performance that is based on Kunpeng processors by means of Periodic function range reduction and algorithm improvement"
+    },
+    {
+      "name": "tanhf",
+      "library": "KML_MATH",
+      "headerfile": "",
+      "desc_cn": "单精度浮点类型双曲正切函数",
+      "desc_en": "Computes the hyperbolic tangent of single-precision floating-point real type x",
+      "benefit_cn": "通过周期函数规约、算法改进等手段，提供了基于鲲鹏芯片性能提升较大的函数实现",
+      "benefit_en": "Provides functions with high performance that is based on Kunpeng processors by means of Periodic function range reduction and algorithm improvement"
+    },
+    {
+      "name": "ctanh",
+      "library": "KML_MATH",
+      "headerfile": "",
+      "desc_cn": "双精度复数类型双曲正切函数",
+      "desc_en": "Computes the hyperbolic tangent of double-precision floating-point complex type x",
+      "benefit_cn": "通过周期函数规约、算法改进等手段，提供了基于鲲鹏芯片性能提升较大的函数实现",
+      "benefit_en": "Provides functions with high performance that is based on Kunpeng processors by means of Periodic function range reduction and algorithm improvement"
+    },
+    {
+      "name": "ctanhf",
+      "library": "KML_MATH",
+      "headerfile": "",
+      "desc_cn": "单精度复数类型双曲正切函数",
+      "desc_en": "Computes the hyperbolic tangent of single-precision floating-point complex type x",
+      "benefit_cn": "通过周期函数规约、算法改进等手段，提供了基于鲲鹏芯片性能提升较大的函数实现",
+      "benefit_en": "Provides functions with high performance that is based on Kunpeng processors by means of Periodic function range reduction and algorithm improvement"
+    },
+    {
+      "name": "asinh",
+      "library": "KML_MATH",
+      "headerfile": "",
+      "desc_cn": "双精度浮点类型双曲反正弦函数",
+      "desc_en": "Computes the hyperbolic arc sine of double-precision floating-point real type x",
+      "benefit_cn": "通过周期函数规约、算法改进等手段，提供了基于鲲鹏芯片性能提升较大的函数实现",
+      "benefit_en": "Provides functions with high performance that is based on Kunpeng processors by means of Periodic function range reduction and algorithm improvement"
+    },
+    {
+      "name": "asinhf",
+      "library": "KML_MATH",
+      "headerfile": "",
+      "desc_cn": "单精度浮点类型双曲反正弦函数",
+      "desc_en": "Computes the hyperbolic arc sine of single-precision floating-point real type x",
+      "benefit_cn": "通过周期函数规约、算法改进等手段，提供了基于鲲鹏芯片性能提升较大的函数实现",
+      "benefit_en": "Provides functions with high performance that is based on Kunpeng processors by means of Periodic function range reduction and algorithm improvement"
+    },
+    {
+      "name": "casinh",
+      "library": "KML_MATH",
+      "headerfile": "",
+      "desc_cn": "双精度复数类型双曲反正弦函数",
+      "desc_en": "Computes the hyperbolic arc sine of double-precision floating-point complex type x",
+      "benefit_cn": "通过周期函数规约、算法改进等手段，提供了基于鲲鹏芯片性能提升较大的函数实现",
+      "benefit_en": "Provides functions with high performance that is based on Kunpeng processors by means of Periodic function range reduction and algorithm improvement"
+    },
+    {
+      "name": "casinhf",
+      "library": "KML_MATH",
+      "headerfile": "",
+      "desc_cn": "单精度复数类型双曲反正弦函数",
+      "desc_en": "Computes the hyperbolic arc sine of single-precision floating-point complex type x",
+      "benefit_cn": "通过周期函数规约、算法改进等手段，提供了基于鲲鹏芯片性能提升较大的函数实现",
+      "benefit_en": "Provides functions with high performance that is based on Kunpeng processors by means of Periodic function range reduction and algorithm improvement"
+    },
+    {
+      "name": "acosh",
+      "library": "KML_MATH",
+      "headerfile": "",
+      "desc_cn": "双精度浮点类型双曲反余弦函数",
+      "desc_en": "Computes the hyperbolic arc cosine of double-precision floating-point real type x",
+      "benefit_cn": "通过周期函数规约、算法改进等手段，提供了基于鲲鹏芯片性能提升较大的函数实现",
+      "benefit_en": "Provides functions with high performance that is based on Kunpeng processors by means of Periodic function range reduction and algorithm improvement"
+    },
+    {
+      "name": "acoshf",
+      "library": "KML_MATH",
+      "headerfile": "",
+      "desc_cn": "单精度浮点类型双曲反余弦函数",
+      "desc_en": "Computes the hyperbolic arc cosine of single-precision floating-point real type x",
+      "benefit_cn": "通过周期函数规约、算法改进等手段，提供了基于鲲鹏芯片性能提升较大的函数实现",
+      "benefit_en": "Provides functions with high performance that is based on Kunpeng processors by means of Periodic function range reduction and algorithm improvement"
+    },
+    {
+      "name": "cacosh",
+      "library": "KML_MATH",
+      "headerfile": "",
+      "desc_cn": "双精度复数类型双曲反余弦函数",
+      "desc_en": "Computes the hyperbolic arc cosine of double-precision floating-point complex type x",
+      "benefit_cn": "通过周期函数规约、算法改进等手段，提供了基于鲲鹏芯片性能提升较大的函数实现",
+      "benefit_en": "Provides functions with high performance that is based on Kunpeng processors by means of Periodic function range reduction and algorithm improvement"
+    },
+    {
+      "name": "cacoshf",
+      "library": "KML_MATH",
+      "headerfile": "",
+      "desc_cn": "单精度复数类型双曲反余弦函数",
+      "desc_en": "Computes the hyperbolic arc cosine of single-precision floating-point complex type x",
+      "benefit_cn": "通过周期函数规约、算法改进等手段，提供了基于鲲鹏芯片性能提升较大的函数实现",
+      "benefit_en": "Provides functions with high performance that is based on Kunpeng processors by means of Periodic function range reduction and algorithm improvement"
+    },
+    {
+      "name": "atanh",
+      "library": "KML_MATH",
+      "headerfile": "",
+      "desc_cn": "双精度浮点类型双曲反正切函数",
+      "desc_en": "Computes the hyperbolic arc tangent of double-precision floating-point real type x",
+      "benefit_cn": "通过周期函数规约、算法改进等手段，提供了基于鲲鹏芯片性能提升较大的函数实现",
+      "benefit_en": "Provides functions with high performance that is based on Kunpeng processors by means of Periodic function range reduction and algorithm improvement"
+    },
+    {
+      "name": "atanhf",
+      "library": "KML_MATH",
+      "headerfile": "",
+      "desc_cn": "单精度浮点类型双曲反正切函数",
+      "desc_en": "Computes the hyperbolic arc tangent of single-precision floating-point real type x",
+      "benefit_cn": "通过周期函数规约、算法改进等手段，提供了基于鲲鹏芯片性能提升较大的函数实现",
+      "benefit_en": "Provides functions with high performance that is based on Kunpeng processors by means of Periodic function range reduction and algorithm improvement"
+    },
+    {
+      "name": "catanh",
+      "library": "KML_MATH",
+      "headerfile": "",
+      "desc_cn": "双精度复数类型双曲反正切函数",
+      "desc_en": "Computes the hyperbolic arc tangent of double-precision floating-point complex type x",
+      "benefit_cn": "通过周期函数规约、算法改进等手段，提供了基于鲲鹏芯片性能提升较大的函数实现",
+      "benefit_en": "Provides functions with high performance that is based on Kunpeng processors by means of Periodic function range reduction and algorithm improvement"
+    },
+    {
+      "name": "catanhf",
+      "library": "KML_MATH",
+      "headerfile": "",
+      "desc_cn": "单精度复数类型双曲反正切函数",
+      "desc_en": "Computes the hyperbolic arc tangent of single-precision floating-point complex type x",
+      "benefit_cn": "通过周期函数规约、算法改进等手段，提供了基于鲲鹏芯片性能提升较大的函数实现",
+      "benefit_en": "Provides functions with high performance that is based on Kunpeng processors by means of Periodic function range reduction and algorithm improvement"
+    },
+    {
+      "name": "exp",
+      "library": "KML_MATH",
+      "headerfile": "",
+      "desc_cn": "双精度浮点类型指数函数(base e)",
+      "desc_en": "Computes the base-e exponential of double-precision floating-point real type x",
+      "benefit_cn": "通过周期函数规约、算法改进等手段，提供了基于鲲鹏芯片性能提升较大的函数实现",
+      "benefit_en": "Provides functions with high performance that is based on Kunpeng processors by means of Periodic function range reduction and algorithm improvement"
+    },
+    {
+      "name": "expf",
+      "library": "KML_MATH",
+      "headerfile": "",
+      "desc_cn": "单精度浮点类型指数函数(base e)",
+      "desc_en": "Computes the base-e exponential of single-precision floating-point real type x",
+      "benefit_cn": "通过周期函数规约、算法改进等手段，提供了基于鲲鹏芯片性能提升较大的函数实现",
+      "benefit_en": "Provides functions with high performance that is based on Kunpeng processors by means of Periodic function range reduction and algorithm improvement"
+    },
+    {
+      "name": "cexp",
+      "library": "KML_MATH",
+      "headerfile": "",
+      "desc_cn": "双精度复数类型指数函数(base e)",
+      "desc_en": "Computes the base-e exponential of double-precision floating-point complex type x",
+      "benefit_cn": "通过周期函数规约、算法改进等手段，提供了基于鲲鹏芯片性能提升较大的函数实现",
+      "benefit_en": "Provides functions with high performance that is based on Kunpeng processors by means of Periodic function range reduction and algorithm improvement"
+    },
+    {
+      "name": "cexpf",
+      "library": "KML_MATH",
+      "headerfile": "",
+      "desc_cn": "单精度复数类型指数函数(base e)",
+      "desc_en": "Computes the base-e exponential of single-precision floating-point complex type x",
+      "benefit_cn": "通过周期函数规约、算法改进等手段，提供了基于鲲鹏芯片性能提升较大的函数实现",
+      "benefit_en": "Provides functions with high performance that is based on Kunpeng processors by means of Periodic function range reduction and algorithm improvement"
+    },
+    {
+      "name": "exp2",
+      "library": "KML_MATH",
+      "headerfile": "",
+      "desc_cn": "双精度浮点类型指数函数(base 2)",
+      "desc_en": "Computes the base-2 exponential of double-precision floating-point real type x",
+      "benefit_cn": "通过周期函数规约、算法改进等手段，提供了基于鲲鹏芯片性能提升较大的函数实现",
+      "benefit_en": "Provides functions with high performance that is based on Kunpeng processors by means of Periodic function range reduction and algorithm improvement"
+    },
+    {
+      "name": "exp2f",
+      "library": "KML_MATH",
+      "headerfile": "",
+      "desc_cn": "单精度浮点类型指数函数(base 2)",
+      "desc_en": "Computes the base-2 exponential of single-precision floating-point real type x",
+      "benefit_cn": "通过周期函数规约、算法改进等手段，提供了基于鲲鹏芯片性能提升较大的函数实现",
+      "benefit_en": "Provides functions with high performance that is based on Kunpeng processors by means of Periodic function range reduction and algorithm improvement"
+    },
+    {
+      "name": "cexp2",
+      "library": "KML_MATH",
+      "headerfile": "",
+      "desc_cn": "双精度复数类型指数函数(base 2)",
+      "desc_en": "Computes the base-2 exponential of double-precision floating-point complex type x",
+      "benefit_cn": "通过周期函数规约、算法改进等手段，提供了基于鲲鹏芯片性能提升较大的函数实现",
+      "benefit_en": "Provides functions with high performance that is based on Kunpeng processors by means of Periodic function range reduction and algorithm improvement"
+    },
+    {
+      "name": "cexp2f",
+      "library": "KML_MATH",
+      "headerfile": "",
+      "desc_cn": "单精度复数类型指数函数(base 2)",
+      "desc_en": "Computes the base-2 exponential of single-precision floating-point complex type x",
+      "benefit_cn": "通过周期函数规约、算法改进等手段，提供了基于鲲鹏芯片性能提升较大的函数实现",
+      "benefit_en": "Provides functions with high performance that is based on Kunpeng processors by means of Periodic function range reduction and algorithm improvement"
+    },
+    {
+      "name": "log",
+      "library": "KML_MATH",
+      "headerfile": "",
+      "desc_cn": "双精度浮点类型对数函数(base e)",
+      "desc_en": "Computes the base-e logarithm of double-precision floating-point real type x",
+      "benefit_cn": "通过周期函数规约、算法改进等手段，提供了基于鲲鹏芯片性能提升较大的函数实现",
+      "benefit_en": "Provides functions with high performance that is based on Kunpeng processors by means of Periodic function range reduction and algorithm improvement"
+    },
+    {
+      "name": "logf",
+      "library": "KML_MATH",
+      "headerfile": "",
+      "desc_cn": "单精度浮点类型对数函数(base e)",
+      "desc_en": "Computes the base-e logarithm of single-precision floating-point real type x",
+      "benefit_cn": "通过周期函数规约、算法改进等手段，提供了基于鲲鹏芯片性能提升较大的函数实现",
+      "benefit_en": "Provides functions with high performance that is based on Kunpeng processors by means of Periodic function range reduction and algorithm improvement"
+    },
+    {
+      "name": "clog",
+      "library": "KML_MATH",
+      "headerfile": "",
+      "desc_cn": "双精度复数类型对数函数(base e)",
+      "desc_en": "Computes the base-e logarithm of double-precision floating-point complex type x",
+      "benefit_cn": "通过周期函数规约、算法改进等手段，提供了基于鲲鹏芯片性能提升较大的函数实现",
+      "benefit_en": "Provides functions with high performance that is based on Kunpeng processors by means of Periodic function range reduction and algorithm improvement"
+    },
+    {
+      "name": "clogf",
+      "library": "KML_MATH",
+      "headerfile": "",
+      "desc_cn": "单精度复数类型对数函数(base e)",
+      "desc_en": "Computes the base-e logarithm of single-precision floating-point complex type x",
+      "benefit_cn": "通过周期函数规约、算法改进等手段，提供了基于鲲鹏芯片性能提升较大的函数实现",
+      "benefit_en": "Provides functions with high performance that is based on Kunpeng processors by means of Periodic function range reduction and algorithm improvement"
+    },
+    {
+      "name": "log2",
+      "library": "KML_MATH",
+      "headerfile": "",
+      "desc_cn": "双精度浮点类型对数函数(base 2)",
+      "desc_en": "Computes the base-2 logarithm of double-precision floating-point real type x",
+      "benefit_cn": "通过周期函数规约、算法改进等手段，提供了基于鲲鹏芯片性能提升较大的函数实现",
+      "benefit_en": "Provides functions with high performance that is based on Kunpeng processors by means of Periodic function range reduction and algorithm improvement"
+    },
+    {
+      "name": "log2f",
+      "library": "KML_MATH",
+      "headerfile": "",
+      "desc_cn": "单精度浮点类型对数函数(base 2)",
+      "desc_en": "Computes the base-2 logarithm of single-precision floating-point real type x",
+      "benefit_cn": "通过周期函数规约、算法改进等手段，提供了基于鲲鹏芯片性能提升较大的函数实现",
+      "benefit_en": "Provides functions with high performance that is based on Kunpeng processors by means of Periodic function range reduction and algorithm improvement"
+    },
+    {
+      "name": "clog2",
+      "library": "KML_MATH",
+      "headerfile": "",
+      "desc_cn": "双精度复数类型对数函数(base 2)",
+      "desc_en": "Computes the base-2 logarithm of double-precision floating-point complex type x",
+      "benefit_cn": "通过周期函数规约、算法改进等手段，提供了基于鲲鹏芯片性能提升较大的函数实现",
+      "benefit_en": "Provides functions with high performance that is based on Kunpeng processors by means of Periodic function range reduction and algorithm improvement"
+    },
+    {
+      "name": "clog2f",
+      "library": "KML_MATH",
+      "headerfile": "",
+      "desc_cn": "单精度复数类型对数函数(base 2)",
+      "desc_en": "Computes the base-2 logarithm of single-precision floating-point complex type x",
+      "benefit_cn": "通过周期函数规约、算法改进等手段，提供了基于鲲鹏芯片性能提升较大的函数实现",
+      "benefit_en": "Provides functions with high performance that is based on Kunpeng processors by means of Periodic function range reduction and algorithm improvement"
+    },
+    {
+      "name": "log10",
+      "library": "KML_MATH",
+      "headerfile": "",
+      "desc_cn": "双精度浮点类型对数函数(base 10)",
+      "desc_en": "Computes the base-10 logarithm of double-precision floating-point real type x",
+      "benefit_cn": "通过周期函数规约、算法改进等手段，提供了基于鲲鹏芯片性能提升较大的函数实现",
+      "benefit_en": "Provides functions with high performance that is based on Kunpeng processors by means of Periodic function range reduction and algorithm improvement"
+    },
+    {
+      "name": "log10f",
+      "library": "KML_MATH",
+      "headerfile": "",
+      "desc_cn": "单精度浮点类型对数函数(base 10)",
+      "desc_en": "Computes the base-10 logarithm of single-precision floating-point real type x",
+      "benefit_cn": "通过周期函数规约、算法改进等手段，提供了基于鲲鹏芯片性能提升较大的函数实现",
+      "benefit_en": "Provides functions with high performance that is based on Kunpeng processors by means of Periodic function range reduction and algorithm improvement"
+    },
+    {
+      "name": "clog10",
+      "library": "KML_MATH",
+      "headerfile": "",
+      "desc_cn": "双精度复数类型对数函数(base 10)",
+      "desc_en": "Computes the base-10 logarithm of double-precision floating-point complex type x",
+      "benefit_cn": "通过周期函数规约、算法改进等手段，提供了基于鲲鹏芯片性能提升较大的函数实现",
+      "benefit_en": "Provides functions with high performance that is based on Kunpeng processors by means of Periodic function range reduction and algorithm improvement"
+    },
+    {
+      "name": "clog10f",
+      "library": "KML_MATH",
+      "headerfile": "",
+      "desc_cn": "单精度复数类型对数函数(base 10)",
+      "desc_en": "Computes the base-10 logarithm of single-precision floating-point complex type x",
+      "benefit_cn": "通过周期函数规约、算法改进等手段，提供了基于鲲鹏芯片性能提升较大的函数实现",
+      "benefit_en": "Provides functions with high performance that is based on Kunpeng processors by means of Periodic function range reduction and algorithm improvement"
+    },
+    {
+      "name": "pow",
+      "library": "KML_MATH",
+      "headerfile": "",
+      "desc_cn": "双精度浮点类型幂函数",
+      "desc_en": "Raises double-precision floating-point real type x to the specified power",
+      "benefit_cn": "通过周期函数规约、算法改进等手段，提供了基于鲲鹏芯片性能提升较大的函数实现",
+      "benefit_en": "Provides functions with high performance that is based on Kunpeng processors by means of Periodic function range reduction and algorithm improvement"
+    },
+    {
+      "name": "powf",
+      "library": "KML_MATH",
+      "headerfile": "",
+      "desc_cn": "单精度浮点类型幂函数",
+      "desc_en": "Raises single-precision floating-point real type x to the specified power",
+      "benefit_cn": "通过周期函数规约、算法改进等手段，提供了基于鲲鹏芯片性能提升较大的函数实现",
+      "benefit_en": "Provides functions with high performance that is based on Kunpeng processors by means of Periodic function range reduction and algorithm improvement"
+    },
+    {
+      "name": "cpow",
+      "library": "KML_MATH",
+      "headerfile": "",
+      "desc_cn": "双精度复数类型幂函数",
+      "desc_en": "Raises double-precision floating-point complex type x to the specified power",
+      "benefit_cn": "通过周期函数规约、算法改进等手段，提供了基于鲲鹏芯片性能提升较大的函数实现",
+      "benefit_en": "Provides functions with high performance that is based on Kunpeng processors by means of Periodic function range reduction and algorithm improvement"
+    },
+    {
+      "name": "cpowf",
+      "library": "KML_MATH",
+      "headerfile": "",
+      "desc_cn": "单精度复数类型幂函数",
+      "desc_en": "Raises single-precision floating-point complex type x to the specified power",
+      "benefit_cn": "通过周期函数规约、算法改进等手段，提供了基于鲲鹏芯片性能提升较大的函数实现",
+      "benefit_en": "Provides functions with high performance that is based on Kunpeng processors by means of Periodic function range reduction and algorithm improvement"
+    },
+    {
+      "name": "sqrt",
+      "library": "KML_MATH",
+      "headerfile": "",
+      "desc_cn": "双精度浮点类型平方根函数",
+      "desc_en": "Computes the square root of double-precision floating-point real type x",
+      "benefit_cn": "通过周期函数规约、算法改进等手段，提供了基于鲲鹏芯片性能提升较大的函数实现",
+      "benefit_en": "Provides functions with high performance that is based on Kunpeng processors by means of Periodic function range reduction and algorithm improvement"
+    },
+    {
+      "name": "sqrtf",
+      "library": "KML_MATH",
+      "headerfile": "",
+      "desc_cn": "单精度浮点类型平方根函数",
+      "desc_en": "Computes the square root of single-precision floating-point real type x",
+      "benefit_cn": "通过周期函数规约、算法改进等手段，提供了基于鲲鹏芯片性能提升较大的函数实现",
+      "benefit_en": "Provides functions with high performance that is based on Kunpeng processors by means of Periodic function range reduction and algorithm improvement"
+    },
+    {
+      "name": "csqrt",
+      "library": "KML_MATH",
+      "headerfile": "",
+      "desc_cn": "双精度复数类型平方根函数",
+      "desc_en": "Computes the square root of double-precision floating-point complex type x",
+      "benefit_cn": "通过周期函数规约、算法改进等手段，提供了基于鲲鹏芯片性能提升较大的函数实现",
+      "benefit_en": "Provides functions with high performance that is based on Kunpeng processors by means of Periodic function range reduction and algorithm improvement"
+    },
+    {
+      "name": "csqrtf",
+      "library": "KML_MATH",
+      "headerfile": "",
+      "desc_cn": "单精度复数类型平方根函数",
+      "desc_en": "Computes the square root of single-precision floating-point complex type x",
+      "benefit_cn": "通过周期函数规约、算法改进等手段，提供了基于鲲鹏芯片性能提升较大的函数实现",
+      "benefit_en": "Provides functions with high performance that is based on Kunpeng processors by means of Periodic function range reduction and algorithm improvement"
+    },
+    {
+      "name": "cbrt",
+      "library": "KML_MATH",
+      "headerfile": "",
+      "desc_cn": "双精度浮点类型立方根函数",
+      "desc_en": "Computes the cubic root of double-precision floating-point real type x",
+      "benefit_cn": "通过周期函数规约、算法改进等手段，提供了基于鲲鹏芯片性能提升较大的函数实现",
+      "benefit_en": "Provides functions with high performance that is based on Kunpeng processors by means of Periodic function range reduction and algorithm improvement"
+    },
+    {
+      "name": "cbrtf",
+      "library": "KML_MATH",
+      "headerfile": "",
+      "desc_cn": "单精度浮点类型立方根函数",
+      "desc_en": "Computes the cubic root of single-precision floating-point real type x",
+      "benefit_cn": "通过周期函数规约、算法改进等手段，提供了基于鲲鹏芯片性能提升较大的函数实现",
+      "benefit_en": "Provides functions with high performance that is based on Kunpeng processors by means of Periodic function range reduction and algorithm improvement"
+    },
+    {
+      "name": "ccbrt",
+      "library": "KML_MATH",
+      "headerfile": "",
+      "desc_cn": "双精度复数类型立方根函数",
+      "desc_en": "Computes the cubic root of double-precision floating-point complex type x",
+      "benefit_cn": "通过周期函数规约、算法改进等手段，提供了基于鲲鹏芯片性能提升较大的函数实现",
+      "benefit_en": "Provides functions with high performance that is based on Kunpeng processors by means of Periodic function range reduction and algorithm improvement"
+    },
+    {
+      "name": "ccbrtf",
+      "library": "KML_MATH",
+      "headerfile": "",
+      "desc_cn": "单精度复数类型立方根函数",
+      "desc_en": "Computes the cubic root of single-precision floating-point complex type x",
+      "benefit_cn": "通过周期函数规约、算法改进等手段，提供了基于鲲鹏芯片性能提升较大的函数实现",
+      "benefit_en": "Provides functions with high performance that is based on Kunpeng processors by means of Periodic function range reduction and algorithm improvement"
+    },
+    {
+      "name": "svml128_sin_f32",
+      "library": "KML_SVML",
+      "headerfile": "",
+      "desc_cn": "单精度浮点类型正弦函数",
+      "desc_en": "Computes the sine of single-precision floating-point type vector",
+      "benefit_cn": "通过Neon指令优化、内联汇编等方法，充分利用鲲鹏架构下的寄存器特点，实现了在鲲鹏服务器上的性能提升",
+      "benefit_en": "Using methods such as NEON instruction optimization and inline assembly.It makes full use of register features in the Kunpeng architecture to improve performance of Kunpeng servers"
+    },
+    {
+      "name": "svml128_sin_f64",
+      "library": "KML_SVML",
+      "headerfile": "",
+      "desc_cn": "双精度浮点类型正弦函数",
+      "desc_en": "Computes the sine of double-precision floating-point type vector",
+      "benefit_cn": "通过Neon指令优化、内联汇编等方法，充分利用鲲鹏架构下的寄存器特点，实现了在鲲鹏服务器上的性能提升",
+      "benefit_en": "Using methods such as NEON instruction optimization and inline assembly.It makes full use of register features in the Kunpeng architecture to improve performance of Kunpeng servers"
+    },
+    {
+      "name": "svml128_cos_f32",
+      "library": "KML_SVML",
+      "headerfile": "",
+      "desc_cn": "单精度浮点类型余弦函数",
+      "desc_en": "Computes the cosine of single-precision floating-point type vector",
+      "benefit_cn": "通过Neon指令优化、内联汇编等方法，充分利用鲲鹏架构下的寄存器特点，实现了在鲲鹏服务器上的性能提升",
+      "benefit_en": "Using methods such as NEON instruction optimization and inline assembly.It makes full use of register features in the Kunpeng architecture to improve performance of Kunpeng servers"
+    },
+    {
+      "name": "svml128_cos_f64",
+      "library": "KML_SVML",
+      "headerfile": "",
+      "desc_cn": "双精度浮点类型余弦函数",
+      "desc_en": "Computes the cosine of double-precision floating-point type vector",
+      "benefit_cn": "通过Neon指令优化、内联汇编等方法，充分利用鲲鹏架构下的寄存器特点，实现了在鲲鹏服务器上的性能提升",
+      "benefit_en": "Using methods such as NEON instruction optimization and inline assembly.It makes full use of register features in the Kunpeng architecture to improve performance of Kunpeng servers"
+    },
+    {
+      "name": "svml128_sincos_f32",
+      "library": "KML_SVML",
+      "headerfile": "",
+      "desc_cn": "单精度浮点类型正弦、余弦函数",
+      "desc_en": "Computes the sine and cosine of single-precision floating-point type vector",
+      "benefit_cn": "通过Neon指令优化、内联汇编等方法，充分利用鲲鹏架构下的寄存器特点，实现了在鲲鹏服务器上的性能提升",
+      "benefit_en": "Using methods such as NEON instruction optimization and inline assembly.It makes full use of register features in the Kunpeng architecture to improve performance of Kunpeng servers"
+    },
+    {
+      "name": "svml128_sincos_f64",
+      "library": "KML_SVML",
+      "headerfile": "",
+      "desc_cn": "双精度浮点类型正弦、余弦函数",
+      "desc_en": "Computes the sine and cosine of double-precision floating-point type vector",
+      "benefit_cn": "通过Neon指令优化、内联汇编等方法，充分利用鲲鹏架构下的寄存器特点，实现了在鲲鹏服务器上的性能提升",
+      "benefit_en": "Using methods such as NEON instruction optimization and inline assembly.It makes full use of register features in the Kunpeng architecture to improve performance of Kunpeng servers"
+    },
+    {
+      "name": "svml128_tan_f32",
+      "library": "KML_SVML",
+      "headerfile": "",
+      "desc_cn": "单精度浮点类型正切函数",
+      "desc_en": "Computes the tangent of single-precision floating-point type vector",
+      "benefit_cn": "通过Neon指令优化、内联汇编等方法，充分利用鲲鹏架构下的寄存器特点，实现了在鲲鹏服务器上的性能提升",
+      "benefit_en": "Using methods such as NEON instruction optimization and inline assembly.It makes full use of register features in the Kunpeng architecture to improve performance of Kunpeng servers"
+    },
+    {
+      "name": "svml128_tan_f64",
+      "library": "KML_SVML",
+      "headerfile": "",
+      "desc_cn": "双精度浮点类型正切函数",
+      "desc_en": "Computes the tangent of double-precision floating-point type vector",
+      "benefit_cn": "通过Neon指令优化、内联汇编等方法，充分利用鲲鹏架构下的寄存器特点，实现了在鲲鹏服务器上的性能提升",
+      "benefit_en": "Using methods such as NEON instruction optimization and inline assembly.It makes full use of register features in the Kunpeng architecture to improve performance of Kunpeng servers"
+    },
+    {
+      "name": "svml128_atan_f32",
+      "library": "KML_SVML",
+      "headerfile": "",
+      "desc_cn": "单精度浮点类型反正切函数",
+      "desc_en": "Computes the arc tangent of single-precision floating-point type vector",
+      "benefit_cn": "通过Neon指令优化、内联汇编等方法，充分利用鲲鹏架构下的寄存器特点，实现了在鲲鹏服务器上的性能提升",
+      "benefit_en": "Using methods such as NEON instruction optimization and inline assembly.It makes full use of register features in the Kunpeng architecture to improve performance of Kunpeng servers"
+    },
+    {
+      "name": "svml128_atan_f64",
+      "library": "KML_SVML",
+      "headerfile": "",
+      "desc_cn": "双精度浮点类型反正切函数",
+      "desc_en": "Computes the arc tangent of double-precision floating-point type vector",
+      "benefit_cn": "通过Neon指令优化、内联汇编等方法，充分利用鲲鹏架构下的寄存器特点，实现了在鲲鹏服务器上的性能提升",
+      "benefit_en": "Using methods such as NEON instruction optimization and inline assembly.It makes full use of register features in the Kunpeng architecture to improve performance of Kunpeng servers"
+    },
+    {
+      "name": "svml128_atan2_f32",
+      "library": "KML_SVML",
+      "headerfile": "",
+      "desc_cn": "单精度浮点类型反正切函数",
+      "desc_en": "Computes the arc tangent of single-precision floating-point type vector",
+      "benefit_cn": "通过Neon指令优化、内联汇编等方法，充分利用鲲鹏架构下的寄存器特点，实现了在鲲鹏服务器上的性能提升",
+      "benefit_en": "Using methods such as NEON instruction optimization and inline assembly.It makes full use of register features in the Kunpeng architecture to improve performance of Kunpeng servers"
+    },
+    {
+      "name": "svml128_atan2_f64",
+      "library": "KML_SVML",
+      "headerfile": "",
+      "desc_cn": "双精度浮点类型反正切函数",
+      "desc_en": "Computes the arc tangent of double-precision floating-point type vector",
+      "benefit_cn": "通过Neon指令优化、内联汇编等方法，充分利用鲲鹏架构下的寄存器特点，实现了在鲲鹏服务器上的性能提升",
+      "benefit_en": "Using methods such as NEON instruction optimization and inline assembly.It makes full use of register features in the Kunpeng architecture to improve performance of Kunpeng servers"
+    },
+    {
+      "name": "svml128_sinh_f32",
+      "library": "KML_SVML",
+      "headerfile": "",
+      "desc_cn": "单精度浮点类型双曲正弦函数",
+      "desc_en": "Computes the hyperbolic sine of single-precision floating-point type vector",
+      "benefit_cn": "通过Neon指令优化、内联汇编等方法，充分利用鲲鹏架构下的寄存器特点，实现了在鲲鹏服务器上的性能提升",
+      "benefit_en": "Using methods such as NEON instruction optimization and inline assembly.It makes full use of register features in the Kunpeng architecture to improve performance of Kunpeng servers"
+    },
+    {
+      "name": "svml128_sinh_f64",
+      "library": "KML_SVML",
+      "headerfile": "",
+      "desc_cn": "双精度浮点类型双曲正弦函数",
+      "desc_en": "Computes the hyperbolic sine of double-precision floating-point type vector",
+      "benefit_cn": "通过Neon指令优化、内联汇编等方法，充分利用鲲鹏架构下的寄存器特点，实现了在鲲鹏服务器上的性能提升",
+      "benefit_en": "Using methods such as NEON instruction optimization and inline assembly.It makes full use of register features in the Kunpeng architecture to improve performance of Kunpeng servers"
+    },
+    {
+      "name": "svml128_cosh_f32",
+      "library": "KML_SVML",
+      "headerfile": "",
+      "desc_cn": "单精度浮点类型双曲余弦函数",
+      "desc_en": "Computes the hyperbolic cosine of single-precision floating-point type vector",
+      "benefit_cn": "通过Neon指令优化、内联汇编等方法，充分利用鲲鹏架构下的寄存器特点，实现了在鲲鹏服务器上的性能提升",
+      "benefit_en": "Using methods such as NEON instruction optimization and inline assembly.It makes full use of register features in the Kunpeng architecture to improve performance of Kunpeng servers"
+    },
+    {
+      "name": "svml128_cosh_f64",
+      "library": "KML_SVML",
+      "headerfile": "",
+      "desc_cn": "双精度浮点类型双曲余弦函数",
+      "desc_en": "Computes the hyperbolic cosine of double-precision floating-point type vector",
+      "benefit_cn": "通过Neon指令优化、内联汇编等方法，充分利用鲲鹏架构下的寄存器特点，实现了在鲲鹏服务器上的性能提升",
+      "benefit_en": "Using methods such as NEON instruction optimization and inline assembly.It makes full use of register features in the Kunpeng architecture to improve performance of Kunpeng servers"
+    },
+    {
+      "name": "svml128_tanh_f32",
+      "library": "KML_SVML",
+      "headerfile": "",
+      "desc_cn": "单精度浮点类型双曲正切函数",
+      "desc_en": "Computes the hyperbolic tangent of single-precision floating-point type vector",
+      "benefit_cn": "通过Neon指令优化、内联汇编等方法，充分利用鲲鹏架构下的寄存器特点，实现了在鲲鹏服务器上的性能提升",
+      "benefit_en": "Using methods such as NEON instruction optimization and inline assembly.It makes full use of register features in the Kunpeng architecture to improve performance of Kunpeng servers"
+    },
+    {
+      "name": "svml128_tanh_f64",
+      "library": "KML_SVML",
+      "headerfile": "",
+      "desc_cn": "双精度浮点类型双曲正切函数",
+      "desc_en": "Computes the hyperbolic tangent of double-precision floating-point type vector",
+      "benefit_cn": "通过Neon指令优化、内联汇编等方法，充分利用鲲鹏架构下的寄存器特点，实现了在鲲鹏服务器上的性能提升",
+      "benefit_en": "Using methods such as NEON instruction optimization and inline assembly.It makes full use of register features in the Kunpeng architecture to improve performance of Kunpeng servers"
+    },
+    {
+      "name": "svml128_exp_f32",
+      "library": "KML_SVML",
+      "headerfile": "",
+      "desc_cn": "单精度浮点类型指数函数(base e)",
+      "desc_en": "Computes the base-e exponential of single-precision floating-point type vector",
+      "benefit_cn": "通过Neon指令优化、内联汇编等方法，充分利用鲲鹏架构下的寄存器特点，实现了在鲲鹏服务器上的性能提升",
+      "benefit_en": "Using methods such as NEON instruction optimization and inline assembly.It makes full use of register features in the Kunpeng architecture to improve performance of Kunpeng servers"
+    },
+    {
+      "name": "svml128_exp_f64",
+      "library": "KML_SVML",
+      "headerfile": "",
+      "desc_cn": "双精度浮点类型指数函数(base e)",
+      "desc_en": "Computes the base-e exponential of double-precision floating-point type vector",
+      "benefit_cn": "通过Neon指令优化、内联汇编等方法，充分利用鲲鹏架构下的寄存器特点，实现了在鲲鹏服务器上的性能提升",
+      "benefit_en": "Using methods such as NEON instruction optimization and inline assembly.It makes full use of register features in the Kunpeng architecture to improve performance of Kunpeng servers"
+    },
+    {
+      "name": "svml128_exp2_f32",
+      "library": "KML_SVML",
+      "headerfile": "",
+      "desc_cn": "单精度浮点类型指数函数(base 2)",
+      "desc_en": "Computes the base-2 exponential of single-precision floating-point type vector",
+      "benefit_cn": "通过Neon指令优化、内联汇编等方法，充分利用鲲鹏架构下的寄存器特点，实现了在鲲鹏服务器上的性能提升",
+      "benefit_en": "Using methods such as NEON instruction optimization and inline assembly.It makes full use of register features in the Kunpeng architecture to improve performance of Kunpeng servers"
+    },
+    {
+      "name": "svml128_exp2_f64",
+      "library": "KML_SVML",
+      "headerfile": "",
+      "desc_cn": "双精度浮点类型指数函数(base 2)",
+      "desc_en": "Computes the base-2 exponential of double-precision floating-point type vector",
+      "benefit_cn": "通过Neon指令优化、内联汇编等方法，充分利用鲲鹏架构下的寄存器特点，实现了在鲲鹏服务器上的性能提升",
+      "benefit_en": "Using methods such as NEON instruction optimization and inline assembly.It makes full use of register features in the Kunpeng architecture to improve performance of Kunpeng servers"
+    },
+    {
+      "name": "svml128_expm1_f32",
+      "library": "KML_SVML",
+      "headerfile": "",
+      "desc_cn": "单精度浮点类型指数函数(base e)",
+      "desc_en": "Computes the base-e exponential of single-precision floating-point type vector",
+      "benefit_cn": "通过Neon指令优化、内联汇编等方法，充分利用鲲鹏架构下的寄存器特点，实现了在鲲鹏服务器上的性能提升",
+      "benefit_en": "Using methods such as NEON instruction optimization and inline assembly.It makes full use of register features in the Kunpeng architecture to improve performance of Kunpeng servers"
+    },
+    {
+      "name": "svml128_expm1_f64",
+      "library": "KML_SVML",
+      "headerfile": "",
+      "desc_cn": "双精度浮点类型指数函数(base e)",
+      "desc_en": "Computes the base-e exponential of double-precision floating-point type vector",
+      "benefit_cn": "通过Neon指令优化、内联汇编等方法，充分利用鲲鹏架构下的寄存器特点，实现了在鲲鹏服务器上的性能提升",
+      "benefit_en": "Using methods such as NEON instruction optimization and inline assembly.It makes full use of register features in the Kunpeng architecture to improve performance of Kunpeng servers"
+    },
+    {
+      "name": "svml128_log_f32",
+      "library": "KML_SVML",
+      "headerfile": "",
+      "desc_cn": "单精度浮点类型对数函数(base e)",
+      "desc_en": "Computes the base-e logarithm of single-precision floating-point type vector",
+      "benefit_cn": "通过Neon指令优化、内联汇编等方法，充分利用鲲鹏架构下的寄存器特点，实现了在鲲鹏服务器上的性能提升",
+      "benefit_en": "Using methods such as NEON instruction optimization and inline assembly.It makes full use of register features in the Kunpeng architecture to improve performance of Kunpeng servers"
+    },
+    {
+      "name": "svml128_log_f64",
+      "library": "KML_SVML",
+      "headerfile": "",
+      "desc_cn": "双精度浮点类型对数函数(base e)",
+      "desc_en": "Computes the base-e logarithm of double-precision floating-point type vector",
+      "benefit_cn": "通过Neon指令优化、内联汇编等方法，充分利用鲲鹏架构下的寄存器特点，实现了在鲲鹏服务器上的性能提升",
+      "benefit_en": "Using methods such as NEON instruction optimization and inline assembly.It makes full use of register features in the Kunpeng architecture to improve performance of Kunpeng servers"
+    },
+    {
+      "name": "svml128_log10_f32",
+      "library": "KML_SVML",
+      "headerfile": "",
+      "desc_cn": "单精度浮点类型对数函数(base 10)",
+      "desc_en": "Computes the base-10 logarithm of single-precision floating-point type vector",
+      "benefit_cn": "通过Neon指令优化、内联汇编等方法，充分利用鲲鹏架构下的寄存器特点，实现了在鲲鹏服务器上的性能提升",
+      "benefit_en": "Using methods such as NEON instruction optimization and inline assembly.It makes full use of register features in the Kunpeng architecture to improve performance of Kunpeng servers"
+    },
+    {
+      "name": "svml128_log10_f64",
+      "library": "KML_SVML",
+      "headerfile": "",
+      "desc_cn": "双精度浮点类型对数函数(base 10)",
+      "desc_en": "Computes the base-10 logarithm of double-precision floating-point type vector",
+      "benefit_cn": "通过Neon指令优化、内联汇编等方法，充分利用鲲鹏架构下的寄存器特点，实现了在鲲鹏服务器上的性能提升",
+      "benefit_en": "Using methods such as NEON instruction optimization and inline assembly.It makes full use of register features in the Kunpeng architecture to improve performance of Kunpeng servers"
+    },
+    {
+      "name": "svml128_log1p_f32",
+      "library": "KML_SVML",
+      "headerfile": "",
+      "desc_cn": "单精度浮点类型对数函数(base e)",
+      "desc_en": "Computes the base-e logarithm of single-precision floating-point type vector",
+      "benefit_cn": "通过Neon指令优化、内联汇编等方法，充分利用鲲鹏架构下的寄存器特点，实现了在鲲鹏服务器上的性能提升",
+      "benefit_en": "Using methods such as NEON instruction optimization and inline assembly.It makes full use of register features in the Kunpeng architecture to improve performance of Kunpeng servers"
+    },
+    {
+      "name": "svml128_log1p_f64",
+      "library": "KML_SVML",
+      "headerfile": "",
+      "desc_cn": "双精度浮点类型对数函数(base e)",
+      "desc_en": "Computes the base-e logarithm of double-precision floating-point type vector",
+      "benefit_cn": "通过Neon指令优化、内联汇编等方法，充分利用鲲鹏架构下的寄存器特点，实现了在鲲鹏服务器上的性能提升",
+      "benefit_en": "Using methods such as NEON instruction optimization and inline assembly.It makes full use of register features in the Kunpeng architecture to improve performance of Kunpeng servers"
+    },
+    {
+      "name": "svml128_pow_f32",
+      "library": "KML_SVML",
+      "headerfile": "",
+      "desc_cn": "单精度浮点类型幂函数",
+      "desc_en": "Raises single-precision floating-point type vector to the specified power",
+      "benefit_cn": "通过Neon指令优化、内联汇编等方法，充分利用鲲鹏架构下的寄存器特点，实现了在鲲鹏服务器上的性能提升",
+      "benefit_en": "Using methods such as NEON instruction optimization and inline assembly.It makes full use of register features in the Kunpeng architecture to improve performance of Kunpeng servers"
+    },
+    {
+      "name": "svml128_pow_f64",
+      "library": "KML_SVML",
+      "headerfile": "",
+      "desc_cn": "双精度浮点类型幂函数",
+      "desc_en": "Raises double-precision floating-point type vector to the specified power",
+      "benefit_cn": "通过Neon指令优化、内联汇编等方法，充分利用鲲鹏架构下的寄存器特点，实现了在鲲鹏服务器上的性能提升",
+      "benefit_en": "Using methods such as NEON instruction optimization and inline assembly.It makes full use of register features in the Kunpeng architecture to improve performance of Kunpeng servers"
+    },
   ],
   "Intrinsic": [
     {
