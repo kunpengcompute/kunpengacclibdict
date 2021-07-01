@@ -2106,6 +2106,3363 @@
       "benefit_cn": "通过Neon指令优化、内联汇编等方法，充分利用鲲鹏架构下的寄存器特点，实现了在鲲鹏服务器上的性能提升",
       "benefit_en": "Using methods such as NEON instruction optimization and inline assembly.It makes full use of register features in the Kunpeng architecture to improve performance of Kunpeng servers"
     },
+    {
+      "name": "cblas_saxpy",
+      "library": "KML_BLAS",
+      "headerfile": "",
+      "desc_cn": "单精度浮点类型向量缩放与加和",
+      "desc_en": "Vector scaling and summation",
+      "benefit_cn": "基于鲲鹏架构，通过向量化、数据预取、编译优化、数据重排等手段，实现性能优化",
+      "benefit_en": "Based on the Kunpeng architecture,performance is optimized through vectorization、data prefetching、compilation optimization、and data rearrangement"
+    },
+	{
+      "name": "cblas_daxpy",
+      "library": "KML_BLAS",
+      "headerfile": "",
+      "desc_cn": "双精度浮点类型向量缩放与加和",
+      "desc_en": "Vector scaling and summation",
+      "benefit_cn": "基于鲲鹏架构，通过向量化、数据预取、编译优化、数据重排等手段，实现性能优化",
+      "benefit_en": "Based on the Kunpeng architecture,performance is optimized through vectorization、data prefetching、compilation optimization、and data rearrangement"
+    },
+	{
+      "name": "cblas_caxpy",
+      "library": "KML_BLAS",
+      "headerfile": "",
+      "desc_cn": "单精度复数类型向量缩放与加和",
+      "desc_en": "Vector scaling and summation",
+      "benefit_cn": "基于鲲鹏架构，通过向量化、数据预取、编译优化、数据重排等手段，实现性能优化",
+      "benefit_en": "Based on the Kunpeng architecture,performance is optimized through vectorization、data prefetching、compilation optimization、and data rearrangement"
+    },
+	{
+      "name": "cblas_zaxpy",
+      "library": "KML_BLAS",
+      "headerfile": "",
+      "desc_cn": "双精度复数类型向量缩放与加和",
+      "desc_en": "Vector scaling and summation",
+      "benefit_cn": "基于鲲鹏架构，通过向量化、数据预取、编译优化、数据重排等手段，实现性能优化",
+      "benefit_en": "Based on the Kunpeng architecture,performance is optimized through vectorization、data prefetching、compilation optimization、and data rearrangement"
+    },
+	{
+      "name": "cblas_sasum",
+      "library": "KML_BLAS",
+      "headerfile": "",
+      "desc_cn": "单精度浮点类型向量元素绝对值求和",
+      "desc_en": "Sum of absolute values of vector elements",
+      "benefit_cn": "基于鲲鹏架构，通过向量化、数据预取、编译优化、数据重排等手段，实现性能优化",
+      "benefit_en": "Based on the Kunpeng architecture,performance is optimized through vectorization、data prefetching、compilation optimization、and data rearrangement"
+    },
+	{
+      "name": "cblas_dasum",
+      "library": "KML_BLAS",
+      "headerfile": "",
+      "desc_cn": "双精度浮点类型向量元素绝对值求和",
+      "desc_en": "Sum of absolute values of vector elements",
+      "benefit_cn": "基于鲲鹏架构，通过向量化、数据预取、编译优化、数据重排等手段，实现性能优化",
+      "benefit_en": "Based on the Kunpeng architecture,performance is optimized through vectorization、data prefetching、compilation optimization、and data rearrangement"
+    },
+	{
+      "name": "cblas_casum",
+      "library": "KML_BLAS",
+      "headerfile": "",
+      "desc_cn": "单精度复数类型向量元素绝对值求和",
+      "desc_en": "Sum of absolute values of vector elements",
+      "benefit_cn": "基于鲲鹏架构，通过向量化、数据预取、编译优化、数据重排等手段，实现性能优化",
+      "benefit_en": "Based on the Kunpeng architecture,performance is optimized through vectorization、data prefetching、compilation optimization、and data rearrangement"
+    },
+	{
+      "name": "cblas_zasum",
+      "library": "KML_BLAS",
+      "headerfile": "",
+      "desc_cn": "双精度复数类型向量元素绝对值求和",
+      "desc_en": "Sum of absolute values of vector elements",
+      "benefit_cn": "基于鲲鹏架构，通过向量化、数据预取、编译优化、数据重排等手段，实现性能优化",
+      "benefit_en": "Based on the Kunpeng architecture,performance is optimized through vectorization、data prefetching、compilation optimization、and data rearrangement"
+    },
+	{
+      "name": "cblas_scopy",
+      "library": "KML_BLAS",
+      "headerfile": "",
+      "desc_cn": "单精度浮点类型向量拷贝",
+      "desc_en": "Vector copy",
+      "benefit_cn": "基于鲲鹏架构，通过向量化、数据预取、编译优化、数据重排等手段，实现性能优化",
+      "benefit_en": "Based on the Kunpeng architecture,performance is optimized through vectorization、data prefetching、compilation optimization、and data rearrangement"
+    },
+	{
+      "name": "cblas_dcopy",
+      "library": "KML_BLAS",
+      "headerfile": "",
+      "desc_cn": "双精度浮点类型向量拷贝",
+      "desc_en": "Vector copy",
+      "benefit_cn": "基于鲲鹏架构，通过向量化、数据预取、编译优化、数据重排等手段，实现性能优化",
+      "benefit_en": "Based on the Kunpeng architecture,performance is optimized through vectorization、data prefetching、compilation optimization、and data rearrangement"
+    },
+	{
+      "name": "cblas_ccopy",
+      "library": "KML_BLAS",
+      "headerfile": "",
+      "desc_cn": "单精度复数类型向量拷贝",
+      "desc_en": "Vector copy",
+      "benefit_cn": "基于鲲鹏架构，通过向量化、数据预取、编译优化、数据重排等手段，实现性能优化",
+      "benefit_en": "Based on the Kunpeng architecture,performance is optimized through vectorization、data prefetching、compilation optimization、and data rearrangement"
+    },
+	{
+      "name": "cblas_zcopy",
+      "library": "KML_BLAS",
+      "headerfile": "",
+      "desc_cn": "双精度复数类型向量拷贝",
+      "desc_en": "Vector copy",
+      "benefit_cn": "基于鲲鹏架构，通过向量化、数据预取、编译优化、数据重排等手段，实现性能优化",
+      "benefit_en": "Based on the Kunpeng architecture,performance is optimized through vectorization、data prefetching、compilation optimization、and data rearrangement"
+    },
+	{
+      "name": "cblas_sdot",
+      "library": "KML_BLAS",
+      "headerfile": "",
+      "desc_cn": "单精度浮点类型向量点积",
+      "desc_en": "Vector dot product",
+      "benefit_cn": "基于鲲鹏架构，通过向量化、数据预取、编译优化、数据重排等手段，实现性能优化",
+      "benefit_en": "Based on the Kunpeng architecture,performance is optimized through vectorization、data prefetching、compilation optimization、and data rearrangement"
+    },
+	{
+      "name": "cblas_ddot",
+      "library": "KML_BLAS",
+      "headerfile": "",
+      "desc_cn": "双精度浮点类型向量点积",
+      "desc_en": "Vector dot product",
+      "benefit_cn": "基于鲲鹏架构，通过向量化、数据预取、编译优化、数据重排等手段，实现性能优化",
+      "benefit_en": "Based on the Kunpeng architecture,performance is optimized through vectorization、data prefetching、compilation optimization、and data rearrangement"
+    },
+	{
+      "name": "cblas_cdotc",
+      "library": "KML_BLAS",
+      "headerfile": "",
+      "desc_cn": "单精度复数类型共轭向量与另一向量的点积",
+      "desc_en": "Dot product of a conjugate vector and another vector",
+      "benefit_cn": "基于鲲鹏架构，通过向量化、数据预取、编译优化、数据重排等手段，实现性能优化",
+      "benefit_en": "Based on the Kunpeng architecture,performance is optimized through vectorization、data prefetching、compilation optimization、and data rearrangement"
+    },
+	{
+      "name": "cblas_zdotc",
+      "library": "KML_BLAS",
+      "headerfile": "",
+      "desc_cn": "双精度复数类型共轭向量与另一向量的点积",
+      "desc_en": "Dot product of a conjugate vector and another vector",
+      "benefit_cn": "基于鲲鹏架构，通过向量化、数据预取、编译优化、数据重排等手段，实现性能优化",
+      "benefit_en": "Based on the Kunpeng architecture,performance is optimized through vectorization、data prefetching、compilation optimization、and data rearrangement"
+    },
+	{
+      "name": "cblas_cdotu",
+      "library": "KML_BLAS",
+      "headerfile": "",
+      "desc_cn": "单精度复数向量点积",
+      "desc_en": "Complex vector dot product",
+      "benefit_cn": "基于鲲鹏架构，通过向量化、数据预取、编译优化、数据重排等手段，实现性能优化",
+      "benefit_en": "Based on the Kunpeng architecture,performance is optimized through vectorization、data prefetching、compilation optimization、and data rearrangement"
+    },
+	{
+      "name": "cblas_zdotu",
+      "library": "KML_BLAS",
+      "headerfile": "",
+      "desc_cn": "双精度复数向量点积",
+      "desc_en": "Complex vector dot product",
+      "benefit_cn": "基于鲲鹏架构，通过向量化、数据预取、编译优化、数据重排等手段，实现性能优化",
+      "benefit_en": "Based on the Kunpeng architecture,performance is optimized through vectorization、data prefetching、compilation optimization、and data rearrangement"
+    },
+	{
+      "name": "cblas_ssdot",
+      "library": "KML_BLAS",
+      "headerfile": "",
+      "desc_cn": "单精度浮点类型扩展精度点积",
+      "desc_en": "Extended precision dot product",
+      "benefit_cn": "基于鲲鹏架构，通过向量化、数据预取、编译优化、数据重排等手段，实现性能优化",
+      "benefit_en": "Based on the Kunpeng architecture,performance is optimized through vectorization、data prefetching、compilation optimization、and data rearrangement"
+    },
+	{
+      "name": "cblas_dsdot",
+      "library": "KML_BLAS",
+      "headerfile": "",
+      "desc_cn": "双精度浮点类型扩展精度点积",
+      "desc_en": "Extended precision dot product",
+      "benefit_cn": "基于鲲鹏架构，通过向量化、数据预取、编译优化、数据重排等手段，实现性能优化",
+      "benefit_en": "Based on the Kunpeng architecture,performance is optimized through vectorization、data prefetching、compilation optimization、and data rearrangement"
+    },
+	{
+      "name": "cblas_isamax",
+      "library": "KML_BLAS",
+      "headerfile": "",
+      "desc_cn": "单精度浮点类型向量中最大绝对值的索引",
+      "desc_en": "Index of the maximum absolute value in the vector",
+      "benefit_cn": "基于鲲鹏架构，通过向量化、数据预取、编译优化、数据重排等手段，实现性能优化",
+      "benefit_en": "Based on the Kunpeng architecture,performance is optimized through vectorization、data prefetching、compilation optimization、and data rearrangement"
+    },
+	{
+      "name": "cblas_idamax",
+      "library": "KML_BLAS",
+      "headerfile": "",
+      "desc_cn": "双精度浮点类型向量中最大绝对值的索引",
+      "desc_en": "Index of the maximum absolute value in the vector",
+      "benefit_cn": "基于鲲鹏架构，通过向量化、数据预取、编译优化、数据重排等手段，实现性能优化",
+      "benefit_en": "Based on the Kunpeng architecture,performance is optimized through vectorization、data prefetching、compilation optimization、and data rearrangement"
+    },
+	{
+      "name": "cblas_icamax",
+      "library": "KML_BLAS",
+      "headerfile": "",
+      "desc_cn": "单精度复数类型向量中最大绝对值的索引",
+      "desc_en": "Index of the maximum absolute value in the vector",
+      "benefit_cn": "基于鲲鹏架构，通过向量化、数据预取、编译优化、数据重排等手段，实现性能优化",
+      "benefit_en": "Based on the Kunpeng architecture,performance is optimized through vectorization、data prefetching、compilation optimization、and data rearrangement"
+    },
+	{
+      "name": "cblas_izamax",
+      "library": "KML_BLAS",
+      "headerfile": "",
+      "desc_cn": "双精度复数类型向量中最大绝对值的索引",
+      "desc_en": "Index of the maximum absolute value in the vector",
+      "benefit_cn": "基于鲲鹏架构，通过向量化、数据预取、编译优化、数据重排等手段，实现性能优化",
+      "benefit_en": "Based on the Kunpeng architecture,performance is optimized through vectorization、data prefetching、compilation optimization、and data rearrangement"
+    },
+	{
+      "name": "cblas_isamin",
+      "library": "KML_BLAS",
+      "headerfile": "",
+      "desc_cn": "单精度浮点类型向量中最小绝对值的索引",
+      "desc_en": "Index of the minimum absolute value in the vector",
+      "benefit_cn": "基于鲲鹏架构，通过向量化、数据预取、编译优化、数据重排等手段，实现性能优化",
+      "benefit_en": "Based on the Kunpeng architecture,performance is optimized through vectorization、data prefetching、compilation optimization、and data rearrangement"
+    },
+	{
+      "name": "cblas_idamin",
+      "library": "KML_BLAS",
+      "headerfile": "",
+      "desc_cn": "双精度浮点类型向量中最小绝对值的索引",
+      "desc_en": "Index of the minimum absolute value in the vector",
+      "benefit_cn": "基于鲲鹏架构，通过向量化、数据预取、编译优化、数据重排等手段，实现性能优化",
+      "benefit_en": "Based on the Kunpeng architecture,performance is optimized through vectorization、data prefetching、compilation optimization、and data rearrangement"
+    },
+	{
+      "name": "cblas_icamin",
+      "library": "KML_BLAS",
+      "headerfile": "",
+      "desc_cn": "单精度复数类型向量中最小绝对值的索引",
+      "desc_en": "Index of the minimum absolute value in the vector",
+      "benefit_cn": "基于鲲鹏架构，通过向量化、数据预取、编译优化、数据重排等手段，实现性能优化",
+      "benefit_en": "Based on the Kunpeng architecture,performance is optimized through vectorization、data prefetching、compilation optimization、and data rearrangement"
+    },
+	{
+      "name": "cblas_izamin",
+      "library": "KML_BLAS",
+      "headerfile": "",
+      "desc_cn": "双精度复数类型向量中最小绝对值的索引",
+      "desc_en": "Index of the minimum absolute value in the vector",
+      "benefit_cn": "基于鲲鹏架构，通过向量化、数据预取、编译优化、数据重排等手段，实现性能优化",
+      "benefit_en": "Based on the Kunpeng architecture,performance is optimized through vectorization、data prefetching、compilation optimization、and data rearrangement"
+    },
+	{
+      "name": "cblas_snrm2",
+      "library": "KML_BLAS",
+      "headerfile": "",
+      "desc_cn": "计算欧几里得范数",
+      "desc_en": "Euclidean norm",
+      "benefit_cn": "基于鲲鹏架构，通过向量化、数据预取、编译优化、数据重排等手段，实现性能优化",
+      "benefit_en": "Based on the Kunpeng architecture,performance is optimized through vectorization、data prefetching、compilation optimization、and data rearrangement"
+    },
+	{
+      "name": "cblas_dnrm2",
+      "library": "KML_BLAS",
+      "headerfile": "",
+      "desc_cn": "计算欧几里得范数",
+      "desc_en": "Euclidean norm",
+      "benefit_cn": "基于鲲鹏架构，通过向量化、数据预取、编译优化、数据重排等手段，实现性能优化",
+      "benefit_en": "Based on the Kunpeng architecture,performance is optimized through vectorization、data prefetching、compilation optimization、and data rearrangement"
+    },
+	{
+      "name": "cblas_cnrm2",
+      "library": "KML_BLAS",
+      "headerfile": "",
+      "desc_cn": "计算欧几里得范数",
+      "desc_en": "Euclidean norm",
+      "benefit_cn": "基于鲲鹏架构，通过向量化、数据预取、编译优化、数据重排等手段，实现性能优化",
+      "benefit_en": "Based on the Kunpeng architecture,performance is optimized through vectorization、data prefetching、compilation optimization、and data rearrangement"
+    },
+	{
+      "name": "cblas_znrm2",
+      "library": "KML_BLAS",
+      "headerfile": "",
+      "desc_cn": "计算欧几里得范数",
+      "desc_en": "Euclidean norm",
+      "benefit_cn": "基于鲲鹏架构，通过向量化、数据预取、编译优化、数据重排等手段，实现性能优化",
+      "benefit_en": "Based on the Kunpeng architecture,performance is optimized through vectorization、data prefetching、compilation optimization、and data rearrangement"
+    },
+	{
+      "name": "cblas_srot",
+      "library": "KML_BLAS",
+      "headerfile": "",
+      "desc_cn": "单精度浮点类型基于平面上点旋转",
+      "desc_en": "Dot rotation based on the plane",
+      "benefit_cn": "基于鲲鹏架构，通过向量化、数据预取、编译优化、数据重排等手段，实现性能优化",
+      "benefit_en": "Based on the Kunpeng architecture,performance is optimized through vectorization、data prefetching、compilation optimization、and data rearrangement"
+    },
+	{
+      "name": "cblas_drot",
+      "library": "KML_BLAS",
+      "headerfile": "",
+      "desc_cn": "双精度浮点类型基于平面上点旋转",
+      "desc_en": "Dot rotation based on the plane",
+      "benefit_cn": "基于鲲鹏架构，通过向量化、数据预取、编译优化、数据重排等手段，实现性能优化",
+      "benefit_en": "Based on the Kunpeng architecture,performance is optimized through vectorization、data prefetching、compilation optimization、and data rearrangement"
+    },
+	{
+      "name": "cblas_srotg",
+      "library": "KML_BLAS",
+      "headerfile": "",
+      "desc_cn": "单精度浮点类型构造旋转平面",
+      "desc_en": "Constructs the rotating plane",
+      "benefit_cn": "基于鲲鹏架构，通过向量化、数据预取、编译优化、数据重排等手段，实现性能优化",
+      "benefit_en": "Based on the Kunpeng architecture,performance is optimized through vectorization、data prefetching、compilation optimization、and data rearrangement"
+    },
+	{
+      "name": "cblas_drotg",
+      "library": "KML_BLAS",
+      "headerfile": "",
+      "desc_cn": "双精度浮点类型构造旋转平面",
+      "desc_en": "Constructs the rotating plane",
+      "benefit_cn": "基于鲲鹏架构，通过向量化、数据预取、编译优化、数据重排等手段，实现性能优化",
+      "benefit_en": "Based on the Kunpeng architecture,performance is optimized through vectorization、data prefetching、compilation optimization、and data rearrangement"
+    },
+	{
+      "name": "cblas_srotm",
+      "library": "KML_BLAS",
+      "headerfile": "",
+      "desc_cn": "单精度浮点类型修改旋转平面",
+      "desc_en": "Modifies the rotation plane",
+      "benefit_cn": "基于鲲鹏架构，通过向量化、数据预取、编译优化、数据重排等手段，实现性能优化",
+      "benefit_en": "Based on the Kunpeng architecture,performance is optimized through vectorization、data prefetching、compilation optimization、and data rearrangement"
+    },
+	{
+      "name": "cblas_drotm",
+      "library": "KML_BLAS",
+      "headerfile": "",
+      "desc_cn": "双精度浮点类型修改旋转平面",
+      "desc_en": "Modifies the rotation plane",
+      "benefit_cn": "基于鲲鹏架构，通过向量化、数据预取、编译优化、数据重排等手段，实现性能优化",
+      "benefit_en": "Based on the Kunpeng architecture,performance is optimized through vectorization、data prefetching、compilation optimization、and data rearrangement"
+    },
+	{
+      "name": "cblas_srotmg",
+      "library": "KML_BLAS",
+      "headerfile": "",
+      "desc_cn": "单精度浮点类型构造修改的旋转平面",
+      "desc_en": "Constructs the modified conversion plane",
+      "benefit_cn": "基于鲲鹏架构，通过向量化、数据预取、编译优化、数据重排等手段，实现性能优化",
+      "benefit_en": "Based on the Kunpeng architecture,performance is optimized through vectorization、data prefetching、compilation optimization、and data rearrangement"
+    },
+	{
+      "name": "cblas_drotmg",
+      "library": "KML_BLAS",
+      "headerfile": "",
+      "desc_cn": "双精度浮点类型构造修改的旋转平面",
+      "desc_en": "Constructs the modified conversion plane",
+      "benefit_cn": "基于鲲鹏架构，通过向量化、数据预取、编译优化、数据重排等手段，实现性能优化",
+      "benefit_en": "Based on the Kunpeng architecture,performance is optimized through vectorization、data prefetching、compilation optimization、and data rearrangement"
+    },
+	{
+      "name": "cblas_sscal",
+      "library": "KML_BLAS",
+      "headerfile": "",
+      "desc_cn": "单精度浮点类型向量缩放",
+      "desc_en": "Vector scaling",
+      "benefit_cn": "基于鲲鹏架构，通过向量化、数据预取、编译优化、数据重排等手段，实现性能优化",
+      "benefit_en": "Based on the Kunpeng architecture,performance is optimized through vectorization、data prefetching、compilation optimization、and data rearrangement"
+    },
+	{
+      "name": "cblas_dscal",
+      "library": "KML_BLAS",
+      "headerfile": "",
+      "desc_cn": "双精度浮点类型向量缩放",
+      "desc_en": "Vector scaling",
+      "benefit_cn": "基于鲲鹏架构，通过向量化、数据预取、编译优化、数据重排等手段，实现性能优化",
+      "benefit_en": "Based on the Kunpeng architecture,performance is optimized through vectorization、data prefetching、compilation optimization、and data rearrangement"
+    },
+	{
+      "name": "cblas_cscal",
+      "library": "KML_BLAS",
+      "headerfile": "",
+      "desc_cn": "单精度复数类型向量缩放",
+      "desc_en": "Vector scaling",
+      "benefit_cn": "基于鲲鹏架构，通过向量化、数据预取、编译优化、数据重排等手段，实现性能优化",
+      "benefit_en": "Based on the Kunpeng architecture,performance is optimized through vectorization、data prefetching、compilation optimization、and data rearrangement"
+    },
+	{
+      "name": "cblas_zscal",
+      "library": "KML_BLAS",
+      "headerfile": "",
+      "desc_cn": "双精度复数类型向量缩放",
+      "desc_en": "Vector scaling",
+      "benefit_cn": "基于鲲鹏架构，通过向量化、数据预取、编译优化、数据重排等手段，实现性能优化",
+      "benefit_en": "Based on the Kunpeng architecture,performance is optimized through vectorization、data prefetching、compilation optimization、and data rearrangement"
+    },
+	{
+      "name": "cblas_csscal",
+      "library": "KML_BLAS",
+      "headerfile": "",
+      "desc_cn": "单精度复数类型向量缩放",
+      "desc_en": "Vector scaling",
+      "benefit_cn": "基于鲲鹏架构，通过向量化、数据预取、编译优化、数据重排等手段，实现性能优化",
+      "benefit_en": "Based on the Kunpeng architecture,performance is optimized through vectorization、data prefetching、compilation optimization、and data rearrangement"
+    },
+	{
+      "name": "cblas_zdscal",
+      "library": "KML_BLAS",
+      "headerfile": "",
+      "desc_cn": "双精度复数类型向量缩放",
+      "desc_en": "Vector scaling",
+      "benefit_cn": "基于鲲鹏架构，通过向量化、数据预取、编译优化、数据重排等手段，实现性能优化",
+      "benefit_en": "Based on the Kunpeng architecture,performance is optimized through vectorization、data prefetching、compilation optimization、and data rearrangement"
+    },
+	{
+      "name": "cblas_sswap",
+      "library": "KML_BLAS",
+      "headerfile": "",
+      "desc_cn": "单精度浮点类型两个向量元素交换",
+      "desc_en": "Vector scaling",
+      "benefit_cn": "基于鲲鹏架构，通过向量化、数据预取、编译优化、数据重排等手段，实现性能优化",
+      "benefit_en": "Based on the Kunpeng architecture,performance is optimized through vectorization、data prefetching、compilation optimization、and data rearrangement"
+    },
+	{
+      "name": "cblas_dswap",
+      "library": "KML_BLAS",
+      "headerfile": "",
+      "desc_cn": "双精度浮点类型两个向量元素交换",
+      "desc_en": "Vector scaling",
+      "benefit_cn": "基于鲲鹏架构，通过向量化、数据预取、编译优化、数据重排等手段，实现性能优化",
+      "benefit_en": "Based on the Kunpeng architecture,performance is optimized through vectorization、data prefetching、compilation optimization、and data rearrangement"
+    },
+	{
+      "name": "cblas_cswap",
+      "library": "KML_BLAS",
+      "headerfile": "",
+      "desc_cn": "单精度复数类型两个向量元素交换",
+      "desc_en": "Vector scaling",
+      "benefit_cn": "基于鲲鹏架构，通过向量化、数据预取、编译优化、数据重排等手段，实现性能优化",
+      "benefit_en": "Based on the Kunpeng architecture,performance is optimized through vectorization、data prefetching、compilation optimization、and data rearrangement"
+    },
+	{
+      "name": "cblas_zswap",
+      "library": "KML_BLAS",
+      "headerfile": "",
+      "desc_cn": "双精度复数类型两个向量元素交换",
+      "desc_en": "Vector scaling",
+      "benefit_cn": "基于鲲鹏架构，通过向量化、数据预取、编译优化、数据重排等手段，实现性能优化",
+      "benefit_en": "Based on the Kunpeng architecture,performance is optimized through vectorization、data prefetching、compilation optimization、and data rearrangement"
+    },
+	{
+      "name": "cblas_sgbmv",
+      "library": "KML_BLAS",
+      "headerfile": "",
+      "desc_cn": "单精度浮点类型向量与带状矩阵乘积",
+      "desc_en": "Product of a vector and a band matrix",
+      "benefit_cn": "基于鲲鹏架构，通过向量化、数据预取、编译优化、数据重排等手段，实现性能优化",
+      "benefit_en": "Based on the Kunpeng architecture,performance is optimized through vectorization、data prefetching、compilation optimization、and data rearrangement"
+    },
+	{
+      "name": "cblas_dgbmv",
+      "library": "KML_BLAS",
+      "headerfile": "",
+      "desc_cn": "双精度浮点类型向量与带状矩阵乘积",
+      "desc_en": "Product of a vector and a band matrix",
+      "benefit_cn": "基于鲲鹏架构，通过向量化、数据预取、编译优化、数据重排等手段，实现性能优化",
+      "benefit_en": "Based on the Kunpeng architecture,performance is optimized through vectorization、data prefetching、compilation optimization、and data rearrangement"
+    },
+	{
+      "name": "cblas_cgbmv",
+      "library": "KML_BLAS",
+      "headerfile": "",
+      "desc_cn": "单精度复数类型向量与带状矩阵乘积",
+      "desc_en": "Product of a vector and a band matrix",
+      "benefit_cn": "基于鲲鹏架构，通过向量化、数据预取、编译优化、数据重排等手段，实现性能优化",
+      "benefit_en": "Based on the Kunpeng architecture,performance is optimized through vectorization、data prefetching、compilation optimization、and data rearrangement"
+    },
+	{
+      "name": "cblas_zgbmv",
+      "library": "KML_BLAS",
+      "headerfile": "",
+      "desc_cn": "双精度复数类型向量与带状矩阵乘积",
+      "desc_en": "Product of a vector and a band matrix",
+      "benefit_cn": "基于鲲鹏架构，通过向量化、数据预取、编译优化、数据重排等手段，实现性能优化",
+      "benefit_en": "Based on the Kunpeng architecture,performance is optimized through vectorization、data prefetching、compilation optimization、and data rearrangement"
+    },
+	{
+      "name": "cblas_sgemv",
+      "library": "KML_BLAS",
+      "headerfile": "",
+      "desc_cn": "单精度浮点类型向量与矩阵乘积",
+      "desc_en": "Product of a vector and a matrix",
+      "benefit_cn": "基于鲲鹏架构，通过向量化、数据预取、编译优化、数据重排等手段，实现性能优化",
+      "benefit_en": "Based on the Kunpeng architecture,performance is optimized through vectorization、data prefetching、compilation optimization、and data rearrangement"
+    },
+	{
+      "name": "cblas_dgemv",
+      "library": "KML_BLAS",
+      "headerfile": "",
+      "desc_cn": "双精度浮点类型向量与矩阵乘积",
+      "desc_en": "Product of a vector and a matrix",
+      "benefit_cn": "基于鲲鹏架构，通过向量化、数据预取、编译优化、数据重排等手段，实现性能优化",
+      "benefit_en": "Based on the Kunpeng architecture,performance is optimized through vectorization、data prefetching、compilation optimization、and data rearrangement"
+    },
+	{
+      "name": "cblas_cgemv",
+      "library": "KML_BLAS",
+      "headerfile": "",
+      "desc_cn": "单精度复数类型向量与矩阵乘积",
+      "desc_en": "Product of a vector and a matrix",
+      "benefit_cn": "基于鲲鹏架构，通过向量化、数据预取、编译优化、数据重排等手段，实现性能优化",
+      "benefit_en": "Based on the Kunpeng architecture,performance is optimized through vectorization、data prefetching、compilation optimization、and data rearrangement"
+    },
+	{
+      "name": "cblas_zgemv",
+      "library": "KML_BLAS",
+      "headerfile": "",
+      "desc_cn": "双精度复数类型向量与矩阵乘积",
+      "desc_en": "Product of a vector and a matrix",
+      "benefit_cn": "基于鲲鹏架构，通过向量化、数据预取、编译优化、数据重排等手段，实现性能优化",
+      "benefit_en": "Based on the Kunpeng architecture,performance is optimized through vectorization、data prefetching、compilation optimization、and data rearrangement"
+    },
+	{
+      "name": "cblas_sger",
+      "library": "KML_BLAS",
+      "headerfile": "",
+      "desc_cn": "单精度浮点类型一般矩阵秩1更新",
+      "desc_en": "General matrix rank 1 update",
+      "benefit_cn": "基于鲲鹏架构，通过向量化、数据预取、编译优化、数据重排等手段，实现性能优化",
+      "benefit_en": "Based on the Kunpeng architecture,performance is optimized through vectorization、data prefetching、compilation optimization、and data rearrangement"
+    },
+	{
+      "name": "cblas_dger",
+      "library": "KML_BLAS",
+      "headerfile": "",
+      "desc_cn": "双精度浮点类型一般矩阵秩1更新",
+      "desc_en": "General matrix rank 1 update",
+      "benefit_cn": "基于鲲鹏架构，通过向量化、数据预取、编译优化、数据重排等手段，实现性能优化",
+      "benefit_en": "Based on the Kunpeng architecture,performance is optimized through vectorization、data prefetching、compilation optimization、and data rearrangement"
+    },
+	{
+      "name": "cblas_cgerc",
+      "library": "KML_BLAS",
+      "headerfile": "",
+      "desc_cn": "一般单精度复数矩阵秩1更新",
+      "desc_en": "General complex matrix rank 1 update",
+      "benefit_cn": "基于鲲鹏架构，通过向量化、数据预取、编译优化、数据重排等手段，实现性能优化",
+      "benefit_en": "Based on the Kunpeng architecture,performance is optimized through vectorization、data prefetching、compilation optimization、and data rearrangement"
+    },
+	{
+      "name": "cblas_zgerc",
+      "library": "KML_BLAS",
+      "headerfile": "",
+      "desc_cn": "一般双精度复数矩阵秩1更新",
+      "desc_en": "General complex matrix rank 1 update",
+      "benefit_cn": "基于鲲鹏架构，通过向量化、数据预取、编译优化、数据重排等手段，实现性能优化",
+      "benefit_en": "Based on the Kunpeng architecture,performance is optimized through vectorization、data prefetching、compilation optimization、and data rearrangement"
+    },
+	{
+      "name": "cblas_cgeru",
+      "library": "KML_BLAS",
+      "headerfile": "",
+      "desc_cn": "单精度复数类型一般共轭矩阵秩1更新",
+      "desc_en": "General conjugate matrix rank 1 update",
+      "benefit_cn": "基于鲲鹏架构，通过向量化、数据预取、编译优化、数据重排等手段，实现性能优化",
+      "benefit_en": "Based on the Kunpeng architecture,performance is optimized through vectorization、data prefetching、compilation optimization、and data rearrangement"
+    },
+	{
+      "name": "cblas_zgeru",
+      "library": "KML_BLAS",
+      "headerfile": "",
+      "desc_cn": "双精度复数类型一般共轭矩阵秩1更新",
+      "desc_en": "General conjugate matrix rank 1 update",
+      "benefit_cn": "基于鲲鹏架构，通过向量化、数据预取、编译优化、数据重排等手段，实现性能优化",
+      "benefit_en": "Based on the Kunpeng architecture,performance is optimized through vectorization、data prefetching、compilation optimization、and data rearrangement"
+    },
+	{
+      "name": "cblas_chbmv",
+      "library": "KML_BLAS",
+      "headerfile": "",
+      "desc_cn": "单精度复数类型向量与埃尔米特带状矩阵乘积",
+      "desc_en": "Product of a vector and a Hermitian band matrix",
+      "benefit_cn": "基于鲲鹏架构，通过向量化、数据预取、编译优化、数据重排等手段，实现性能优化",
+      "benefit_en": "Based on the Kunpeng architecture,performance is optimized through vectorization、data prefetching、compilation optimization、and data rearrangement"
+    },
+	{
+      "name": "cblas_zhbmv",
+      "library": "KML_BLAS",
+      "headerfile": "",
+      "desc_cn": "双精度复数类型向量与埃尔米特带状矩阵乘积",
+      "desc_en": "Product of a vector and a Hermitian band matrix",
+      "benefit_cn": "基于鲲鹏架构，通过向量化、数据预取、编译优化、数据重排等手段，实现性能优化",
+      "benefit_en": "Based on the Kunpeng architecture,performance is optimized through vectorization、data prefetching、compilation optimization、and data rearrangement"
+    },
+    {
+      "name": "cblas_chemv",
+      "library": "KML_BLAS",
+      "headerfile": "",
+      "desc_cn": "单精度复数类型向量与埃尔米特矩阵乘积",
+      "desc_en": "Product of a vector and a Hermitian matrix",
+      "benefit_cn": "基于鲲鹏架构，通过向量化、数据预取、编译优化、数据重排等手段，实现性能优化",
+      "benefit_en": "Based on the Kunpeng architecture,performance is optimized through vectorization、data prefetching、compilation optimization、and data rearrangement"
+    },
+	{
+      "name": "cblas_zhemv",
+      "library": "KML_BLAS",
+      "headerfile": "",
+      "desc_cn": "双精度复数类型向量与埃尔米特矩阵乘积",
+      "desc_en": "Product of a vector and a Hermitian matrix",
+      "benefit_cn": "基于鲲鹏架构，通过向量化、数据预取、编译优化、数据重排等手段，实现性能优化",
+      "benefit_en": "Based on the Kunpeng architecture,performance is optimized through vectorization、data prefetching、compilation optimization、and data rearrangement"
+    },
+    {
+      "name": "cblas_cher",
+      "library": "KML_BLAS",
+      "headerfile": "",
+      "desc_cn": "单精度复数埃尔米特矩阵秩1更新",
+      "desc_en": "Complex Hermitian matrix rank 1 update",
+      "benefit_cn": "基于鲲鹏架构，通过向量化、数据预取、编译优化、数据重排等手段，实现性能优化",
+      "benefit_en": "Based on the Kunpeng architecture,performance is optimized through vectorization、data prefetching、compilation optimization、and data rearrangement"
+    },
+	{
+      "name": "cblas_zher",
+      "library": "KML_BLAS",
+      "headerfile": "",
+      "desc_cn": "双精度复数埃尔米特矩阵秩1更新",
+      "desc_en": "Complex Hermitian matrix rank 1 update",
+      "benefit_cn": "基于鲲鹏架构，通过向量化、数据预取、编译优化、数据重排等手段，实现性能优化",
+      "benefit_en": "Based on the Kunpeng architecture,performance is optimized through vectorization、data prefetching、compilation optimization、and data rearrangement"
+    },
+    {
+      "name": "cblas_cher2",
+      "library": "KML_BLAS",
+      "headerfile": "",
+      "desc_cn": "单精度复数埃尔米特矩阵秩2更新",
+      "desc_en": "Complex Hermitian matrix rank 2 update",
+      "benefit_cn": "基于鲲鹏架构，通过向量化、数据预取、编译优化、数据重排等手段，实现性能优化",
+      "benefit_en": "Based on the Kunpeng architecture,performance is optimized through vectorization、data prefetching、compilation optimization、and data rearrangement"
+    },
+	{
+      "name": "cblas_zher2",
+      "library": "KML_BLAS",
+      "headerfile": "",
+      "desc_cn": "双精度复数埃尔米特矩阵秩2更新",
+      "desc_en": "Complex Hermitian matrix rank 2 update",
+      "benefit_cn": "基于鲲鹏架构，通过向量化、数据预取、编译优化、数据重排等手段，实现性能优化",
+      "benefit_en": "Based on the Kunpeng architecture,performance is optimized through vectorization、data prefetching、compilation optimization、and data rearrangement"
+    },
+    {
+      "name": "cblas_chpmv",
+      "library": "KML_BLAS",
+      "headerfile": "",
+      "desc_cn": "单精度复数向量与压缩的埃尔米特矩阵乘积",
+      "desc_en": "Product of vector and compressed Hermitian matrix",
+      "benefit_cn": "基于鲲鹏架构，通过向量化、数据预取、编译优化、数据重排等手段，实现性能优化",
+      "benefit_en": "Based on the Kunpeng architecture,performance is optimized through vectorization、data prefetching、compilation optimization、and data rearrangement"
+    },
+	{
+      "name": "cblas_zhpmv",
+      "library": "KML_BLAS",
+      "headerfile": "",
+      "desc_cn": "双精度复数向量与压缩的埃尔米特矩阵乘积",
+      "desc_en": "Product of vector and compressed Hermitian matrix",
+      "benefit_cn": "基于鲲鹏架构，通过向量化、数据预取、编译优化、数据重排等手段，实现性能优化",
+      "benefit_en": "Based on the Kunpeng architecture,performance is optimized through vectorization、data prefetching、compilation optimization、and data rearrangement"
+    },
+    {
+      "name": "cblas_chpr",
+      "library": "KML_BLAS",
+      "headerfile": "",
+      "desc_cn": "三角展开的埃尔米特矩阵秩1更新",
+      "desc_en": "Rank 1 update of triangularly expanded Hermitian matrix",
+      "benefit_cn": "基于鲲鹏架构，通过向量化、数据预取、编译优化、数据重排等手段，实现性能优化",
+      "benefit_en": "Based on the Kunpeng architecture,performance is optimized through vectorization、data prefetching、compilation optimization、and data rearrangement"
+    },
+	{
+      "name": "cblas_zhpr",
+      "library": "KML_BLAS",
+      "headerfile": "",
+      "desc_cn": "三角展开的埃尔米特矩阵秩1更新",
+      "desc_en": "Rank 1 update of triangularly expanded Hermitian matrix",
+      "benefit_cn": "基于鲲鹏架构，通过向量化、数据预取、编译优化、数据重排等手段，实现性能优化",
+      "benefit_en": "Based on the Kunpeng architecture,performance is optimized through vectorization、data prefetching、compilation optimization、and data rearrangement"
+    },
+    {
+      "name": "cblas_chpr2",
+      "library": "KML_BLAS",
+      "headerfile": "",
+      "desc_cn": "三角展开的埃尔米特矩阵秩2更新",
+      "desc_en": "Rank 2 update of triangularly expanded Hermitian matrix",
+      "benefit_cn": "基于鲲鹏架构，通过向量化、数据预取、编译优化、数据重排等手段，实现性能优化",
+      "benefit_en": "Based on the Kunpeng architecture,performance is optimized through vectorization、data prefetching、compilation optimization、and data rearrangement"
+    },
+	{
+      "name": "cblas_zhpr2",
+      "library": "KML_BLAS",
+      "headerfile": "",
+      "desc_cn": "三角展开的埃尔米特矩阵秩2更新",
+      "desc_en": "Rank 2 update of triangularly expanded Hermitian matrix",
+      "benefit_cn": "基于鲲鹏架构，通过向量化、数据预取、编译优化、数据重排等手段，实现性能优化",
+      "benefit_en": "Based on the Kunpeng architecture,performance is optimized through vectorization、data prefetching、compilation optimization、and data rearrangement"
+    },
+    {
+      "name": "cblas_ssbmv",
+      "library": "KML_BLAS",
+      "headerfile": "",
+      "desc_cn": "单精度向量与对称带状矩阵乘积",
+      "desc_en": "Product of a vector and a symmetric band matrix",
+      "benefit_cn": "基于鲲鹏架构，通过向量化、数据预取、编译优化、数据重排等手段，实现性能优化",
+      "benefit_en": "Based on the Kunpeng architecture,performance is optimized through vectorization、data prefetching、compilation optimization、and data rearrangement"
+    },
+	{
+      "name": "cblas_dsbmv",
+      "library": "KML_BLAS",
+      "headerfile": "",
+      "desc_cn": "双精度向量与对称带状矩阵乘积",
+      "desc_en": "Product of a vector and a symmetric band matrix",
+      "benefit_cn": "基于鲲鹏架构，通过向量化、数据预取、编译优化、数据重排等手段，实现性能优化",
+      "benefit_en": "Based on the Kunpeng architecture,performance is optimized through vectorization、data prefetching、compilation optimization、and data rearrangement"
+    },
+    {
+      "name": "cblas_sspmv",
+      "library": "KML_BLAS",
+      "headerfile": "",
+      "desc_cn": "单精度向量与压缩的对称矩阵乘积",
+      "desc_en": "Product of vector and compressed symmetric matrix",
+      "benefit_cn": "基于鲲鹏架构，通过向量化、数据预取、编译优化、数据重排等手段，实现性能优化",
+      "benefit_en": "Based on the Kunpeng architecture,performance is optimized through vectorization、data prefetching、compilation optimization、and data rearrangement"
+    },
+	{
+      "name": "cblas_dspmv",
+      "library": "KML_BLAS",
+      "headerfile": "",
+      "desc_cn": "双精度向量与压缩的对称矩阵乘积",
+      "desc_en": "Product of vector and compressed symmetric matrix",
+      "benefit_cn": "基于鲲鹏架构，通过向量化、数据预取、编译优化、数据重排等手段，实现性能优化",
+      "benefit_en": "Based on the Kunpeng architecture,performance is optimized through vectorization、data prefetching、compilation optimization、and data rearrangement"
+    },
+    {
+      "name": "cblas_sspr",
+      "library": "KML_BLAS",
+      "headerfile": "",
+      "desc_cn": "对称展开矩阵秩1更新",
+      "desc_en": "Rank 1 update of symmetric expansion matrix",
+      "benefit_cn": "基于鲲鹏架构，通过向量化、数据预取、编译优化、数据重排等手段，实现性能优化",
+      "benefit_en": "Based on the Kunpeng architecture,performance is optimized through vectorization、data prefetching、compilation optimization、and data rearrangement"
+    },
+	{
+      "name": "cblas_dspr",
+      "library": "KML_BLAS",
+      "headerfile": "",
+      "desc_cn": "对称展开矩阵秩1更新",
+      "desc_en": "Rank 1 update of symmetric expansion matrix",
+      "benefit_cn": "基于鲲鹏架构，通过向量化、数据预取、编译优化、数据重排等手段，实现性能优化",
+      "benefit_en": "Based on the Kunpeng architecture,performance is optimized through vectorization、data prefetching、compilation optimization、and data rearrangement"
+    },
+    {
+      "name": "cblas_sspr2",
+      "library": "KML_BLAS",
+      "headerfile": "",
+      "desc_cn": "对称展开矩阵秩2更新",
+      "desc_en": "Rank 2 update of symmetric expansion matrix",
+      "benefit_cn": "基于鲲鹏架构，通过向量化、数据预取、编译优化、数据重排等手段，实现性能优化",
+      "benefit_en": "Based on the Kunpeng architecture,performance is optimized through vectorization、data prefetching、compilation optimization、and data rearrangement"
+    },
+	{
+      "name": "cblas_dspr2",
+      "library": "KML_BLAS",
+      "headerfile": "",
+      "desc_cn": "对称展开矩阵秩2更新",
+      "desc_en": "Rank 2 update of symmetric expansion matrix",
+      "benefit_cn": "基于鲲鹏架构，通过向量化、数据预取、编译优化、数据重排等手段，实现性能优化",
+      "benefit_en": "Based on the Kunpeng architecture,performance is optimized through vectorization、data prefetching、compilation optimization、and data rearrangement"
+    },
+    {
+      "name": "cblas_ssymv",
+      "library": "KML_BLAS",
+      "headerfile": "",
+      "desc_cn": "单精度向量与对称矩阵乘积",
+      "desc_en": "Product of a vector and a symmetric matrix",
+      "benefit_cn": "基于鲲鹏架构，通过向量化、数据预取、编译优化、数据重排等手段，实现性能优化",
+      "benefit_en": "Based on the Kunpeng architecture,performance is optimized through vectorization、data prefetching、compilation optimization、and data rearrangement"
+    },
+	{
+      "name": "cblas_dsymv",
+      "library": "KML_BLAS",
+      "headerfile": "",
+      "desc_cn": "双精度向量与对称矩阵乘积",
+      "desc_en": "Product of a vector and a symmetric matrix",
+      "benefit_cn": "基于鲲鹏架构，通过向量化、数据预取、编译优化、数据重排等手段，实现性能优化",
+      "benefit_en": "Based on the Kunpeng architecture,performance is optimized through vectorization、data prefetching、compilation optimization、and data rearrangement"
+    },
+    {
+      "name": "cblas_ssyr",
+      "library": "KML_BLAS",
+      "headerfile": "",
+      "desc_cn": "单精度对称矩阵秩1更新",
+      "desc_en": "Symmetric matrix rank 1 update",
+      "benefit_cn": "基于鲲鹏架构，通过向量化、数据预取、编译优化、数据重排等手段，实现性能优化",
+      "benefit_en": "Based on the Kunpeng architecture,performance is optimized through vectorization、data prefetching、compilation optimization、and data rearrangement"
+    },
+	{
+      "name": "cblas_dsyr",
+      "library": "KML_BLAS",
+      "headerfile": "",
+      "desc_cn": "双精度对称矩阵秩1更新",
+      "desc_en": "Symmetric matrix rank 1 update",
+      "benefit_cn": "基于鲲鹏架构，通过向量化、数据预取、编译优化、数据重排等手段，实现性能优化",
+      "benefit_en": "Based on the Kunpeng architecture,performance is optimized through vectorization、data prefetching、compilation optimization、and data rearrangement"
+    },
+    {
+      "name": "cblas_ssyr2",
+      "library": "KML_BLAS",
+      "headerfile": "",
+      "desc_cn": "单精度对称矩阵秩2更新",
+      "desc_en": "Symmetric matrix rank 2 update",
+      "benefit_cn": "基于鲲鹏架构，通过向量化、数据预取、编译优化、数据重排等手段，实现性能优化",
+      "benefit_en": "Based on the Kunpeng architecture,performance is optimized through vectorization、data prefetching、compilation optimization、and data rearrangement"
+    },
+	{
+      "name": "cblas_dsyr2",
+      "library": "KML_BLAS",
+      "headerfile": "",
+      "desc_cn": "双精度对称矩阵秩2更新",
+      "desc_en": "Symmetric matrix rank 2 update",
+      "benefit_cn": "基于鲲鹏架构，通过向量化、数据预取、编译优化、数据重排等手段，实现性能优化",
+      "benefit_en": "Based on the Kunpeng architecture,performance is optimized through vectorization、data prefetching、compilation optimization、and data rearrangement"
+    },
+    {
+      "name": "cblas_stbmv",
+      "library": "KML_BLAS",
+      "headerfile": "",
+      "desc_cn": "单精度类型向量与三角带状矩阵乘积",
+      "desc_en": "Product of a vector and a triangular band matrix",
+      "benefit_cn": "基于鲲鹏架构，通过向量化、数据预取、编译优化、数据重排等手段，实现性能优化",
+      "benefit_en": "Based on the Kunpeng architecture,performance is optimized through vectorization、data prefetching、compilation optimization、and data rearrangement"
+    },
+	{
+      "name": "cblas_dtbmv",
+      "library": "KML_BLAS",
+      "headerfile": "",
+      "desc_cn": "双精度类型向量与三角带状矩阵乘积",
+      "desc_en": "Product of a vector and a triangular band matrix",
+      "benefit_cn": "基于鲲鹏架构，通过向量化、数据预取、编译优化、数据重排等手段，实现性能优化",
+      "benefit_en": "Based on the Kunpeng architecture,performance is optimized through vectorization、data prefetching、compilation optimization、and data rearrangement"
+    },
+    {
+      "name": "cblas_ctbmv",
+      "library": "KML_BLAS",
+      "headerfile": "",
+      "desc_cn": "单精度复数类型向量与三角带状矩阵乘积",
+      "desc_en": "Product of a vector and a triangular band matrix",
+      "benefit_cn": "基于鲲鹏架构，通过向量化、数据预取、编译优化、数据重排等手段，实现性能优化",
+      "benefit_en": "Based on the Kunpeng architecture,performance is optimized through vectorization、data prefetching、compilation optimization、and data rearrangement"
+    },
+	{
+      "name": "cblas_ztbmv",
+      "library": "KML_BLAS",
+      "headerfile": "",
+      "desc_cn": "双精度复数类型向量与三角带状矩阵乘积",
+      "desc_en": "Product of a vector and a triangular band matrix",
+      "benefit_cn": "基于鲲鹏架构，通过向量化、数据预取、编译优化、数据重排等手段，实现性能优化",
+      "benefit_en": "Based on the Kunpeng architecture,performance is optimized through vectorization、data prefetching、compilation optimization、and data rearrangement"
+    },
+    {
+      "name": "cblas_stbsv",
+      "library": "KML_BLAS",
+      "headerfile": "",
+      "desc_cn": "单精度类型线性方程组求解，稀疏矩阵为三角带状矩阵",
+      "desc_en": "Solves linear equations.The sparse matrix is a triangular band matrix",
+      "benefit_cn": "基于鲲鹏架构，通过向量化、数据预取、编译优化、数据重排等手段，实现性能优化",
+      "benefit_en": "Based on the Kunpeng architecture,performance is optimized through vectorization、data prefetching、compilation optimization、and data rearrangement"
+    },
+	{
+      "name": "cblas_dtbsv",
+      "library": "KML_BLAS",
+      "headerfile": "",
+      "desc_cn": "双精度类型线性方程组求解，稀疏矩阵为三角带状矩阵",
+      "desc_en": "Solves linear equations.The sparse matrix is a triangular band matrix",
+      "benefit_cn": "基于鲲鹏架构，通过向量化、数据预取、编译优化、数据重排等手段，实现性能优化",
+      "benefit_en": "Based on the Kunpeng architecture,performance is optimized through vectorization、data prefetching、compilation optimization、and data rearrangement"
+    },
+    {
+      "name": "cblas_ctbsv",
+      "library": "KML_BLAS",
+      "headerfile": "",
+      "desc_cn": "单精度复数类型线性方程组求解，稀疏矩阵为三角带状矩阵",
+      "desc_en": "Solves linear equations.The sparse matrix is a triangular band matrix",
+      "benefit_cn": "基于鲲鹏架构，通过向量化、数据预取、编译优化、数据重排等手段，实现性能优化",
+      "benefit_en": "Based on the Kunpeng architecture,performance is optimized through vectorization、data prefetching、compilation optimization、and data rearrangement"
+    },
+	{
+      "name": "cblas_ztbsv",
+      "library": "KML_BLAS",
+      "headerfile": "",
+      "desc_cn": "双精度复数类型线性方程组求解，稀疏矩阵为三角带状矩阵",
+      "desc_en": "Solves linear equations.The sparse matrix is a triangular band matrix",
+      "benefit_cn": "基于鲲鹏架构，通过向量化、数据预取、编译优化、数据重排等手段，实现性能优化",
+      "benefit_en": "Based on the Kunpeng architecture,performance is optimized through vectorization、data prefetching、compilation optimization、and data rearrangement"
+    },
+    {
+      "name": "cblas_stpmv",
+      "library": "KML_BLAS",
+      "headerfile": "",
+      "desc_cn": "单精度类型向量与压缩的三角矩阵乘积",
+      "desc_en": "Product of vector and compressed triangular mstrix",
+      "benefit_cn": "基于鲲鹏架构，通过向量化、数据预取、编译优化、数据重排等手段，实现性能优化",
+      "benefit_en": "Based on the Kunpeng architecture,performance is optimized through vectorization、data prefetching、compilation optimization、and data rearrangement"
+    },
+	{
+      "name": "cblas_dtpmv",
+      "library": "KML_BLAS",
+      "headerfile": "",
+      "desc_cn": "双精度类型向量与压缩的三角矩阵乘积",
+      "desc_en": "Product of vector and compressed triangular mstrix",
+      "benefit_cn": "基于鲲鹏架构，通过向量化、数据预取、编译优化、数据重排等手段，实现性能优化",
+      "benefit_en": "Based on the Kunpeng architecture,performance is optimized through vectorization、data prefetching、compilation optimization、and data rearrangement"
+    },
+    {
+      "name": "cblas_ctpmv",
+      "library": "KML_BLAS",
+      "headerfile": "",
+      "desc_cn": "单精度复数类型向量与压缩的三角矩阵乘积",
+      "desc_en": "Product of vector and compressed triangular mstrix",
+      "benefit_cn": "基于鲲鹏架构，通过向量化、数据预取、编译优化、数据重排等手段，实现性能优化",
+      "benefit_en": "Based on the Kunpeng architecture,performance is optimized through vectorization、data prefetching、compilation optimization、and data rearrangement"
+    },
+	{
+      "name": "cblas_ztpmv",
+      "library": "KML_BLAS",
+      "headerfile": "",
+      "desc_cn": "双精度复数类型向量与压缩的三角矩阵乘积",
+      "desc_en": "Product of vector and compressed triangular mstrix",
+      "benefit_cn": "基于鲲鹏架构，通过向量化、数据预取、编译优化、数据重排等手段，实现性能优化",
+      "benefit_en": "Based on the Kunpeng architecture,performance is optimized through vectorization、data prefetching、compilation optimization、and data rearrangement"
+    },
+    {
+      "name": "cblas_stpsv",
+      "library": "KML_BLAS",
+      "headerfile": "",
+      "desc_cn": "单精度类型线性方程组求解，稀疏矩阵是压缩的三角矩阵",
+      "desc_en": "For solving linear equations, the sparse matrix is a compressed triangular matrix",
+      "benefit_cn": "基于鲲鹏架构，通过向量化、数据预取、编译优化、数据重排等手段，实现性能优化",
+      "benefit_en": "Based on the Kunpeng architecture,performance is optimized through vectorization、data prefetching、compilation optimization、and data rearrangement"
+    },
+	{
+      "name": "cblas_dtpsv",
+      "library": "KML_BLAS",
+      "headerfile": "",
+      "desc_cn": "双精度类型线性方程组求解，稀疏矩阵是压缩的三角矩阵",
+      "desc_en": "For solving linear equations, the sparse matrix is a compressed triangular matrix",
+      "benefit_cn": "基于鲲鹏架构，通过向量化、数据预取、编译优化、数据重排等手段，实现性能优化",
+      "benefit_en": "Based on the Kunpeng architecture,performance is optimized through vectorization、data prefetching、compilation optimization、and data rearrangement"
+    },
+    {
+      "name": "cblas_ctpsv",
+      "library": "KML_BLAS",
+      "headerfile": "",
+      "desc_cn": "单精度复数类型线性方程组求解，稀疏矩阵是压缩的三角矩阵",
+      "desc_en": "For solving linear equations, the sparse matrix is a compressed triangular matrix",
+      "benefit_cn": "基于鲲鹏架构，通过向量化、数据预取、编译优化、数据重排等手段，实现性能优化",
+      "benefit_en": "Based on the Kunpeng architecture,performance is optimized through vectorization、data prefetching、compilation optimization、and data rearrangement"
+    },
+	{
+      "name": "cblas_ztpsv",
+      "library": "KML_BLAS",
+      "headerfile": "",
+      "desc_cn": "双精度复数类型线性方程组求解，稀疏矩阵是压缩的三角矩阵",
+      "desc_en": "For solving linear equations, the sparse matrix is a compressed triangular matrix",
+      "benefit_cn": "基于鲲鹏架构，通过向量化、数据预取、编译优化、数据重排等手段，实现性能优化",
+      "benefit_en": "Based on the Kunpeng architecture,performance is optimized through vectorization、data prefetching、compilation optimization、and data rearrangement"
+    },
+    {
+      "name": "cblas_strmv",
+      "library": "KML_BLAS",
+      "headerfile": "",
+      "desc_cn": "单精度类型向量与三角矩阵乘积",
+      "desc_en": "Product of a vector and a triangular matrix",
+      "benefit_cn": "基于鲲鹏架构，通过向量化、数据预取、编译优化、数据重排等手段，实现性能优化",
+      "benefit_en": "Based on the Kunpeng architecture,performance is optimized through vectorization、data prefetching、compilation optimization、and data rearrangement"
+    },
+	{
+      "name": "cblas_dtrmv",
+      "library": "KML_BLAS",
+      "headerfile": "",
+      "desc_cn": "双精度类型向量与三角矩阵乘积",
+      "desc_en": "Product of a vector and a triangular matrix",
+      "benefit_cn": "基于鲲鹏架构，通过向量化、数据预取、编译优化、数据重排等手段，实现性能优化",
+      "benefit_en": "Based on the Kunpeng architecture,performance is optimized through vectorization、data prefetching、compilation optimization、and data rearrangement"
+    },
+    {
+      "name": "cblas_ctrmv",
+      "library": "KML_BLAS",
+      "headerfile": "",
+      "desc_cn": "单精度复数类型向量与三角矩阵乘积",
+      "desc_en": "Product of a vector and a triangular matrix",
+      "benefit_cn": "基于鲲鹏架构，通过向量化、数据预取、编译优化、数据重排等手段，实现性能优化",
+      "benefit_en": "Based on the Kunpeng architecture,performance is optimized through vectorization、data prefetching、compilation optimization、and data rearrangement"
+    },
+	{
+      "name": "cblas_ztrmv",
+      "library": "KML_BLAS",
+      "headerfile": "",
+      "desc_cn": "双精度复数类型向量与三角矩阵乘积",
+      "desc_en": "Product of a vector and a triangular matrix",
+      "benefit_cn": "基于鲲鹏架构，通过向量化、数据预取、编译优化、数据重排等手段，实现性能优化",
+      "benefit_en": "Based on the Kunpeng architecture,performance is optimized through vectorization、data prefetching、compilation optimization、and data rearrangement"
+    },
+    {
+      "name": "cblas_strsv",
+      "library": "KML_BLAS",
+      "headerfile": "",
+      "desc_cn": "单精度类型线性方程组求解，稀疏矩阵是三角矩阵",
+      "desc_en": "Solves linear equations.The sparse matrix is a triangular matrix",
+      "benefit_cn": "基于鲲鹏架构，通过向量化、数据预取、编译优化、数据重排等手段，实现性能优化",
+      "benefit_en": "Based on the Kunpeng architecture,performance is optimized through vectorization、data prefetching、compilation optimization、and data rearrangement"
+    },
+	{
+      "name": "cblas_dtrsv",
+      "library": "KML_BLAS",
+      "headerfile": "",
+      "desc_cn": "双精度类型线性方程组求解，稀疏矩阵是三角矩阵",
+      "desc_en": "Solves linear equations.The sparse matrix is a triangular matrix",
+      "benefit_cn": "基于鲲鹏架构，通过向量化、数据预取、编译优化、数据重排等手段，实现性能优化",
+      "benefit_en": "Based on the Kunpeng architecture,performance is optimized through vectorization、data prefetching、compilation optimization、and data rearrangement"
+    },
+    {
+      "name": "cblas_ctrsv",
+      "library": "KML_BLAS",
+      "headerfile": "",
+      "desc_cn": "单精度复数类型线性方程组求解，稀疏矩阵是三角矩阵",
+      "desc_en": "Solves linear equations.The sparse matrix is a triangular matrix",
+      "benefit_cn": "基于鲲鹏架构，通过向量化、数据预取、编译优化、数据重排等手段，实现性能优化",
+      "benefit_en": "Based on the Kunpeng architecture,performance is optimized through vectorization、data prefetching、compilation optimization、and data rearrangement"
+    },
+	{
+      "name": "cblas_ztrsv",
+      "library": "KML_BLAS",
+      "headerfile": "",
+      "desc_cn": "双精度复数类型线性方程组求解，稀疏矩阵是三角矩阵",
+      "desc_en": "Solves linear equations.The sparse matrix is a triangular matrix",
+      "benefit_cn": "基于鲲鹏架构，通过向量化、数据预取、编译优化、数据重排等手段，实现性能优化",
+      "benefit_en": "Based on the Kunpeng architecture,performance is optimized through vectorization、data prefetching、compilation optimization、and data rearrangement"
+    },
+    {
+      "name": "cblas_sgemm",
+      "library": "KML_BLAS",
+      "headerfile": "",
+      "desc_cn": "单精度类型一般矩阵乘矩阵",
+      "desc_en": "General matrix-matrix multiplication",
+      "benefit_cn": "基于鲲鹏架构，通过向量化、数据预取、编译优化、数据重排等手段，实现性能优化",
+      "benefit_en": "Based on the Kunpeng architecture,performance is optimized through vectorization、data prefetching、compilation optimization、and data rearrangement"
+    },
+	{
+      "name": "cblas_dgemm",
+      "library": "KML_BLAS",
+      "headerfile": "",
+      "desc_cn": "双精度类型一般矩阵乘矩阵",
+      "desc_en": "General matrix-matrix multiplication",
+      "benefit_cn": "基于鲲鹏架构，通过向量化、数据预取、编译优化、数据重排等手段，实现性能优化",
+      "benefit_en": "Based on the Kunpeng architecture,performance is optimized through vectorization、data prefetching、compilation optimization、and data rearrangement"
+    },
+    {
+      "name": "cblas_cgemm",
+      "library": "KML_BLAS",
+      "headerfile": "",
+      "desc_cn": "单精度复数类型一般矩阵乘矩阵",
+      "desc_en": "General matrix-matrix multiplication",
+      "benefit_cn": "基于鲲鹏架构，通过向量化、数据预取、编译优化、数据重排等手段，实现性能优化",
+      "benefit_en": "Based on the Kunpeng architecture,performance is optimized through vectorization、data prefetching、compilation optimization、and data rearrangement"
+    },
+	{
+      "name": "cblas_zgemm",
+      "library": "KML_BLAS",
+      "headerfile": "",
+      "desc_cn": "双精度复数类型一般矩阵乘矩阵",
+      "desc_en": "General matrix-matrix multiplication",
+      "benefit_cn": "基于鲲鹏架构，通过向量化、数据预取、编译优化、数据重排等手段，实现性能优化",
+      "benefit_en": "Based on the Kunpeng architecture,performance is optimized through vectorization、data prefetching、compilation optimization、and data rearrangement"
+    },
+    {
+      "name": "cblas_chemm",
+      "library": "KML_BLAS",
+      "headerfile": "",
+      "desc_cn": "单精度复数类型埃尔米特矩阵乘积",
+      "desc_en": "Complex Hermitian moment-matrix multiplication",
+      "benefit_cn": "基于鲲鹏架构，通过向量化、数据预取、编译优化、数据重排等手段，实现性能优化",
+      "benefit_en": "Based on the Kunpeng architecture,performance is optimized through vectorization、data prefetching、compilation optimization、and data rearrangement"
+    },
+	{
+      "name": "cblas_zhemm",
+      "library": "KML_BLAS",
+      "headerfile": "",
+      "desc_cn": "双精度复数类型埃尔米特矩阵乘积",
+      "desc_en": "Complex Hermitian moment-matrix multiplication",
+      "benefit_cn": "基于鲲鹏架构，通过向量化、数据预取、编译优化、数据重排等手段，实现性能优化",
+      "benefit_en": "Based on the Kunpeng architecture,performance is optimized through vectorization、data prefetching、compilation optimization、and data rearrangement"
+    },
+    {
+      "name": "cblas_cher2k",
+      "library": "KML_BLAS",
+      "headerfile": "",
+      "desc_cn": "单精度复数类型矩阵乘矩阵秩2更新，矩阵C为复数埃尔米特矩阵",
+      "desc_en": "Complex matrix-matrix multiplication rank 2 update.The matrix C is a complex Hermitian moment",
+      "benefit_cn": "基于鲲鹏架构，通过向量化、数据预取、编译优化、数据重排等手段，实现性能优化",
+      "benefit_en": "Based on the Kunpeng architecture,performance is optimized through vectorization、data prefetching、compilation optimization、and data rearrangement"
+    },
+	{
+      "name": "cblas_zher2k",
+      "library": "KML_BLAS",
+      "headerfile": "",
+      "desc_cn": "双精度复数类型矩阵乘矩阵秩2更新，矩阵C为复数埃尔米特矩阵",
+      "desc_en": "Complex matrix-matrix multiplication rank 2 update.The matrix C is a complex Hermitian moment",
+      "benefit_cn": "基于鲲鹏架构，通过向量化、数据预取、编译优化、数据重排等手段，实现性能优化",
+      "benefit_en": "Based on the Kunpeng architecture,performance is optimized through vectorization、data prefetching、compilation optimization、and data rearrangement"
+    },
+    {
+      "name": "cblas_cherk",
+      "library": "KML_BLAS",
+      "headerfile": "",
+      "desc_cn": "单精度复数类型矩阵乘矩阵秩k更新，矩阵C为单精度复数埃尔米特矩阵",
+      "desc_en": "Complex matrix-matrix multiplication rank k update.The matrix C is a float-complex Hermitian moment",
+      "benefit_cn": "基于鲲鹏架构，通过向量化、数据预取、编译优化、数据重排等手段，实现性能优化",
+      "benefit_en": "Based on the Kunpeng architecture,performance is optimized through vectorization、data prefetching、compilation optimization、and data rearrangement"
+    },
+	{
+      "name": "cblas_zherk",
+      "library": "KML_BLAS",
+      "headerfile": "",
+      "desc_cn": "双精度复数类型矩阵乘矩阵秩k更新，矩阵C为双精度复数埃尔米特矩阵",
+      "desc_en": "Complex matrix-matrix multiplication rank k update.The matrix C is a double-complex Hermitian moment",
+      "benefit_cn": "基于鲲鹏架构，通过向量化、数据预取、编译优化、数据重排等手段，实现性能优化",
+      "benefit_en": "Based on the Kunpeng architecture,performance is optimized through vectorization、data prefetching、compilation optimization、and data rearrangement"
+    },
+    {
+      "name": "cblas_ssymm",
+      "library": "KML_BLAS",
+      "headerfile": "",
+      "desc_cn": "单精度类型对称矩阵乘矩阵",
+      "desc_en": "Symmetric matrix-matrix multiplication",
+      "benefit_cn": "基于鲲鹏架构，通过向量化、数据预取、编译优化、数据重排等手段，实现性能优化",
+      "benefit_en": "Based on the Kunpeng architecture,performance is optimized through vectorization、data prefetching、compilation optimization、and data rearrangement"
+    },
+	{
+      "name": "cblas_dsymm",
+      "library": "KML_BLAS",
+      "headerfile": "",
+      "desc_cn": "双精度类型对称矩阵乘矩阵",
+      "desc_en": "Symmetric matrix-matrix multiplication",
+      "benefit_cn": "基于鲲鹏架构，通过向量化、数据预取、编译优化、数据重排等手段，实现性能优化",
+      "benefit_en": "Based on the Kunpeng architecture,performance is optimized through vectorization、data prefetching、compilation optimization、and data rearrangement"
+    },
+    {
+      "name": "cblas_csymm",
+      "library": "KML_BLAS",
+      "headerfile": "",
+      "desc_cn": "单精度复数类型对称矩阵乘矩阵",
+      "desc_en": "Symmetric matrix-matrix multiplication",
+      "benefit_cn": "基于鲲鹏架构，通过向量化、数据预取、编译优化、数据重排等手段，实现性能优化",
+      "benefit_en": "Based on the Kunpeng architecture,performance is optimized through vectorization、data prefetching、compilation optimization、and data rearrangement"
+    },
+	{
+      "name": "cblas_zsymm",
+      "library": "KML_BLAS",
+      "headerfile": "",
+      "desc_cn": "双精度复数类型对称矩阵乘矩阵",
+      "desc_en": "Symmetric matrix-matrix multiplication",
+      "benefit_cn": "基于鲲鹏架构，通过向量化、数据预取、编译优化、数据重排等手段，实现性能优化",
+      "benefit_en": "Based on the Kunpeng architecture,performance is optimized through vectorization、data prefetching、compilation optimization、and data rearrangement"
+    },
+    {
+      "name": "cblas_ssyrk",
+      "library": "KML_BLAS",
+      "headerfile": "",
+      "desc_cn": "单精度类型矩阵乘矩阵秩K更新，矩阵C为对称矩阵",
+      "desc_en": "Matrix-matrix multiplication rank k update.The matrix C is a symmetric matrix",
+      "benefit_cn": "基于鲲鹏架构，通过向量化、数据预取、编译优化、数据重排等手段，实现性能优化",
+      "benefit_en": "Based on the Kunpeng architecture,performance is optimized through vectorization、data prefetching、compilation optimization、and data rearrangement"
+    },
+	{
+      "name": "cblas_dsyrk",
+      "library": "KML_BLAS",
+      "headerfile": "",
+      "desc_cn": "双精度类型矩阵乘矩阵秩K更新，矩阵C为对称矩阵",
+      "desc_en": "Matrix-matrix multiplication rank k update.The matrix C is a symmetric matrix",
+      "benefit_cn": "基于鲲鹏架构，通过向量化、数据预取、编译优化、数据重排等手段，实现性能优化",
+      "benefit_en": "Based on the Kunpeng architecture,performance is optimized through vectorization、data prefetching、compilation optimization、and data rearrangement"
+    },
+    {
+      "name": "cblas_csyrk",
+      "library": "KML_BLAS",
+      "headerfile": "",
+      "desc_cn": "单精度复数类型矩阵乘矩阵秩K更新，矩阵C为对称矩阵",
+      "desc_en": "Matrix-matrix multiplication rank k update.The matrix C is a symmetric matrix",
+      "benefit_cn": "基于鲲鹏架构，通过向量化、数据预取、编译优化、数据重排等手段，实现性能优化",
+      "benefit_en": "Based on the Kunpeng architecture,performance is optimized through vectorization、data prefetching、compilation optimization、and data rearrangement"
+    },
+	{
+      "name": "cblas_zsyrk",
+      "library": "KML_BLAS",
+      "headerfile": "",
+      "desc_cn": "双精度复数类型矩阵乘矩阵秩K更新，矩阵C为对称矩阵",
+      "desc_en": "Matrix-matrix multiplication rank k update.The matrix C is a symmetric matrix",
+      "benefit_cn": "基于鲲鹏架构，通过向量化、数据预取、编译优化、数据重排等手段，实现性能优化",
+      "benefit_en": "Based on the Kunpeng architecture,performance is optimized through vectorization、data prefetching、compilation optimization、and data rearrangement"
+    },
+    {
+      "name": "cblas_ssyr2k",
+      "library": "KML_BLAS",
+      "headerfile": "",
+      "desc_cn": "单精度类型矩阵乘矩阵秩2更新，矩阵C为对称矩阵",
+      "desc_en": "Matrix-matrix multiplication rank 2 update.The matrix C is a symmetric matrix",
+      "benefit_cn": "基于鲲鹏架构，通过向量化、数据预取、编译优化、数据重排等手段，实现性能优化",
+      "benefit_en": "Based on the Kunpeng architecture,performance is optimized through vectorization、data prefetching、compilation optimization、and data rearrangement"
+    },
+	{
+      "name": "cblas_dsyr2k",
+      "library": "KML_BLAS",
+      "headerfile": "",
+      "desc_cn": "双精度类型矩阵乘矩阵秩2更新，矩阵C为对称矩阵",
+      "desc_en": "Matrix-matrix multiplication rank 2 update.The matrix C is a symmetric matrix",
+      "benefit_cn": "基于鲲鹏架构，通过向量化、数据预取、编译优化、数据重排等手段，实现性能优化",
+      "benefit_en": "Based on the Kunpeng architecture,performance is optimized through vectorization、data prefetching、compilation optimization、and data rearrangement"
+    },
+     {
+      "name": "cblas_csyr2k",
+      "library": "KML_BLAS",
+      "headerfile": "",
+      "desc_cn": "单精度复数类型矩阵乘矩阵秩2更新，矩阵C为对称矩阵",
+      "desc_en": "Matrix-matrix multiplication rank 2 update.The matrix C is a symmetric matrix",
+      "benefit_cn": "基于鲲鹏架构，通过向量化、数据预取、编译优化、数据重排等手段，实现性能优化",
+      "benefit_en": "Based on the Kunpeng architecture,performance is optimized through vectorization、data prefetching、compilation optimization、and data rearrangement"
+    },
+	{
+      "name": "cblas_zsyr2k",
+      "library": "KML_BLAS",
+      "headerfile": "",
+      "desc_cn": "双精度复数类型矩阵乘矩阵秩2更新，矩阵C为对称矩阵",
+      "desc_en": "Matrix-matrix multiplication rank 2 update.The matrix C is a symmetric matrix",
+      "benefit_cn": "基于鲲鹏架构，通过向量化、数据预取、编译优化、数据重排等手段，实现性能优化",
+      "benefit_en": "Based on the Kunpeng architecture,performance is optimized through vectorization、data prefetching、compilation optimization、and data rearrangement"
+    },
+    {
+      "name": "cblas_strmm",
+      "library": "KML_BLAS",
+      "headerfile": "",
+      "desc_cn": "单精度类型矩阵乘矩阵,其中一个矩阵为三角矩阵",
+      "desc_en": "Matrix-matrix multiplication.One of the matrices is a triangular matrix",
+      "benefit_cn": "基于鲲鹏架构，通过向量化、数据预取、编译优化、数据重排等手段，实现性能优化",
+      "benefit_en": "Based on the Kunpeng architecture,performance is optimized through vectorization、data prefetching、compilation optimization、and data rearrangement"
+    },
+	{
+      "name": "cblas_dtrmm",
+      "library": "KML_BLAS",
+      "headerfile": "",
+      "desc_cn": "双精度类型矩阵乘矩阵,其中一个矩阵为三角矩阵",
+      "desc_en": "Matrix-matrix multiplication.One of the matrices is a triangular matrix",
+      "benefit_cn": "基于鲲鹏架构，通过向量化、数据预取、编译优化、数据重排等手段，实现性能优化",
+      "benefit_en": "Based on the Kunpeng architecture,performance is optimized through vectorization、data prefetching、compilation optimization、and data rearrangement"
+    },
+     {
+      "name": "cblas_ctrmm",
+      "library": "KML_BLAS",
+      "headerfile": "",
+      "desc_cn": "单精度复数类型矩阵乘矩阵,其中一个矩阵为三角矩阵",
+      "desc_en": "Matrix-matrix multiplication.One of the matrices is a triangular matrix",
+      "benefit_cn": "基于鲲鹏架构，通过向量化、数据预取、编译优化、数据重排等手段，实现性能优化",
+      "benefit_en": "Based on the Kunpeng architecture,performance is optimized through vectorization、data prefetching、compilation optimization、and data rearrangement"
+    },
+	{
+      "name": "cblas_ztrmm",
+      "library": "KML_BLAS",
+      "headerfile": "",
+      "desc_cn": "双精度复数类型矩阵乘矩阵,其中一个矩阵为三角矩阵",
+      "desc_en": "Matrix-matrix multiplication.One of the matrices is a triangular matrix",
+      "benefit_cn": "基于鲲鹏架构，通过向量化、数据预取、编译优化、数据重排等手段，实现性能优化",
+      "benefit_en": "Based on the Kunpeng architecture,performance is optimized through vectorization、data prefetching、compilation optimization、and data rearrangement"
+    },
+    {
+      "name": "cblas_strsm",
+      "library": "KML_BLAS",
+      "headerfile": "",
+      "desc_cn": "单精度类型三角矩阵方程求解",
+      "desc_en": "Triangular matrix equation solution",
+      "benefit_cn": "基于鲲鹏架构，通过向量化、数据预取、编译优化、数据重排等手段，实现性能优化",
+      "benefit_en": "Based on the Kunpeng architecture,performance is optimized through vectorization、data prefetching、compilation optimization、and data rearrangement"
+    },
+	{
+      "name": "cblas_dtrsm",
+      "library": "KML_BLAS",
+      "headerfile": "",
+      "desc_cn": "双精度类型三角矩阵方程求解",
+      "desc_en": "Triangular matrix equation solution",
+      "benefit_cn": "基于鲲鹏架构，通过向量化、数据预取、编译优化、数据重排等手段，实现性能优化",
+      "benefit_en": "Based on the Kunpeng architecture,performance is optimized through vectorization、data prefetching、compilation optimization、and data rearrangement"
+    },
+     {
+      "name": "cblas_ctrsm",
+      "library": "KML_BLAS",
+      "headerfile": "",
+      "desc_cn": "单精度复数类型三角矩阵方程求解",
+      "desc_en": "Triangular matrix equation solution",
+      "benefit_cn": "基于鲲鹏架构，通过向量化、数据预取、编译优化、数据重排等手段，实现性能优化",
+      "benefit_en": "Based on the Kunpeng architecture,performance is optimized through vectorization、data prefetching、compilation optimization、and data rearrangement"
+    },
+	{
+      "name": "cblas_ztrsm",
+      "library": "KML_BLAS",
+      "headerfile": "",
+      "desc_cn": "双精度复数类型三角矩阵方程求解",
+      "desc_en": "Triangular matrix equation solution",
+      "benefit_cn": "基于鲲鹏架构，通过向量化、数据预取、编译优化、数据重排等手段，实现性能优化",
+      "benefit_en": "Based on the Kunpeng architecture,performance is optimized through vectorization、data prefetching、compilation optimization、and data rearrangement"
+    },
+    {
+      "name": "cblas_saxpby",
+      "library": "KML_BLAS",
+      "headerfile": "",
+      "desc_cn": "单精度类型向量分别缩放与加和",
+      "desc_en": "Vector scaling and summation separately",
+      "benefit_cn": "基于鲲鹏架构，通过向量化、数据预取、编译优化、数据重排等手段，实现性能优化",
+      "benefit_en": "Based on the Kunpeng architecture,performance is optimized through vectorization、data prefetching、compilation optimization、and data rearrangement"
+    },
+	{
+      "name": "cblas_daxpby",
+      "library": "KML_BLAS",
+      "headerfile": "",
+      "desc_cn": "双精度类型向量分别缩放与加和",
+      "desc_en": "Vector scaling and summation separately",
+      "benefit_cn": "基于鲲鹏架构，通过向量化、数据预取、编译优化、数据重排等手段，实现性能优化",
+      "benefit_en": "Based on the Kunpeng architecture,performance is optimized through vectorization、data prefetching、compilation optimization、and data rearrangement"
+    },
+    {
+      "name": "cblas_caxpby",
+      "library": "KML_BLAS",
+      "headerfile": "",
+      "desc_cn": "单精度复数类型向量分别缩放与加和",
+      "desc_en": "Vector scaling and summation separately",
+      "benefit_cn": "基于鲲鹏架构，通过向量化、数据预取、编译优化、数据重排等手段，实现性能优化",
+      "benefit_en": "Based on the Kunpeng architecture,performance is optimized through vectorization、data prefetching、compilation optimization、and data rearrangement"
+    },
+	{
+      "name": "cblas_zaxpby",
+      "library": "KML_BLAS",
+      "headerfile": "",
+      "desc_cn": "双精度复数类型向量分别缩放与加和",
+      "desc_en": "Vector scaling and summation separately",
+      "benefit_cn": "基于鲲鹏架构，通过向量化、数据预取、编译优化、数据重排等手段，实现性能优化",
+      "benefit_en": "Based on the Kunpeng architecture,performance is optimized through vectorization、data prefetching、compilation optimization、and data rearrangement"
+    },
+    {
+      "name": "cblas_cgemm3m",
+      "library": "KML_BLAS",
+      "headerfile": "",
+      "desc_cn": "一般单精度复数矩阵乘矩阵",
+      "desc_en": "Product of a general single-precision complex matrix and a matrix",
+      "benefit_cn": "基于鲲鹏架构，通过向量化、数据预取、编译优化、数据重排等手段，实现性能优化",
+      "benefit_en": "Based on the Kunpeng architecture,performance is optimized through vectorization、data prefetching、compilation optimization、and data rearrangement"
+    },
+	{
+      "name": "cblas_zgemm3m",
+      "library": "KML_BLAS",
+      "headerfile": "",
+      "desc_cn": "一般双精度复数矩阵乘矩阵",
+      "desc_en": "Product of a general double-precision complex matrix and a matrix",
+      "benefit_cn": "基于鲲鹏架构，通过向量化、数据预取、编译优化、数据重排等手段，实现性能优化",
+      "benefit_en": "Based on the Kunpeng architecture,performance is optimized through vectorization、data prefetching、compilation optimization、and data rearrangement"
+    },
+    {
+      "name": "kml_sparse_saxpyi",
+      "library": "KML_SPBLAS",
+      "headerfile": "",
+      "desc_cn": "单精度实数类型，向量与标量相乘，并将结果加到另一向量上",
+      "desc_en": "single-precision real type, Product of a general complex matrix and a matrix",
+      "benefit_cn": "基于鲲鹏架构为压缩格式的稀疏矩阵提供了高性能向量、矩阵运算",
+      "benefit_en": "Based on the Kunpeng architecture provides high-performance vector、matrix operations for sparse matrices in compressed formats"
+    },
+    {
+      "name": "kml_sparse_daxpyi",
+      "library": "KML_SPBLAS",
+      "headerfile": "",
+      "desc_cn": "双精度实数类型，向量与标量相乘，并将结果加到另一向量上",
+      "desc_en": "double-precision real type, Product of a general complex matrix and a matrix",
+      "benefit_cn": "基于鲲鹏架构为压缩格式的稀疏矩阵提供了高性能向量、矩阵运算",
+      "benefit_en": "Based on the Kunpeng architecture provides high-performance vector、matrix operations for sparse matrices in compressed formats"
+    },
+    {
+      "name": "kml_sparse_caxpyi",
+      "library": "KML_SPBLAS",
+      "headerfile": "",
+      "desc_cn": "单精度复数类型，向量与标量相乘，并将结果加到另一向量上",
+      "desc_en": "single-precision complex type, Product of a general complex matrix and a matrix",
+      "benefit_cn": "基于鲲鹏架构为压缩格式的稀疏矩阵提供高性能向量、矩阵运算",
+      "benefit_en": "Based on the Kunpeng architecture provides high-performance vector、matrix operations for sparse matrices in compressed formats"
+    },
+    {
+      "name": "kml_sparse_zaxpyi",
+      "library": "KML_SPBLAS",
+      "headerfile": "",
+      "desc_cn": "双精度复数类型，向量与标量相乘，并将结果加到另一向量上",
+      "desc_en": "double-precision complex type, Product of a general complex matrix and a matrix",
+      "benefit_cn": "基于鲲鹏架构为压缩格式的稀疏矩阵提供高性能向量、矩阵运算",
+      "benefit_en": "Based on the Kunpeng architecture provides high-performance vector、matrix operations for sparse matrices in compressed formats"
+    },
+    {
+      "name": "kml_sparse_sdoti",
+      "library": "KML_SPBLAS",
+      "headerfile": "",
+      "desc_cn": "单精度实数类型向量点积",
+      "desc_en": "Computes the dot product of single-precision real type vectors",
+      "benefit_cn": "基于鲲鹏架构为压缩格式的稀疏矩阵提供了高性能向量、矩阵运算",
+      "benefit_en": "Based on the Kunpeng architecture provides high-performance vector、matrix operations for sparse matrices in compressed formats"
+    },
+    {
+      "name": "kml_sparse_ddoti",
+      "library": "KML_SPBLAS",
+      "headerfile": "",
+      "desc_cn": "双精度实数类型向量点积",
+      "desc_en": "Computes the dot product of double-precision real type vectors",
+      "benefit_cn": "基于鲲鹏架构为压缩格式的稀疏矩阵提供了高性能向量、矩阵运算",
+      "benefit_en": "Based on the Kunpeng architecture provides high-performance vector、matrix operations for sparse matrices in compressed formats"
+    },
+    {
+      "name": "kml_sparse_cdotci_sub",
+      "library": "KML_SPBLAS",
+      "headerfile": "",
+      "desc_cn": "单精度复数类型向量共轭点积",
+      "desc_en": "Computes the dot conjugate product of single-precision complex type vectors",
+      "benefit_cn": "基于鲲鹏架构为压缩格式的稀疏矩阵提供高性能向量、矩阵运算",
+      "benefit_en": "Based on the Kunpeng architecture provides high-performance vector、matrix operations for sparse matrices in compressed formats"
+    },
+    {
+      "name": "kml_sparse_zdotci_sub",
+      "library": "KML_SPBLAS",
+      "headerfile": "",
+      "desc_cn": "双精度复数类型向量共轭点积",
+      "desc_en": "Computes the conjugate dot product of double-precision complex type vectors",
+      "benefit_cn": "基于鲲鹏架构为压缩格式的稀疏矩阵提供高性能向量、矩阵运算",
+      "benefit_en": "Based on the Kunpeng architecture provides high-performance vector、matrix operations for sparse matrices in compressed formats"
+    },
+    {
+      "name": "kml_sparse_cdotui_sub",
+      "library": "KML_SPBLAS",
+      "headerfile": "",
+      "desc_cn": "单精度复数域向量非共轭点积",
+      "desc_en": "Computes the dot non-conjugate product of single-precision complex vectors",
+      "benefit_cn": "基于鲲鹏架构为压缩格式的稀疏矩阵提供高性能向量、矩阵运算",
+      "benefit_en": "Based on the Kunpeng architecture provides high-performance vector、matrix operations for sparse matrices in compressed formats"
+    },
+    {
+      "name": "kml_sparse_zdotui_sub",
+      "library": "KML_SPBLAS",
+      "headerfile": "",
+      "desc_cn": "双精度复数域向量非共轭点积",
+      "desc_en": "Computes the non-conjugate dot product of double-precision complex vectors",
+      "benefit_cn": "基于鲲鹏架构为压缩格式的稀疏矩阵提供高性能向量、矩阵运算",
+      "benefit_en": "Based on the Kunpeng architecture provides high-performance vector、matrix operations for sparse matrices in compressed formats"
+    },
+    {
+      "name": "kml_sparse_sgthr",
+      "library": "KML_SPBLAS",
+      "headerfile": "",
+      "desc_cn": "单精度实数类型，将全存储向量中的指定元素加载到压缩格式的向量中",
+      "desc_en": "single-precision real type, Gathers the specified elements of a full-storage vector into a compressed vector",
+      "benefit_cn": "基于鲲鹏架构为压缩格式的稀疏矩阵提供高性能向量、矩阵运算",
+      "benefit_en": "Based on the Kunpeng architecture provides high-performance vector、matrix operations for sparse matrices in compressed formats"
+    },
+    {
+      "name": "kml_sparse_dgthr",
+      "library": "KML_SPBLAS",
+      "headerfile": "",
+      "desc_cn": "双精度实数类型，将全存储向量中的指定元素加载到压缩格式的向量中",
+      "desc_en": "double-precision real type, Gathers the specified elements of a full-storage vector into a compressed vector",
+      "benefit_cn": "基于鲲鹏架构为压缩格式的稀疏矩阵提供高性能向量、矩阵运算",
+      "benefit_en": "Based on the Kunpeng architecture provides high-performance vector、matrix operations for sparse matrices in compressed formats"
+    },
+    {
+      "name": "kml_sparse_cgthr",
+      "library": "KML_SPBLAS",
+      "headerfile": "",
+      "desc_cn": "单精度复数类型，将全存储向量中的指定元素加载到压缩格式的向量中",
+      "desc_en": "single-precision complex type, Gathers the specified elements of a full-storage vector into a compressed vector",
+      "benefit_cn": "基于鲲鹏架构为压缩格式的稀疏矩阵提供高性能向量、矩阵运算",
+      "benefit_en": "Based on the Kunpeng architecture provides high-performance vector、matrix operations for sparse matrices in compressed formats"
+    },
+    {
+      "name": "kml_sparse_zgthr",
+      "library": "KML_SPBLAS",
+      "headerfile": "",
+      "desc_cn": "双精度复数类型，将全存储向量中的指定元素加载到压缩格式的向量中",
+      "desc_en": "double-precision complex type, Gathers the specified elements of a full-storage vector into a compressed vector",
+      "benefit_cn": "基于鲲鹏架构为压缩格式的稀疏矩阵提供高性能向量、矩阵运算",
+      "benefit_en": "Based on the Kunpeng architecture provides high-performance vector、matrix operations for sparse matrices in compressed formats"
+    },
+    {
+      "name": "kml_sparse_sgthrz",
+      "library": "KML_SPBLAS",
+      "headerfile": "",
+      "desc_cn": "单精度实数类型，将全存储向量中的指定元素加载到压缩格式的向量中，并将全存储向量元素清零",
+      "desc_en": "single-precision real type, Gathers the specified elements of a full-storage vector into a compressed vector,and zeroes out these elements in the full-storage vector",
+      "benefit_cn": "基于鲲鹏架构为压缩格式的稀疏矩阵提供高性能向量、矩阵运算",
+      "benefit_en": "Based on the Kunpeng architecture provides high-performance vector、matrix operations for sparse matrices in compressed formats"
+    },
+    {
+      "name": "kml_sparse_dgthrz",
+      "library": "KML_SPBLAS",
+      "headerfile": "",
+      "desc_cn": "双精度实数类型，将全存储向量中的指定元素加载到压缩格式的向量中，并将全存储向量元素清零",
+      "desc_en": "double-precision real type, Gathers the specified elements of a full-storage vector into a compressed vector,and zeroes out these elements in the full-storage vector",
+      "benefit_cn": "基于鲲鹏架构为压缩格式的稀疏矩阵提供高性能向量、矩阵运算",
+      "benefit_en": "Based on the Kunpeng architecture provides high-performance vector、matrix operations for sparse matrices in compressed formats"
+    },
+    {
+      "name": "kml_sparse_cgthrz",
+      "library": "KML_SPBLAS",
+      "headerfile": "",
+      "desc_cn": "单精度复数类型，将全存储向量中的指定元素加载到压缩格式的向量中，并将全存储向量元素清零",
+      "desc_en": "single-precision complex type, Gathers the specified elements of a full-storage vector into a compressed vector,and zeroes out these elements in the full-storage vector",
+      "benefit_cn": "基于鲲鹏架构为压缩格式的稀疏矩阵提供高性能向量、矩阵运算",
+      "benefit_en": "Based on the Kunpeng architecture provides high-performance vector、matrix operations for sparse matrices in compressed formats"
+    },
+    {
+      "name": "kml_sparse_zgthrz",
+      "library": "KML_SPBLAS",
+      "headerfile": "",
+      "desc_cn": "双精度复数类型，将全存储向量中的指定元素加载到压缩格式的向量中，并将全存储向量元素清零",
+      "desc_en": "double-precision complex type, Gathers the specified elements of a full-storage vector into a compressed vector,and zeroes out these elements in the full-storage vector",
+      "benefit_cn": "基于鲲鹏架构为压缩格式的稀疏矩阵提供高性能向量、矩阵运算",
+      "benefit_en": "Based on the Kunpeng architecture provides high-performance vector、matrix operations for sparse matrices in compressed formats"
+    },
+    {
+      "name": "kml_sparse_sroti",
+      "library": "KML_SPBLAS",
+      "headerfile": "",
+      "desc_cn": "对两个单精度实数类型向量进行旋转",
+      "desc_en": "Rotates two single-precision real type vectors",
+      "benefit_cn": "基于鲲鹏架构为压缩格式的稀疏矩阵提供高性能向量、矩阵运算",
+      "benefit_en": "Based on the Kunpeng architecture provides high-performance vector、matrix operations for sparse matrices in compressed formats"
+    },
+    {
+      "name": "kml_sparse_droti",
+      "library": "KML_SPBLAS",
+      "headerfile": "",
+      "desc_cn": "对两个双精度实数类型向量进行旋转",
+      "desc_en": "Rotates two double-precision real type vectors",
+      "benefit_cn": "基于鲲鹏架构为压缩格式的稀疏矩阵提供高性能向量、矩阵运算",
+      "benefit_en": "Based on the Kunpeng architecture provides high-performance vector、matrix operations for sparse matrices in compressed formats"
+    },
+    {
+      "name": "kml_sparse_ssctr",
+      "library": "KML_SPBLAS",
+      "headerfile": "",
+      "desc_cn": "将压缩格式的单精度类型向量写入全存储向量的指定位置",
+      "desc_en": "Writes a compressed single-precision type vector to the specified location of a full-storage vector",
+      "benefit_cn": "基于鲲鹏架构为压缩格式的稀疏矩阵提供高性能向量、矩阵运算",
+      "benefit_en": "Based on the Kunpeng architecture provides high-performance vector、matrix operations for sparse matrices in compressed formats"
+    },
+    {
+      "name": "kml_sparse_dsctr",
+      "library": "KML_SPBLAS",
+      "headerfile": "",
+      "desc_cn": "将压缩格式的双精度类型向量写入全存储向量的指定位置",
+      "desc_en": "Writes a compressed double-precision type vector to the specified location of a full-storage vector",
+      "benefit_cn": "基于鲲鹏架构为压缩格式的稀疏矩阵提供高性能向量、矩阵运算",
+      "benefit_en": "Based on the Kunpeng architecture provides high-performance vector、matrix operations for sparse matrices in compressed formats"
+    },
+    {
+      "name": "kml_sparse_csctr",
+      "library": "KML_SPBLAS",
+      "headerfile": "",
+      "desc_cn": "将压缩格式的单精度复数类型向量写入全存储向量的指定位置",
+      "desc_en": "Writes a compressed single-precision complex type vector to the specified location of a full-storage vector",
+      "benefit_cn": "基于鲲鹏架构为压缩格式的稀疏矩阵提供高性能向量、矩阵运算",
+      "benefit_en": "Based on the Kunpeng architecture provides high-performance vector、matrix operations for sparse matrices in compressed formats"
+    },
+    {
+      "name": "kml_sparse_zsctr",
+      "library": "KML_SPBLAS",
+      "headerfile": "",
+      "desc_cn": "将压缩格式的双精度复数类型向量写入全存储向量的指定位置",
+      "desc_en": "Writes a compressed double-precision complex type vector to the specified location of a full-storage vector",
+      "benefit_cn": "基于鲲鹏架构为压缩格式的稀疏矩阵提供高性能向量、矩阵运算",
+      "benefit_en": "Based on the Kunpeng architecture provides high-performance vector、matrix operations for sparse matrices in compressed formats"
+    },
+    {
+      "name": "kml_sparse_scsrgemv",
+      "library": "KML_SPBLAS",
+      "headerfile": "",
+      "desc_cn": "单精度实数类型，矩阵与向量乘积，矩阵是CSR格式(三数组)基1索引的稀疏通常矩阵",
+      "desc_en": "single-precision real type, Computes the product of a matrix and a vector.The matrix is a sparse general matrix stored in the CSR format(3-array variation) with one-based indexing",
+      "benefit_cn": "基于鲲鹏架构为压缩格式的稀疏矩阵提供高性能向量、矩阵运算",
+      "benefit_en": "Based on the Kunpeng architecture provides high-performance vector、matrix operations for sparse matrices in compressed formats"
+    },
+    {
+      "name": "kml_sparse_dcsrgemv",
+      "library": "KML_SPBLAS",
+      "headerfile": "",
+      "desc_cn": "双精度实数类型，矩阵与向量乘积，矩阵是CSR格式(三数组)基1索引的稀疏通常矩阵",
+      "desc_en": "double-precision real type, Computes the product of a matrix and a vector.The matrix is a sparse general matrix stored in the CSR format(3-array variation) with one-based indexing",
+      "benefit_cn": "基于鲲鹏架构为压缩格式的稀疏矩阵提供高性能向量、矩阵运算",
+      "benefit_en": "Based on the Kunpeng architecture provides high-performance vector、matrix operations for sparse matrices in compressed formats"
+    },
+    {
+      "name": "kml_sparse_ccsrgemv",
+      "library": "KML_SPBLAS",
+      "headerfile": "",
+      "desc_cn": "单精度复数类型，矩阵与向量乘积，矩阵是CSR格式(三数组)基1索引的稀疏通常矩阵",
+      "desc_en": "single-precision complex type, Computes the product of a matrix and a vector.The matrix is a sparse general matrix stored in the CSR format(3-array variation) with one-based indexing",
+      "benefit_cn": "基于鲲鹏架构为压缩格式的稀疏矩阵提供高性能向量、矩阵运算",
+      "benefit_en": "Based on the Kunpeng architecture provides high-performance vector、matrix operations for sparse matrices in compressed formats"
+    },
+    {
+      "name": "kml_sparse_zcsrgemv",
+      "library": "KML_SPBLAS",
+      "headerfile": "",
+      "desc_cn": "双精度复数类型，矩阵与向量乘积，矩阵是CSR格式(三数组)基1索引的稀疏通常矩阵",
+      "desc_en": "double-precision complex type, Computes the product of a matrix and a vector.The matrix is a sparse general matrix stored in the CSR format(3-array variation) with one-based indexing",
+      "benefit_cn": "基于鲲鹏架构为压缩格式的稀疏矩阵提供高性能向量、矩阵运算",
+      "benefit_en": "Based on the Kunpeng architecture provides high-performance vector、matrix operations for sparse matrices in compressed formats"
+    },
+    {
+      "name": "kml_sparse_scsrsymv",
+      "library": "KML_SPBLAS",
+      "headerfile": "",
+      "desc_cn": "单精度实数类型，矩阵与向量乘积，矩阵是CSR格式(三数组)基1索引的稀疏对称矩阵",
+      "desc_en": "single-precision real type, Computes the product of a matrix and a vector.The matrix is a sparse symmetric matrix stored in the CSR format(3-array variation) with one-based indexing",
+      "benefit_cn": "基于鲲鹏架构为压缩格式的稀疏矩阵提供高性能向量、矩阵运算",
+      "benefit_en": "Based on the Kunpeng architecture provides high-performance vector、matrix operations for sparse matrices in compressed formats"
+    },
+    {
+      "name": "kml_sparse_dcsrsymv",
+      "library": "KML_SPBLAS",
+      "headerfile": "",
+      "desc_cn": "双精度实数类型，矩阵与向量乘积，矩阵是CSR格式(三数组)基1索引的稀疏对称矩阵",
+      "desc_en": "double-precision real type, Computes the product of a matrix and a vector.The matrix is a sparse symmetric matrix stored in the CSR format(3-array variation) with one-based indexing",
+      "benefit_cn": "基于鲲鹏架构为压缩格式的稀疏矩阵提供高性能向量、矩阵运算",
+      "benefit_en": "Based on the Kunpeng architecture provides high-performance vector、matrix operations for sparse matrices in compressed formats"
+    },
+    {
+      "name": "kml_sparse_ccsrsymv",
+      "library": "KML_SPBLAS",
+      "headerfile": "",
+      "desc_cn": "单精度复数类型，矩阵与向量乘积，矩阵是CSR格式(三数组)基1索引的稀疏对称矩阵",
+      "desc_en": "single-precision complex type, Computes the product of a matrix and a vector.The matrix is a sparse symmetric matrix stored in the CSR format(3-array variation) with one-based indexing",
+      "benefit_cn": "基于鲲鹏架构为压缩格式的稀疏矩阵提供高性能向量、矩阵运算",
+      "benefit_en": "Based on the Kunpeng architecture provides high-performance vector、matrix operations for sparse matrices in compressed formats"
+    },
+    {
+      "name": "kml_sparse_zcsrsymv",
+      "library": "KML_SPBLAS",
+      "headerfile": "",
+      "desc_cn": "双精度复数类型，矩阵与向量乘积，矩阵是CSR格式(三数组)基1索引的稀疏对称矩阵",
+      "desc_en": "double-precision complex type, Computes the product of a matrix and a vector.The matrix is a sparse symmetric matrix stored in the CSR format(3-array variation) with one-based indexing",
+      "benefit_cn": "基于鲲鹏架构为压缩格式的稀疏矩阵提供高性能向量、矩阵运算",
+      "benefit_en": "Based on the Kunpeng architecture provides high-performance vector、matrix operations for sparse matrices in compressed formats"
+    },
+    {
+      "name": "kml_sparse_scsrtrsv",
+      "library": "KML_SPBLAS",
+      "headerfile": "",
+      "desc_cn": "单精度实数类型，求解三角矩阵方程组计算，矩阵是CSR格式(三数组)基1索引的稀疏对称矩阵",
+      "desc_en": "single-precision real type, Triangular matrix equation solution.The matrix is a sparse symmetric matrix stored in the CSR format(3-array variation) with one-based indexing",
+      "benefit_cn": "基于鲲鹏架构为压缩格式的稀疏矩阵提供高性能向量、矩阵运算",
+      "benefit_en": "Based on the Kunpeng architecture provides high-performance vector、matrix operations for sparse matrices in compressed formats"
+    },
+    {
+      "name": "kml_sparse_dcsrtrsv",
+      "library": "KML_SPBLAS",
+      "headerfile": "",
+      "desc_cn": "双精度实数类型，求解三角矩阵方程组计算，矩阵是CSR格式(三数组)基1索引的稀疏对称矩阵",
+      "desc_en": "double-precision real type, Triangular matrix equation solution.The matrix is a sparse symmetric matrix stored in the CSR format(3-array variation) with one-based indexing",
+      "benefit_cn": "基于鲲鹏架构为压缩格式的稀疏矩阵提供高性能向量、矩阵运算",
+      "benefit_en": "Based on the Kunpeng architecture provides high-performance vector、matrix operations for sparse matrices in compressed formats"
+    },
+    {
+      "name": "kml_sparse_ccsrtrsv",
+      "library": "KML_SPBLAS",
+      "headerfile": "",
+      "desc_cn": "单精度复数类型，求解三角矩阵方程组计算，矩阵是CSR格式(三数组)基1索引的稀疏对称矩阵",
+      "desc_en": "single-precision complex type, Triangular matrix equation solution.The matrix is a sparse symmetric matrix stored in the CSR format(3-array variation) with one-based indexing",
+      "benefit_cn": "基于鲲鹏架构为压缩格式的稀疏矩阵提供高性能向量、矩阵运算",
+      "benefit_en": "Based on the Kunpeng architecture provides high-performance vector、matrix operations for sparse matrices in compressed formats"
+    },
+    {
+      "name": "kml_sparse_zcsrtrsv",
+      "library": "KML_SPBLAS",
+      "headerfile": "",
+      "desc_cn": "双精度复数类型，求解三角矩阵方程组计算，矩阵是CSR格式(三数组)基1索引的稀疏对称矩阵",
+      "desc_en": "double-precision complex type, Triangular matrix equation solution.The matrix is a sparse symmetric matrix stored in the CSR format(3-array variation) with one-based indexing",
+      "benefit_cn": "基于鲲鹏架构为压缩格式的稀疏矩阵提供高性能向量、矩阵运算",
+      "benefit_en": "Based on the Kunpeng architecture provides high-performance vector、matrix operations for sparse matrices in compressed formats"
+    },
+    {
+      "name": "kml_csparse_scsrgemv",
+      "library": "KML_SPBLAS",
+      "headerfile": "",
+      "desc_cn": "单精度实数类型，矩阵与向量乘积，矩阵是CSR格式(三数组)基0索引的稀疏通常矩阵",
+      "desc_en": "single-precision real type, Computes the product of a matrix and a vector.The matrix is a sparse general matrix stored in the CSR format(3-array variation) with zero-based indexing",
+      "benefit_cn": "基于鲲鹏架构为压缩格式的稀疏矩阵提供高性能向量、矩阵运算",
+      "benefit_en": "Based on the Kunpeng architecture provides high-performance vector、matrix operations for sparse matrices in compressed formats"
+    },
+    {
+      "name": "kml_csparse_dcsrgemv",
+      "library": "KML_SPBLAS",
+      "headerfile": "",
+      "desc_cn": "双精度实数类型，矩阵与向量乘积，矩阵是CSR格式(三数组)基0索引的稀疏通常矩阵",
+      "desc_en": "double-precision real type, Computes the product of a matrix and a vector.The matrix is a sparse general matrix stored in the CSR format(3-array variation) with zero-based indexing",
+      "benefit_cn": "基于鲲鹏架构为压缩格式的稀疏矩阵提供高性能向量、矩阵运算",
+      "benefit_en": "Based on the Kunpeng architecture provides high-performance vector、matrix operations for sparse matrices in compressed formats"
+    },
+    {
+      "name": "kml_csparse_ccsrgemv",
+      "library": "KML_SPBLAS",
+      "headerfile": "",
+      "desc_cn": "单精度复数类型，矩阵与向量乘积，矩阵是CSR格式(三数组)基0索引的稀疏通常矩阵",
+      "desc_en": "single-precision complex type, Computes the product of a matrix and a vector.The matrix is a sparse general matrix stored in the CSR format(3-array variation) with zero-based indexing",
+      "benefit_cn": "基于鲲鹏架构为压缩格式的稀疏矩阵提供高性能向量、矩阵运算",
+      "benefit_en": "Based on the Kunpeng architecture provides high-performance vector、matrix operations for sparse matrices in compressed formats"
+    },
+    {
+      "name": "kml_csparse_zcsrgemv",
+      "library": "KML_SPBLAS",
+      "headerfile": "",
+      "desc_cn": "双精度复数类型，矩阵与向量乘积，矩阵是CSR格式(三数组)基0索引的稀疏通常矩阵",
+      "desc_en": "double-precision complex type, Computes the product of a matrix and a vector.The matrix is a sparse general matrix stored in the CSR format(3-array variation) with zero-based indexing",
+      "benefit_cn": "基于鲲鹏架构为压缩格式的稀疏矩阵提供高性能向量、矩阵运算",
+      "benefit_en": "Based on the Kunpeng architecture provides high-performance vector、matrix operations for sparse matrices in compressed formats"
+    },
+    {
+      "name": "kml_csparse_scsrsymv",
+      "library": "KML_SPBLAS",
+      "headerfile": "",
+      "desc_cn": "单精度实数类型，矩阵与向量乘积，矩阵是CSR格式(三数组)基0索引的稀疏对称矩阵",
+      "desc_en": "single-precision real type, Computes the product of a matrix and a vector.The matrix is a sparse symmetric matrix stored in the CSR format(3-array variation) with zero-based indexing",
+      "benefit_cn": "基于鲲鹏架构为压缩格式的稀疏矩阵提供高性能向量、矩阵运算",
+      "benefit_en": "Based on the Kunpeng architecture provides high-performance vector、matrix operations for sparse matrices in compressed formats"
+    },
+    {
+      "name": "kml_csparse_dcsrsymv",
+      "library": "KML_SPBLAS",
+      "headerfile": "",
+      "desc_cn": "双精度实数类型，矩阵与向量乘积，矩阵是CSR格式(三数组)基0索引的稀疏对称矩阵",
+      "desc_en": "double-precision real type, Computes the product of a matrix and a vector.The matrix is a sparse symmetric matrix stored in the CSR format(3-array variation) with zero-based indexing",
+      "benefit_cn": "基于鲲鹏架构为压缩格式的稀疏矩阵提供高性能向量、矩阵运算",
+      "benefit_en": "Based on the Kunpeng architecture provides high-performance vector、matrix operations for sparse matrices in compressed formats"
+    },
+    {
+      "name": "kml_csparse_ccsrsymv",
+      "library": "KML_SPBLAS",
+      "headerfile": "",
+      "desc_cn": "单精度复数类型，矩阵与向量乘积，矩阵是CSR格式(三数组)基0索引的稀疏对称矩阵",
+      "desc_en": "single-precision complex type, Computes the product of a matrix and a vector.The matrix is a sparse symmetric matrix stored in the CSR format(3-array variation) with zero-based indexing",
+      "benefit_cn": "基于鲲鹏架构为压缩格式的稀疏矩阵提供高性能向量、矩阵运算",
+      "benefit_en": "Based on the Kunpeng architecture provides high-performance vector、matrix operations for sparse matrices in compressed formats"
+    },
+    {
+      "name": "kml_csparse_zcsrsymv",
+      "library": "KML_SPBLAS",
+      "headerfile": "",
+      "desc_cn": "双精度复数类型，矩阵与向量乘积，矩阵是CSR格式(三数组)基0索引的稀疏对称矩阵",
+      "desc_en": "double-precision complex type, Computes the product of a matrix and a vector.The matrix is a sparse symmetric matrix stored in the CSR format(3-array variation) with zero-based indexing",
+      "benefit_cn": "基于鲲鹏架构为压缩格式的稀疏矩阵提供高性能向量、矩阵运算",
+      "benefit_en": "Based on the Kunpeng architecture provides high-performance vector、matrix operations for sparse matrices in compressed formats"
+    },
+    {
+      "name": "kml_csparse_scsrtrsv",
+      "library": "KML_SPBLAS",
+      "headerfile": "",
+      "desc_cn": "单精度实数类型，求解三角矩阵方程组计算，矩阵是CSR格式(三数组)基0索引的稀疏对称矩阵",
+      "desc_en": "single-precision real type, Triangular matrix equation solution.The matrix is a sparse symmetric matrix stored in the CSR format(3-array variation) with zero-based indexing",
+      "benefit_cn": "基于鲲鹏架构为压缩格式的稀疏矩阵提供高性能向量、矩阵运算",
+      "benefit_en": "Based on the Kunpeng architecture provides high-performance vector、matrix operations for sparse matrices in compressed formats"
+    },
+    {
+      "name": "kml_csparse_dcsrtrsv",
+      "library": "KML_SPBLAS",
+      "headerfile": "",
+      "desc_cn": "双精度实数类型，求解三角矩阵方程组计算，矩阵是CSR格式(三数组)基0索引的稀疏对称矩阵",
+      "desc_en": "double-precision real type, Triangular matrix equation solution.The matrix is a sparse symmetric matrix stored in the CSR format(3-array variation) with zero-based indexing",
+      "benefit_cn": "基于鲲鹏架构为压缩格式的稀疏矩阵提供高性能向量、矩阵运算",
+      "benefit_en": "Based on the Kunpeng architecture provides high-performance vector、matrix operations for sparse matrices in compressed formats"
+    },
+    {
+      "name": "kml_csparse_ccsrtrsv",
+      "library": "KML_SPBLAS",
+      "headerfile": "",
+      "desc_cn": "单精度复数类型，求解三角矩阵方程组计算，矩阵是CSR格式(三数组)基0索引的稀疏对称矩阵",
+      "desc_en": "single-precision complex type, Triangular matrix equation solution.The matrix is a sparse symmetric matrix stored in the CSR format(3-array variation) with zero-based indexing",
+      "benefit_cn": "基于鲲鹏架构为压缩格式的稀疏矩阵提供高性能向量、矩阵运算",
+      "benefit_en": "Based on the Kunpeng architecture provides high-performance vector、matrix operations for sparse matrices in compressed formats"
+    },
+    {
+      "name": "kml_csparse_zcsrtrsv",
+      "library": "KML_SPBLAS",
+      "headerfile": "",
+      "desc_cn": "双精度复数类型，求解三角矩阵方程组计算，矩阵是CSR格式(三数组)基0索引的稀疏对称矩阵",
+      "desc_en": "double-precision complex type, Triangular matrix equation solution.The matrix is a sparse symmetric matrix stored in the CSR format(3-array variation) with zero-based indexing",
+      "benefit_cn": "基于鲲鹏架构为压缩格式的稀疏矩阵提供高性能向量、矩阵运算",
+      "benefit_en": "Based on the Kunpeng architecture provides high-performance vector、matrix operations for sparse matrices in compressed formats"
+    },
+    {
+      "name": "kml_sparse_scsrmv",
+      "library": "KML_SPBLAS",
+      "headerfile": "",
+      "desc_cn": "单精度实数类型，矩阵与向量乘积，矩阵是CSR格式的稀疏矩阵",
+      "desc_en": "single-precision real type, Computes the product of a matrix and a vector.The natrix is a sparse matrix stored in the CSR format",
+      "benefit_cn": "基于鲲鹏架构为压缩格式的稀疏矩阵提供高性能向量、矩阵运算",
+      "benefit_en": "Based on the Kunpeng architecture provides high-performance vector、matrix operations for sparse matrices in compressed formats"
+    },
+    {
+      "name": "kml_csparse_dcsrmv",
+      "library": "KML_SPBLAS",
+      "headerfile": "",
+      "desc_cn": "双精度实数类型，矩阵与向量乘积，矩阵是CSR格式的稀疏矩阵",
+      "desc_en": "double-precision real type, Computes the product of a matrix and a vector.The natrix is a sparse matrix stored in the CSR format",
+      "benefit_cn": "基于鲲鹏架构为压缩格式的稀疏矩阵提供高性能向量、矩阵运算",
+      "benefit_en": "Based on the Kunpeng architecture provides high-performance vector、matrix operations for sparse matrices in compressed formats"
+    },
+    {
+      "name": "kml_csparse_ccsrmv",
+      "library": "KML_SPBLAS",
+      "headerfile": "",
+      "desc_cn": "单精度复数类型，矩阵与向量乘积，矩阵是CSR格式的稀疏矩阵",
+      "desc_en": "single-precision complex type, Computes the product of a matrix and a vector.The natrix is a sparse matrix stored in the CSR format",
+      "benefit_cn": "基于鲲鹏架构为压缩格式的稀疏矩阵提供高性能向量、矩阵运算",
+      "benefit_en": "Based on the Kunpeng architecture provides high-performance vector、matrix operations for sparse matrices in compressed formats"
+    },
+    {
+      "name": "kml_csparse_zcsrmv",
+      "library": "KML_SPBLAS",
+      "headerfile": "",
+      "desc_cn": "双精度复数类型，矩阵与向量乘积，矩阵是CSR格式的稀疏矩阵",
+      "desc_en": "double-precision complex type, Computes the product of a matrix and a vector.The natrix is a sparse matrix stored in the CSR format",
+      "benefit_cn": "基于鲲鹏架构为压缩格式的稀疏矩阵提供高性能向量、矩阵运算",
+      "benefit_en": "Based on the Kunpeng architecture provides high-performance vector、matrix operations for sparse matrices in compressed formats"
+    },
+    {
+      "name": "kml_sparse_scsrsv",
+      "library": "KML_SPBLAS",
+      "headerfile": "",
+      "desc_cn": "单精度实数类型，求解稀疏线性方程组，稀疏矩阵存储格式为CSR",
+      "desc_en": "single-precision real type, Solves a system of linear equations for a sparse matrix that is stored in the CSR format",
+      "benefit_cn": "基于鲲鹏架构为压缩格式的稀疏矩阵提供高性能向量、矩阵运算",
+      "benefit_en": "Based on the Kunpeng architecture provides high-performance vector、matrix operations for sparse matrices in compressed formats"
+    },
+    {
+      "name": "kml_csparse_dcsrsv",
+      "library": "KML_SPBLAS",
+      "headerfile": "",
+      "desc_cn": "双精度实数类型，求解稀疏线性方程组，稀疏矩阵存储格式为CSR",
+      "desc_en": "double-precision real type, Solves a system of linear equations for a sparse matrix that is stored in the CSR format",
+      "benefit_cn": "基于鲲鹏架构为压缩格式的稀疏矩阵提供高性能向量、矩阵运算",
+      "benefit_en": "Based on the Kunpeng architecture provides high-performance vector、matrix operations for sparse matrices in compressed formats"
+    },
+    {
+      "name": "kml_csparse_ccsrsv",
+      "library": "KML_SPBLAS",
+      "headerfile": "",
+      "desc_cn": "单精度复数类型求解稀疏线性方程组，稀疏矩阵存储格式为CSR",
+      "desc_en": "single-precision complex type, Solves a system of linear equations for a sparse matrix that is stored in the CSR format",
+      "benefit_cn": "基于鲲鹏架构为压缩格式的稀疏矩阵提供高性能向量、矩阵运算",
+      "benefit_en": "Based on the Kunpeng architecture provides high-performance vector、matrix operations for sparse matrices in compressed formats"
+    },
+    {
+      "name": "kml_csparse_zcsrsv",
+      "library": "KML_SPBLAS",
+      "headerfile": "",
+      "desc_cn": "双精度复数类型，求解稀疏线性方程组，稀疏矩阵存储格式为CSR",
+      "desc_en": "double-precision complex type, Solves a system of linear equations for a sparse matrix that is stored in the CSR format",
+      "benefit_cn": "基于鲲鹏架构为压缩格式的稀疏矩阵提供高性能向量、矩阵运算",
+      "benefit_en": "Based on the Kunpeng architecture provides high-performance vector、matrix operations for sparse matrices in compressed formats"
+    },
+    {
+      "name": "kml_sparse_scsrmm",
+      "library": "KML_SPBLAS",
+      "headerfile": "",
+      "desc_cn": "单精度实数类型，计算CSR格式的稀疏矩阵和稠密矩阵的积",
+      "desc_en": "single-precision real type, Computes the product of a sparse matrix and a dense matrix that are stored in the CSR format",
+      "benefit_cn": "基于鲲鹏架构为压缩格式的稀疏矩阵提供高性能向量、矩阵运算",
+      "benefit_en": "Based on the Kunpeng architecture provides high-performance vector、matrix operations for sparse matrices in compressed formats"
+    },
+    {
+      "name": "kml_csparse_dcsrmm",
+      "library": "KML_SPBLAS",
+      "headerfile": "",
+      "desc_cn": "双精度实数类型，计算CSR格式的稀疏矩阵和稠密矩阵的积",
+      "desc_en": "double-precision real type, Computes the product of a sparse matrix and a dense matrix that are stored in the CSR format",
+      "benefit_cn": "基于鲲鹏架构为压缩格式的稀疏矩阵提供高性能向量、矩阵运算",
+      "benefit_en": "Based on the Kunpeng architecture provides high-performance vector、matrix operations for sparse matrices in compressed formats"
+    },
+    {
+      "name": "kml_csparse_ccsrmm",
+      "library": "KML_SPBLAS",
+      "headerfile": "",
+      "desc_cn": "单精度复数类型，计算CSR格式的稀疏矩阵和稠密矩阵的积",
+      "desc_en": "single-precision complex type, Computes the product of a sparse matrix and a dense matrix that are stored in the CSR format",
+      "benefit_cn": "基于鲲鹏架构为压缩格式的稀疏矩阵提供高性能向量、矩阵运算",
+      "benefit_en": "Based on the Kunpeng architecture provides high-performance vector、matrix operations for sparse matrices in compressed formats"
+    },
+    {
+      "name": "kml_csparse_zcsrmm",
+      "library": "KML_SPBLAS",
+      "headerfile": "",
+      "desc_cn": "双精度复数类型，计算CSR格式的稀疏矩阵和稠密矩阵的积",
+      "desc_en": "double-precision complex type, Computes the product of a sparse matrix and a dense matrix that are stored in the CSR format",
+      "benefit_cn": "基于鲲鹏架构为压缩格式的稀疏矩阵提供高性能向量、矩阵运算",
+      "benefit_en": "Based on the Kunpeng architecture provides high-performance vector、matrix operations for sparse matrices in compressed formats"
+    },
+    {
+      "name": "kml_sparse_scscmv",
+      "library": "KML_SPBLAS",
+      "headerfile": "",
+      "desc_cn": "单精度实数类型，矩阵与向量乘积，矩阵是CSC格式的稀疏矩阵",
+      "desc_en": "single-precision real type, Computes the product of a matrix and a vector.The natrix is a sparse matrix stored in the CSC format",
+      "benefit_cn": "基于鲲鹏架构为压缩格式的稀疏矩阵提供高性能向量、矩阵运算",
+      "benefit_en": "Based on the Kunpeng architecture provides high-performance vector、matrix operations for sparse matrices in compressed formats"
+    },
+    {
+      "name": "kml_csparse_dcscmv",
+      "library": "KML_SPBLAS",
+      "headerfile": "",
+      "desc_cn": "双精度实数类型，矩阵与向量乘积，矩阵是CSC格式的稀疏矩阵",
+      "desc_en": "double-precision real type, Computes the product of a matrix and a vector.The natrix is a sparse matrix stored in the CSC format",
+      "benefit_cn": "基于鲲鹏架构为压缩格式的稀疏矩阵提供高性能向量、矩阵运算",
+      "benefit_en": "Based on the Kunpeng architecture provides high-performance vector、matrix operations for sparse matrices in compressed formats"
+    },
+    {
+      "name": "kml_csparse_ccscmv",
+      "library": "KML_SPBLAS",
+      "headerfile": "",
+      "desc_cn": "单精度复数类型，矩阵与向量乘积，矩阵是CSC格式的稀疏矩阵",
+      "desc_en": "single-precision complex type, Computes the product of a matrix and a vector.The natrix is a sparse matrix stored in the CSC format",
+      "benefit_cn": "基于鲲鹏架构为压缩格式的稀疏矩阵提供高性能向量、矩阵运算",
+      "benefit_en": "Based on the Kunpeng architecture provides high-performance vector、matrix operations for sparse matrices in compressed formats"
+    },
+    {
+      "name": "kml_csparse_zcscmv",
+      "library": "KML_SPBLAS",
+      "headerfile": "",
+      "desc_cn": "双精度复数类型，矩阵与向量乘积，矩阵是CSC格式的稀疏矩阵",
+      "desc_en": "double-precision complex type, Computes the product of a matrix and a vector.The natrix is a sparse matrix stored in the CSC format",
+      "benefit_cn": "基于鲲鹏架构为压缩格式的稀疏矩阵提供高性能向量、矩阵运算",
+      "benefit_en": "Based on the Kunpeng architecture provides high-performance vector、matrix operations for sparse matrices in compressed formats"
+    },
+    {
+      "name": "kml_sparse_scscsv",
+      "library": "KML_SPBLAS",
+      "headerfile": "",
+      "desc_cn": "单精度实数类型，求解稀疏线性方程组，稀疏矩阵存储格式为CSC",
+      "desc_en": "single-precision real type, Solves a system of linear equations for a sparse matrix that is stored in the CSC format",
+      "benefit_cn": "基于鲲鹏架构为压缩格式的稀疏矩阵提供高性能向量、矩阵运算",
+      "benefit_en": "Based on the Kunpeng architecture provides high-performance vector、matrix operations for sparse matrices in compressed formats"
+    },
+    {
+      "name": "kml_csparse_dcscsv",
+      "library": "KML_SPBLAS",
+      "headerfile": "",
+      "desc_cn": "双精度实数类型，求解稀疏线性方程组，稀疏矩阵存储格式为CSC",
+      "desc_en": "double-precision real type, Solves a system of linear equations for a sparse matrix that is stored in the CSC format",
+      "benefit_cn": "基于鲲鹏架构为压缩格式的稀疏矩阵提供高性能向量、矩阵运算",
+      "benefit_en": "Based on the Kunpeng architecture provides high-performance vector、matrix operations for sparse matrices in compressed formats"
+    },
+    {
+      "name": "kml_csparse_ccscsv",
+      "library": "KML_SPBLAS",
+      "headerfile": "",
+      "desc_cn": "单精度复数类型，求解稀疏线性方程组，稀疏矩阵存储格式为CSC",
+      "desc_en": "single-precision complex type, Solves a system of linear equations for a sparse matrix that is stored in the CSC format",
+      "benefit_cn": "基于鲲鹏架构为压缩格式的稀疏矩阵提供高性能向量、矩阵运算",
+      "benefit_en": "Based on the Kunpeng architecture provides high-performance vector、matrix operations for sparse matrices in compressed formats"
+    },
+    {
+      "name": "kml_csparse_zcscsv",
+      "library": "KML_SPBLAS",
+      "headerfile": "",
+      "desc_cn": "双精度复数类型，求解稀疏线性方程组，稀疏矩阵存储格式为CSC",
+      "desc_en": "double-precision complex type, Solves a system of linear equations for a sparse matrix that is stored in the CSC format",
+      "benefit_cn": "基于鲲鹏架构为压缩格式的稀疏矩阵提供高性能向量、矩阵运算",
+      "benefit_en": "Based on the Kunpeng architecture provides high-performance vector、matrix operations for sparse matrices in compressed formats"
+    },
+    {
+      "name": "kml_sparse_scscmm",
+      "library": "KML_SPBLAS",
+      "headerfile": "",
+      "desc_cn": "单精度实数类型，计算CSC格式的稀疏矩阵和稠密矩阵的积",
+      "desc_en": "single-precision real type, Computes the product of a sparse matrix and a dense matrix that are stored in the CSC format",
+      "benefit_cn": "基于鲲鹏架构为压缩格式的稀疏矩阵提供高性能向量、矩阵运算",
+      "benefit_en": "Based on the Kunpeng architecture provides high-performance vector、matrix operations for sparse matrices in compressed formats"
+    },
+    {
+      "name": "kml_csparse_dcscmm",
+      "library": "KML_SPBLAS",
+      "headerfile": "",
+      "desc_cn": "双精度实数类型，计算CSC格式的稀疏矩阵和稠密矩阵的积",
+      "desc_en": "double-precision real type, Computes the product of a sparse matrix and a dense matrix that are stored in the CSC format",
+      "benefit_cn": "基于鲲鹏架构为压缩格式的稀疏矩阵提供高性能向量、矩阵运算",
+      "benefit_en": "Based on the Kunpeng architecture provides high-performance vector、matrix operations for sparse matrices in compressed formats"
+    },
+    {
+      "name": "kml_csparse_ccscmm",
+      "library": "KML_SPBLAS",
+      "headerfile": "",
+      "desc_cn": "单精度复数类型，计算CSC格式的稀疏矩阵和稠密矩阵的积",
+      "desc_en": "single-precision complex type, Computes the product of a sparse matrix and a dense matrix that are stored in the CSC format",
+      "benefit_cn": "基于鲲鹏架构为压缩格式的稀疏矩阵提供高性能向量、矩阵运算",
+      "benefit_en": "Based on the Kunpeng architecture provides high-performance vector、matrix operations for sparse matrices in compressed formats"
+    },
+    {
+      "name": "kml_csparse_zcscmm",
+      "library": "KML_SPBLAS",
+      "headerfile": "",
+      "desc_cn": "双精度复数类型，计算CSC格式的稀疏矩阵和稠密矩阵的积",
+      "desc_en": "double-precision complex type, Computes the product of a sparse matrix and a dense matrix that are stored in the CSC format",
+      "benefit_cn": "基于鲲鹏架构为压缩格式的稀疏矩阵提供高性能向量、矩阵运算",
+      "benefit_en": "Based on the Kunpeng architecture provides high-performance vector、matrix operations for sparse matrices in compressed formats"
+    },
+    {
+      "name": "kml_sparse_scsrsm",
+      "library": "KML_SPBLAS",
+      "headerfile": "",
+      "desc_cn": "单精度实数类型，求解多个右端顶的稀疏线性方程组，矩阵式CSR格式",
+      "desc_en": "single-precision real type, Solving a sparse system of linear equations with multiple right-hand terms,the matrix is in CSR format",
+      "benefit_cn": "基于鲲鹏架构为压缩格式的稀疏矩阵提供高性能向量、矩阵运算",
+      "benefit_en": "Based on the Kunpeng architecture provides high-performance vector、matrix operations for sparse matrices in compressed formats"
+    },
+    {
+      "name": "kml_csparse_dcsrsm",
+      "library": "KML_SPBLAS",
+      "headerfile": "",
+      "desc_cn": "双精度实数类型，求解多个右端顶的稀疏线性方程组，矩阵式CSR格式",
+      "desc_en": "double-precision real type, Solving a sparse system of linear equations with multiple right-hand terms,the matrix is in CSR format",
+      "benefit_cn": "基于鲲鹏架构为压缩格式的稀疏矩阵提供高性能向量、矩阵运算",
+      "benefit_en": "Based on the Kunpeng architecture provides high-performance vector、matrix operations for sparse matrices in compressed formats"
+    },
+    {
+      "name": "kml_csparse_ccsrsm",
+      "library": "KML_SPBLAS",
+      "headerfile": "",
+      "desc_cn": "单精度复数类型，求解多个右端顶的稀疏线性方程组，矩阵式CSR格式",
+      "desc_en": "single-precision complex type, Solving a sparse system of linear equations with multiple right-hand terms,the matrix is in CSR format",
+      "benefit_cn": "基于鲲鹏架构为压缩格式的稀疏矩阵提供高性能向量、矩阵运算",
+      "benefit_en": "Based on the Kunpeng architecture provides high-performance vector、matrix operations for sparse matrices in compressed formats"
+    },
+    {
+      "name": "kml_csparse_zcsrsm",
+      "library": "KML_SPBLAS",
+      "headerfile": "",
+      "desc_cn": "双精度复数类型，求解多个右端顶的稀疏线性方程组，矩阵式CSR格式",
+      "desc_en": "double-precision complex type, Solving a sparse system of linear equations with multiple right-hand terms,the matrix is in CSR format",
+      "benefit_cn": "基于鲲鹏架构为压缩格式的稀疏矩阵提供高性能向量、矩阵运算",
+      "benefit_en": "Based on the Kunpeng architecture provides high-performance vector、matrix operations for sparse matrices in compressed formats"
+    },
+    {
+      "name": "kml_sparse_scscsm",
+      "library": "KML_SPBLAS",
+      "headerfile": "",
+      "desc_cn": "单精度实数类型，求解多个右端顶的稀疏线性方程组，矩阵式CSC格式",
+      "desc_en": "single-precision real type, Solving a sparse system of linear equations with multiple right-hand terms,the matrix is in CSC format",
+      "benefit_cn": "基于鲲鹏架构为压缩格式的稀疏矩阵提供高性能向量、矩阵运算",
+      "benefit_en": "Based on the Kunpeng architecture provides high-performance vector、matrix operations for sparse matrices in compressed formats"
+    },
+    {
+      "name": "kml_csparse_dcscsm",
+      "library": "KML_SPBLAS",
+      "headerfile": "",
+      "desc_cn": "双精度实数类型，求解多个右端顶的稀疏线性方程组，矩阵式CSC格式",
+      "desc_en": "double-precision real type, Solving a sparse system of linear equations with multiple right-hand terms,the matrix is in CSC format",
+      "benefit_cn": "基于鲲鹏架构为压缩格式的稀疏矩阵提供高性能向量、矩阵运算",
+      "benefit_en": "Based on the Kunpeng architecture provides high-performance vector、matrix operations for sparse matrices in compressed formats"
+    },
+    {
+      "name": "kml_csparse_ccscsm",
+      "library": "KML_SPBLAS",
+      "headerfile": "",
+      "desc_cn": "单精度复数类型，求解多个右端顶的稀疏线性方程组，矩阵式CSC格式",
+      "desc_en": "single-precision complex type, Solving a sparse system of linear equations with multiple right-hand terms,the matrix is in CSC format",
+      "benefit_cn": "基于鲲鹏架构为压缩格式的稀疏矩阵提供高性能向量、矩阵运算",
+      "benefit_en": "Based on the Kunpeng architecture provides high-performance vector、matrix operations for sparse matrices in compressed formats"
+    },
+    {
+      "name": "kml_csparse_zcscsm",
+      "library": "KML_SPBLAS",
+      "headerfile": "",
+      "desc_cn": "双精度复数类型，求解多个右端顶的稀疏线性方程组，矩阵式CSC格式",
+      "desc_en": "double-precision complex type, Solving a sparse system of linear equations with multiple right-hand terms,the matrix is in CSC format",
+      "benefit_cn": "基于鲲鹏架构为压缩格式的稀疏矩阵提供高性能向量、矩阵运算",
+      "benefit_en": "Based on the Kunpeng architecture provides high-performance vector、matrix operations for sparse matrices in compressed formats"
+    },
+    {
+      "name": "kml_sparse_scsradd",
+      "library": "KML_SPBLAS",
+      "headerfile": "",
+      "desc_cn": "单精度实数类型，矩阵与矩阵相加，矩阵是CSR格式(三数组，矩阵index从1开始)的稀疏矩阵，结果存储在稀疏矩阵",
+      "desc_en": "single-precision real type, Computes the sum of two sparse matrices that are stored in the CSR format(3-array variation)with one-based indexing.The result is stored in a sparse matrix",
+      "benefit_cn": "基于鲲鹏架构为压缩格式的稀疏矩阵提供高性能向量、矩阵运算",
+      "benefit_en": "Based on the Kunpeng architecture provides high-performance vector、matrix operations for sparse matrices in compressed formats"
+    },
+    {
+      "name": "kml_csparse_dcsradd",
+      "library": "KML_SPBLAS",
+      "headerfile": "",
+      "desc_cn": "双精度实数类型，矩阵与矩阵相加，矩阵是CSR格式(三数组，矩阵index从1开始)的稀疏矩阵，结果存储在稀疏矩阵",
+      "desc_en": "double-precision real type, Computes the sum of two sparse matrices that are stored in the CSR format(3-array variation)with one-based indexing.The result is stored in a sparse matrix",
+      "benefit_cn": "基于鲲鹏架构为压缩格式的稀疏矩阵提供高性能向量、矩阵运算",
+      "benefit_en": "Based on the Kunpeng architecture provides high-performance vector、matrix operations for sparse matrices in compressed formats"
+    },
+    {
+      "name": "kml_csparse_ccsradd",
+      "library": "KML_SPBLAS",
+      "headerfile": "",
+      "desc_cn": "单精度复数类型，矩阵与矩阵相加，矩阵是CSR格式(三数组，矩阵index从1开始)的稀疏矩阵，结果存储在稀疏矩阵",
+      "desc_en": "single-precision complex type, Computes the sum of two sparse matrices that are stored in the CSR format(3-array variation)with one-based indexing.The result is stored in a sparse matrix",
+      "benefit_cn": "基于鲲鹏架构为压缩格式的稀疏矩阵提供高性能向量、矩阵运算",
+      "benefit_en": "Based on the Kunpeng architecture provides high-performance vector、matrix operations for sparse matrices in compressed formats"
+    },
+    {
+      "name": "kml_csparse_zcsradd",
+      "library": "KML_SPBLAS",
+      "headerfile": "",
+      "desc_cn": "双精度复数类型，矩阵与矩阵相加，矩阵是CSR格式(三数组，矩阵index从1开始)的稀疏矩阵，结果存储在稀疏矩阵",
+      "desc_en": "double-precision complex type, Computes the sum of two sparse matrices that are stored in the CSR format(3-array variation)with one-based indexing.The result is stored in a sparse matrix",
+      "benefit_cn": "基于鲲鹏架构为压缩格式的稀疏矩阵提供高性能向量、矩阵运算",
+      "benefit_en": "Based on the Kunpeng architecture provides high-performance vector、matrix operations for sparse matrices in compressed formats"
+    },
+    {
+      "name": "kml_sparse_scsrmultcsr",
+      "library": "KML_SPBLAS",
+      "headerfile": "",
+      "desc_cn": "单精度实数类型，矩阵与矩阵相乘，矩阵是CSR格式(三数组，矩阵index从1开始)的稀疏矩阵，结果存储在稀疏矩阵",
+      "desc_en": "single-precision real type, Computes the product of two sparse matrices that are stored in the CSR format(3-array variation)with one-based indexing.The result is stored in a sparse matrix",
+      "benefit_cn": "基于鲲鹏架构为压缩格式的稀疏矩阵提供高性能向量、矩阵运算",
+      "benefit_en": "Based on the Kunpeng architecture provides high-performance vector、matrix operations for sparse matrices in compressed formats"
+    },
+    {
+      "name": "kml_csparse_dcsrmultcsr",
+      "library": "KML_SPBLAS",
+      "headerfile": "",
+      "desc_cn": "双精度实数类型，矩阵与矩阵相乘，矩阵是CSR格式(三数组，矩阵index从1开始)的稀疏矩阵，结果存储在稀疏矩阵",
+      "desc_en": "double-precision real type, Computes the product of two sparse matrices that are stored in the CSR format(3-array variation)with one-based indexing.The result is stored in a sparse matrix",
+      "benefit_cn": "基于鲲鹏架构为压缩格式的稀疏矩阵提供高性能向量、矩阵运算",
+      "benefit_en": "Based on the Kunpeng architecture provides high-performance vector、matrix operations for sparse matrices in compressed formats"
+    },
+    {
+      "name": "kml_csparse_ccsrmultcsr",
+      "library": "KML_SPBLAS",
+      "headerfile": "",
+      "desc_cn": "单精度复数类型，矩阵与矩阵相乘，矩阵是CSR格式(三数组，矩阵index从1开始)的稀疏矩阵，结果存储在稀疏矩阵",
+      "desc_en": "single-precision complex type, Computes the product of two sparse matrices that are stored in the CSR format(3-array variation)with one-based indexing.The result is stored in a sparse matrix",
+      "benefit_cn": "基于鲲鹏架构为压缩格式的稀疏矩阵提供高性能向量、矩阵运算",
+      "benefit_en": "Based on the Kunpeng architecture provides high-performance vector、matrix operations for sparse matrices in compressed formats"
+    },
+    {
+      "name": "kml_csparse_zcsrmultcsr",
+      "library": "KML_SPBLAS",
+      "headerfile": "",
+      "desc_cn": "双精度复数类型，矩阵与矩阵相乘，矩阵是CSR格式(三数组，矩阵index从1开始)的稀疏矩阵，结果存储在稀疏矩阵",
+      "desc_en": "double-precision complex type, Computes the product of two sparse matrices that are stored in the CSR format(3-array variation)with one-based indexing.The result is stored in a sparse matrix",
+      "benefit_cn": "基于鲲鹏架构为压缩格式的稀疏矩阵提供高性能向量、矩阵运算",
+      "benefit_en": "Based on the Kunpeng architecture provides high-performance vector、matrix operations for sparse matrices in compressed formats"
+    },
+    {
+      "name": "kml_sparse_scsrmultd",
+      "library": "KML_SPBLAS",
+      "headerfile": "",
+      "desc_cn": "单精度实数类型，矩阵与矩阵相乘，矩阵是CSR格式(三数组，矩阵index从1开始)的稀疏矩阵，结果存储在稠密矩阵",
+      "desc_en": "single-precision real type, Computes the product of two sparse matrices that are stored in the CSR format(3-array variation)with one-based indexing.The result is stored in a dense matrix",
+      "benefit_cn": "基于鲲鹏架构为压缩格式的稀疏矩阵提供高性能向量、矩阵运算",
+      "benefit_en": "Based on the Kunpeng architecture provides high-performance vector、matrix operations for sparse matrices in compressed formats"
+    },
+    {
+      "name": "kml_csparse_dcsrmultd",
+      "library": "KML_SPBLAS",
+      "headerfile": "",
+      "desc_cn": "双精度实数类型，矩阵与矩阵相乘，矩阵是CSR格式(三数组，矩阵index从1开始)的稀疏矩阵，结果存储在稠密矩阵",
+      "desc_en": "double-precision real type, Computes the product of two sparse matrices that are stored in the CSR format(3-array variation)with one-based indexing.The result is stored in a dense matrix",
+      "benefit_cn": "基于鲲鹏架构为压缩格式的稀疏矩阵提供高性能向量、矩阵运算",
+      "benefit_en": "Based on the Kunpeng architecture provides high-performance vector、matrix operations for sparse matrices in compressed formats"
+    },
+    {
+      "name": "kml_csparse_ccsrmultd",
+      "library": "KML_SPBLAS",
+      "headerfile": "",
+      "desc_cn": "单精度复数类型，矩阵与矩阵相乘，矩阵是CSR格式(三数组，矩阵index从1开始)的稀疏矩阵，结果存储在稠密矩阵",
+      "desc_en": "single-precision complex type, Computes the product of two sparse matrices that are stored in the CSR format(3-array variation)with one-based indexing.The result is stored in a dense matrix",
+      "benefit_cn": "基于鲲鹏架构为压缩格式的稀疏矩阵提供高性能向量、矩阵运算",
+      "benefit_en": "Based on the Kunpeng architecture provides high-performance vector、matrix operations for sparse matrices in compressed formats"
+    },
+    {
+      "name": "kml_csparse_zcsrmultd",
+      "library": "KML_SPBLAS",
+      "headerfile": "",
+      "desc_cn": "双精度复数类型，矩阵与矩阵相乘，矩阵是CSR格式(三数组，矩阵index从1开始)的稀疏矩阵，结果存储在稠密矩阵",
+      "desc_en": "double-precision complex type, Computes the product of two sparse matrices that are stored in the CSR format(3-array variation)with one-based indexing.The result is stored in a dense matrix",
+      "benefit_cn": "基于鲲鹏架构为压缩格式的稀疏矩阵提供高性能向量、矩阵运算",
+      "benefit_en": "Based on the Kunpeng architecture provides high-performance vector、matrix operations for sparse matrices in compressed formats"
+    },
+    {
+      "name": "kml_fft_plan_dft",
+      "library": "KML_FFT",
+      "headerfile": "",
+      "desc_cn": "双精度类型,建立单个连续数据序列n维C2C变换的plan",
+      "desc_en": "double-precision type,create a plan for the n-dimensional complex-to-complex(C2C)transform of a single contiguous data sequence",
+      "benefit_cn": "通过Neon指令优化、内联汇编等方法，充分利用鲲鹏架构下的寄存器特点，实现了在鲲鹏服务器上的性能提升",
+      "benefit_en": "Using methods such as NEON instruction optimization and inline assembly.It makes full use of register features in the Kunpeng architecture to improve performance of Kunpeng servers"
+    },
+    {
+      "name": "kml_fftf_plan_dft",
+      "library": "KML_FFT",
+      "headerfile": "",
+      "desc_cn": "单精度类型,建立单个连续数据序列n维C2C变换的plan",
+      "desc_en": "single-precision type,create a plan for the n-dimensional complex-to-complex(C2C)transform of a single contiguous data sequence",
+      "benefit_cn": "通过Neon指令优化、内联汇编等方法，充分利用鲲鹏架构下的寄存器特点，实现了在鲲鹏服务器上的性能提升",
+      "benefit_en": "Using methods such as NEON instruction optimization and inline assembly.It makes full use of register features in the Kunpeng architecture to improve performance of Kunpeng servers"
+    },
+    {
+      "name": "kml_fft_plan_dft_1d",
+      "library": "KML_FFT",
+      "headerfile": "",
+      "desc_cn": "双精度类型,建立单个连续数据序列1维C2C变换的plan",
+      "desc_en": "double-precision type,create a plan for the one-dimensional complex-to-complex(C2C)transform of a single contiguous data sequence",
+      "benefit_cn": "通过Neon指令优化、内联汇编等方法，充分利用鲲鹏架构下的寄存器特点，实现了在鲲鹏服务器上的性能提升",
+      "benefit_en": "Using methods such as NEON instruction optimization and inline assembly.It makes full use of register features in the Kunpeng architecture to improve performance of Kunpeng servers"
+    },
+    {
+      "name": "kml_fftf_plan_dft_1d",
+      "library": "KML_FFT",
+      "headerfile": "",
+      "desc_cn": "单精度类型,建立单个连续数据序列1维C2C变换的plan",
+      "desc_en": "single-precision type,create a plan for the one-dimensional complex-to-complex(C2C)transform of a single contiguous data sequence",
+      "benefit_cn": "通过Neon指令优化、内联汇编等方法，充分利用鲲鹏架构下的寄存器特点，实现了在鲲鹏服务器上的性能提升",
+      "benefit_en": "Using methods such as NEON instruction optimization and inline assembly.It makes full use of register features in the Kunpeng architecture to improve performance of Kunpeng servers"
+    },
+    {
+      "name": "kml_fft_plan_dft_2d",
+      "library": "KML_FFT",
+      "headerfile": "",
+      "desc_cn": "双精度类型,建立单个连续数据序列2维C2C变换的plan",
+      "desc_en": "double-precision type,create a plan for the two-dimensional complex-to-complex(C2C)transform of a single contiguous data sequence",
+      "benefit_cn": "通过Neon指令优化、内联汇编等方法，充分利用鲲鹏架构下的寄存器特点，实现了在鲲鹏服务器上的性能提升",
+      "benefit_en": "Using methods such as NEON instruction optimization and inline assembly.It makes full use of register features in the Kunpeng architecture to improve performance of Kunpeng servers"
+    },
+    {
+      "name": "kml_fftf_plan_dft_2d",
+      "library": "KML_FFT",
+      "headerfile": "",
+      "desc_cn": "单精度类型,建立单个连续数据序列2维C2C变换的plan",
+      "desc_en": "single-precision type,create a plan for the two-dimensional complex-to-complex(C2C)transform of a single contiguous data sequence",
+      "benefit_cn": "通过Neon指令优化、内联汇编等方法，充分利用鲲鹏架构下的寄存器特点，实现了在鲲鹏服务器上的性能提升",
+      "benefit_en": "Using methods such as NEON instruction optimization and inline assembly.It makes full use of register features in the Kunpeng architecture to improve performance of Kunpeng servers"
+    },
+    {
+      "name": "kml_fft_plan_dft_3d",
+      "library": "KML_FFT",
+      "headerfile": "",
+      "desc_cn": "双精度类型,建立单个连续数据序列3维C2C变换的plan",
+      "desc_en": "double-precision type,create a plan for the three-dimensional complex-to-complex(C2C)transform of a single contiguous data sequence",
+      "benefit_cn": "通过Neon指令优化、内联汇编等方法，充分利用鲲鹏架构下的寄存器特点，实现了在鲲鹏服务器上的性能提升",
+      "benefit_en": "Using methods such as NEON instruction optimization and inline assembly.It makes full use of register features in the Kunpeng architecture to improve performance of Kunpeng servers"
+    },
+    {
+      "name": "kml_fftf_plan_dft_3d",
+      "library": "KML_FFT",
+      "headerfile": "",
+      "desc_cn": "单精度类型,建立单个连续数据序列3维C2C变换的plan",
+      "desc_en": "single-precision type,create a plan for the three-dimensional complex-to-complex(C2C)transform of a single contiguous data sequence",
+      "benefit_cn": "通过Neon指令优化、内联汇编等方法，充分利用鲲鹏架构下的寄存器特点，实现了在鲲鹏服务器上的性能提升",
+      "benefit_en": "Using methods such as NEON instruction optimization and inline assembly.It makes full use of register features in the Kunpeng architecture to improve performance of Kunpeng servers"
+    },
+    {
+      "name": "kml_fft_plan_guru_dft",
+      "library": "KML_FFT",
+      "headerfile": "",
+      "desc_cn": "双精度类型,建立多组数据序列n维C2C变换的plan。",
+      "desc_en": "double-precision type,create a plan for the n-dimensional complex-to-complex(C2C)transform of a multiple data sequence.",
+      "benefit_cn": "通过Neon指令优化、内联汇编等方法，充分利用鲲鹏架构下的寄存器特点，实现了在鲲鹏服务器上的性能提升",
+      "benefit_en": "Using methods such as NEON instruction optimization and inline assembly.It makes full use of register features in the Kunpeng architecture to improve performance of Kunpeng servers"
+    },
+    {
+      "name": "kml_fftf_plan_guru_dft",
+      "library": "KML_FFT",
+      "headerfile": "",
+      "desc_cn": "单精度类型,建立多组数据序列n维C2C变换的plan。",
+      "desc_en": "single-precision type,create a plan for the n-dimensional complex-to-complex(C2C)transform of a multiple data sequence.",
+      "benefit_cn": "通过Neon指令优化、内联汇编等方法，充分利用鲲鹏架构下的寄存器特点，实现了在鲲鹏服务器上的性能提升",
+      "benefit_en": "Using methods such as NEON instruction optimization and inline assembly.It makes full use of register features in the Kunpeng architecture to improve performance of Kunpeng servers"
+    },
+    {
+      "name": "kml_fft_plan_guru_split_dft",
+      "library": "KML_FFT",
+      "headerfile": "",
+      "desc_cn": "双精度类型,建立多组数据序列n维C2C变换的plan。",
+      "desc_en": "double-precision type,create a plan for the n-dimensional complex-to-complex(C2C)transform of a multiple data sequence.",
+      "benefit_cn": "通过Neon指令优化、内联汇编等方法，充分利用鲲鹏架构下的寄存器特点，实现了在鲲鹏服务器上的性能提升",
+      "benefit_en": "Using methods such as NEON instruction optimization and inline assembly.It makes full use of register features in the Kunpeng architecture to improve performance of Kunpeng servers"
+    },
+    {
+      "name": "kml_fftf_plan_guru_split_dft",
+      "library": "KML_FFT",
+      "headerfile": "",
+      "desc_cn": "单精度类型,建立多组数据序列n维C2C变换的plan。",
+      "desc_en": "single-precision type,create a plan for the n-dimensional complex-to-complex(C2C)transform of a multiple data sequence.",
+      "benefit_cn": "通过Neon指令优化、内联汇编等方法，充分利用鲲鹏架构下的寄存器特点，实现了在鲲鹏服务器上的性能提升",
+      "benefit_en": "Using methods such as NEON instruction optimization and inline assembly.It makes full use of register features in the Kunpeng architecture to improve performance of Kunpeng servers"
+    },
+    {
+      "name": "kml_fft_plan_guru64_dft",
+      "library": "KML_FFT",
+      "headerfile": "",
+      "desc_cn": "双精度类型,建立多组数据序列n维C2C变换的plan。",
+      "desc_en": "double-precision type,create a plan for the n-dimensional complex-to-complex(C2C)transform of a multiple data sequence.",
+      "benefit_cn": "通过Neon指令优化、内联汇编等方法，充分利用鲲鹏架构下的寄存器特点，实现了在鲲鹏服务器上的性能提升",
+      "benefit_en": "Using methods such as NEON instruction optimization and inline assembly.It makes full use of register features in the Kunpeng architecture to improve performance of Kunpeng servers"
+    },
+    {
+      "name": "kml_fftf_plan_guru64_dft",
+      "library": "KML_FFT",
+      "headerfile": "",
+      "desc_cn": "单精度类型,建立多组数据序列n维C2C变换的plan。",
+      "desc_en": "single-precision type,create a plan for the n-dimensional complex-to-complex(C2C)transform of a multiple data sequence.",
+      "benefit_cn": "通过Neon指令优化、内联汇编等方法，充分利用鲲鹏架构下的寄存器特点，实现了在鲲鹏服务器上的性能提升",
+      "benefit_en": "Using methods such as NEON instruction optimization and inline assembly.It makes full use of register features in the Kunpeng architecture to improve performance of Kunpeng servers"
+    },
+    {
+      "name": "kml_fft_plan_guru64_split_dft",
+      "library": "KML_FFT",
+      "headerfile": "",
+      "desc_cn": "双精度类型,建立多组数据序列n维C2C变换的plan。",
+      "desc_en": "double-precision type,create a plan for the n-dimensional complex-to-complex(C2C)transform of a multiple data sequence",
+      "benefit_cn": "通过Neon指令优化、内联汇编等方法，充分利用鲲鹏架构下的寄存器特点，实现了在鲲鹏服务器上的性能提升",
+      "benefit_en": "Using methods such as NEON instruction optimization and inline assembly.It makes full use of register features in the Kunpeng architecture to improve performance of Kunpeng servers"
+    },
+    {
+      "name": "kml_fftf_plan_guru64_split_dft",
+      "library": "KML_FFT",
+      "headerfile": "",
+      "desc_cn": "单精度类型,建立多组数据序列n维C2C变换的plan。",
+      "desc_en": "single-precision type,create a plan for the n-dimensional complex-to-complex(C2C)transform of a multiple data sequence",
+      "benefit_cn": "通过Neon指令优化、内联汇编等方法，充分利用鲲鹏架构下的寄存器特点，实现了在鲲鹏服务器上的性能提升",
+      "benefit_en": "Using methods such as NEON instruction optimization and inline assembly.It makes full use of register features in the Kunpeng architecture to improve performance of Kunpeng servers"
+    },
+    {
+      "name": "kml_fft_plan_many_dft",
+      "library": "KML_FFT",
+      "headerfile": "",
+      "desc_cn": "双精度类型,建立howmany组数据序列n维C2C变换的plan",
+      "desc_en": "double-precision type,create a plan for the n-dimensional complex-to-complex(C2C)transform of howmany data sequence",
+      "benefit_cn": "通过Neon指令优化、内联汇编等方法，充分利用鲲鹏架构下的寄存器特点，实现了在鲲鹏服务器上的性能提升",
+      "benefit_en": "Using methods such as NEON instruction optimization and inline assembly.It makes full use of register features in the Kunpeng architecture to improve performance of Kunpeng servers"
+    },
+    {
+      "name": "kml_fftf_plan_many_dft",
+      "library": "KML_FFT",
+      "headerfile": "",
+      "desc_cn": "单精度类型,建立howmany组数据序列n维C2C变换的plan",
+      "desc_en": "single-precision type,create a plan for the n-dimensional complex-to-complex(C2C)transform of howmany data sequence",
+      "benefit_cn": "通过Neon指令优化、内联汇编等方法，充分利用鲲鹏架构下的寄存器特点，实现了在鲲鹏服务器上的性能提升",
+      "benefit_en": "Using methods such as NEON instruction optimization and inline assembly.It makes full use of register features in the Kunpeng architecture to improve performance of Kunpeng servers"
+    },
+    {
+      "name": "kml_fft_plan_dft_r2c",
+      "library": "KML_FFT",
+      "headerfile": "",
+      "desc_cn": "双精度类型,建立单个连续数据序列n维R2C变换的plan",
+      "desc_en": "double-precision type,create a plan for the n-dimensional real-to-complex(R2C)transform of a single contiguous data sequence",
+      "benefit_cn": "通过Neon指令优化、内联汇编等方法，充分利用鲲鹏架构下的寄存器特点，实现了在鲲鹏服务器上的性能提升",
+      "benefit_en": "Using methods such as NEON instruction optimization and inline assembly.It makes full use of register features in the Kunpeng architecture to improve performance of Kunpeng servers"
+    },
+    {
+      "name": "kml_fftf_plan_dft_r2c",
+      "library": "KML_FFT",
+      "headerfile": "",
+      "desc_cn": "单精度类型,建立单个连续数据序列n维R2C变换的plan",
+      "desc_en": "single-precision type,create a plan for the n-dimensional real-to-complex(R2C)transform of a single contiguous data sequence",
+      "benefit_cn": "通过Neon指令优化、内联汇编等方法，充分利用鲲鹏架构下的寄存器特点，实现了在鲲鹏服务器上的性能提升",
+      "benefit_en": "Using methods such as NEON instruction optimization and inline assembly.It makes full use of register features in the Kunpeng architecture to improve performance of Kunpeng servers"
+    },
+    {
+      "name": "kml_fft_plan_dft_r2c_1d",
+      "library": "KML_FFT",
+      "headerfile": "",
+      "desc_cn": "双精度类型,建立单个连续数据序列1维R2C变换的plan",
+      "desc_en": "double-precision type,create a plan for the one-dimensional real-to-complex(R2C)transform of a single contiguous data sequence",
+      "benefit_cn": "通过Neon指令优化、内联汇编等方法，充分利用鲲鹏架构下的寄存器特点，实现了在鲲鹏服务器上的性能提升",
+      "benefit_en": "Using methods such as NEON instruction optimization and inline assembly.It makes full use of register features in the Kunpeng architecture to improve performance of Kunpeng servers"
+    },
+    {
+      "name": "kml_fftf_plan_dft_r2c_1d",
+      "library": "KML_FFT",
+      "headerfile": "",
+      "desc_cn": "单精度类型,建立单个连续数据序列1维R2C变换的plan",
+      "desc_en": "single-precision type,create a plan for the one-dimensional real-to-complex(R2C)transform of a single contiguous data sequence",
+      "benefit_cn": "通过Neon指令优化、内联汇编等方法，充分利用鲲鹏架构下的寄存器特点，实现了在鲲鹏服务器上的性能提升",
+      "benefit_en": "Using methods such as NEON instruction optimization and inline assembly.It makes full use of register features in the Kunpeng architecture to improve performance of Kunpeng servers"
+    },
+    {
+      "name": "kml_fft_plan_dft_r2c_2d",
+      "library": "KML_FFT",
+      "headerfile": "",
+      "desc_cn": "双精度类型,建立单个连续数据序列2维R2C变换的plan",
+      "desc_en": "double-precision type,create a plan for the two-dimensional real-to-complex(R2C)transform of a single contiguous data sequence",
+      "benefit_cn": "通过Neon指令优化、内联汇编等方法，充分利用鲲鹏架构下的寄存器特点，实现了在鲲鹏服务器上的性能提升",
+      "benefit_en": "Using methods such as NEON instruction optimization and inline assembly.It makes full use of register features in the Kunpeng architecture to improve performance of Kunpeng servers"
+    },
+    {
+      "name": "kml_fftf_plan_dft_r2c_2d",
+      "library": "KML_FFT",
+      "headerfile": "",
+      "desc_cn": "单精度类型,建立单个连续数据序列2维R2C变换的plan",
+      "desc_en": "single-precision type,create a plan for the two-dimensional real-to-complex(R2C)transform of a single contiguous data sequence",
+      "benefit_cn": "通过Neon指令优化、内联汇编等方法，充分利用鲲鹏架构下的寄存器特点，实现了在鲲鹏服务器上的性能提升",
+      "benefit_en": "Using methods such as NEON instruction optimization and inline assembly.It makes full use of register features in the Kunpeng architecture to improve performance of Kunpeng servers"
+    },
+    {
+      "name": "kml_fft_plan_dft_r2c_3d",
+      "library": "KML_FFT",
+      "headerfile": "",
+      "desc_cn": "双精度类型,建立单个连续数据序列3维R2C变换的plan",
+      "desc_en": "double-precision type,create a plan for the three-dimensional real-to-complex(R2C)transform of a single contiguous data sequence",
+      "benefit_cn": "通过Neon指令优化、内联汇编等方法，充分利用鲲鹏架构下的寄存器特点，实现了在鲲鹏服务器上的性能提升",
+      "benefit_en": "Using methods such as NEON instruction optimization and inline assembly.It makes full use of register features in the Kunpeng architecture to improve performance of Kunpeng servers"
+    },
+    {
+      "name": "kml_fftf_plan_dft_r2c_3d",
+      "library": "KML_FFT",
+      "headerfile": "",
+      "desc_cn": "单精度类型,建立单个连续数据序列3维R2C变换的plan",
+      "desc_en": "single-precision type,create a plan for the three-dimensional real-to-complex(R2C)transform of a single contiguous data sequence",
+      "benefit_cn": "通过Neon指令优化、内联汇编等方法，充分利用鲲鹏架构下的寄存器特点，实现了在鲲鹏服务器上的性能提升",
+      "benefit_en": "Using methods such as NEON instruction optimization and inline assembly.It makes full use of register features in the Kunpeng architecture to improve performance of Kunpeng servers"
+    },
+    {
+      "name": "kml_fft_plan_guru_dft_r2c",
+      "library": "KML_FFT",
+      "headerfile": "",
+      "desc_cn": "双精度类型,建立多组数据序列n维R2C变换的plan。",
+      "desc_en": "double-precision type,create a plan for the n-dimensional real-to-complex(R2C)transform of a multiple data sequence.",
+      "benefit_cn": "通过Neon指令优化、内联汇编等方法，充分利用鲲鹏架构下的寄存器特点，实现了在鲲鹏服务器上的性能提升",
+      "benefit_en": "Using methods such as NEON instruction optimization and inline assembly.It makes full use of register features in the Kunpeng architecture to improve performance of Kunpeng servers"
+    },
+    {
+      "name": "kml_fftf_plan_guru_dft_r2c",
+      "library": "KML_FFT",
+      "headerfile": "",
+      "desc_cn": "单精度类型,建立多组数据序列n维R2C变换的plan。",
+      "desc_en": "single-precision type,create a plan for the n-dimensional real-to-complex(R2C)transform of a multiple data sequence.",
+      "benefit_cn": "通过Neon指令优化、内联汇编等方法，充分利用鲲鹏架构下的寄存器特点，实现了在鲲鹏服务器上的性能提升",
+      "benefit_en": "Using methods such as NEON instruction optimization and inline assembly.It makes full use of register features in the Kunpeng architecture to improve performance of Kunpeng servers"
+    },
+    {
+      "name": "kml_fft_plan_guru_split_dft_r2c",
+      "library": "KML_FFT",
+      "headerfile": "",
+      "desc_cn": "双精度类型,建立多组数据序列n维R2C变换的plan。",
+      "desc_en": "double-precision type,create a plan for the n-dimensional real-to-complex(R2C)transform of a multiple data sequence.",
+      "benefit_cn": "通过Neon指令优化、内联汇编等方法，充分利用鲲鹏架构下的寄存器特点，实现了在鲲鹏服务器上的性能提升",
+      "benefit_en": "Using methods such as NEON instruction optimization and inline assembly.It makes full use of register features in the Kunpeng architecture to improve performance of Kunpeng servers"
+    },
+    {
+      "name": "kml_fftf_plan_guru_split_dft_r2c",
+      "library": "KML_FFT",
+      "headerfile": "",
+      "desc_cn": "单精度类型,建立多组数据序列n维R2C变换的plan。",
+      "desc_en": "single-precision type,create a plan for the n-dimensional real-to-complex(R2C)transform of a multiple data sequence.",
+      "benefit_cn": "通过Neon指令优化、内联汇编等方法，充分利用鲲鹏架构下的寄存器特点，实现了在鲲鹏服务器上的性能提升",
+      "benefit_en": "Using methods such as NEON instruction optimization and inline assembly.It makes full use of register features in the Kunpeng architecture to improve performance of Kunpeng servers"
+    },
+    {
+      "name": "kml_fft_plan_guru64_dft_r2c",
+      "library": "KML_FFT",
+      "headerfile": "",
+      "desc_cn": "双精度类型,建立多组数据序列n维R2C变换的plan。",
+      "desc_en": "double-precision type,create a plan for the n-dimensional real-to-complex(R2C)transform of a multiple data sequence.",
+      "benefit_cn": "通过Neon指令优化、内联汇编等方法，充分利用鲲鹏架构下的寄存器特点，实现了在鲲鹏服务器上的性能提升",
+      "benefit_en": "Using methods such as NEON instruction optimization and inline assembly.It makes full use of register features in the Kunpeng architecture to improve performance of Kunpeng servers"
+    },
+    {
+      "name": "kml_fftf_plan_guru64_dft_r2c",
+      "library": "KML_FFT",
+      "headerfile": "",
+      "desc_cn": "单精度类型,建立多组数据序列n维R2C变换的plan。",
+      "desc_en": "single-precision type,create a plan for the n-dimensional real-to-complex(R2C)transform of a multiple data sequence.",
+      "benefit_cn": "通过Neon指令优化、内联汇编等方法，充分利用鲲鹏架构下的寄存器特点，实现了在鲲鹏服务器上的性能提升",
+      "benefit_en": "Using methods such as NEON instruction optimization and inline assembly.It makes full use of register features in the Kunpeng architecture to improve performance of Kunpeng servers"
+    },
+    {
+      "name": "kml_fft_plan_guru64_split_dft_r2c",
+      "library": "KML_FFT",
+      "headerfile": "",
+      "desc_cn": "双精度类型,建立多组数据序列n维R2C变换的plan。",
+      "desc_en": "double-precision type,create a plan for the n-dimensional real-to-complex(R2C)transform of a multiple data sequence",
+      "benefit_cn": "通过Neon指令优化、内联汇编等方法，充分利用鲲鹏架构下的寄存器特点，实现了在鲲鹏服务器上的性能提升",
+      "benefit_en": "Using methods such as NEON instruction optimization and inline assembly.It makes full use of register features in the Kunpeng architecture to improve performance of Kunpeng servers"
+    },
+    {
+      "name": "kml_fftf_plan_guru64_split_dft_r2c",
+      "library": "KML_FFT",
+      "headerfile": "",
+      "desc_cn": "单精度类型,建立多组数据序列n维R2C变换的plan。",
+      "desc_en": "single-precision type,create a plan for the n-dimensional real-to-complex(R2C)transform of a multiple data sequence",
+      "benefit_cn": "通过Neon指令优化、内联汇编等方法，充分利用鲲鹏架构下的寄存器特点，实现了在鲲鹏服务器上的性能提升",
+      "benefit_en": "Using methods such as NEON instruction optimization and inline assembly.It makes full use of register features in the Kunpeng architecture to improve performance of Kunpeng servers"
+    },
+    {
+      "name": "kml_fft_plan_many_dft_r2c",
+      "library": "KML_FFT",
+      "headerfile": "",
+      "desc_cn": "双精度类型,建立howmany组数据序列n维R2C变换的plan",
+      "desc_en": "double-precision type,create a plan for the n-dimensional real-to-complex(R2C)transform of howmany data sequence",
+      "benefit_cn": "通过Neon指令优化、内联汇编等方法，充分利用鲲鹏架构下的寄存器特点，实现了在鲲鹏服务器上的性能提升",
+      "benefit_en": "Using methods such as NEON instruction optimization and inline assembly.It makes full use of register features in the Kunpeng architecture to improve performance of Kunpeng servers"
+    },
+    {
+      "name": "kml_fftf_plan_many_dft_r2c",
+      "library": "KML_FFT",
+      "headerfile": "",
+      "desc_cn": "单精度类型,建立howmany组数据序列n维R2C变换的plan",
+      "desc_en": "single-precision type,create a plan for the n-dimensional real-to-complex(R2C)transform of howmany data sequence",
+      "benefit_cn": "通过Neon指令优化、内联汇编等方法，充分利用鲲鹏架构下的寄存器特点，实现了在鲲鹏服务器上的性能提升",
+      "benefit_en": "Using methods such as NEON instruction optimization and inline assembly.It makes full use of register features in the Kunpeng architecture to improve performance of Kunpeng servers"
+    },
+    {
+      "name": "kml_fft_plan_dft_c2r",
+      "library": "KML_FFT",
+      "headerfile": "",
+      "desc_cn": "双精度类型,建立单个连续数据序列n维c2r变换的plan",
+      "desc_en": "double-precision type,create a plan for the n-dimensional complex-to-real(c2r)transform of a single contiguous data sequence",
+      "benefit_cn": "通过Neon指令优化、内联汇编等方法，充分利用鲲鹏架构下的寄存器特点，实现了在鲲鹏服务器上的性能提升",
+      "benefit_en": "Using methods such as NEON instruction optimization and inline assembly.It makes full use of register features in the Kunpeng architecture to improve performance of Kunpeng servers"
+    },
+    {
+      "name": "kml_fftf_plan_dft_c2r",
+      "library": "KML_FFT",
+      "headerfile": "",
+      "desc_cn": "单精度类型,建立单个连续数据序列n维C2R变换的plan",
+      "desc_en": "single-precision type,create a plan for the n-dimensional complex-to-real(C2R)transform of a single contiguous data sequence",
+      "benefit_cn": "通过Neon指令优化、内联汇编等方法，充分利用鲲鹏架构下的寄存器特点，实现了在鲲鹏服务器上的性能提升",
+      "benefit_en": "Using methods such as NEON instruction optimization and inline assembly.It makes full use of register features in the Kunpeng architecture to improve performance of Kunpeng servers"
+    },
+    {
+      "name": "kml_fft_plan_dft_c2r_1d",
+      "library": "KML_FFT",
+      "headerfile": "",
+      "desc_cn": "双精度类型,建立单个连续数据序列1维C2R变换的plan",
+      "desc_en": "double-precision type,create a plan for the one-dimensional complex-to-real(C2R)transform of a single contiguous data sequence",
+      "benefit_cn": "通过Neon指令优化、内联汇编等方法，充分利用鲲鹏架构下的寄存器特点，实现了在鲲鹏服务器上的性能提升",
+      "benefit_en": "Using methods such as NEON instruction optimization and inline assembly.It makes full use of register features in the Kunpeng architecture to improve performance of Kunpeng servers"
+    },
+    {
+      "name": "kml_fftf_plan_dft_c2r_1d",
+      "library": "KML_FFT",
+      "headerfile": "",
+      "desc_cn": "单精度类型,建立单个连续数据序列1维C2R变换的plan",
+      "desc_en": "single-precision type,create a plan for the one-dimensional complex-to-real(C2R)transform of a single contiguous data sequence",
+      "benefit_cn": "通过Neon指令优化、内联汇编等方法，充分利用鲲鹏架构下的寄存器特点，实现了在鲲鹏服务器上的性能提升",
+      "benefit_en": "Using methods such as NEON instruction optimization and inline assembly.It makes full use of register features in the Kunpeng architecture to improve performance of Kunpeng servers"
+    },
+    {
+      "name": "kml_fft_plan_dft_c2r_2d",
+      "library": "KML_FFT",
+      "headerfile": "",
+      "desc_cn": "双精度类型,建立单个连续数据序列2维C2R变换的plan",
+      "desc_en": "double-precision type,create a plan for the two-dimensional complex-to-real(C2R)transform of a single contiguous data sequence",
+      "benefit_cn": "通过Neon指令优化、内联汇编等方法，充分利用鲲鹏架构下的寄存器特点，实现了在鲲鹏服务器上的性能提升",
+      "benefit_en": "Using methods such as NEON instruction optimization and inline assembly.It makes full use of register features in the Kunpeng architecture to improve performance of Kunpeng servers"
+    },
+    {
+      "name": "kml_fftf_plan_dft_c2r_2d",
+      "library": "KML_FFT",
+      "headerfile": "",
+      "desc_cn": "单精度类型,建立单个连续数据序列2维C2R变换的plan",
+      "desc_en": "single-precision type,create a plan for the two-dimensional complex-to-real(C2R)transform of a single contiguous data sequence",
+      "benefit_cn": "通过Neon指令优化、内联汇编等方法，充分利用鲲鹏架构下的寄存器特点，实现了在鲲鹏服务器上的性能提升",
+      "benefit_en": "Using methods such as NEON instruction optimization and inline assembly.It makes full use of register features in the Kunpeng architecture to improve performance of Kunpeng servers"
+    },
+    {
+      "name": "kml_fft_plan_dft_c2r_3d",
+      "library": "KML_FFT",
+      "headerfile": "",
+      "desc_cn": "双精度类型,建立单个连续数据序列3维C2R变换的plan",
+      "desc_en": "double-precision type,create a plan for the three-dimensional complex-to-real(C2R)transform of a single contiguous data sequence",
+      "benefit_cn": "通过Neon指令优化、内联汇编等方法，充分利用鲲鹏架构下的寄存器特点，实现了在鲲鹏服务器上的性能提升",
+      "benefit_en": "Using methods such as NEON instruction optimization and inline assembly.It makes full use of register features in the Kunpeng architecture to improve performance of Kunpeng servers"
+    },
+    {
+      "name": "kml_fftf_plan_dft_c2r_3d",
+      "library": "KML_FFT",
+      "headerfile": "",
+      "desc_cn": "单精度类型,建立单个连续数据序列3维C2R变换的plan",
+      "desc_en": "single-precision type,create a plan for the three-dimensional complex-to-real(C2R)transform of a single contiguous data sequence",
+      "benefit_cn": "通过Neon指令优化、内联汇编等方法，充分利用鲲鹏架构下的寄存器特点，实现了在鲲鹏服务器上的性能提升",
+      "benefit_en": "Using methods such as NEON instruction optimization and inline assembly.It makes full use of register features in the Kunpeng architecture to improve performance of Kunpeng servers"
+    },
+    {
+      "name": "kml_fft_plan_guru_dft_c2r",
+      "library": "KML_FFT",
+      "headerfile": "",
+      "desc_cn": "双精度类型,建立多组数据序列n维C2R变换的plan。",
+      "desc_en": "double-precision type,create a plan for the n-dimensional complex-to-real(C2R)transform of a multiple data sequence.",
+      "benefit_cn": "通过Neon指令优化、内联汇编等方法，充分利用鲲鹏架构下的寄存器特点，实现了在鲲鹏服务器上的性能提升",
+      "benefit_en": "Using methods such as NEON instruction optimization and inline assembly.It makes full use of register features in the Kunpeng architecture to improve performance of Kunpeng servers"
+    },
+    {
+      "name": "kml_fftf_plan_guru_dft_c2r",
+      "library": "KML_FFT",
+      "headerfile": "",
+      "desc_cn": "单精度类型,建立多组数据序列n维C2R变换的plan。",
+      "desc_en": "single-precision type,create a plan for the n-dimensional complex-to-real(C2R)transform of a multiple data sequence.",
+      "benefit_cn": "通过Neon指令优化、内联汇编等方法，充分利用鲲鹏架构下的寄存器特点，实现了在鲲鹏服务器上的性能提升",
+      "benefit_en": "Using methods such as NEON instruction optimization and inline assembly.It makes full use of register features in the Kunpeng architecture to improve performance of Kunpeng servers"
+    },
+    {
+      "name": "kml_fft_plan_guru_split_dft_c2r",
+      "library": "KML_FFT",
+      "headerfile": "",
+      "desc_cn": "双精度类型,建立多组数据序列n维C2R变换的plan。",
+      "desc_en": "double-precision type,create a plan for the n-dimensional complex-to-real(C2R)transform of a multiple data sequence.",
+      "benefit_cn": "通过Neon指令优化、内联汇编等方法，充分利用鲲鹏架构下的寄存器特点，实现了在鲲鹏服务器上的性能提升",
+      "benefit_en": "Using methods such as NEON instruction optimization and inline assembly.It makes full use of register features in the Kunpeng architecture to improve performance of Kunpeng servers"
+    },
+    {
+      "name": "kml_fftf_plan_guru_split_dft_c2r",
+      "library": "KML_FFT",
+      "headerfile": "",
+      "desc_cn": "单精度类型,建立多组数据序列n维C2R变换的plan。",
+      "desc_en": "single-precision type,create a plan for the n-dimensional complex-to-real(C2R)transform of a multiple data sequence.",
+      "benefit_cn": "通过Neon指令优化、内联汇编等方法，充分利用鲲鹏架构下的寄存器特点，实现了在鲲鹏服务器上的性能提升",
+      "benefit_en": "Using methods such as NEON instruction optimization and inline assembly.It makes full use of register features in the Kunpeng architecture to improve performance of Kunpeng servers"
+    },
+    {
+      "name": "kml_fft_plan_guru64_dft_c2r",
+      "library": "KML_FFT",
+      "headerfile": "",
+      "desc_cn": "双精度类型,建立多组数据序列n维C2R变换的plan。",
+      "desc_en": "double-precision type,create a plan for the n-dimensional complex-to-real(C2R)transform of a multiple data sequence.",
+      "benefit_cn": "通过Neon指令优化、内联汇编等方法，充分利用鲲鹏架构下的寄存器特点，实现了在鲲鹏服务器上的性能提升",
+      "benefit_en": "Using methods such as NEON instruction optimization and inline assembly.It makes full use of register features in the Kunpeng architecture to improve performance of Kunpeng servers"
+    },
+    {
+      "name": "kml_fftf_plan_guru64_dft_c2r",
+      "library": "KML_FFT",
+      "headerfile": "",
+      "desc_cn": "单精度类型,建立多组数据序列n维C2R变换的plan。",
+      "desc_en": "single-precision type,create a plan for the n-dimensional complex-to-real(C2R)transform of a multiple data sequence.",
+      "benefit_cn": "通过Neon指令优化、内联汇编等方法，充分利用鲲鹏架构下的寄存器特点，实现了在鲲鹏服务器上的性能提升",
+      "benefit_en": "Using methods such as NEON instruction optimization and inline assembly.It makes full use of register features in the Kunpeng architecture to improve performance of Kunpeng servers"
+    },
+    {
+      "name": "kml_fft_plan_guru64_split_dft_c2r",
+      "library": "KML_FFT",
+      "headerfile": "",
+      "desc_cn": "双精度类型,建立多组数据序列n维C2R变换的plan。",
+      "desc_en": "double-precision type,create a plan for the n-dimensional complex-to-real(C2R)transform of a multiple data sequence",
+      "benefit_cn": "通过Neon指令优化、内联汇编等方法，充分利用鲲鹏架构下的寄存器特点，实现了在鲲鹏服务器上的性能提升",
+      "benefit_en": "Using methods such as NEON instruction optimization and inline assembly.It makes full use of register features in the Kunpeng architecture to improve performance of Kunpeng servers"
+    },
+    {
+      "name": "kml_fftf_plan_guru64_split_dft_c2r",
+      "library": "KML_FFT",
+      "headerfile": "",
+      "desc_cn": "单精度类型,建立多组数据序列n维C2R变换的plan。",
+      "desc_en": "single-precision type,create a plan for the n-dimensional complex-to-real(C2R)transform of a multiple data sequence",
+      "benefit_cn": "通过Neon指令优化、内联汇编等方法，充分利用鲲鹏架构下的寄存器特点，实现了在鲲鹏服务器上的性能提升",
+      "benefit_en": "Using methods such as NEON instruction optimization and inline assembly.It makes full use of register features in the Kunpeng architecture to improve performance of Kunpeng servers"
+    },
+    {
+      "name": "kml_fft_plan_many_dft_c2r",
+      "library": "KML_FFT",
+      "headerfile": "",
+      "desc_cn": "双精度类型,建立howmany组数据序列n维C2R变换的plan",
+      "desc_en": "double-precision type,create a plan for the n-dimensional complex-to-real(C2R)transform of howmany data sequence",
+      "benefit_cn": "通过Neon指令优化、内联汇编等方法，充分利用鲲鹏架构下的寄存器特点，实现了在鲲鹏服务器上的性能提升",
+      "benefit_en": "Using methods such as NEON instruction optimization and inline assembly.It makes full use of register features in the Kunpeng architecture to improve performance of Kunpeng servers"
+    },
+    {
+      "name": "kml_fftf_plan_many_dft_c2r",
+      "library": "KML_FFT",
+      "headerfile": "",
+      "desc_cn": "单精度类型,建立howmany组数据序列n维C2R变换的plan",
+      "desc_en": "single-precision type,create a plan for the n-dimensional complex-to-real(C2R)transform of howmany data sequence",
+      "benefit_cn": "通过Neon指令优化、内联汇编等方法，充分利用鲲鹏架构下的寄存器特点，实现了在鲲鹏服务器上的性能提升",
+      "benefit_en": "Using methods such as NEON instruction optimization and inline assembly.It makes full use of register features in the Kunpeng architecture to improve performance of Kunpeng servers"
+    },
+    {
+      "name": "kml_fft_plan_dft_r2r",
+      "library": "KML_FFT",
+      "headerfile": "",
+      "desc_cn": "双精度类型,建立单个连续数据序列n维R2R变换的plan",
+      "desc_en": "double-precision type,create a plan for the n-dimensional real-to-real(R2R)transform of a single contiguous data sequence",
+      "benefit_cn": "通过Neon指令优化、内联汇编等方法，充分利用鲲鹏架构下的寄存器特点，实现了在鲲鹏服务器上的性能提升",
+      "benefit_en": "Using methods such as NEON instruction optimization and inline assembly.It makes full use of register features in the Kunpeng architecture to improve performance of Kunpeng servers"
+    },
+    {
+      "name": "kml_fftf_plan_dft_r2r",
+      "library": "KML_FFT",
+      "headerfile": "",
+      "desc_cn": "单精度类型,建立单个连续数据序列n维R2R变换的plan",
+      "desc_en": "single-precision type,create a plan for the n-dimensional real-to-real(R2R)transform of a single contiguous data sequence",
+      "benefit_cn": "通过Neon指令优化、内联汇编等方法，充分利用鲲鹏架构下的寄存器特点，实现了在鲲鹏服务器上的性能提升",
+      "benefit_en": "Using methods such as NEON instruction optimization and inline assembly.It makes full use of register features in the Kunpeng architecture to improve performance of Kunpeng servers"
+    },
+    {
+      "name": "kml_fft_plan_dft_r2r_1d",
+      "library": "KML_FFT",
+      "headerfile": "",
+      "desc_cn": "双精度类型,建立单个连续数据序列1维R2R变换的plan",
+      "desc_en": "double-precision type,create a plan for the one-dimensional real-to-real(R2R)transform of a single contiguous data sequence",
+      "benefit_cn": "通过Neon指令优化、内联汇编等方法，充分利用鲲鹏架构下的寄存器特点，实现了在鲲鹏服务器上的性能提升",
+      "benefit_en": "Using methods such as NEON instruction optimization and inline assembly.It makes full use of register features in the Kunpeng architecture to improve performance of Kunpeng servers"
+    },
+    {
+      "name": "kml_fftf_plan_dft_r2r_1d",
+      "library": "KML_FFT",
+      "headerfile": "",
+      "desc_cn": "单精度类型,建立单个连续数据序列1维R2R变换的plan",
+      "desc_en": "single-precision type,create a plan for the one-dimensional real-to-real(R2R)transform of a single contiguous data sequence",
+      "benefit_cn": "通过Neon指令优化、内联汇编等方法，充分利用鲲鹏架构下的寄存器特点，实现了在鲲鹏服务器上的性能提升",
+      "benefit_en": "Using methods such as NEON instruction optimization and inline assembly.It makes full use of register features in the Kunpeng architecture to improve performance of Kunpeng servers"
+    },
+    {
+      "name": "kml_fft_plan_dft_r2r_2d",
+      "library": "KML_FFT",
+      "headerfile": "",
+      "desc_cn": "双精度类型,建立单个连续数据序列2维R2R变换的plan",
+      "desc_en": "double-precision type,create a plan for the two-dimensional real-to-real(R2R)transform of a single contiguous data sequence",
+      "benefit_cn": "通过Neon指令优化、内联汇编等方法，充分利用鲲鹏架构下的寄存器特点，实现了在鲲鹏服务器上的性能提升",
+      "benefit_en": "Using methods such as NEON instruction optimization and inline assembly.It makes full use of register features in the Kunpeng architecture to improve performance of Kunpeng servers"
+    },
+    {
+      "name": "kml_fftf_plan_dft_r2r_2d",
+      "library": "KML_FFT",
+      "headerfile": "",
+      "desc_cn": "单精度类型,建立单个连续数据序列2维R2R变换的plan",
+      "desc_en": "single-precision type,create a plan for the two-dimensional real-to-real(R2R)transform of a single contiguous data sequence",
+      "benefit_cn": "通过Neon指令优化、内联汇编等方法，充分利用鲲鹏架构下的寄存器特点，实现了在鲲鹏服务器上的性能提升",
+      "benefit_en": "Using methods such as NEON instruction optimization and inline assembly.It makes full use of register features in the Kunpeng architecture to improve performance of Kunpeng servers"
+    },
+    {
+      "name": "kml_fft_plan_dft_r2r_3d",
+      "library": "KML_FFT",
+      "headerfile": "",
+      "desc_cn": "双精度类型,建立单个连续数据序列3维R2R变换的plan",
+      "desc_en": "double-precision type,create a plan for the three-dimensional real-to-real(R2R)transform of a single contiguous data sequence",
+      "benefit_cn": "通过Neon指令优化、内联汇编等方法，充分利用鲲鹏架构下的寄存器特点，实现了在鲲鹏服务器上的性能提升",
+      "benefit_en": "Using methods such as NEON instruction optimization and inline assembly.It makes full use of register features in the Kunpeng architecture to improve performance of Kunpeng servers"
+    },
+    {
+      "name": "kml_fftf_plan_dft_r2r_3d",
+      "library": "KML_FFT",
+      "headerfile": "",
+      "desc_cn": "单精度类型,建立单个连续数据序列3维R2R变换的plan",
+      "desc_en": "single-precision type,create a plan for the three-dimensional real-to-real(R2R)transform of a single contiguous data sequence",
+      "benefit_cn": "通过Neon指令优化、内联汇编等方法，充分利用鲲鹏架构下的寄存器特点，实现了在鲲鹏服务器上的性能提升",
+      "benefit_en": "Using methods such as NEON instruction optimization and inline assembly.It makes full use of register features in the Kunpeng architecture to improve performance of Kunpeng servers"
+    },
+    {
+      "name": "kml_fft_plan_guru_dft_r2r",
+      "library": "KML_FFT",
+      "headerfile": "",
+      "desc_cn": "双精度类型,建立多组数据序列n维R2R变换的plan。",
+      "desc_en": "double-precision type,create a plan for the n-dimensional real-to-real(R2R)transform of a multiple data sequence.",
+      "benefit_cn": "通过Neon指令优化、内联汇编等方法，充分利用鲲鹏架构下的寄存器特点，实现了在鲲鹏服务器上的性能提升",
+      "benefit_en": "Using methods such as NEON instruction optimization and inline assembly.It makes full use of register features in the Kunpeng architecture to improve performance of Kunpeng servers"
+    },
+    {
+      "name": "kml_fftf_plan_guru_dft_r2r",
+      "library": "KML_FFT",
+      "headerfile": "",
+      "desc_cn": "单精度类型,建立多组数据序列n维R2R变换的plan。",
+      "desc_en": "single-precision type,create a plan for the n-dimensional real-to-real(R2R)transform of a multiple data sequence.",
+      "benefit_cn": "通过Neon指令优化、内联汇编等方法，充分利用鲲鹏架构下的寄存器特点，实现了在鲲鹏服务器上的性能提升",
+      "benefit_en": "Using methods such as NEON instruction optimization and inline assembly.It makes full use of register features in the Kunpeng architecture to improve performance of Kunpeng servers"
+    },
+    {
+      "name": "kml_fft_plan_guru64_dft_r2r",
+      "library": "KML_FFT",
+      "headerfile": "",
+      "desc_cn": "双精度类型,建立多组数据序列n维R2R变换的plan。",
+      "desc_en": "double-precision type,create a plan for the n-dimensional real-to-real(R2R)transform of a multiple data sequence.",
+      "benefit_cn": "通过Neon指令优化、内联汇编等方法，充分利用鲲鹏架构下的寄存器特点，实现了在鲲鹏服务器上的性能提升",
+      "benefit_en": "Using methods such as NEON instruction optimization and inline assembly.It makes full use of register features in the Kunpeng architecture to improve performance of Kunpeng servers"
+    },
+    {
+      "name": "kml_fftf_plan_guru64_dft_r2r",
+      "library": "KML_FFT",
+      "headerfile": "",
+      "desc_cn": "单精度类型,建立多组数据序列n维R2R变换的plan。",
+      "desc_en": "single-precision type,create a plan for the n-dimensional real-to-real(R2R)transform of a multiple data sequence.",
+      "benefit_cn": "通过Neon指令优化、内联汇编等方法，充分利用鲲鹏架构下的寄存器特点，实现了在鲲鹏服务器上的性能提升",
+      "benefit_en": "Using methods such as NEON instruction optimization and inline assembly.It makes full use of register features in the Kunpeng architecture to improve performance of Kunpeng servers"
+    },
+    {
+      "name": "kml_fft_plan_many_dft_r2r",
+      "library": "KML_FFT",
+      "headerfile": "",
+      "desc_cn": "双精度类型,建立howmany组数据序列n维R2R变换的plan",
+      "desc_en": "double-precision type,create a plan for the n-dimensional real-to-real(R2R)transform of howmany data sequence",
+      "benefit_cn": "通过Neon指令优化、内联汇编等方法，充分利用鲲鹏架构下的寄存器特点，实现了在鲲鹏服务器上的性能提升",
+      "benefit_en": "Using methods such as NEON instruction optimization and inline assembly.It makes full use of register features in the Kunpeng architecture to improve performance of Kunpeng servers"
+    },
+    {
+      "name": "kml_fftf_plan_many_dft_r2r",
+      "library": "KML_FFT",
+      "headerfile": "",
+      "desc_cn": "单精度类型,建立howmany组数据序列n维R2R变换的plan",
+      "desc_en": "single-precision type,create a plan for the n-dimensional real-to-real(R2R)transform of howmany data sequence",
+      "benefit_cn": "通过Neon指令优化、内联汇编等方法，充分利用鲲鹏架构下的寄存器特点，实现了在鲲鹏服务器上的性能提升",
+      "benefit_en": "Using methods such as NEON instruction optimization and inline assembly.It makes full use of register features in the Kunpeng architecture to improve performance of Kunpeng servers"
+    },
+    {
+      "name": "kml_fft_execute",
+      "library": "KML_FFT",
+      "headerfile": "",
+      "desc_cn": "双精度类型,执行之前建立的FFT变换plan",
+      "desc_en": "double-precision type,executes the created FFT plan",
+      "benefit_cn": "通过Neon指令优化、内联汇编等方法，充分利用鲲鹏架构下的寄存器特点，实现了在鲲鹏服务器上的性能提升",
+      "benefit_en": "Using methods such as NEON instruction optimization and inline assembly.It makes full use of register features in the Kunpeng architecture to improve performance of Kunpeng servers"
+    },
+    {
+      "name": "kml_fftf_execute",
+      "library": "KML_FFT",
+      "headerfile": "",
+      "desc_cn": "单精度类型,执行之前建立的FFT变换plan",
+      "desc_en": "single-precision type,executes the created FFT plan",
+      "benefit_cn": "通过Neon指令优化、内联汇编等方法，充分利用鲲鹏架构下的寄存器特点，实现了在鲲鹏服务器上的性能提升",
+      "benefit_en": "Using methods such as NEON instruction optimization and inline assembly.It makes full use of register features in the Kunpeng architecture to improve performance of Kunpeng servers"
+    },
+    {
+      "name": "kml_fft_execute_dft",
+      "library": "KML_FFT",
+      "headerfile": "",
+      "desc_cn": "双精度类型,执行之前建立的FFT变换plan",
+      "desc_en": "double-precision type,executes the created FFT plan",
+      "benefit_cn": "通过Neon指令优化、内联汇编等方法，充分利用鲲鹏架构下的寄存器特点，实现了在鲲鹏服务器上的性能提升",
+      "benefit_en": "Using methods such as NEON instruction optimization and inline assembly.It makes full use of register features in the Kunpeng architecture to improve performance of Kunpeng servers"
+    },
+    {
+      "name": "kml_fftf_execute_dft",
+      "library": "KML_FFT",
+      "headerfile": "",
+      "desc_cn": "单精度类型,执行之前建立的FFT变换plan",
+      "desc_en": "single-precision type,executes the created FFT plan",
+      "benefit_cn": "通过Neon指令优化、内联汇编等方法，充分利用鲲鹏架构下的寄存器特点，实现了在鲲鹏服务器上的性能提升",
+      "benefit_en": "Using methods such as NEON instruction optimization and inline assembly.It makes full use of register features in the Kunpeng architecture to improve performance of Kunpeng servers"
+    },
+    {
+      "name": "kml_fft_execute_dft_r2c",
+      "library": "KML_FFT",
+      "headerfile": "",
+      "desc_cn": "双精度类型,执行之前建立的FFT变换plan",
+      "desc_en": "double-precision type,executes the created FFT plan",
+      "benefit_cn": "通过Neon指令优化、内联汇编等方法，充分利用鲲鹏架构下的寄存器特点，实现了在鲲鹏服务器上的性能提升",
+      "benefit_en": "Using methods such as NEON instruction optimization and inline assembly.It makes full use of register features in the Kunpeng architecture to improve performance of Kunpeng servers"
+    },
+    {
+      "name": "kml_fftf_execute_dft_r2c",
+      "library": "KML_FFT",
+      "headerfile": "",
+      "desc_cn": "单精度类型,执行之前建立的FFT变换plan",
+      "desc_en": "single-precision type,executes the created FFT plan",
+      "benefit_cn": "通过Neon指令优化、内联汇编等方法，充分利用鲲鹏架构下的寄存器特点，实现了在鲲鹏服务器上的性能提升",
+      "benefit_en": "Using methods such as NEON instruction optimization and inline assembly.It makes full use of register features in the Kunpeng architecture to improve performance of Kunpeng servers"
+    },
+    {
+      "name": "kml_fft_execute_dft_c2r",
+      "library": "KML_FFT",
+      "headerfile": "",
+      "desc_cn": "双精度类型,执行之前建立的FFT变换plan",
+      "desc_en": "double-precision type,executes the created FFT plan",
+      "benefit_cn": "通过Neon指令优化、内联汇编等方法，充分利用鲲鹏架构下的寄存器特点，实现了在鲲鹏服务器上的性能提升",
+      "benefit_en": "Using methods such as NEON instruction optimization and inline assembly.It makes full use of register features in the Kunpeng architecture to improve performance of Kunpeng servers"
+    },
+    {
+      "name": "kml_fftf_execute_dft_c2r",
+      "library": "KML_FFT",
+      "headerfile": "",
+      "desc_cn": "单精度类型,执行之前建立的FFT变换plan",
+      "desc_en": "single-precision type,executes the created FFT plan",
+      "benefit_cn": "通过Neon指令优化、内联汇编等方法，充分利用鲲鹏架构下的寄存器特点，实现了在鲲鹏服务器上的性能提升",
+      "benefit_en": "Using methods such as NEON instruction optimization and inline assembly.It makes full use of register features in the Kunpeng architecture to improve performance of Kunpeng servers"
+    },
+    {
+      "name": "kml_fft_execute_r2r",
+      "library": "KML_FFT",
+      "headerfile": "",
+      "desc_cn": "双精度类型,执行之前建立的FFT变换plan",
+      "desc_en": "double-precision type,executes the created FFT plan",
+      "benefit_cn": "通过Neon指令优化、内联汇编等方法，充分利用鲲鹏架构下的寄存器特点，实现了在鲲鹏服务器上的性能提升",
+      "benefit_en": "Using methods such as NEON instruction optimization and inline assembly.It makes full use of register features in the Kunpeng architecture to improve performance of Kunpeng servers"
+    },
+    {
+      "name": "kml_fftf_execute_r2r",
+      "library": "KML_FFT",
+      "headerfile": "",
+      "desc_cn": "单精度类型,执行之前建立的FFT变换plan",
+      "desc_en": "single-precision type,executes the created FFT plan",
+      "benefit_cn": "通过Neon指令优化、内联汇编等方法，充分利用鲲鹏架构下的寄存器特点，实现了在鲲鹏服务器上的性能提升",
+      "benefit_en": "Using methods such as NEON instruction optimization and inline assembly.It makes full use of register features in the Kunpeng architecture to improve performance of Kunpeng servers"
+    },
+    {
+      "name": "kml_fft_execute_split_dft",
+      "library": "KML_FFT",
+      "headerfile": "",
+      "desc_cn": "双精度类型,执行之前建立的FFT变换plan",
+      "desc_en": "double-precision type,executes the created FFT plan",
+      "benefit_cn": "通过Neon指令优化、内联汇编等方法，充分利用鲲鹏架构下的寄存器特点，实现了在鲲鹏服务器上的性能提升",
+      "benefit_en": "Using methods such as NEON instruction optimization and inline assembly.It makes full use of register features in the Kunpeng architecture to improve performance of Kunpeng servers"
+    },
+    {
+      "name": "kml_fftf_execute_split_dft",
+      "library": "KML_FFT",
+      "headerfile": "",
+      "desc_cn": "单精度类型,执行之前建立的FFT变换plan",
+      "desc_en": "single-precision type,executes the created FFT plan",
+      "benefit_cn": "通过Neon指令优化、内联汇编等方法，充分利用鲲鹏架构下的寄存器特点，实现了在鲲鹏服务器上的性能提升",
+      "benefit_en": "Using methods such as NEON instruction optimization and inline assembly.It makes full use of register features in the Kunpeng architecture to improve performance of Kunpeng servers"
+    },
+    {
+      "name": "kml_fft_execute_split_dft_r2c",
+      "library": "KML_FFT",
+      "headerfile": "",
+      "desc_cn": "双精度类型,执行之前建立的FFT变换plan",
+      "desc_en": "double-precision type,executes the created FFT plan",
+      "benefit_cn": "通过Neon指令优化、内联汇编等方法，充分利用鲲鹏架构下的寄存器特点，实现了在鲲鹏服务器上的性能提升",
+      "benefit_en": "Using methods such as NEON instruction optimization and inline assembly.It makes full use of register features in the Kunpeng architecture to improve performance of Kunpeng servers"
+    },
+    {
+      "name": "kml_fftf_execute_split_dft_r2c",
+      "library": "KML_FFT",
+      "headerfile": "",
+      "desc_cn": "单精度类型,执行之前建立的FFT变换plan",
+      "desc_en": "single-precision type,executes the created FFT plan",
+      "benefit_cn": "通过Neon指令优化、内联汇编等方法，充分利用鲲鹏架构下的寄存器特点，实现了在鲲鹏服务器上的性能提升",
+      "benefit_en": "Using methods such as NEON instruction optimization and inline assembly.It makes full use of register features in the Kunpeng architecture to improve performance of Kunpeng servers"
+    },
+    {
+      "name": "kml_fft_execute_split_dft_c2r",
+      "library": "KML_FFT",
+      "headerfile": "",
+      "desc_cn": "双精度类型,执行之前建立的FFT变换plan",
+      "desc_en": "double-precision type,executes the created FFT plan",
+      "benefit_cn": "通过Neon指令优化、内联汇编等方法，充分利用鲲鹏架构下的寄存器特点，实现了在鲲鹏服务器上的性能提升",
+      "benefit_en": "Using methods such as NEON instruction optimization and inline assembly.It makes full use of register features in the Kunpeng architecture to improve performance of Kunpeng servers"
+    },
+    {
+      "name": "kml_fftf_execute_split_dft_c2r",
+      "library": "KML_FFT",
+      "headerfile": "",
+      "desc_cn": "单精度类型,执行之前建立的FFT变换plan",
+      "desc_en": "single-precision type,executes the created FFT plan",
+      "benefit_cn": "通过Neon指令优化、内联汇编等方法，充分利用鲲鹏架构下的寄存器特点，实现了在鲲鹏服务器上的性能提升",
+      "benefit_en": "Using methods such as NEON instruction optimization and inline assembly.It makes full use of register features in the Kunpeng architecture to improve performance of Kunpeng servers"
+    },
+    {
+      "name": "kml_fft_malloc",
+      "library": "KML_FFT",
+      "headerfile": "",
+      "desc_cn": "双精度类型,分配所需内存空间",
+      "desc_en": "double-precision type,allocate the required memory space",
+      "benefit_cn": "通过Neon指令优化、内联汇编等方法，充分利用鲲鹏架构下的寄存器特点，实现了在鲲鹏服务器上的性能提升",
+      "benefit_en": "Using methods such as NEON instruction optimization and inline assembly.It makes full use of register features in the Kunpeng architecture to improve performance of Kunpeng servers"
+    },
+    {
+      "name": "kml_fftf_malloc",
+      "library": "KML_FFT",
+      "headerfile": "",
+      "desc_cn": "单精度类型,分配所需内存空间",
+      "desc_en": "single-precision type,allocate the required memory space",
+      "benefit_cn": "通过Neon指令优化、内联汇编等方法，充分利用鲲鹏架构下的寄存器特点，实现了在鲲鹏服务器上的性能提升",
+      "benefit_en": "Using methods such as NEON instruction optimization and inline assembly.It makes full use of register features in the Kunpeng architecture to improve performance of Kunpeng servers"
+    },
+    {
+      "name": "kml_fft_free",
+      "library": "KML_FFT",
+      "headerfile": "",
+      "desc_cn": "释放由kml_fft_malloc函数申请的内存",
+      "desc_en": "Release the memory space applied using the kml_fft_malloc function",
+      "benefit_cn": "通过Neon指令优化、内联汇编等方法，充分利用鲲鹏架构下的寄存器特点，实现了在鲲鹏服务器上的性能提升",
+      "benefit_en": "Using methods such as NEON instruction optimization and inline assembly.It makes full use of register features in the Kunpeng architecture to improve performance of Kunpeng servers"
+    },
+    {
+      "name": "kml_fftf_free",
+      "library": "KML_FFT",
+      "headerfile": "",
+      "desc_cn": "释放由kml_fftf_malloc函数申请的内存",
+      "desc_en": "Release the memory space applied using the kml_fftf_malloc function",
+      "benefit_cn": "通过Neon指令优化、内联汇编等方法，充分利用鲲鹏架构下的寄存器特点，实现了在鲲鹏服务器上的性能提升",
+      "benefit_en": "Using methods such as NEON instruction optimization and inline assembly.It makes full use of register features in the Kunpeng architecture to improve performance of Kunpeng servers"
+    },
+    {
+      "name": "kml_fft_destroy_plan",
+      "library": "KML_FFT",
+      "headerfile": "",
+      "desc_cn": "双精度类型，释放FFT变换plan的所有内存",
+      "desc_en": "double-precision type,Release all the memory space used by an FFT plan",
+      "benefit_cn": "通过Neon指令优化、内联汇编等方法，充分利用鲲鹏架构下的寄存器特点，实现了在鲲鹏服务器上的性能提升",
+      "benefit_en": "Using methods such as NEON instruction optimization and inline assembly.It makes full use of register features in the Kunpeng architecture to improve performance of Kunpeng servers"
+    },
+    {
+      "name": "kml_fftf_destroy_plan",
+      "library": "KML_FFT",
+      "headerfile": "",
+      "desc_cn": "单精度类型，释放FFT变换plan的所有内存",
+      "desc_en": "single-precision type,Release all the memory space used by an FFT plan",
+      "benefit_cn": "通过Neon指令优化、内联汇编等方法，充分利用鲲鹏架构下的寄存器特点，实现了在鲲鹏服务器上的性能提升",
+      "benefit_en": "Using methods such as NEON instruction optimization and inline assembly.It makes full use of register features in the Kunpeng architecture to improve performance of Kunpeng servers"
+    },
+    {
+      "name": "kml_fft_init_threads",
+      "library": "KML_FFT",
+      "headerfile": "",
+      "desc_cn": "双精度类型，初始化线程",
+      "desc_en": "double-precision type,initialize thread",
+      "benefit_cn": "通过Neon指令优化、内联汇编等方法，充分利用鲲鹏架构下的寄存器特点，实现了在鲲鹏服务器上的性能提升",
+      "benefit_en": "Using methods such as NEON instruction optimization and inline assembly.It makes full use of register features in the Kunpeng architecture to improve performance of Kunpeng servers"
+    },
+    {
+      "name": "kml_fftf_init_threads",
+      "library": "KML_FFT",
+      "headerfile": "",
+      "desc_cn": "单精度类型，初始化线程",
+      "desc_en": "single-precision type,initialize thread",
+      "benefit_cn": "通过Neon指令优化、内联汇编等方法，充分利用鲲鹏架构下的寄存器特点，实现了在鲲鹏服务器上的性能提升",
+      "benefit_en": "Using methods such as NEON instruction optimization and inline assembly.It makes full use of register features in the Kunpeng architecture to improve performance of Kunpeng servers"
+    },
+    {
+      "name": "kml_fft_plan_with_threads",
+      "library": "KML_FFT",
+      "headerfile": "",
+      "desc_cn": "双精度类型，指定FFT库接口函数执行的线程数",
+      "desc_en": "double-precision type,specify the number of threads executed by the FFT library interface function",
+      "benefit_cn": "通过Neon指令优化、内联汇编等方法，充分利用鲲鹏架构下的寄存器特点，实现了在鲲鹏服务器上的性能提升",
+      "benefit_en": "Using methods such as NEON instruction optimization and inline assembly.It makes full use of register features in the Kunpeng architecture to improve performance of Kunpeng servers"
+    },
+    {
+      "name": "kml_fftf_plan_with_threads",
+      "library": "KML_FFT",
+      "headerfile": "",
+      "desc_cn": "单精度类型，指定FFT库接口函数执行的线程数",
+      "desc_en": "single-precision type,specify the number of threads executed by the FFT library interface function",
+      "benefit_cn": "通过Neon指令优化、内联汇编等方法，充分利用鲲鹏架构下的寄存器特点，实现了在鲲鹏服务器上的性能提升",
+      "benefit_en": "Using methods such as NEON instruction optimization and inline assembly.It makes full use of register features in the Kunpeng architecture to improve performance of Kunpeng servers"
+    },
+    {
+      "name": "kml_fft_cleanup_threads",
+      "library": "KML_FFT",
+      "headerfile": "",
+      "desc_cn": "双精度类型，释放多线程框架相关的资源",
+      "desc_en": "double-precision type,release resources related the multi-thread framework",
+      "benefit_cn": "通过Neon指令优化、内联汇编等方法，充分利用鲲鹏架构下的寄存器特点，实现了在鲲鹏服务器上的性能提升",
+      "benefit_en": "Using methods such as NEON instruction optimization and inline assembly.It makes full use of register features in the Kunpeng architecture to improve performance of Kunpeng servers"
+    },
+    {
+      "name": "kml_fftf_cleanup_threads",
+      "library": "KML_FFT",
+      "headerfile": "",
+      "desc_cn": "单精度类型，释放多线程框架相关的资源",
+      "desc_en": "single-precision type,release resources related the multi-thread framework",
+      "benefit_cn": "通过Neon指令优化、内联汇编等方法，充分利用鲲鹏架构下的寄存器特点，实现了在鲲鹏服务器上的性能提升",
+      "benefit_en": "Using methods such as NEON instruction optimization and inline assembly.It makes full use of register features in the Kunpeng architecture to improve performance of Kunpeng servers"
+    },
+    {
+      "name": "sgetrf",
+      "library": "KML_LAPACK",
+      "headerfile": "",
+      "desc_cn": "单精度实数类型矩阵的LU分解",
+      "desc_en": "LU factorization of single precision real type matrices",
+      "benefit_cn": "基于鲲鹏框架，实现矩阵LU分解性能加速",
+      "benefit_en": "Basic Kunpeng architecture accelerates matrix LU factorization performance"
+    },
+    {
+      "name": "dgetrf",
+      "library": "KML_LAPACK",
+      "headerfile": "",
+      "desc_cn": "双精度实数类型矩阵的LU分解",
+      "desc_en": "LU factorization of double precision real type matrices",
+      "benefit_cn": "基于鲲鹏框架，实现矩阵LU分解性能加速",
+      "benefit_en": "Basic Kunpeng architecture accelerates matrix LU factorization performance"
+    },
+    {
+      "name": "cgetrf",
+      "library": "KML_LAPACK",
+      "headerfile": "",
+      "desc_cn": "单精度复数类型矩阵的LU分解",
+      "desc_en": "LU factorization of single precision complex type matrices",
+      "benefit_cn": "基于鲲鹏框架，实现矩阵LU分解性能加速",
+      "benefit_en": "Basic Kunpeng architecture accelerates matrix LU factorization performance"
+    },
+    {
+      "name": "zgetrf",
+      "library": "KML_LAPACK",
+      "headerfile": "",
+      "desc_cn": "双精度复数类型矩阵的LU分解",
+      "desc_en": "LU factorization of double precision complex type matrices",
+      "benefit_cn": "基于鲲鹏框架，实现矩阵LU分解性能加速",
+      "benefit_en": "Basic Kunpeng architecture accelerates matrix LU factorization performance"
+    },
+    {
+      "name": "sgeqrf",
+      "library": "KML_LAPACK",
+      "headerfile": "",
+      "desc_cn": "单精度实数类型矩阵的QR分解",
+      "desc_en": "QR factorization of single precision real type matrices",
+      "benefit_cn": "基于鲲鹏框架，实现矩阵QR分解性能加速",
+      "benefit_en": "Basic Kunpeng architecture accelerates matrix QR factorization performance"
+    },
+    {
+      "name": "dgeqrf",
+      "library": "KML_LAPACK",
+      "headerfile": "",
+      "desc_cn": "双精度实数类型矩阵的QR分解",
+      "desc_en": "QR factorization of double precision real type matrices",
+      "benefit_cn": "基于鲲鹏框架，实现矩阵QR分解性能加速",
+      "benefit_en": "Basic Kunpeng architecture accelerates matrix QR factorization performance"
+    },
+    {
+      "name": "cgeqrf",
+      "library": "KML_LAPACK",
+      "headerfile": "",
+      "desc_cn": "单精度复数类型矩阵的QR分解",
+      "desc_en": "QR factorization of single precision complex type matrices",
+      "benefit_cn": "基于鲲鹏框架，实现矩阵QR分解性能加速",
+      "benefit_en": "Basic Kunpeng architecture accelerates matrix QR factorization performance"
+    },
+    {
+      "name": "zgeqrf",
+      "library": "KML_LAPACK",
+      "headerfile": "",
+      "desc_cn": "双精度复数类型矩阵的QR分解",
+      "desc_en": "QR factorization of double precision complex type matrices",
+      "benefit_cn": "基于鲲鹏框架，实现矩阵QR分解性能加速",
+      "benefit_en": "Basic Kunpeng architecture accelerates matrix QR factorization performance"
+    },
+    {
+      "name": "spotrf",
+      "library": "KML_LAPACK",
+      "headerfile": "",
+      "desc_cn": "单精度实对称正定矩阵的Cholesky分解",
+      "desc_en": "Cholesky decomposition of single precision real symmetric positive definite matrices",
+      "benefit_cn": "基于鲲鹏框架，实现矩阵Cholesky分解性能加速",
+      "benefit_en": "Basic Kunpeng architecture accelerates matrix Cholesky decomposition performance"
+    },
+    {
+      "name": "dpotrf",
+      "library": "KML_LAPACK",
+      "headerfile": "",
+      "desc_cn": "双精度实对称正定矩阵的Cholesky分解",
+      "desc_en": "Cholesky decomposition of double precision real symmetric positive definite matrices",
+      "benefit_cn": "基于鲲鹏框架，实现矩阵Cholesky分解性能加速",
+      "benefit_en": "Basic Kunpeng architecture accelerates matrix Cholesky decomposition performance"
+    },
+    {
+      "name": "cpotrf",
+      "library": "KML_LAPACK",
+      "headerfile": "",
+      "desc_cn": "单精度Hermite正定矩阵的Cholesky分解",
+      "desc_en": "Cholesky decomposition of single precision Hermite positive definite matrices",
+      "benefit_cn": "基于鲲鹏框架，实现矩阵Cholesky分解性能加速",
+      "benefit_en": "Basic Kunpeng architecture accelerates matrix Cholesky decomposition performance"
+    },
+    {
+      "name": "zpotrf",
+      "library": "KML_LAPACK",
+      "headerfile": "",
+      "desc_cn": "双精度Hermite正定矩阵的Cholesky分解",
+      "desc_en": "Cholesky decomposition of double precision Hermite positive definite matrices",
+      "benefit_cn": "基于鲲鹏框架，实现矩阵Cholesky分解性能加速",
+      "benefit_en": "Basic Kunpeng architecture accelerates matrix Cholesky decomposition performance"
+    },
+    {
+      "name": "sppsv",
+      "library": "KML_LAPACK",
+      "headerfile": "",
+      "desc_cn": "求解线性方程组Ax=b,其中A为单精度实对称正定矩阵，并以压缩格式存储",
+      "desc_en": "Solve a system of linear equations Ax=b where A is a single precision real symmetric positive definite matrix and packed storage",
+      "benefit_cn": "基于鲲鹏框架，实现对称正定矩阵线性方程组的求解性能加速",
+      "benefit_en": "Basic Kunpeng architecture accelerates the solution performance of linear equations with symmetric positive definite matrices"
+    },
+    {
+      "name": "dppsv",
+      "library": "KML_LAPACK",
+      "headerfile": "",
+      "desc_cn": "求解线性方程组Ax=b,其中A为双精度实对称正定矩阵，并以压缩格式存储",
+      "desc_en": "Solve a system of linear equations Ax=b where A is a double precision real symmetric positive definite matrix and packed storage",
+      "benefit_cn": "基于鲲鹏框架，实现对称正定矩阵线性方程组的求解性能加速",
+      "benefit_en": "Basic Kunpeng architecture accelerates the solution performance of linear equations with symmetric positive definite matrices"
+    },
+    {
+      "name": "cppsv",
+      "library": "KML_LAPACK",
+      "headerfile": "",
+      "desc_cn": "求解线性方程组Ax=b,其中A为单精度Hermite正定矩阵，并以压缩格式存储",
+      "desc_en": "Solve a system of linear equations Ax=b where A is a single precision Hermite positive definite matrix and packed storage",
+      "benefit_cn": "基于鲲鹏框架，实现对称正定矩阵线性方程组的求解性能加速",
+      "benefit_en": "Basic Kunpeng architecture accelerates the solution performance of linear equations with symmetric positive definite matrices"
+    },
+    {
+      "name": "zppsv",
+      "library": "KML_LAPACK",
+      "headerfile": "",
+      "desc_cn": "求解线性方程组Ax=b,其中A为双精度Hermite正定矩阵，并以压缩格式存储",
+      "desc_en": "Solve a system of linear equations Ax=b where A is a double precision real symmetric positive definite matrix and packed storage",
+      "benefit_cn": "基于鲲鹏框架，实现对称正定矩阵线性方程组的求解性能加速",
+      "benefit_en": "Basic Kunpeng architecture accelerates the solution performance of linear equations with symmetric positive definite matrices"
+    },
+    {
+      "name": "sgesv",
+      "library": "KML_LAPACK",
+      "headerfile": "",
+      "desc_cn": "求解线性方程组Ax=b,其中A为一般单精度实矩阵，并以完全格式存储",
+      "desc_en": "Solve a system of linear equations Ax=b where A is a single precision real general matrix and full storage",
+      "benefit_cn": "基于鲲鹏框架，实现一般矩阵线性方程组的求解性能加速",
+      "benefit_en": "Basic Kunpeng architecture accelerates the solution performance of linear equations with general matrices"
+    },
+    {
+      "name": "dgesv",
+      "library": "KML_LAPACK",
+      "headerfile": "",
+      "desc_cn": "求解线性方程组Ax=b,其中A为一般双精度实矩阵，并以完全格式存储",
+      "desc_en": "Solve a system of linear equations Ax=b where A is a double precision real general matrix and full storage",
+      "benefit_cn": "基于鲲鹏框架，实现一般矩阵线性方程组的求解性能加速",
+      "benefit_en": "Basic Kunpeng architecture accelerates the solution performance of linear equations with general matrices"
+    },
+    {
+      "name": "cgesv",
+      "library": "KML_LAPACK",
+      "headerfile": "",
+      "desc_cn": "求解线性方程组Ax=b,其中A为一般单精度复矩阵，并以完全格式存储",
+      "desc_en": "Solve a system of linear equations Ax=b where A is a single precision complex general matrix and full storage",
+      "benefit_cn": "基于鲲鹏框架，实现一般矩阵线性方程组的求解性能加速",
+      "benefit_en": "Basic Kunpeng architecture accelerates the solution performance of linear equations with general matrices"
+    },
+    {
+      "name": "zgesv",
+      "library": "KML_LAPACK",
+      "headerfile": "",
+      "desc_cn": "求解线性方程组Ax=b,其中A为一般双精度复矩阵，并以完全格式存储",
+      "desc_en": "Solve a system of linear equations Ax=b where A is a double precision complex general matrix and full storage",
+      "benefit_cn": "基于鲲鹏框架，实现一般矩阵线性方程组的求解性能加速",
+      "benefit_en": "Basic Kunpeng architecture accelerates the solution performance of linear equations with general matrices"
+    },
+    {
+      "name": "sgetri",
+      "library": "KML_LAPACK",
+      "headerfile": "",
+      "desc_cn": "根据sgetrf得到的分解结果，计算逆矩阵",
+      "desc_en": "Calculate the inverse matrix according to the decomposition result obtained by sgetrf",
+      "benefit_cn": "基于鲲鹏框架，实现一般矩阵求逆矩阵性能加速",
+      "benefit_en": "Basic Kunpeng architecture accelerates general matrix inversion matrix performance"
+    },
+    {
+      "name": "dgetri",
+      "library": "KML_LAPACK",
+      "headerfile": "",
+      "desc_cn": "根据dgetrf得到的分解结果，计算逆矩阵",
+      "desc_en": "Calculate the inverse matrix according to the decomposition result obtained by dgetrf",
+      "benefit_cn": "基于鲲鹏框架，实现一般矩阵求逆矩阵性能加速",
+      "benefit_en": "Basic Kunpeng architecture accelerates general matrix inversion matrix performance"
+    },
+    {
+      "name": "cgetri",
+      "library": "KML_LAPACK",
+      "headerfile": "",
+      "desc_cn": "根据cgetrf得到的分解结果，计算逆矩阵",
+      "desc_en": "Calculate the inverse matrix according to the decomposition result obtained by cgetrf",
+      "benefit_cn": "基于鲲鹏框架，实现一般矩阵求逆矩阵性能加速",
+      "benefit_en": "Basic Kunpeng architecture accelerates general matrix inversion matrix performance"
+    },
+    {
+      "name": "zgetri",
+      "library": "KML_LAPACK",
+      "headerfile": "",
+      "desc_cn": "根据zgetrf得到的分解结果，计算逆矩阵",
+      "desc_en": "Calculate the inverse matrix according to the decomposition result obtained by zgetrf",
+      "benefit_cn": "基于鲲鹏框架，实现一般矩阵求逆矩阵性能加速",
+      "benefit_en": "Basic Kunpeng architecture accelerates general matrix inversion matrix performance"
+    },
+    {
+      "name": "dsyevd",
+      "library": "KML_LAPACK",
+      "headerfile": "",
+      "desc_cn": "双精度实对称矩阵的全部特征值和特征向量（可选）",
+      "desc_en": "All eigenvalues and eigenvectors(optional) of double precision real symmetric matrices",
+      "benefit_cn": "基于鲲鹏框架，实现对称矩阵全部特征值及特征向量性能加速",
+      "benefit_en": "Basic Kunpeng architecture accelerates the performance of all eigenvalues and eigenvectors of the symmetric matrix"
+    },
+    {
+      "name": "sorglq",
+      "library": "KML_LAPACK",
+      "headerfile": "",
+      "desc_cn": "根据sgelqf的计算结果，生成具有正交行的单精度实矩阵Q，即该矩阵是K个N阶基本变换矩阵的乘积的前M行",
+      "desc_en": "Single precision real matrix Q with orthogonal rows is generated according to the result obtained by sgelqf,and the matrix is defined as the first M rows of the product of K elementary reflectors of order N",
+      "benefit_cn": "基于鲲鹏框架，实现生成正交矩阵Q性能加速",
+      "benefit_en": "Basic Kunpeng architecture for performance acceleration with quadrature matrix Q"
+    },
+    {
+      "name": "dorglq",
+      "library": "KML_LAPACK",
+      "headerfile": "",
+      "desc_cn": "根据dgelqf的计算结果，生成具有正交行的双精度实矩阵Q，即该矩阵是K个N阶基本变换矩阵的乘积的前M行",
+      "desc_en": "Double precision real matrix Q with orthogonal rows is generated according to the result obtained by dgelqf,and the matrix is defined as the first M rows of the product of K elementary reflectors of order N",
+      "benefit_cn": "基于鲲鹏框架，实现生成正交矩阵Q性能加速",
+      "benefit_en": "Basic Kunpeng architecture for performance acceleration with quadrature matrix Q"
+    },
+    {
+      "name": "cunglq",
+      "library": "KML_LAPACK",
+      "headerfile": "",
+      "desc_cn": "根据cgelqf的计算结果，生成具有正交行的单精度复矩阵Q，即该矩阵是K个N阶基本变换矩阵的乘积的前M行",
+      "desc_en": "Single precision complex matrix Q with orthogonal rows is generated according to the result obtained by cgelqf,and the matrix is defined as the first M rows of the product of K elementary reflectors of order N",
+      "benefit_cn": "基于鲲鹏框架，实现生成正交矩阵Q性能加速",
+      "benefit_en": "Basic Kunpeng architecture for performance acceleration with quadrature matrix Q"
+    },
+    {
+      "name": "zunglq",
+      "library": "KML_LAPACK",
+      "headerfile": "",
+      "desc_cn": "根据zgelqf的计算结果，生成具有正交行的双精度复矩阵Q，即该矩阵是K个N阶基本变换矩阵的乘积的前M行",
+      "desc_en": "Double precision complex matrix Q with orthogonal rows is generated according to the result obtained by zgelqf,and the matrix is defined as the first M rows of the product of K elementary reflectors of order N",
+      "benefit_cn": "基于鲲鹏框架，实现生成正交矩阵Q性能加速",
+      "benefit_en": "Basic Kunpeng architecture for performance acceleration with quadrature matrix Q"
+    },
+    {
+      "name": "sorgqr",
+      "library": "KML_LAPACK",
+      "headerfile": "",
+      "desc_cn": "根据sgeqrf的计算结果，生成具有正交行的单精度实矩阵Q，即该矩阵是K个M阶基本变换矩阵的乘积的前N行",
+      "desc_en": "Single precision real matrix Q with orthogonal rows is generated according to the result obtained by sgeqrf,and the matrix is defined as the first N rows of the product of K elementary reflectors of order M",
+      "benefit_cn": "基于鲲鹏框架，实现生成正交矩阵Q性能加速",
+      "benefit_en": "Basic Kunpeng architecture for performance acceleration with quadrature matrix Q"
+    },
+    {
+      "name": "dorgqr",
+      "library": "KML_LAPACK",
+      "headerfile": "",
+      "desc_cn": "根据dgeqrf的计算结果，生成具有正交行的单精度实矩阵Q，即该矩阵是K个M阶基本变换矩阵的乘积的前N行",
+      "desc_en": "Double precision real matrix Q with orthogonal rows is generated according to the result obtained by sgeqrf,and the matrix is defined as the first N rows of the product of K elementary reflectors of order M",
+      "benefit_cn": "基于鲲鹏框架，实现生成正交矩阵Q性能加速",
+      "benefit_en": "Basic Kunpeng architecture for performance acceleration with quadrature matrix Q"
+    },
+    {
+      "name": "cungqr",
+      "library": "KML_LAPACK",
+      "headerfile": "",
+      "desc_cn": "根据cgeqrf的计算结果，生成具有正交行的单精度实矩阵Q，即该矩阵是K个M阶基本变换矩阵的乘积的前N行",
+      "desc_en": "Single precision complex matrix Q with orthogonal rows is generated according to the result obtained by sgeqrf,and the matrix is defined as the first N rows of the product of K elementary reflectors of order M",
+      "benefit_cn": "基于鲲鹏框架，实现生成正交矩阵Q性能加速",
+      "benefit_en": "Basic Kunpeng architecture for performance acceleration with quadrature matrix Q"
+    },
+    {
+      "name": "zungqr",
+      "library": "KML_LAPACK",
+      "headerfile": "",
+      "desc_cn": "根据zgeqrf的计算结果，生成具有正交行的单精度实矩阵Q，即该矩阵是K个M阶基本变换矩阵的乘积的前N行",
+      "desc_en": "Double precision complex matrix Q with orthogonal rows is generated according to the result obtained by sgeqrf,and the matrix is defined as the first N rows of the product of K elementary reflectors of order M",
+      "benefit_cn": "基于鲲鹏框架，实现生成正交矩阵Q性能加速",
+      "benefit_en": "Basic Kunpeng architecture for performance acceleration with quadrature matrix Q"
+    }
   ],
   "Intrinsic": [
     {
