@@ -2975,7 +2975,7 @@
       "library": "KML_BLAS",
       "headerfile": "",
       "desc_cn": "单精度类型线性方程组求解，稀疏矩阵为三角带状矩阵",
-      "desc_en": "Solves linear equations.The sparse matrix is a triangular band matrix",
+      "desc_en": "Solves linear equations. The sparse matrix is a triangular band matrix",
       "benefit_cn": "基于鲲鹏架构，通过向量化、数据预取、编译优化、数据重排等手段，实现性能优化",
       "benefit_en": "Based on the Kunpeng architecture, performance is optimized through vectorization, data prefetching, compilation optimization, and data rearrangement."
     },
@@ -2984,7 +2984,7 @@
       "library": "KML_BLAS",
       "headerfile": "",
       "desc_cn": "双精度类型线性方程组求解，稀疏矩阵为三角带状矩阵",
-      "desc_en": "Solves linear equations.The sparse matrix is a triangular band matrix",
+      "desc_en": "Solves linear equations. The sparse matrix is a triangular band matrix",
       "benefit_cn": "基于鲲鹏架构，通过向量化、数据预取、编译优化、数据重排等手段，实现性能优化",
       "benefit_en": "Based on the Kunpeng architecture, performance is optimized through vectorization, data prefetching, compilation optimization, and data rearrangement."
     },
@@ -2993,7 +2993,7 @@
       "library": "KML_BLAS",
       "headerfile": "",
       "desc_cn": "单精度复数类型线性方程组求解，稀疏矩阵为三角带状矩阵",
-      "desc_en": "Solves linear equations.The sparse matrix is a triangular band matrix",
+      "desc_en": "Solves linear equations. The sparse matrix is a triangular band matrix",
       "benefit_cn": "基于鲲鹏架构，通过向量化、数据预取、编译优化、数据重排等手段，实现性能优化",
       "benefit_en": "Based on the Kunpeng architecture, performance is optimized through vectorization, data prefetching, compilation optimization, and data rearrangement."
     },
@@ -3002,7 +3002,7 @@
       "library": "KML_BLAS",
       "headerfile": "",
       "desc_cn": "双精度复数类型线性方程组求解，稀疏矩阵为三角带状矩阵",
-      "desc_en": "Solves linear equations.The sparse matrix is a triangular band matrix",
+      "desc_en": "Solves linear equations. The sparse matrix is a triangular band matrix",
       "benefit_cn": "基于鲲鹏架构，通过向量化、数据预取、编译优化、数据重排等手段，实现性能优化",
       "benefit_en": "Based on the Kunpeng architecture, performance is optimized through vectorization, data prefetching, compilation optimization, and data rearrangement."
     },
@@ -3119,7 +3119,7 @@
       "library": "KML_BLAS",
       "headerfile": "",
       "desc_cn": "单精度类型线性方程组求解，稀疏矩阵是三角矩阵",
-      "desc_en": "Solves linear equations.The sparse matrix is a triangular matrix",
+      "desc_en": "Solves linear equations. The sparse matrix is a triangular matrix",
       "benefit_cn": "基于鲲鹏架构，通过向量化、数据预取、编译优化、数据重排等手段，实现性能优化",
       "benefit_en": "Based on the Kunpeng architecture, performance is optimized through vectorization, data prefetching, compilation optimization, and data rearrangement."
     },
@@ -3128,7 +3128,7 @@
       "library": "KML_BLAS",
       "headerfile": "",
       "desc_cn": "双精度类型线性方程组求解，稀疏矩阵是三角矩阵",
-      "desc_en": "Solves linear equations.The sparse matrix is a triangular matrix",
+      "desc_en": "Solves linear equations. The sparse matrix is a triangular matrix",
       "benefit_cn": "基于鲲鹏架构，通过向量化、数据预取、编译优化、数据重排等手段，实现性能优化",
       "benefit_en": "Based on the Kunpeng architecture, performance is optimized through vectorization, data prefetching, compilation optimization, and data rearrangement."
     },
@@ -3137,7 +3137,7 @@
       "library": "KML_BLAS",
       "headerfile": "",
       "desc_cn": "单精度复数类型线性方程组求解，稀疏矩阵是三角矩阵",
-      "desc_en": "Solves linear equations.The sparse matrix is a triangular matrix",
+      "desc_en": "Solves linear equations. The sparse matrix is a triangular matrix",
       "benefit_cn": "基于鲲鹏架构，通过向量化、数据预取、编译优化、数据重排等手段，实现性能优化",
       "benefit_en": "Based on the Kunpeng architecture, performance is optimized through vectorization, data prefetching, compilation optimization, and data rearrangement."
     },
@@ -3146,7 +3146,7 @@
       "library": "KML_BLAS",
       "headerfile": "",
       "desc_cn": "双精度复数类型线性方程组求解，稀疏矩阵是三角矩阵",
-      "desc_en": "Solves linear equations.The sparse matrix is a triangular matrix",
+      "desc_en": "Solves linear equations. The sparse matrix is a triangular matrix",
       "benefit_cn": "基于鲲鹏架构，通过向量化、数据预取、编译优化、数据重排等手段，实现性能优化",
       "benefit_en": "Based on the Kunpeng architecture, performance is optimized through vectorization, data prefetching, compilation optimization, and data rearrangement."
     },
@@ -3209,7 +3209,7 @@
       "library": "KML_BLAS",
       "headerfile": "",
       "desc_cn": "单精度复数类型矩阵乘矩阵秩2更新，矩阵C为复数埃尔米特矩阵",
-      "desc_en": "Complex matrix-matrix multiplication rank 2 update.The matrix C is a complex Hermitian moment",
+      "desc_en": "Complex matrix-matrix multiplication rank 2 update. The matrix C is a complex Hermitian moment",
       "benefit_cn": "基于鲲鹏架构，通过向量化、数据预取、编译优化、数据重排等手段，实现性能优化",
       "benefit_en": "Based on the Kunpeng architecture, performance is optimized through vectorization, data prefetching, compilation optimization, and data rearrangement."
     },
@@ -3218,7 +3218,7 @@
       "library": "KML_BLAS",
       "headerfile": "",
       "desc_cn": "双精度复数类型矩阵乘矩阵秩2更新，矩阵C为复数埃尔米特矩阵",
-      "desc_en": "Complex matrix-matrix multiplication rank 2 update.The matrix C is a complex Hermitian moment",
+      "desc_en": "Complex matrix-matrix multiplication rank 2 update. The matrix C is a complex Hermitian moment",
       "benefit_cn": "基于鲲鹏架构，通过向量化、数据预取、编译优化、数据重排等手段，实现性能优化",
       "benefit_en": "Based on the Kunpeng architecture, performance is optimized through vectorization, data prefetching, compilation optimization, and data rearrangement."
     },
@@ -3227,7 +3227,7 @@
       "library": "KML_BLAS",
       "headerfile": "",
       "desc_cn": "单精度复数类型矩阵乘矩阵秩k更新，矩阵C为单精度复数埃尔米特矩阵",
-      "desc_en": "Complex matrix-matrix multiplication rank k update.The matrix C is a float-complex Hermitian moment",
+      "desc_en": "Complex matrix-matrix multiplication rank k update. The matrix C is a float-complex Hermitian moment",
       "benefit_cn": "基于鲲鹏架构，通过向量化、数据预取、编译优化、数据重排等手段，实现性能优化",
       "benefit_en": "Based on the Kunpeng architecture, performance is optimized through vectorization, data prefetching, compilation optimization, and data rearrangement."
     },
@@ -3236,7 +3236,7 @@
       "library": "KML_BLAS",
       "headerfile": "",
       "desc_cn": "双精度复数类型矩阵乘矩阵秩k更新，矩阵C为双精度复数埃尔米特矩阵",
-      "desc_en": "Complex matrix-matrix multiplication rank k update.The matrix C is a double-complex Hermitian moment",
+      "desc_en": "Complex matrix-matrix multiplication rank k update. The matrix C is a double-complex Hermitian moment",
       "benefit_cn": "基于鲲鹏架构，通过向量化、数据预取、编译优化、数据重排等手段，实现性能优化",
       "benefit_en": "Based on the Kunpeng architecture, performance is optimized through vectorization, data prefetching, compilation optimization, and data rearrangement."
     },
@@ -3281,7 +3281,7 @@
       "library": "KML_BLAS",
       "headerfile": "",
       "desc_cn": "单精度类型矩阵乘矩阵秩K更新，矩阵C为对称矩阵",
-      "desc_en": "Matrix-matrix multiplication rank k update.The matrix C is a symmetric matrix",
+      "desc_en": "Matrix-matrix multiplication rank k update. The matrix C is a symmetric matrix",
       "benefit_cn": "基于鲲鹏架构，通过向量化、数据预取、编译优化、数据重排等手段，实现性能优化",
       "benefit_en": "Based on the Kunpeng architecture, performance is optimized through vectorization, data prefetching, compilation optimization, and data rearrangement."
     },
@@ -3290,7 +3290,7 @@
       "library": "KML_BLAS",
       "headerfile": "",
       "desc_cn": "双精度类型矩阵乘矩阵秩K更新，矩阵C为对称矩阵",
-      "desc_en": "Matrix-matrix multiplication rank k update.The matrix C is a symmetric matrix",
+      "desc_en": "Matrix-matrix multiplication rank k update. The matrix C is a symmetric matrix",
       "benefit_cn": "基于鲲鹏架构，通过向量化、数据预取、编译优化、数据重排等手段，实现性能优化",
       "benefit_en": "Based on the Kunpeng architecture, performance is optimized through vectorization, data prefetching, compilation optimization, and data rearrangement."
     },
@@ -3299,7 +3299,7 @@
       "library": "KML_BLAS",
       "headerfile": "",
       "desc_cn": "单精度复数类型矩阵乘矩阵秩K更新，矩阵C为对称矩阵",
-      "desc_en": "Matrix-matrix multiplication rank k update.The matrix C is a symmetric matrix",
+      "desc_en": "Matrix-matrix multiplication rank k update. The matrix C is a symmetric matrix",
       "benefit_cn": "基于鲲鹏架构，通过向量化、数据预取、编译优化、数据重排等手段，实现性能优化",
       "benefit_en": "Based on the Kunpeng architecture, performance is optimized through vectorization, data prefetching, compilation optimization, and data rearrangement."
     },
@@ -3308,7 +3308,7 @@
       "library": "KML_BLAS",
       "headerfile": "",
       "desc_cn": "双精度复数类型矩阵乘矩阵秩K更新，矩阵C为对称矩阵",
-      "desc_en": "Matrix-matrix multiplication rank k update.The matrix C is a symmetric matrix",
+      "desc_en": "Matrix-matrix multiplication rank k update. The matrix C is a symmetric matrix",
       "benefit_cn": "基于鲲鹏架构，通过向量化、数据预取、编译优化、数据重排等手段，实现性能优化",
       "benefit_en": "Based on the Kunpeng architecture, performance is optimized through vectorization, data prefetching, compilation optimization, and data rearrangement."
     },
@@ -3317,7 +3317,7 @@
       "library": "KML_BLAS",
       "headerfile": "",
       "desc_cn": "单精度类型矩阵乘矩阵秩2更新，矩阵C为对称矩阵",
-      "desc_en": "Matrix-matrix multiplication rank 2 update.The matrix C is a symmetric matrix",
+      "desc_en": "Matrix-matrix multiplication rank 2 update. The matrix C is a symmetric matrix",
       "benefit_cn": "基于鲲鹏架构，通过向量化、数据预取、编译优化、数据重排等手段，实现性能优化",
       "benefit_en": "Based on the Kunpeng architecture, performance is optimized through vectorization, data prefetching, compilation optimization, and data rearrangement."
     },
@@ -3326,7 +3326,7 @@
       "library": "KML_BLAS",
       "headerfile": "",
       "desc_cn": "双精度类型矩阵乘矩阵秩2更新，矩阵C为对称矩阵",
-      "desc_en": "Matrix-matrix multiplication rank 2 update.The matrix C is a symmetric matrix",
+      "desc_en": "Matrix-matrix multiplication rank 2 update. The matrix C is a symmetric matrix",
       "benefit_cn": "基于鲲鹏架构，通过向量化、数据预取、编译优化、数据重排等手段，实现性能优化",
       "benefit_en": "Based on the Kunpeng architecture, performance is optimized through vectorization, data prefetching, compilation optimization, and data rearrangement."
     },
@@ -3335,7 +3335,7 @@
       "library": "KML_BLAS",
       "headerfile": "",
       "desc_cn": "单精度复数类型矩阵乘矩阵秩2更新，矩阵C为对称矩阵",
-      "desc_en": "Matrix-matrix multiplication rank 2 update.The matrix C is a symmetric matrix",
+      "desc_en": "Matrix-matrix multiplication rank 2 update. The matrix C is a symmetric matrix",
       "benefit_cn": "基于鲲鹏架构，通过向量化、数据预取、编译优化、数据重排等手段，实现性能优化",
       "benefit_en": "Based on the Kunpeng architecture, performance is optimized through vectorization, data prefetching, compilation optimization, and data rearrangement."
     },
@@ -3344,7 +3344,7 @@
       "library": "KML_BLAS",
       "headerfile": "",
       "desc_cn": "双精度复数类型矩阵乘矩阵秩2更新，矩阵C为对称矩阵",
-      "desc_en": "Matrix-matrix multiplication rank 2 update.The matrix C is a symmetric matrix",
+      "desc_en": "Matrix-matrix multiplication rank 2 update. The matrix C is a symmetric matrix",
       "benefit_cn": "基于鲲鹏架构，通过向量化、数据预取、编译优化、数据重排等手段，实现性能优化",
       "benefit_en": "Based on the Kunpeng architecture, performance is optimized through vectorization, data prefetching, compilation optimization, and data rearrangement."
     },
@@ -3353,7 +3353,7 @@
       "library": "KML_BLAS",
       "headerfile": "",
       "desc_cn": "单精度类型矩阵乘矩阵,其中一个矩阵为三角矩阵",
-      "desc_en": "Matrix-matrix multiplication.One of the matrices is a triangular matrix",
+      "desc_en": "Matrix-matrix multiplication. One of the matrices is a triangular matrix",
       "benefit_cn": "基于鲲鹏架构，通过向量化、数据预取、编译优化、数据重排等手段，实现性能优化",
       "benefit_en": "Based on the Kunpeng architecture, performance is optimized through vectorization, data prefetching, compilation optimization, and data rearrangement."
     },
@@ -3362,7 +3362,7 @@
       "library": "KML_BLAS",
       "headerfile": "",
       "desc_cn": "双精度类型矩阵乘矩阵,其中一个矩阵为三角矩阵",
-      "desc_en": "Matrix-matrix multiplication.One of the matrices is a triangular matrix",
+      "desc_en": "Matrix-matrix multiplication. One of the matrices is a triangular matrix",
       "benefit_cn": "基于鲲鹏架构，通过向量化、数据预取、编译优化、数据重排等手段，实现性能优化",
       "benefit_en": "Based on the Kunpeng architecture, performance is optimized through vectorization, data prefetching, compilation optimization, and data rearrangement."
     },
@@ -3371,7 +3371,7 @@
       "library": "KML_BLAS",
       "headerfile": "",
       "desc_cn": "单精度复数类型矩阵乘矩阵,其中一个矩阵为三角矩阵",
-      "desc_en": "Matrix-matrix multiplication.One of the matrices is a triangular matrix",
+      "desc_en": "Matrix-matrix multiplication. One of the matrices is a triangular matrix",
       "benefit_cn": "基于鲲鹏架构，通过向量化、数据预取、编译优化、数据重排等手段，实现性能优化",
       "benefit_en": "Based on the Kunpeng architecture, performance is optimized through vectorization, data prefetching, compilation optimization, and data rearrangement."
     },
@@ -3478,8 +3478,8 @@
       "name": "kml_sparse_saxpyi",
       "library": "KML_SPBLAS",
       "headerfile": "",
-      "desc_cn": "单精度实数类型，向量与标量相乘，并将结果加到另一向量上",
-      "desc_en": "single-precision real type, Product of a general complex matrix and a matrix",
+      "desc_cn": "单精度实数类型，稀疏向量与标量相乘，并将结果加到另一向量上",
+      "desc_en": "single-precision real type, computes the product of a sparse vector and a scalar and stores the product to another vector",
       "benefit_cn": "基于鲲鹏架构为压缩格式的稀疏矩阵提供了高性能向量、矩阵运算",
       "benefit_en": "Based on the Kunpeng architecture provides high-performance vector and matrix operations for sparse matrices in compressed formats"
     },
@@ -3487,8 +3487,8 @@
       "name": "kml_sparse_daxpyi",
       "library": "KML_SPBLAS",
       "headerfile": "",
-      "desc_cn": "双精度实数类型，向量与标量相乘，并将结果加到另一向量上",
-      "desc_en": "double-precision real type, Product of a general complex matrix and a matrix",
+      "desc_cn": "双精度实数类型，稀疏向量与标量相乘，并将结果加到另一向量上",
+      "desc_en": "double-precision real type, computes the product of a sparse vector and a scalar and stores the product to another vector",
       "benefit_cn": "基于鲲鹏架构为压缩格式的稀疏矩阵提供了高性能向量、矩阵运算",
       "benefit_en": "Based on the Kunpeng architecture provides high-performance vector and matrix operations for sparse matrices in compressed formats"
     },
@@ -3496,8 +3496,8 @@
       "name": "kml_sparse_caxpyi",
       "library": "KML_SPBLAS",
       "headerfile": "",
-      "desc_cn": "单精度复数类型，向量与标量相乘，并将结果加到另一向量上",
-      "desc_en": "single-precision complex type, Product of a general complex matrix and a matrix",
+      "desc_cn": "单精度复数类型，稀疏向量与标量相乘，并将结果加到另一向量上",
+      "desc_en": "single-precision complex type, computes the product of a sparse vector and a scalar and stores the product to another vector",
       "benefit_cn": "基于鲲鹏架构为压缩格式的稀疏矩阵提供高性能向量、矩阵运算",
       "benefit_en": "Based on the Kunpeng architecture provides high-performance vector and matrix operations for sparse matrices in compressed formats"
     },
@@ -3505,8 +3505,8 @@
       "name": "kml_sparse_zaxpyi",
       "library": "KML_SPBLAS",
       "headerfile": "",
-      "desc_cn": "双精度复数类型，向量与标量相乘，并将结果加到另一向量上",
-      "desc_en": "double-precision complex type, Product of a general complex matrix and a matrix",
+      "desc_cn": "双精度复数类型，稀疏向量与标量相乘，并将结果加到另一向量上",
+      "desc_en": "double-precision complex type, computes the product of a sparse vector and a scalar and stores the product to another vector",
       "benefit_cn": "基于鲲鹏架构为压缩格式的稀疏矩阵提供高性能向量、矩阵运算",
       "benefit_en": "Based on the Kunpeng architecture provides high-performance vector and matrix operations for sparse matrices in compressed formats"
     },
@@ -3514,8 +3514,8 @@
       "name": "kml_sparse_sdoti",
       "library": "KML_SPBLAS",
       "headerfile": "",
-      "desc_cn": "单精度实数类型向量点积",
-      "desc_en": "Computes the dot product of single-precision real type vectors",
+      "desc_cn": "单精度实数类型稀疏向量点积",
+      "desc_en": "Computes the dot product of single-precision real type sparse vectors",
       "benefit_cn": "基于鲲鹏架构为压缩格式的稀疏矩阵提供了高性能向量、矩阵运算",
       "benefit_en": "Based on the Kunpeng architecture provides high-performance vector and matrix operations for sparse matrices in compressed formats"
     },
@@ -3523,8 +3523,8 @@
       "name": "kml_sparse_ddoti",
       "library": "KML_SPBLAS",
       "headerfile": "",
-      "desc_cn": "双精度实数类型向量点积",
-      "desc_en": "Computes the dot product of double-precision real type vectors",
+      "desc_cn": "双精度实数类型稀疏向量点积",
+      "desc_en": "Computes the dot product of double-precision real type sparse vectors",
       "benefit_cn": "基于鲲鹏架构为压缩格式的稀疏矩阵提供了高性能向量、矩阵运算",
       "benefit_en": "Based on the Kunpeng architecture provides high-performance vector and matrix operations for sparse matrices in compressed formats"
     },
@@ -3532,8 +3532,8 @@
       "name": "kml_sparse_cdotci_sub",
       "library": "KML_SPBLAS",
       "headerfile": "",
-      "desc_cn": "单精度复数类型向量共轭点积",
-      "desc_en": "Computes the dot conjugate product of single-precision complex type vectors",
+      "desc_cn": "单精度复数类型稀疏向量共轭点积",
+      "desc_en": "Computes the dot conjugate product of single-precision complex type sparse vectors",
       "benefit_cn": "基于鲲鹏架构为压缩格式的稀疏矩阵提供高性能向量、矩阵运算",
       "benefit_en": "Based on the Kunpeng architecture provides high-performance vector and matrix operations for sparse matrices in compressed formats"
     },
@@ -3541,8 +3541,8 @@
       "name": "kml_sparse_zdotci_sub",
       "library": "KML_SPBLAS",
       "headerfile": "",
-      "desc_cn": "双精度复数类型向量共轭点积",
-      "desc_en": "Computes the conjugate dot product of double-precision complex type vectors",
+      "desc_cn": "双精度复数类型稀疏向量共轭点积",
+      "desc_en": "Computes the conjugate dot product of double-precision complex type sparse vectors",
       "benefit_cn": "基于鲲鹏架构为压缩格式的稀疏矩阵提供高性能向量、矩阵运算",
       "benefit_en": "Based on the Kunpeng architecture provides high-performance vector and matrix operations for sparse matrices in compressed formats"
     },
@@ -3550,8 +3550,8 @@
       "name": "kml_sparse_cdotui_sub",
       "library": "KML_SPBLAS",
       "headerfile": "",
-      "desc_cn": "单精度复数域向量非共轭点积",
-      "desc_en": "Computes the dot non-conjugate product of single-precision complex vectors",
+      "desc_cn": "单精度复数域稀疏向量非共轭点积",
+      "desc_en": "Computes the dot non-conjugate product of single-precision complex sparse vectors",
       "benefit_cn": "基于鲲鹏架构为压缩格式的稀疏矩阵提供高性能向量、矩阵运算",
       "benefit_en": "Based on the Kunpeng architecture provides high-performance vector and matrix operations for sparse matrices in compressed formats"
     },
@@ -3559,8 +3559,8 @@
       "name": "kml_sparse_zdotui_sub",
       "library": "KML_SPBLAS",
       "headerfile": "",
-      "desc_cn": "双精度复数域向量非共轭点积",
-      "desc_en": "Computes the non-conjugate dot product of double-precision complex vectors",
+      "desc_cn": "双精度复数域稀疏向量非共轭点积",
+      "desc_en": "Computes the non-conjugate dot product of double-precision complex sparse vectors",
       "benefit_cn": "基于鲲鹏架构为压缩格式的稀疏矩阵提供高性能向量、矩阵运算",
       "benefit_en": "Based on the Kunpeng architecture provides high-performance vector and matrix operations for sparse matrices in compressed formats"
     },
@@ -3568,8 +3568,8 @@
       "name": "kml_sparse_sgthr",
       "library": "KML_SPBLAS",
       "headerfile": "",
-      "desc_cn": "单精度实数类型，将全存储向量中的指定元素加载到压缩格式的向量中",
-      "desc_en": "single-precision real type, Gathers the specified elements of a full-storage vector into a compressed vector",
+      "desc_cn": "单精度实数类型，将全存储稀疏向量中的指定元素加载到压缩格式的稀疏向量中",
+      "desc_en": "single-precision real type, Gathers the specified elements of a full-storage vector into a compressed sparse vector",
       "benefit_cn": "基于鲲鹏架构为压缩格式的稀疏矩阵提供高性能向量、矩阵运算",
       "benefit_en": "Based on the Kunpeng architecture provides high-performance vector and matrix operations for sparse matrices in compressed formats"
     },
@@ -3577,8 +3577,8 @@
       "name": "kml_sparse_dgthr",
       "library": "KML_SPBLAS",
       "headerfile": "",
-      "desc_cn": "双精度实数类型，将全存储向量中的指定元素加载到压缩格式的向量中",
-      "desc_en": "double-precision real type, Gathers the specified elements of a full-storage vector into a compressed vector",
+      "desc_cn": "双精度实数类型，将全存储向量中的指定元素加载到压缩格式的稀疏向量中",
+      "desc_en": "double-precision real type, Gathers the specified elements of a full-storage vector into a compressed sparse vector",
       "benefit_cn": "基于鲲鹏架构为压缩格式的稀疏矩阵提供高性能向量、矩阵运算",
       "benefit_en": "Based on the Kunpeng architecture provides high-performance vector and matrix operations for sparse matrices in compressed formats"
     },
@@ -3586,8 +3586,8 @@
       "name": "kml_sparse_cgthr",
       "library": "KML_SPBLAS",
       "headerfile": "",
-      "desc_cn": "单精度复数类型，将全存储向量中的指定元素加载到压缩格式的向量中",
-      "desc_en": "single-precision complex type, Gathers the specified elements of a full-storage vector into a compressed vector",
+      "desc_cn": "单精度复数类型，将全存储向量中的指定元素加载到压缩格式的稀疏向量中",
+      "desc_en": "single-precision complex type, Gathers the specified elements of a full-storage vector into a compressed sparse vector",
       "benefit_cn": "基于鲲鹏架构为压缩格式的稀疏矩阵提供高性能向量、矩阵运算",
       "benefit_en": "Based on the Kunpeng architecture provides high-performance vector and matrix operations for sparse matrices in compressed formats"
     },
@@ -3595,8 +3595,8 @@
       "name": "kml_sparse_zgthr",
       "library": "KML_SPBLAS",
       "headerfile": "",
-      "desc_cn": "双精度复数类型，将全存储向量中的指定元素加载到压缩格式的向量中",
-      "desc_en": "double-precision complex type, Gathers the specified elements of a full-storage vector into a compressed vector",
+      "desc_cn": "双精度复数类型，将全存储稀疏向量中的指定元素加载到压缩格式的向量中",
+      "desc_en": "double-precision complex type, Gathers the specified elements of a full-storage sparse vector into a compressed vector",
       "benefit_cn": "基于鲲鹏架构为压缩格式的稀疏矩阵提供高性能向量、矩阵运算",
       "benefit_en": "Based on the Kunpeng architecture provides high-performance vector and matrix operations for sparse matrices in compressed formats"
     },
@@ -3605,7 +3605,7 @@
       "library": "KML_SPBLAS",
       "headerfile": "",
       "desc_cn": "单精度实数类型，将全存储向量中的指定元素加载到压缩格式的向量中，并将全存储向量元素清零",
-      "desc_en": "single-precision real type, Gathers the specified elements of a full-storage vector into a compressed vector,and zeroes out these elements in the full-storage vector",
+      "desc_en": "single-precision real type, Gathers the specified elements of a full-storage vector into a compressed sparse vector, and zeroes out these elements in the full-storage vector",
       "benefit_cn": "基于鲲鹏架构为压缩格式的稀疏矩阵提供高性能向量、矩阵运算",
       "benefit_en": "Based on the Kunpeng architecture provides high-performance vector and matrix operations for sparse matrices in compressed formats"
     },
@@ -3613,8 +3613,8 @@
       "name": "kml_sparse_dgthrz",
       "library": "KML_SPBLAS",
       "headerfile": "",
-      "desc_cn": "双精度实数类型，将全存储向量中的指定元素加载到压缩格式的向量中，并将全存储向量元素清零",
-      "desc_en": "double-precision real type, Gathers the specified elements of a full-storage vector into a compressed vector,and zeroes out these elements in the full-storage vector",
+      "desc_cn": "双精度实数类型，将全存储向量中的指定元素加载到压缩格式的稀疏向量中，并将全存储向量元素清零",
+      "desc_en": "double-precision real type, Gathers the specified elements of a full-storage vector into a compressed sparse vector, and zeroes out these elements in the full-storage vector",
       "benefit_cn": "基于鲲鹏架构为压缩格式的稀疏矩阵提供高性能向量、矩阵运算",
       "benefit_en": "Based on the Kunpeng architecture provides high-performance vector and matrix operations for sparse matrices in compressed formats"
     },
@@ -3622,8 +3622,8 @@
       "name": "kml_sparse_cgthrz",
       "library": "KML_SPBLAS",
       "headerfile": "",
-      "desc_cn": "单精度复数类型，将全存储向量中的指定元素加载到压缩格式的向量中，并将全存储向量元素清零",
-      "desc_en": "single-precision complex type, Gathers the specified elements of a full-storage vector into a compressed vector,and zeroes out these elements in the full-storage vector",
+      "desc_cn": "单精度复数类型，将全存储向量中的指定元素加载到压缩格式的稀疏向量中，并将全存储向量元素清零",
+      "desc_en": "single-precision complex type, Gathers the specified elements of a full-storage vector into a compressed sparse vector, and zeroes out these elements in the full-storage vector",
       "benefit_cn": "基于鲲鹏架构为压缩格式的稀疏矩阵提供高性能向量、矩阵运算",
       "benefit_en": "Based on the Kunpeng architecture provides high-performance vector and matrix operations for sparse matrices in compressed formats"
     },
@@ -3631,8 +3631,8 @@
       "name": "kml_sparse_zgthrz",
       "library": "KML_SPBLAS",
       "headerfile": "",
-      "desc_cn": "双精度复数类型，将全存储向量中的指定元素加载到压缩格式的向量中，并将全存储向量元素清零",
-      "desc_en": "double-precision complex type, Gathers the specified elements of a full-storage vector into a compressed vector,and zeroes out these elements in the full-storage vector",
+      "desc_cn": "双精度复数类型，将全存储向量中的指定元素加载到压缩格式的稀疏向量中，并将全存储向量元素清零",
+      "desc_en": "double-precision complex type, Gathers the specified elements of a full-storage vector into a compressed sparse vector, and zeroes out these elements in the full-storage vector",
       "benefit_cn": "基于鲲鹏架构为压缩格式的稀疏矩阵提供高性能向量、矩阵运算",
       "benefit_en": "Based on the Kunpeng architecture provides high-performance vector and matrix operations for sparse matrices in compressed formats"
     },
@@ -3640,8 +3640,8 @@
       "name": "kml_sparse_sroti",
       "library": "KML_SPBLAS",
       "headerfile": "",
-      "desc_cn": "对两个单精度实数类型向量进行旋转",
-      "desc_en": "Rotates two single-precision real type vectors",
+      "desc_cn": "对两个单精度实数类型稀疏向量进行旋转",
+      "desc_en": "Rotates two single-precision real type sparse vectors",
       "benefit_cn": "基于鲲鹏架构为压缩格式的稀疏矩阵提供高性能向量、矩阵运算",
       "benefit_en": "Based on the Kunpeng architecture provides high-performance vector and matrix operations for sparse matrices in compressed formats"
     },
@@ -3649,8 +3649,8 @@
       "name": "kml_sparse_droti",
       "library": "KML_SPBLAS",
       "headerfile": "",
-      "desc_cn": "对两个双精度实数类型向量进行旋转",
-      "desc_en": "Rotates two double-precision real type vectors",
+      "desc_cn": "对两个双精度实数类型稀疏向量进行旋转",
+      "desc_en": "Rotates two double-precision real type sparse vectors",
       "benefit_cn": "基于鲲鹏架构为压缩格式的稀疏矩阵提供高性能向量、矩阵运算",
       "benefit_en": "Based on the Kunpeng architecture provides high-performance vector and matrix operations for sparse matrices in compressed formats"
     },
@@ -3658,8 +3658,8 @@
       "name": "kml_sparse_ssctr",
       "library": "KML_SPBLAS",
       "headerfile": "",
-      "desc_cn": "将压缩格式的单精度类型向量写入全存储向量的指定位置",
-      "desc_en": "Writes a compressed single-precision type vector to the specified location of a full-storage vector",
+      "desc_cn": "将压缩格式的单精度类型向量写入全存储稀疏向量的指定位置",
+      "desc_en": "Writes a compressed single-precision type vector to the specified location of a full-storage sparse vector",
       "benefit_cn": "基于鲲鹏架构为压缩格式的稀疏矩阵提供高性能向量、矩阵运算",
       "benefit_en": "Based on the Kunpeng architecture provides high-performance vector and matrix operations for sparse matrices in compressed formats"
     },
@@ -3667,8 +3667,8 @@
       "name": "kml_sparse_dsctr",
       "library": "KML_SPBLAS",
       "headerfile": "",
-      "desc_cn": "将压缩格式的双精度类型向量写入全存储向量的指定位置",
-      "desc_en": "Writes a compressed double-precision type vector to the specified location of a full-storage vector",
+      "desc_cn": "将压缩格式的双精度类型向量写入全存储稀疏向量的指定位置",
+      "desc_en": "Writes a compressed double-precision type vector to the specified location of a full-storage sparse vector",
       "benefit_cn": "基于鲲鹏架构为压缩格式的稀疏矩阵提供高性能向量、矩阵运算",
       "benefit_en": "Based on the Kunpeng architecture provides high-performance vector and matrix operations for sparse matrices in compressed formats"
     },
@@ -3676,8 +3676,8 @@
       "name": "kml_sparse_csctr",
       "library": "KML_SPBLAS",
       "headerfile": "",
-      "desc_cn": "将压缩格式的单精度复数类型向量写入全存储向量的指定位置",
-      "desc_en": "Writes a compressed single-precision complex type vector to the specified location of a full-storage vector",
+      "desc_cn": "将压缩格式的单精度复数类型向量写入全存储稀疏向量的指定位置",
+      "desc_en": "Writes a compressed single-precision complex type vector to the specified location of a full-storage sparse vector",
       "benefit_cn": "基于鲲鹏架构为压缩格式的稀疏矩阵提供高性能向量、矩阵运算",
       "benefit_en": "Based on the Kunpeng architecture provides high-performance vector and matrix operations for sparse matrices in compressed formats"
     },
@@ -3685,8 +3685,8 @@
       "name": "kml_sparse_zsctr",
       "library": "KML_SPBLAS",
       "headerfile": "",
-      "desc_cn": "将压缩格式的双精度复数类型向量写入全存储向量的指定位置",
-      "desc_en": "Writes a compressed double-precision complex type vector to the specified location of a full-storage vector",
+      "desc_cn": "将压缩格式的双精度复数类型向量写入全存储稀疏向量的指定位置",
+      "desc_en": "Writes a compressed double-precision complex type vector to the specified location of a full-storage sparse vector",
       "benefit_cn": "基于鲲鹏架构为压缩格式的稀疏矩阵提供高性能向量、矩阵运算",
       "benefit_en": "Based on the Kunpeng architecture provides high-performance vector and matrix operations for sparse matrices in compressed formats"
     },
@@ -3695,7 +3695,7 @@
       "library": "KML_SPBLAS",
       "headerfile": "",
       "desc_cn": "单精度实数类型，矩阵与向量乘积，矩阵是CSR格式(三数组)基1索引的稀疏通常矩阵",
-      "desc_en": "single-precision real type, Computes the product of a matrix and a vector.The matrix is a sparse general matrix stored in the CSR format(3-array variation) with one-based indexing",
+      "desc_en": "single-precision real type, Computes the product of a matrix and a vector. The matrix is a sparse general matrix stored in the CSR format(3-array variation) with one-based indexing",
       "benefit_cn": "基于鲲鹏架构为压缩格式的稀疏矩阵提供高性能向量、矩阵运算",
       "benefit_en": "Based on the Kunpeng architecture provides high-performance vector and matrix operations for sparse matrices in compressed formats"
     },
@@ -3704,7 +3704,7 @@
       "library": "KML_SPBLAS",
       "headerfile": "",
       "desc_cn": "双精度实数类型，矩阵与向量乘积，矩阵是CSR格式(三数组)基1索引的稀疏通常矩阵",
-      "desc_en": "double-precision real type, Computes the product of a matrix and a vector.The matrix is a sparse general matrix stored in the CSR format(3-array variation) with one-based indexing",
+      "desc_en": "double-precision real type, Computes the product of a matrix and a vector. The matrix is a sparse general matrix stored in the CSR format(3-array variation) with one-based indexing",
       "benefit_cn": "基于鲲鹏架构为压缩格式的稀疏矩阵提供高性能向量、矩阵运算",
       "benefit_en": "Based on the Kunpeng architecture provides high-performance vector and matrix operations for sparse matrices in compressed formats"
     },
@@ -3713,7 +3713,7 @@
       "library": "KML_SPBLAS",
       "headerfile": "",
       "desc_cn": "单精度复数类型，矩阵与向量乘积，矩阵是CSR格式(三数组)基1索引的稀疏通常矩阵",
-      "desc_en": "single-precision complex type, Computes the product of a matrix and a vector.The matrix is a sparse general matrix stored in the CSR format(3-array variation) with one-based indexing",
+      "desc_en": "single-precision complex type, Computes the product of a matrix and a vector. The matrix is a sparse general matrix stored in the CSR format(3-array variation) with one-based indexing",
       "benefit_cn": "基于鲲鹏架构为压缩格式的稀疏矩阵提供高性能向量、矩阵运算",
       "benefit_en": "Based on the Kunpeng architecture provides high-performance vector and matrix operations for sparse matrices in compressed formats"
     },
@@ -3722,7 +3722,7 @@
       "library": "KML_SPBLAS",
       "headerfile": "",
       "desc_cn": "双精度复数类型，矩阵与向量乘积，矩阵是CSR格式(三数组)基1索引的稀疏通常矩阵",
-      "desc_en": "double-precision complex type, Computes the product of a matrix and a vector.The matrix is a sparse general matrix stored in the CSR format(3-array variation) with one-based indexing",
+      "desc_en": "double-precision complex type, Computes the product of a matrix and a vector. The matrix is a sparse general matrix stored in the CSR format(3-array variation) with one-based indexing",
       "benefit_cn": "基于鲲鹏架构为压缩格式的稀疏矩阵提供高性能向量、矩阵运算",
       "benefit_en": "Based on the Kunpeng architecture provides high-performance vector and matrix operations for sparse matrices in compressed formats"
     },
@@ -3731,7 +3731,7 @@
       "library": "KML_SPBLAS",
       "headerfile": "",
       "desc_cn": "单精度实数类型，矩阵与向量乘积，矩阵是CSR格式(三数组)基1索引的稀疏对称矩阵",
-      "desc_en": "single-precision real type, Computes the product of a matrix and a vector.The matrix is a sparse symmetric matrix stored in the CSR format(3-array variation) with one-based indexing",
+      "desc_en": "single-precision real type, Computes the product of a matrix and a vector. The matrix is a sparse symmetric matrix stored in the CSR format(3-array variation) with one-based indexing",
       "benefit_cn": "基于鲲鹏架构为压缩格式的稀疏矩阵提供高性能向量、矩阵运算",
       "benefit_en": "Based on the Kunpeng architecture provides high-performance vector and matrix operations for sparse matrices in compressed formats"
     },
@@ -3740,7 +3740,7 @@
       "library": "KML_SPBLAS",
       "headerfile": "",
       "desc_cn": "双精度实数类型，矩阵与向量乘积，矩阵是CSR格式(三数组)基1索引的稀疏对称矩阵",
-      "desc_en": "double-precision real type, Computes the product of a matrix and a vector.The matrix is a sparse symmetric matrix stored in the CSR format(3-array variation) with one-based indexing",
+      "desc_en": "double-precision real type, Computes the product of a matrix and a vector. The matrix is a sparse symmetric matrix stored in the CSR format(3-array variation) with one-based indexing",
       "benefit_cn": "基于鲲鹏架构为压缩格式的稀疏矩阵提供高性能向量、矩阵运算",
       "benefit_en": "Based on the Kunpeng architecture provides high-performance vector and matrix operations for sparse matrices in compressed formats"
     },
@@ -3749,7 +3749,7 @@
       "library": "KML_SPBLAS",
       "headerfile": "",
       "desc_cn": "单精度复数类型，矩阵与向量乘积，矩阵是CSR格式(三数组)基1索引的稀疏对称矩阵",
-      "desc_en": "single-precision complex type, Computes the product of a matrix and a vector.The matrix is a sparse symmetric matrix stored in the CSR format(3-array variation) with one-based indexing",
+      "desc_en": "single-precision complex type, Computes the product of a matrix and a vector. The matrix is a sparse symmetric matrix stored in the CSR format(3-array variation) with one-based indexing",
       "benefit_cn": "基于鲲鹏架构为压缩格式的稀疏矩阵提供高性能向量、矩阵运算",
       "benefit_en": "Based on the Kunpeng architecture provides high-performance vector and matrix operations for sparse matrices in compressed formats"
     },
@@ -3758,7 +3758,7 @@
       "library": "KML_SPBLAS",
       "headerfile": "",
       "desc_cn": "双精度复数类型，矩阵与向量乘积，矩阵是CSR格式(三数组)基1索引的稀疏对称矩阵",
-      "desc_en": "double-precision complex type, Computes the product of a matrix and a vector.The matrix is a sparse symmetric matrix stored in the CSR format(3-array variation) with one-based indexing",
+      "desc_en": "double-precision complex type, Computes the product of a matrix and a vector. The matrix is a sparse symmetric matrix stored in the CSR format(3-array variation) with one-based indexing",
       "benefit_cn": "基于鲲鹏架构为压缩格式的稀疏矩阵提供高性能向量、矩阵运算",
       "benefit_en": "Based on the Kunpeng architecture provides high-performance vector and matrix operations for sparse matrices in compressed formats"
     },
@@ -3767,7 +3767,7 @@
       "library": "KML_SPBLAS",
       "headerfile": "",
       "desc_cn": "单精度实数类型，求解三角矩阵方程组计算，矩阵是CSR格式(三数组)基1索引的稀疏对称矩阵",
-      "desc_en": "single-precision real type, Triangular matrix equation solution.The matrix is a sparse symmetric matrix stored in the CSR format(3-array variation) with one-based indexing",
+      "desc_en": "single-precision real type, Triangular matrix equation solution. The matrix is a sparse symmetric matrix stored in the CSR format(3-array variation) with one-based indexing",
       "benefit_cn": "基于鲲鹏架构为压缩格式的稀疏矩阵提供高性能向量、矩阵运算",
       "benefit_en": "Based on the Kunpeng architecture provides high-performance vector and matrix operations for sparse matrices in compressed formats"
     },
@@ -3776,7 +3776,7 @@
       "library": "KML_SPBLAS",
       "headerfile": "",
       "desc_cn": "双精度实数类型，求解三角矩阵方程组计算，矩阵是CSR格式(三数组)基1索引的稀疏对称矩阵",
-      "desc_en": "double-precision real type, Triangular matrix equation solution.The matrix is a sparse symmetric matrix stored in the CSR format(3-array variation) with one-based indexing",
+      "desc_en": "double-precision real type, Triangular matrix equation solution. The matrix is a sparse symmetric matrix stored in the CSR format(3-array variation) with one-based indexing",
       "benefit_cn": "基于鲲鹏架构为压缩格式的稀疏矩阵提供高性能向量、矩阵运算",
       "benefit_en": "Based on the Kunpeng architecture provides high-performance vector and matrix operations for sparse matrices in compressed formats"
     },
@@ -3785,7 +3785,7 @@
       "library": "KML_SPBLAS",
       "headerfile": "",
       "desc_cn": "单精度复数类型，求解三角矩阵方程组计算，矩阵是CSR格式(三数组)基1索引的稀疏对称矩阵",
-      "desc_en": "single-precision complex type, Triangular matrix equation solution.The matrix is a sparse symmetric matrix stored in the CSR format(3-array variation) with one-based indexing",
+      "desc_en": "single-precision complex type, Triangular matrix equation solution. The matrix is a sparse symmetric matrix stored in the CSR format(3-array variation) with one-based indexing",
       "benefit_cn": "基于鲲鹏架构为压缩格式的稀疏矩阵提供高性能向量、矩阵运算",
       "benefit_en": "Based on the Kunpeng architecture provides high-performance vector and matrix operations for sparse matrices in compressed formats"
     },
@@ -3794,7 +3794,7 @@
       "library": "KML_SPBLAS",
       "headerfile": "",
       "desc_cn": "双精度复数类型，求解三角矩阵方程组计算，矩阵是CSR格式(三数组)基1索引的稀疏对称矩阵",
-      "desc_en": "double-precision complex type, Triangular matrix equation solution.The matrix is a sparse symmetric matrix stored in the CSR format(3-array variation) with one-based indexing",
+      "desc_en": "double-precision complex type, Triangular matrix equation solution. The matrix is a sparse symmetric matrix stored in the CSR format(3-array variation) with one-based indexing",
       "benefit_cn": "基于鲲鹏架构为压缩格式的稀疏矩阵提供高性能向量、矩阵运算",
       "benefit_en": "Based on the Kunpeng architecture provides high-performance vector and matrix operations for sparse matrices in compressed formats"
     },
@@ -3803,7 +3803,7 @@
       "library": "KML_SPBLAS",
       "headerfile": "",
       "desc_cn": "单精度实数类型，矩阵与向量乘积，矩阵是CSR格式(三数组)基0索引的稀疏通常矩阵",
-      "desc_en": "single-precision real type, Computes the product of a matrix and a vector.The matrix is a sparse general matrix stored in the CSR format(3-array variation) with zero-based indexing",
+      "desc_en": "single-precision real type, Computes the product of a matrix and a vector. The matrix is a sparse general matrix stored in the CSR format(3-array variation) with zero-based indexing",
       "benefit_cn": "基于鲲鹏架构为压缩格式的稀疏矩阵提供高性能向量、矩阵运算",
       "benefit_en": "Based on the Kunpeng architecture provides high-performance vector and matrix operations for sparse matrices in compressed formats"
     },
@@ -3812,7 +3812,7 @@
       "library": "KML_SPBLAS",
       "headerfile": "",
       "desc_cn": "双精度实数类型，矩阵与向量乘积，矩阵是CSR格式(三数组)基0索引的稀疏通常矩阵",
-      "desc_en": "double-precision real type, Computes the product of a matrix and a vector.The matrix is a sparse general matrix stored in the CSR format(3-array variation) with zero-based indexing",
+      "desc_en": "double-precision real type, Computes the product of a matrix and a vector. The matrix is a sparse general matrix stored in the CSR format(3-array variation) with zero-based indexing",
       "benefit_cn": "基于鲲鹏架构为压缩格式的稀疏矩阵提供高性能向量、矩阵运算",
       "benefit_en": "Based on the Kunpeng architecture provides high-performance vector and matrix operations for sparse matrices in compressed formats"
     },
@@ -3821,7 +3821,7 @@
       "library": "KML_SPBLAS",
       "headerfile": "",
       "desc_cn": "单精度复数类型，矩阵与向量乘积，矩阵是CSR格式(三数组)基0索引的稀疏通常矩阵",
-      "desc_en": "single-precision complex type, Computes the product of a matrix and a vector.The matrix is a sparse general matrix stored in the CSR format(3-array variation) with zero-based indexing",
+      "desc_en": "single-precision complex type, Computes the product of a matrix and a vector. The matrix is a sparse general matrix stored in the CSR format(3-array variation) with zero-based indexing",
       "benefit_cn": "基于鲲鹏架构为压缩格式的稀疏矩阵提供高性能向量、矩阵运算",
       "benefit_en": "Based on the Kunpeng architecture provides high-performance vector and matrix operations for sparse matrices in compressed formats"
     },
@@ -3830,7 +3830,7 @@
       "library": "KML_SPBLAS",
       "headerfile": "",
       "desc_cn": "双精度复数类型，矩阵与向量乘积，矩阵是CSR格式(三数组)基0索引的稀疏通常矩阵",
-      "desc_en": "double-precision complex type, Computes the product of a matrix and a vector.The matrix is a sparse general matrix stored in the CSR format(3-array variation) with zero-based indexing",
+      "desc_en": "double-precision complex type, Computes the product of a matrix and a vector. The matrix is a sparse general matrix stored in the CSR format(3-array variation) with zero-based indexing",
       "benefit_cn": "基于鲲鹏架构为压缩格式的稀疏矩阵提供高性能向量、矩阵运算",
       "benefit_en": "Based on the Kunpeng architecture provides high-performance vector and matrix operations for sparse matrices in compressed formats"
     },
@@ -3839,7 +3839,7 @@
       "library": "KML_SPBLAS",
       "headerfile": "",
       "desc_cn": "单精度实数类型，矩阵与向量乘积，矩阵是CSR格式(三数组)基0索引的稀疏对称矩阵",
-      "desc_en": "single-precision real type, Computes the product of a matrix and a vector.The matrix is a sparse symmetric matrix stored in the CSR format(3-array variation) with zero-based indexing",
+      "desc_en": "single-precision real type, Computes the product of a matrix and a vector. The matrix is a sparse symmetric matrix stored in the CSR format(3-array variation) with zero-based indexing",
       "benefit_cn": "基于鲲鹏架构为压缩格式的稀疏矩阵提供高性能向量、矩阵运算",
       "benefit_en": "Based on the Kunpeng architecture provides high-performance vector and matrix operations for sparse matrices in compressed formats"
     },
@@ -3848,7 +3848,7 @@
       "library": "KML_SPBLAS",
       "headerfile": "",
       "desc_cn": "双精度实数类型，矩阵与向量乘积，矩阵是CSR格式(三数组)基0索引的稀疏对称矩阵",
-      "desc_en": "double-precision real type, Computes the product of a matrix and a vector.The matrix is a sparse symmetric matrix stored in the CSR format(3-array variation) with zero-based indexing",
+      "desc_en": "double-precision real type, Computes the product of a matrix and a vector. The matrix is a sparse symmetric matrix stored in the CSR format(3-array variation) with zero-based indexing",
       "benefit_cn": "基于鲲鹏架构为压缩格式的稀疏矩阵提供高性能向量、矩阵运算",
       "benefit_en": "Based on the Kunpeng architecture provides high-performance vector and matrix operations for sparse matrices in compressed formats"
     },
@@ -3857,7 +3857,7 @@
       "library": "KML_SPBLAS",
       "headerfile": "",
       "desc_cn": "单精度复数类型，矩阵与向量乘积，矩阵是CSR格式(三数组)基0索引的稀疏对称矩阵",
-      "desc_en": "single-precision complex type, Computes the product of a matrix and a vector.The matrix is a sparse symmetric matrix stored in the CSR format(3-array variation) with zero-based indexing",
+      "desc_en": "single-precision complex type, Computes the product of a matrix and a vector. The matrix is a sparse symmetric matrix stored in the CSR format(3-array variation) with zero-based indexing",
       "benefit_cn": "基于鲲鹏架构为压缩格式的稀疏矩阵提供高性能向量、矩阵运算",
       "benefit_en": "Based on the Kunpeng architecture provides high-performance vector and matrix operations for sparse matrices in compressed formats"
     },
@@ -3866,7 +3866,7 @@
       "library": "KML_SPBLAS",
       "headerfile": "",
       "desc_cn": "双精度复数类型，矩阵与向量乘积，矩阵是CSR格式(三数组)基0索引的稀疏对称矩阵",
-      "desc_en": "double-precision complex type, Computes the product of a matrix and a vector.The matrix is a sparse symmetric matrix stored in the CSR format(3-array variation) with zero-based indexing",
+      "desc_en": "double-precision complex type, Computes the product of a matrix and a vector. The matrix is a sparse symmetric matrix stored in the CSR format(3-array variation) with zero-based indexing",
       "benefit_cn": "基于鲲鹏架构为压缩格式的稀疏矩阵提供高性能向量、矩阵运算",
       "benefit_en": "Based on the Kunpeng architecture provides high-performance vector and matrix operations for sparse matrices in compressed formats"
     },
@@ -3875,7 +3875,7 @@
       "library": "KML_SPBLAS",
       "headerfile": "",
       "desc_cn": "单精度实数类型，求解三角矩阵方程组计算，矩阵是CSR格式(三数组)基0索引的稀疏对称矩阵",
-      "desc_en": "single-precision real type, Triangular matrix equation solution.The matrix is a sparse symmetric matrix stored in the CSR format(3-array variation) with zero-based indexing",
+      "desc_en": "single-precision real type, Triangular matrix equation solution. The matrix is a sparse symmetric matrix stored in the CSR format(3-array variation) with zero-based indexing",
       "benefit_cn": "基于鲲鹏架构为压缩格式的稀疏矩阵提供高性能向量、矩阵运算",
       "benefit_en": "Based on the Kunpeng architecture provides high-performance vector and matrix operations for sparse matrices in compressed formats"
     },
@@ -3884,7 +3884,7 @@
       "library": "KML_SPBLAS",
       "headerfile": "",
       "desc_cn": "双精度实数类型，求解三角矩阵方程组计算，矩阵是CSR格式(三数组)基0索引的稀疏对称矩阵",
-      "desc_en": "double-precision real type, Triangular matrix equation solution.The matrix is a sparse symmetric matrix stored in the CSR format(3-array variation) with zero-based indexing",
+      "desc_en": "double-precision real type, Triangular matrix equation solution. The matrix is a sparse symmetric matrix stored in the CSR format(3-array variation) with zero-based indexing",
       "benefit_cn": "基于鲲鹏架构为压缩格式的稀疏矩阵提供高性能向量、矩阵运算",
       "benefit_en": "Based on the Kunpeng architecture provides high-performance vector and matrix operations for sparse matrices in compressed formats"
     },
@@ -3893,7 +3893,7 @@
       "library": "KML_SPBLAS",
       "headerfile": "",
       "desc_cn": "单精度复数类型，求解三角矩阵方程组计算，矩阵是CSR格式(三数组)基0索引的稀疏对称矩阵",
-      "desc_en": "single-precision complex type, Triangular matrix equation solution.The matrix is a sparse symmetric matrix stored in the CSR format(3-array variation) with zero-based indexing",
+      "desc_en": "single-precision complex type, Triangular matrix equation solution. The matrix is a sparse symmetric matrix stored in the CSR format(3-array variation) with zero-based indexing",
       "benefit_cn": "基于鲲鹏架构为压缩格式的稀疏矩阵提供高性能向量、矩阵运算",
       "benefit_en": "Based on the Kunpeng architecture provides high-performance vector and matrix operations for sparse matrices in compressed formats"
     },
@@ -3902,7 +3902,7 @@
       "library": "KML_SPBLAS",
       "headerfile": "",
       "desc_cn": "双精度复数类型，求解三角矩阵方程组计算，矩阵是CSR格式(三数组)基0索引的稀疏对称矩阵",
-      "desc_en": "double-precision complex type, Triangular matrix equation solution.The matrix is a sparse symmetric matrix stored in the CSR format(3-array variation) with zero-based indexing",
+      "desc_en": "double-precision complex type, Triangular matrix equation solution. The matrix is a sparse symmetric matrix stored in the CSR format(3-array variation) with zero-based indexing",
       "benefit_cn": "基于鲲鹏架构为压缩格式的稀疏矩阵提供高性能向量、矩阵运算",
       "benefit_en": "Based on the Kunpeng architecture provides high-performance vector and matrix operations for sparse matrices in compressed formats"
     },
@@ -3911,7 +3911,7 @@
       "library": "KML_SPBLAS",
       "headerfile": "",
       "desc_cn": "单精度实数类型，矩阵与向量乘积，矩阵是CSR格式的稀疏矩阵",
-      "desc_en": "single-precision real type, Computes the product of a matrix and a vector.The natrix is a sparse matrix stored in the CSR format",
+      "desc_en": "single-precision real type, Computes the product of a matrix and a vector. The matrix is a sparse matrix stored in the CSR format",
       "benefit_cn": "基于鲲鹏架构为压缩格式的稀疏矩阵提供高性能向量、矩阵运算",
       "benefit_en": "Based on the Kunpeng architecture provides high-performance vector and matrix operations for sparse matrices in compressed formats"
     },
@@ -3920,7 +3920,7 @@
       "library": "KML_SPBLAS",
       "headerfile": "",
       "desc_cn": "双精度实数类型，矩阵与向量乘积，矩阵是CSR格式的稀疏矩阵",
-      "desc_en": "double-precision real type, Computes the product of a matrix and a vector.The natrix is a sparse matrix stored in the CSR format",
+      "desc_en": "double-precision real type, Computes the product of a matrix and a vector. The matrix is a sparse matrix stored in the CSR format",
       "benefit_cn": "基于鲲鹏架构为压缩格式的稀疏矩阵提供高性能向量、矩阵运算",
       "benefit_en": "Based on the Kunpeng architecture provides high-performance vector and matrix operations for sparse matrices in compressed formats"
     },
@@ -3929,7 +3929,7 @@
       "library": "KML_SPBLAS",
       "headerfile": "",
       "desc_cn": "单精度复数类型，矩阵与向量乘积，矩阵是CSR格式的稀疏矩阵",
-      "desc_en": "single-precision complex type, Computes the product of a matrix and a vector.The natrix is a sparse matrix stored in the CSR format",
+      "desc_en": "single-precision complex type, Computes the product of a matrix and a vector. The matrix is a sparse matrix stored in the CSR format",
       "benefit_cn": "基于鲲鹏架构为压缩格式的稀疏矩阵提供高性能向量、矩阵运算",
       "benefit_en": "Based on the Kunpeng architecture provides high-performance vector and matrix operations for sparse matrices in compressed formats"
     },
@@ -3938,7 +3938,7 @@
       "library": "KML_SPBLAS",
       "headerfile": "",
       "desc_cn": "双精度复数类型，矩阵与向量乘积，矩阵是CSR格式的稀疏矩阵",
-      "desc_en": "double-precision complex type, Computes the product of a matrix and a vector.The natrix is a sparse matrix stored in the CSR format",
+      "desc_en": "double-precision complex type, Computes the product of a matrix and a vector. The matrix is a sparse matrix stored in the CSR format",
       "benefit_cn": "基于鲲鹏架构为压缩格式的稀疏矩阵提供高性能向量、矩阵运算",
       "benefit_en": "Based on the Kunpeng architecture provides high-performance vector and matrix operations for sparse matrices in compressed formats"
     },
@@ -4019,7 +4019,7 @@
       "library": "KML_SPBLAS",
       "headerfile": "",
       "desc_cn": "单精度实数类型，矩阵与向量乘积，矩阵是CSC格式的稀疏矩阵",
-      "desc_en": "single-precision real type, Computes the product of a matrix and a vector.The natrix is a sparse matrix stored in the CSC format",
+      "desc_en": "single-precision real type, Computes the product of a matrix and a vector. The natrix is a sparse matrix stored in the CSC format",
       "benefit_cn": "基于鲲鹏架构为压缩格式的稀疏矩阵提供高性能向量、矩阵运算",
       "benefit_en": "Based on the Kunpeng architecture provides high-performance vector and matrix operations for sparse matrices in compressed formats"
     },
@@ -4028,7 +4028,7 @@
       "library": "KML_SPBLAS",
       "headerfile": "",
       "desc_cn": "双精度实数类型，矩阵与向量乘积，矩阵是CSC格式的稀疏矩阵",
-      "desc_en": "double-precision real type, Computes the product of a matrix and a vector.The natrix is a sparse matrix stored in the CSC format",
+      "desc_en": "double-precision real type, Computes the product of a matrix and a vector. The natrix is a sparse matrix stored in the CSC format",
       "benefit_cn": "基于鲲鹏架构为压缩格式的稀疏矩阵提供高性能向量、矩阵运算",
       "benefit_en": "Based on the Kunpeng architecture provides high-performance vector and matrix operations for sparse matrices in compressed formats"
     },
@@ -4037,7 +4037,7 @@
       "library": "KML_SPBLAS",
       "headerfile": "",
       "desc_cn": "单精度复数类型，矩阵与向量乘积，矩阵是CSC格式的稀疏矩阵",
-      "desc_en": "single-precision complex type, Computes the product of a matrix and a vector.The natrix is a sparse matrix stored in the CSC format",
+      "desc_en": "single-precision complex type, Computes the product of a matrix and a vector. The natrix is a sparse matrix stored in the CSC format",
       "benefit_cn": "基于鲲鹏架构为压缩格式的稀疏矩阵提供高性能向量、矩阵运算",
       "benefit_en": "Based on the Kunpeng architecture provides high-performance vector and matrix operations for sparse matrices in compressed formats"
     },
@@ -4046,7 +4046,7 @@
       "library": "KML_SPBLAS",
       "headerfile": "",
       "desc_cn": "双精度复数类型，矩阵与向量乘积，矩阵是CSC格式的稀疏矩阵",
-      "desc_en": "double-precision complex type, Computes the product of a matrix and a vector.The natrix is a sparse matrix stored in the CSC format",
+      "desc_en": "double-precision complex type, Computes the product of a matrix and a vector. The natrix is a sparse matrix stored in the CSC format",
       "benefit_cn": "基于鲲鹏架构为压缩格式的稀疏矩阵提供高性能向量、矩阵运算",
       "benefit_en": "Based on the Kunpeng architecture provides high-performance vector and matrix operations for sparse matrices in compressed formats"
     },
@@ -4127,7 +4127,7 @@
       "library": "KML_SPBLAS",
       "headerfile": "",
       "desc_cn": "单精度实数类型，求解多个右端顶的稀疏线性方程组，矩阵式CSR格式",
-      "desc_en": "single-precision real type, Solving a sparse system of linear equations with multiple right-hand terms,the matrix is in CSR format",
+      "desc_en": "single-precision real type, Solving a sparse system of linear equations with multiple right-hand terms, the matrix is in CSR format",
       "benefit_cn": "基于鲲鹏架构为压缩格式的稀疏矩阵提供高性能向量、矩阵运算",
       "benefit_en": "Based on the Kunpeng architecture provides high-performance vector and matrix operations for sparse matrices in compressed formats"
     },
@@ -4136,7 +4136,7 @@
       "library": "KML_SPBLAS",
       "headerfile": "",
       "desc_cn": "双精度实数类型，求解多个右端顶的稀疏线性方程组，矩阵式CSR格式",
-      "desc_en": "double-precision real type, Solving a sparse system of linear equations with multiple right-hand terms,the matrix is in CSR format",
+      "desc_en": "double-precision real type, Solving a sparse system of linear equations with multiple right-hand terms, the matrix is in CSR format",
       "benefit_cn": "基于鲲鹏架构为压缩格式的稀疏矩阵提供高性能向量、矩阵运算",
       "benefit_en": "Based on the Kunpeng architecture provides high-performance vector and matrix operations for sparse matrices in compressed formats"
     },
@@ -4145,7 +4145,7 @@
       "library": "KML_SPBLAS",
       "headerfile": "",
       "desc_cn": "单精度复数类型，求解多个右端顶的稀疏线性方程组，矩阵式CSR格式",
-      "desc_en": "single-precision complex type, Solving a sparse system of linear equations with multiple right-hand terms,the matrix is in CSR format",
+      "desc_en": "single-precision complex type, Solving a sparse system of linear equations with multiple right-hand terms, the matrix is in CSR format",
       "benefit_cn": "基于鲲鹏架构为压缩格式的稀疏矩阵提供高性能向量、矩阵运算",
       "benefit_en": "Based on the Kunpeng architecture provides high-performance vector and matrix operations for sparse matrices in compressed formats"
     },
@@ -4154,7 +4154,7 @@
       "library": "KML_SPBLAS",
       "headerfile": "",
       "desc_cn": "双精度复数类型，求解多个右端顶的稀疏线性方程组，矩阵式CSR格式",
-      "desc_en": "double-precision complex type, Solving a sparse system of linear equations with multiple right-hand terms,the matrix is in CSR format",
+      "desc_en": "double-precision complex type, Solving a sparse system of linear equations with multiple right-hand terms, the matrix is in CSR format",
       "benefit_cn": "基于鲲鹏架构为压缩格式的稀疏矩阵提供高性能向量、矩阵运算",
       "benefit_en": "Based on the Kunpeng architecture provides high-performance vector and matrix operations for sparse matrices in compressed formats"
     },
@@ -4163,7 +4163,7 @@
       "library": "KML_SPBLAS",
       "headerfile": "",
       "desc_cn": "单精度实数类型，求解多个右端顶的稀疏线性方程组，矩阵式CSC格式",
-      "desc_en": "single-precision real type, Solving a sparse system of linear equations with multiple right-hand terms,the matrix is in CSC format",
+      "desc_en": "single-precision real type, Solving a sparse system of linear equations with multiple right-hand terms, the matrix is in CSC format",
       "benefit_cn": "基于鲲鹏架构为压缩格式的稀疏矩阵提供高性能向量、矩阵运算",
       "benefit_en": "Based on the Kunpeng architecture provides high-performance vector and matrix operations for sparse matrices in compressed formats"
     },
@@ -4172,7 +4172,7 @@
       "library": "KML_SPBLAS",
       "headerfile": "",
       "desc_cn": "双精度实数类型，求解多个右端顶的稀疏线性方程组，矩阵式CSC格式",
-      "desc_en": "double-precision real type, Solving a sparse system of linear equations with multiple right-hand terms,the matrix is in CSC format",
+      "desc_en": "double-precision real type, Solving a sparse system of linear equations with multiple right-hand terms, the matrix is in CSC format",
       "benefit_cn": "基于鲲鹏架构为压缩格式的稀疏矩阵提供高性能向量、矩阵运算",
       "benefit_en": "Based on the Kunpeng architecture provides high-performance vector and matrix operations for sparse matrices in compressed formats"
     },
@@ -4181,7 +4181,7 @@
       "library": "KML_SPBLAS",
       "headerfile": "",
       "desc_cn": "单精度复数类型，求解多个右端顶的稀疏线性方程组，矩阵式CSC格式",
-      "desc_en": "single-precision complex type, Solving a sparse system of linear equations with multiple right-hand terms,the matrix is in CSC format",
+      "desc_en": "single-precision complex type, Solving a sparse system of linear equations with multiple right-hand terms, the matrix is in CSC format",
       "benefit_cn": "基于鲲鹏架构为压缩格式的稀疏矩阵提供高性能向量、矩阵运算",
       "benefit_en": "Based on the Kunpeng architecture provides high-performance vector and matrix operations for sparse matrices in compressed formats"
     },
@@ -4190,7 +4190,7 @@
       "library": "KML_SPBLAS",
       "headerfile": "",
       "desc_cn": "双精度复数类型，求解多个右端顶的稀疏线性方程组，矩阵式CSC格式",
-      "desc_en": "double-precision complex type, Solving a sparse system of linear equations with multiple right-hand terms,the matrix is in CSC format",
+      "desc_en": "double-precision complex type, Solving a sparse system of linear equations with multiple right-hand terms, the matrix is in CSC format",
       "benefit_cn": "基于鲲鹏架构为压缩格式的稀疏矩阵提供高性能向量、矩阵运算",
       "benefit_en": "Based on the Kunpeng architecture provides high-performance vector and matrix operations for sparse matrices in compressed formats"
     },
