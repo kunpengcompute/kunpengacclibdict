@@ -9245,6 +9245,2832 @@
 	  "function_en": "[vector] rsubhn2 [64]",
 	  "function_cn": "[向量] 窄型减 [64]"
 	},
+    {
+      "name": "vceq_s8",
+      "full name": "uint8x8_t vceq_s8(int8x8_t a, int8x8_t b)",
+      "Intel name": "_mm_cmpeq_pi8",
+      "Intel Asm": "pcmpeqb",
+      "Arm Asm": "cmeq",
+      "function_en": "[vector] cmeq [8]",
+      "function_cn": "[向量] 判断等于 [8]"
+    },
+    {
+      "name": "vceqq_s8",
+      "full name": "uint8x16_t vceqq_s8(int8x16_t a, int8x16_t b)",
+      "Intel name": "_mm_cmpeq_epi8",
+      "Intel Asm": "pcmpeqb",
+      "Arm Asm": "cmeq",
+      "function_en": "[vector] cmeq [8]",
+      "function_cn": "[向量] 判断等于 [8]"
+    },
+    {
+      "name": "vceq_s16",
+      "full name": "uint16x4_t vceq_s16(int16x4_t a, int16x4_t b)",
+      "Intel name": "_mm_cmpeq_pi16",
+      "Intel Asm": "pcmpeqw",
+      "Arm Asm": "cmeq",
+      "function_en": "[vector] cmeq [16]",
+      "function_cn": "[向量] 判断等于 [16]"
+    },
+    {
+      "name": "vceqq_s16",
+      "full name": "uint16x8_t vceqq_s16(int16x8_t a, int16x8_t b)",
+      "Intel name": "_mm_cmpeq_epi16",
+      "Intel Asm": "pcmpeqw",
+      "Arm Asm": "cmeq",
+      "function_en": "[vector] cmeq [16]",
+      "function_cn": "[向量] 判断等于 [16]"
+    },
+    {
+      "name": "vceq_s32",
+      "full name": "uint32x2_t vceq_s32(int32x2_t a, int32x2_t b)",
+      "Intel name": "_mm_cmpeq_pi32",
+      "Intel Asm": "pcmpeqd",
+      "Arm Asm": "cmeq",
+      "function_en": "[vector] cmeq [32]",
+      "function_cn": "[向量] 判断等于 [32]"
+    },
+    {
+      "name": "vceqq_s32",
+      "full name": "uint32x4_t vceqq_s32(int32x4_t a, int32x4_t b)",
+      "Intel name": "_mm_cmpeq_epi32",
+      "Intel Asm": "pcmpeqd",
+      "Arm Asm": "cmeq",
+      "function_en": "[vector] cmeq [32]",
+      "function_cn": "[向量] 判断等于 [32]"
+    },
+    {
+      "name": "vceq_u8",
+      "full name": "uint8x8_t vceq_u8(uint8x8_t a, uint8x8_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "cmeq",
+      "function_en": "[vector] cmeq [8]",
+      "function_cn": "[向量] 判断等于 [8]"
+    },
+    {
+      "name": "vceqq_u8",
+      "full name": "uint8x16_t vceqq_u8(uint8x16_t a, uint8x16_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "cmeq",
+      "function_en": "[vector] cmeq [8]",
+      "function_cn": "[向量] 判断等于 [8]"
+    },
+    {
+      "name": "vceq_u16",
+      "full name": "uint16x4_t vceq_u16(uint16x4_t a, uint16x4_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "cmeq",
+      "function_en": "[vector] cmeq [16]",
+      "function_cn": "[向量] 判断等于 [16]"
+    },
+    {
+      "name": "vceqq_u16",
+      "full name": "uint16x8_t vceqq_u16(uint16x8_t a, uint16x8_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "cmeq",
+      "function_en": "[vector] cmeq [16]",
+      "function_cn": "[向量] 判断等于 [16]"
+    },
+    {
+      "name": "vceq_u32",
+      "full name": "uint32x2_t vceq_u32(uint32x2_t a, uint32x2_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "cmeq",
+      "function_en": "[vector] cmeq [32]",
+      "function_cn": "[向量] 判断等于 [32]"
+    },
+    {
+      "name": "vceqq_u32",
+      "full name": "uint32x4_t vceqq_u32(uint32x4_t a, uint32x4_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "cmeq",
+      "function_en": "[vector] cmeq [32]",
+      "function_cn": "[向量] 判断等于 [32]"
+    },
+    {
+      "name": "vceq_f32",
+      "full name": "uint32x2_t vceq_f32(float32x2_t a, float32x2_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "fcmeq",
+      "function_en": "[vector] fcmeq [32]",
+      "function_cn": "[向量] 判断等于 [32]"
+    },
+    {
+      "name": "vceqq_f32",
+      "full name": "uint32x4_t vceqq_f32(float32x4_t a, float32x4_t b)",
+      "Intel name": "_mm_cmpeq_ps",
+      "Intel Asm": "cmpps",
+      "Arm Asm": "fcmeq",
+      "function_en": "[vector] fcmeq [32]",
+      "function_cn": "[向量] 判断等于 [32]"
+    },
+    {
+      "name": "vceq_p8",
+      "full name": "uint8x8_t vceq_p8(poly8x8_t a, poly8x8_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "cmeq",
+      "function_en": "[vector] cmeq [8]",
+      "function_cn": "[向量] 判断等于 [8]"
+    },
+    {
+      "name": "vceqq_p8",
+      "full name": "uint8x16_t vceqq_p8(poly8x16_t a, poly8x16_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "cmeq",
+      "function_en": "[vector] cmeq [8]",
+      "function_cn": "[向量] 判断等于 [8]"
+    },
+    {
+      "name": "vceq_s64",
+      "full name": "uint64x1_t vceq_s64(int64x1_t a, int64x1_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "cmeq",
+      "function_en": "[vector] cmeq [64]",
+      "function_cn": "[向量] 判断等于 [64]"
+    },
+    {
+      "name": "vceqq_s64",
+      "full name": "uint64x2_t vceqq_s64(int64x2_t a, int64x2_t b)",
+      "Intel name": "_mm_cmpeq_epi64",
+      "Intel Asm": "pcmpeqq",
+      "Arm Asm": "cmeq",
+      "function_en": "[vector] cmeq [64]",
+      "function_cn": "[向量] 判断等于 [64]"
+    },
+    {
+      "name": "vceq_u64",
+      "full name": "uint64x1_t vceq_u64(uint64x1_t a, uint64x1_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "cmeq",
+      "function_en": "[vector] cmeq [64]",
+      "function_cn": "[向量] 判断等于 [64]"
+    },
+    {
+      "name": "vceqq_u64",
+      "full name": "uint64x2_t vceqq_u64(uint64x2_t a, uint64x2_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "cmeq",
+      "function_en": "[vector] cmeq [64]",
+      "function_cn": "[向量] 判断等于 [64]"
+    },
+    {
+      "name": "vceq_p64",
+      "full name": "uint64x1_t vceq_p64(poly64x1_t a, poly64x1_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "cmeq",
+      "function_en": "[vector] cmeq [64]",
+      "function_cn": "[向量] 判断等于 [64]"
+    },
+    {
+      "name": "vceqq_p64",
+      "full name": "uint64x2_t vceqq_p64(poly64x2_t a, poly64x2_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "cmeq",
+      "function_en": "[vector] cmeq [64]",
+      "function_cn": "[向量] 判断等于 [64]"
+    },
+    {
+      "name": "vceq_f64",
+      "full name": "uint64x1_t vceq_f64(float64x1_t a, float64x1_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "fcmeq",
+      "function_en": "[vector] fcmeq [64]",
+      "function_cn": "[向量] 判断等于 [64]"
+    },
+    {
+      "name": "vceqq_f64",
+      "full name": "uint64x2_t vceqq_f64(float64x2_t a, float64x2_t b)",
+      "Intel name": "_mm_cmpeq_pd",
+      "Intel Asm": "cmppd",
+      "Arm Asm": "fcmeq",
+      "function_en": "[vector] fcmeq [64]",
+      "function_cn": "[向量] 判断等于 [64]"
+    },
+    {
+      "name": "vceqd_s64",
+      "full name": "uint64_t vceqd_s64(int64_t a, int64_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "cmeq",
+      "function_en": "[scalar] cmeq [64]",
+      "function_cn": "[标量] 判断等于 [64]"
+    },
+    {
+      "name": "vceqd_u64",
+      "full name": "uint64_t vceqd_u64(uint64_t a, uint64_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "cmeq",
+      "function_en": "[scalar] cmeq [64]",
+      "function_cn": "[标量] 判断等于 [64]"
+    },
+    {
+      "name": "vceqs_f32",
+      "full name": "uint32_t vceqs_f32(float32_t a, float32_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "fcmeq",
+      "function_en": "[scalar] fcmeq [32]",
+      "function_cn": "[标量] 判断等于 [32]"
+    },
+    {
+      "name": "vceqd_f64",
+      "full name": "uint64_t vceqd_f64(float64_t a, float64_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "fcmeq",
+      "function_en": "[scalar] fcmeq [64]",
+      "function_cn": "[标量] 判断等于 [64]"
+    },
+    {
+      "name": "vceqz_s8",
+      "full name": "uint8x8_t vceqz_s8(int8x8_t a)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "cmeq",
+      "function_en": "[vector] cmeq [8]",
+      "function_cn": "[向量] 判断是否等于零寄存器 [8]"
+    },
+    {
+      "name": "vceqzq_s8",
+      "full name": "uint8x16_t vceqzq_s8(int8x16_t a)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "cmeq",
+      "function_en": "[vector] cmeq [8]",
+      "function_cn": "[向量] 判断是否等于零寄存器 [8]"
+    },
+    {
+      "name": "vceqz_s16",
+      "full name": "uint16x4_t vceqz_s16(int16x4_t a)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "cmeq",
+      "function_en": "[vector] cmeq [16]",
+      "function_cn": "[向量] 判断是否等于零寄存器 [16]"
+    },
+    {
+      "name": "vceqzq_s16",
+      "full name": "uint16x8_t vceqzq_s16(int16x8_t a)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "cmeq",
+      "function_en": "[vector] cmeq [16]",
+      "function_cn": "[向量] 判断是否等于零寄存器 [16]"
+    },
+    {
+      "name": "vceqz_s32",
+      "full name": "uint32x2_t vceqz_s32(int32x2_t a)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "cmeq",
+      "function_en": "[vector] cmeq [32]",
+      "function_cn": "[向量] 判断是否等于零寄存器 [32]"
+    },
+    {
+      "name": "vceqzq_s32",
+      "full name": "uint32x4_t vceqzq_s32(int32x4_t a)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "cmeq",
+      "function_en": "[vector] cmeq [32]",
+      "function_cn": "[向量] 判断是否等于零寄存器 [32]"
+    },
+    {
+      "name": "vceqz_u8",
+      "full name": "uint8x8_t vceqz_u8(uint8x8_t a)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "cmeq",
+      "function_en": "[vector] cmeq [8]",
+      "function_cn": "[向量] 判断是否等于零寄存器 [8]"
+    },
+    {
+      "name": "vceqzq_u8",
+      "full name": "uint8x16_t vceqzq_u8(uint8x16_t a)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "cmeq",
+      "function_en": "[vector] cmeq [8]",
+      "function_cn": "[向量] 判断是否等于零寄存器 [8]"
+    },
+    {
+      "name": "vceqz_u16",
+      "full name": "uint16x4_t vceqz_u16(uint16x4_t a)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "cmeq",
+      "function_en": "[vector] cmeq [16]",
+      "function_cn": "[向量] 判断是否等于零寄存器 [16]"
+    },
+    {
+      "name": "vceqzq_u16",
+      "full name": "uint16x8_t vceqzq_u16(uint16x8_t a)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "cmeq",
+      "function_en": "[vector] cmeq [16]",
+      "function_cn": "[向量] 判断是否等于零寄存器 [16]"
+    },
+    {
+      "name": "vceqz_u32",
+      "full name": "uint32x2_t vceqz_u32(uint32x2_t a)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "cmeq",
+      "function_en": "[vector] cmeq [32]",
+      "function_cn": "[向量] 判断是否等于零寄存器 [32]"
+    },
+    {
+      "name": "vceqzq_u32",
+      "full name": "uint32x4_t vceqzq_u32(uint32x4_t a)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "cmeq",
+      "function_en": "[vector] cmeq [32]",
+      "function_cn": "[向量] 判断是否等于零寄存器 [32]"
+    },
+    {
+      "name": "vceqz_f32",
+      "full name": "uint32x2_t vceqz_f32(float32x2_t a)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "fcmeq",
+      "function_en": "[vector] fcmeq [32]",
+      "function_cn": "[向量] 判断是否等于零寄存器 [32]"
+    },
+    {
+      "name": "vceqzq_f32",
+      "full name": "uint32x4_t vceqzq_f32(float32x4_t a)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "fcmeq",
+      "function_en": "[vector] fcmeq [32]",
+      "function_cn": "[向量] 判断是否等于零寄存器 [32]"
+    },
+    {
+      "name": "vceqz_p8",
+      "full name": "uint8x8_t vceqz_p8(poly8x8_t a)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "cmeq",
+      "function_en": "[vector] cmeq [8]",
+      "function_cn": "[向量] 判断是否等于零寄存器 [8]"
+    },
+    {
+      "name": "vceqzq_p8",
+      "full name": "uint8x16_t vceqzq_p8(poly8x16_t a)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "cmeq",
+      "function_en": "[vector] cmeq [8]",
+      "function_cn": "[向量] 判断是否等于零寄存器 [8]"
+    },
+    {
+      "name": "vceqz_s64",
+      "full name": "uint64x1_t vceqz_s64(int64x1_t a)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "cmeq",
+      "function_en": "[vector] cmeq [64]",
+      "function_cn": "[向量] 判断是否等于零寄存器 [64]"
+    },
+    {
+      "name": "vceqzq_s64",
+      "full name": "uint64x2_t vceqzq_s64(int64x2_t a)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "cmeq",
+      "function_en": "[vector] cmeq [64]",
+      "function_cn": "[向量] 判断是否等于零寄存器 [64]"
+    },
+    {
+      "name": "vceqz_u64",
+      "full name": "uint64x1_t vceqz_u64(uint64x1_t a)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "cmeq",
+      "function_en": "[vector] cmeq [64]",
+      "function_cn": "[向量] 判断是否等于零寄存器 [64]"
+    },
+    {
+      "name": "vceqzq_u64",
+      "full name": "uint64x2_t vceqzq_u64(uint64x2_t a)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "cmeq",
+      "function_en": "[vector] cmeq [64]",
+      "function_cn": "[向量] 判断是否等于零寄存器 [64]"
+    },
+    {
+      "name": "vceqz_p64",
+      "full name": "uint64x1_t vceqz_p64(poly64x1_t a)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "cmeq",
+      "function_en": "[vector] cmeq [64]",
+      "function_cn": "[向量] 判断是否等于零寄存器 [64]"
+    },
+    {
+      "name": "vceqzq_p64",
+      "full name": "uint64x2_t vceqzq_p64(poly64x2_t a)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "cmeq",
+      "function_en": "[vector] cmeq [64]",
+      "function_cn": "[向量] 判断是否等于零寄存器 [64]"
+    },
+    {
+      "name": "vceqz_f64",
+      "full name": "uint64x1_t vceqz_f64(float64x1_t a)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "fcmeq",
+      "function_en": "[vector] fcmeq [64]",
+      "function_cn": "[向量] 判断是否等于零寄存器 [64]"
+    },
+    {
+      "name": "vceqzq_f64",
+      "full name": "uint64x2_t vceqzq_f64(float64x2_t a)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "fcmeq",
+      "function_en": "[vector] fcmeq [64]",
+      "function_cn": "[向量] 判断是否等于零寄存器 [64]"
+    },
+    {
+      "name": "vceqzd_s64",
+      "full name": "uint64_t vceqzd_s64(int64_t a)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "cmeq",
+      "function_en": "[scalar] cmeq [64]",
+      "function_cn": "[标量] 判断是否等于零寄存器 [64]"
+    },
+    {
+      "name": "vceqzd_u64",
+      "full name": "uint64_t vceqzd_u64(uint64_t a)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "cmeq",
+      "function_en": "[scalar] cmeq [64]",
+      "function_cn": "[标量] 判断是否等于零寄存器 [64]"
+    },
+    {
+      "name": "vceqzs_f32",
+      "full name": "uint32_t vceqzs_f32(float32_t a)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "fcmeq",
+      "function_en": "[scalar] fcmeq [32]",
+      "function_cn": "[标量] 判断是否等于零寄存器 [32]"
+    },
+    {
+      "name": "vceqzd_f64",
+      "full name": "uint64_t vceqzd_f64(float64_t a)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "fcmeq",
+      "function_en": "[scalar] fcmeq [64]",
+      "function_cn": "[标量] 判断是否等于零寄存器 [64]"
+    },
+    {
+      "name": "vcge_s8",
+      "full name": "uint8x8_t vcge_s8(int8x8_t a, int8x8_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "cmge",
+      "function_en": "[vector] cmge [8]",
+      "function_cn": "[向量] 判断大于等于 [8]"
+    },
+    {
+      "name": "vcgeq_s8",
+      "full name": "uint8x16_t vcgeq_s8(int8x16_t a, int8x16_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "cmge",
+      "function_en": "[vector] cmge [8]",
+      "function_cn": "[向量] 判断大于等于 [8]"
+    },
+    {
+      "name": "vcge_s16",
+      "full name": "uint16x4_t vcge_s16(int16x4_t a, int16x4_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "cmge",
+      "function_en": "[vector] cmge [16]",
+      "function_cn": "[向量] 判断大于等于 [16]"
+    },
+    {
+      "name": "vcgeq_s16",
+      "full name": "uint16x8_t vcgeq_s16(int16x8_t a, int16x8_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "cmge",
+      "function_en": "[vector] cmge [16]",
+      "function_cn": "[向量] 判断大于等于 [16]"
+    },
+    {
+      "name": "vcge_s32",
+      "full name": "uint32x2_t vcge_s32(int32x2_t a, int32x2_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "cmge",
+      "function_en": "[vector] cmge [32]",
+      "function_cn": "[向量] 判断大于等于 [32]"
+    },
+    {
+      "name": "vcgeq_s32",
+      "full name": "uint32x4_t vcgeq_s32(int32x4_t a, int32x4_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "cmge",
+      "function_en": "[vector] cmge [32]",
+      "function_cn": "[向量] 判断大于等于 [32]"
+    },
+    {
+      "name": "vcge_u8",
+      "full name": "uint8x8_t vcge_u8(uint8x8_t a, uint8x8_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "cmhs",
+      "function_en": "[vector] cmhs [8]",
+      "function_cn": "[向量] 判断大于等于 [8]"
+    },
+    {
+      "name": "vcgeq_u8",
+      "full name": "uint8x16_t vcgeq_u8(uint8x16_t a, uint8x16_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "cmhs",
+      "function_en": "[vector] cmhs [8]",
+      "function_cn": "[向量] 判断大于等于 [8]"
+    },
+    {
+      "name": "vcge_u16",
+      "full name": "uint16x4_t vcge_u16(uint16x4_t a, uint16x4_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "cmhs",
+      "function_en": "[vector] cmhs [16]",
+      "function_cn": "[向量] 判断大于等于 [16]"
+    },
+    {
+      "name": "vcgeq_u16",
+      "full name": "uint16x8_t vcgeq_u16(uint16x8_t a, uint16x8_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "cmhs",
+      "function_en": "[vector] cmhs [16]",
+      "function_cn": "[向量] 判断大于等于 [16]"
+    },
+    {
+      "name": "vcge_u32",
+      "full name": "uint32x2_t vcge_u32(uint32x2_t a, uint32x2_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "cmhs",
+      "function_en": "[vector] cmhs [32]",
+      "function_cn": "[向量] 判断大于等于 [32]"
+    },
+    {
+      "name": "vcgeq_u32",
+      "full name": "uint32x4_t vcgeq_u32(uint32x4_t a, uint32x4_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "cmhs",
+      "function_en": "[vector] cmhs [32]",
+      "function_cn": "[向量] 判断大于等于 [32]"
+    },
+    {
+      "name": "vcge_f32",
+      "full name": "uint32x2_t vcge_f32(float32x2_t a, float32x2_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "fcmge",
+      "function_en": "[vector] fcmge [32]",
+      "function_cn": "[向量] 判断大于等于 [32]"
+    },
+    {
+      "name": "vcgeq_f32",
+      "full name": "uint32x4_t vcgeq_f32(float32x4_t a, float32x4_t b)",
+      "Intel name": "_mm_cmpge_ps",
+      "Intel Asm": "cmpps",
+      "Arm Asm": "fcmge",
+      "function_en": "[vector] fcmge [32]",
+      "function_cn": "[向量] 判断大于等于 [32]"
+    },
+    {
+      "name": "vcge_s64",
+      "full name": "uint64x1_t vcge_s64(int64x1_t a, int64x1_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "cmge",
+      "function_en": "[vector] cmge [64]",
+      "function_cn": "[向量] 判断大于等于 [64]"
+    },
+    {
+      "name": "vcgeq_s64",
+      "full name": "uint64x2_t vcgeq_s64(int64x2_t a, int64x2_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "cmge",
+      "function_en": "[vector] cmge [64]",
+      "function_cn": "[向量] 判断大于等于 [64]"
+    },
+    {
+      "name": "vcge_u64",
+      "full name": "uint64x1_t vcge_u64(uint64x1_t a, uint64x1_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "cmhs",
+      "function_en": "[vector] cmhs [64]",
+      "function_cn": "[向量] 判断大于等于 [64]"
+    },
+    {
+      "name": "vcgeq_u64",
+      "full name": "uint64x2_t vcgeq_u64(uint64x2_t a, uint64x2_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "cmhs",
+      "function_en": "[vector] cmhs [64]",
+      "function_cn": "[向量] 判断大于等于 [64]"
+    },
+    {
+      "name": "vcge_f64",
+      "full name": "uint64x1_t vcge_f64(float64x1_t a, float64x1_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "fcmge",
+      "function_en": "[vector] fcmge [64]",
+      "function_cn": "[向量] 判断大于等于 [64]"
+    },
+    {
+      "name": "vcgeq_f64",
+      "full name": "uint64x2_t vcgeq_f64(float64x2_t a, float64x2_t b)",
+      "Intel name": "_mm_cmpge_pd",
+      "Intel Asm": "cmppd",
+      "Arm Asm": "fcmge",
+      "function_en": "[vector] fcmge [64]",
+      "function_cn": "[向量] 判断大于等于 [64]"
+    },
+    {
+      "name": "vcged_s64",
+      "full name": "uint64_t vcged_s64(int64_t a, int64_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "cmge",
+      "function_en": "[scalar] cmge [64]",
+      "function_cn": "[标量] 判断大于等于 [64]"
+    },
+    {
+      "name": "vcged_u64",
+      "full name": "uint64_t vcged_u64(uint64_t a, uint64_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "cmhs",
+      "function_en": "[scalar] cmhs [64]",
+      "function_cn": "[标量] 判断大于等于 [64]"
+    },
+    {
+      "name": "vcges_f32",
+      "full name": "uint32_t vcges_f32(float32_t a, float32_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "fcmge",
+      "function_en": "[scalar] fcmge [32]",
+      "function_cn": "[标量] 判断大于等于 [32]"
+    },
+    {
+      "name": "vcged_f64",
+      "full name": "uint64_t vcged_f64(float64_t a, float64_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "fcmge",
+      "function_en": "[scalar] fcmge [32]",
+      "function_cn": "[标量] 判断大于等于 [32]"
+    },
+    {
+      "name": "vcgez_s8",
+      "full name": "uint8x8_t vcgez_s8(int8x8_t a)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "cmge",
+      "function_en": "[vector] cmge [8]",
+      "function_cn": "[向量] 判断大于等于零寄存器 [8]"
+    },
+    {
+      "name": "vcgezq_s8",
+      "full name": "uint8x16_t vcgezq_s8(int8x16_t a)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "cmge",
+      "function_en": "[vector] cmge [8]",
+      "function_cn": "[向量] 判断大于等于零寄存器 [8]"
+    },
+    {
+      "name": "vcgez_s16",
+      "full name": "uint16x4_t vcgez_s16(int16x4_t a)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "cmge",
+      "function_en": "[vector] cmge [16]",
+      "function_cn": "[向量] 判断大于等于零寄存器 [16]"
+    },
+    {
+      "name": "vcgezq_s16",
+      "full name": "uint16x8_t vcgezq_s16(int16x8_t a)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "cmge",
+      "function_en": "[vector] cmge [16]",
+      "function_cn": "[向量] 判断大于等于零寄存器 [16]"
+    },
+    {
+      "name": "vcgez_s32",
+      "full name": "uint32x2_t vcgez_s32(int32x2_t a)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "cmge",
+      "function_en": "[vector] cmge [32]",
+      "function_cn": "[向量] 判断大于等于零寄存器 [32]"
+    },
+    {
+      "name": "vcgezq_s32",
+      "full name": "uint32x4_t vcgezq_s32(int32x4_t a)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "cmge",
+      "function_en": "[vector] cmge [32]",
+      "function_cn": "[向量] 判断大于等于零寄存器 [32]"
+    },
+    {
+      "name": "vcgez_s64",
+      "full name": "uint64x1_t vcgez_s64(int64x1_t a)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "cmge",
+      "function_en": "[vector] cmge [64]",
+      "function_cn": "[向量] 判断大于等于零寄存器 [64]"
+    },
+    {
+      "name": "vcgezq_s64",
+      "full name": "uint64x2_t vcgezq_s64(int64x2_t a)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "cmge",
+      "function_en": "[vector] cmge [64]",
+      "function_cn": "[向量] 判断大于等于零寄存器 [64]"
+    },
+    {
+      "name": "vcgez_f32",
+      "full name": "uint32x2_t vcgez_f32(float32x2_t a)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "fcmge",
+      "function_en": "[vector] fcmge [32]",
+      "function_cn": "[向量] 判断大于等于零寄存器 [32]"
+    },
+    {
+      "name": "vcgezq_f32",
+      "full name": "uint32x4_t vcgezq_f32(float32x4_t a)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "fcmge",
+      "function_en": "[vector] fcmge [32]",
+      "function_cn": "[向量] 判断大于等于零寄存器 [32]"
+    },
+    {
+      "name": "vcgez_f64",
+      "full name": "uint64x1_t vcgez_f64(float64x1_t a)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "fcmge",
+      "function_en": "[vector] fcmge [64]",
+      "function_cn": "[向量] 判断大于等于零寄存器 [64]"
+    },
+    {
+      "name": "vcgezq_f64",
+      "full name": "uint64x2_t vcgezq_f64(float64x2_t a)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "fcmge",
+      "function_en": "[vector] fcmge [64]",
+      "function_cn": "[向量] 判断大于等于零寄存器 [64]"
+    },
+    {
+      "name": "vcgezd_s64",
+      "full name": "uint64_t vcgezd_s64(int64_t a)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "cmge",
+      "function_en": "[scalar] cmge [64]",
+      "function_cn": "[标量] 判断大于等于零寄存器 [64]"
+    },
+    {
+      "name": "vcgezs_f32",
+      "full name": "uint32_t vcgezs_f32(float32_t a)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "fcmge",
+      "function_en": "[scalar] fcmge [32]",
+      "function_cn": "[标量] 判断大于等于零寄存器 [32]"
+    },
+    {
+      "name": "vcgezd_f64",
+      "full name": "uint64_t vcgezd_f64(float64_t a)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "fcmge",
+      "function_en": "[scalar] fcmge [64]",
+      "function_cn": "[标量] 判断大于等于零寄存器 [64]"
+    },
+    {
+      "name": "vcle_s8",
+      "full name": "uint8x8_t vcle_s8(int8x8_t a, int8x8_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "cmge",
+      "function_en": "[vector] cmge [8]",
+      "function_cn": "[向量] 比较小于等于 [8]"
+    },
+    {
+      "name": "vcleq_s8",
+      "full name": "uint8x16_t vcleq_s8(int8x16_t a, int8x16_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "cmge",
+      "function_en": "[vector] cmge [8]",
+      "function_cn": "[向量] 比较小于等于 [8]"
+    },
+    {
+      "name": "vcle_s16",
+      "full name": "uint16x4_t vcle_s16(int16x4_t a, int16x4_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "cmge",
+      "function_en": "[vector] cmge [16]",
+      "function_cn": "[向量] 比较小于等于 [16]"
+    },
+    {
+      "name": "vcleq_s16",
+      "full name": "uint16x8_t vcleq_s16(int16x8_t a, int16x8_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "cmge",
+      "function_en": "[vector] cmge [16]",
+      "function_cn": "[向量] 比较小于等于 [16]"
+    },
+    {
+      "name": "vcle_s32",
+      "full name": "uint32x2_t vcle_s32(int32x2_t a, int32x2_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "cmge",
+      "function_en": "[vector] cmge [32]",
+      "function_cn": "[向量] 比较小于等于 [32]"
+    },
+    {
+      "name": "vcleq_s32",
+      "full name": "uint32x4_t vcleq_s32(int32x4_t a, int32x4_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "cmge",
+      "function_en": "[vector] cmge [32]",
+      "function_cn": "[向量] 比较小于等于 [32]"
+    },
+    {
+      "name": "vcle_u8",
+      "full name": "uint8x8_t vcle_u8(uint8x8_t a, uint8x8_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "cmhs",
+      "function_en": "[vector] cmhs [8]",
+      "function_cn": "[向量] 比较小于等于 [8]"
+    },
+    {
+      "name": "vcleq_u8",
+      "full name": "uint8x16_t vcleq_u8(uint8x16_t a, uint8x16_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "cmhs",
+      "function_en": "[vector] cmhs [8]",
+      "function_cn": "[向量] 比较小于等于 [8]"
+    },
+    {
+      "name": "vcle_u16",
+      "full name": "uint16x4_t vcle_u16(uint16x4_t a, uint16x4_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "cmhs",
+      "function_en": "[vector] cmhs [16]",
+      "function_cn": "[向量] 比较小于等于 [16]"
+    },
+    {
+      "name": "vcleq_u16",
+      "full name": "uint16x8_t vcleq_u16(uint16x8_t a, uint16x8_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "cmhs",
+      "function_en": "[vector] cmhs [16]",
+      "function_cn": "[向量] 比较小于等于 [16]"
+    },
+    {
+      "name": "vcle_u32",
+      "full name": "uint32x2_t vcle_u32(uint32x2_t a, uint32x2_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "cmhs",
+      "function_en": "[vector] cmhs [32]",
+      "function_cn": "[向量] 比较小于等于 [32]"
+    },
+    {
+      "name": "vcleq_u32",
+      "full name": "uint32x4_t vcleq_u32(uint32x4_t a, uint32x4_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "cmhs",
+      "function_en": "[vector] cmhs [32]",
+      "function_cn": "[向量] 比较小于等于 [32]"
+    },
+    {
+      "name": "vcle_f32",
+      "full name": "uint32x2_t vcle_f32(float32x2_t a, float32x2_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "fcmge",
+      "function_en": "[vector] fcmge [32]",
+      "function_cn": "[向量] 比较小于等于 [32]"
+    },
+    {
+      "name": "vcleq_f32",
+      "full name": "uint32x4_t vcleq_f32(float32x4_t a, float32x4_t b)",
+      "Intel name": "_mm_cmple_ps",
+      "Intel Asm": "cmpps",
+      "Arm Asm": "fcmge",
+      "function_en": "[vector] fcmge [32]",
+      "function_cn": "[向量] 比较小于等于 [32]"
+    },
+    {
+      "name": "vcle_s64",
+      "full name": "uint64x1_t vcle_s64(int64x1_t a, int64x1_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "cmge",
+      "function_en": "[vector] cmge [64]",
+      "function_cn": "[向量] 比较小于等于 [64]"
+    },
+    {
+      "name": "vcleq_s64",
+      "full name": "uint64x2_t vcleq_s64(int64x2_t a, int64x2_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "cmge",
+      "function_en": "[vector] cmge [64]",
+      "function_cn": "[向量] 比较小于等于 [64]"
+    },
+    {
+      "name": "vcle_u64",
+      "full name": "uint64x1_t vcle_u64(uint64x1_t a, uint64x1_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "cmhs",
+      "function_en": "[vector] cmhs [64]",
+      "function_cn": "[向量] 比较小于等于 [64]"
+    },
+    {
+      "name": "vcleq_u64",
+      "full name": "uint64x2_t vcleq_u64(uint64x2_t a, uint64x2_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "cmhs",
+      "function_en": "[vector] cmhs [64]",
+      "function_cn": "[向量] 比较小于等于 [64]"
+    },
+    {
+      "name": "vcle_f64",
+      "full name": "uint64x1_t vcle_f64(float64x1_t a, float64x1_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "fcmge",
+      "function_en": "[vector] fcmge [64]",
+      "function_cn": "[向量] 比较小于等于 [64]"
+    },
+    {
+      "name": "vcleq_f64",
+      "full name": "uint64x2_t vcleq_f64(float64x2_t a, float64x2_t b)",
+      "Intel name": "_mm_cmple_pd",
+      "Intel Asm": "cmppd",
+      "Arm Asm": "fcmge",
+      "function_en": "[vector] fcmge [64]",
+      "function_cn": "[向量] 比较小于等于 [64]"
+    },
+    {
+      "name": "vcled_s64",
+      "full name": "uint64_t vcled_s64(int64_t a, int64_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "cmge",
+      "function_en": "[scalar] cmge [64]",
+      "function_cn": "[标量] 比较小于等于 [64]"
+    },
+    {
+      "name": "vcled_u64",
+      "full name": "uint64_t vcled_u64(uint64_t a, uint64_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "cmhs",
+      "function_en": "[scalar] cmhs [64]",
+      "function_cn": "[标量] 比较小于等于 [64]"
+    },
+    {
+      "name": "vcles_f32",
+      "full name": "uint32_t vcles_f32(float32_t a, float32_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "fcmge",
+      "function_en": "[scalar] fcmge [32]",
+      "function_cn": "[标量] 比较小于等于 [32]"
+    },
+    {
+      "name": "vcled_f64",
+      "full name": "uint64_t vcled_f64(float64_t a, float64_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "fcmge",
+      "function_en": "[scalar] fcmge [32]",
+      "function_cn": "[标量] 比较小于等于 [32]"
+    },
+    {
+      "name": "vclez_s8",
+      "full name": "uint8x8_t vclez_s8(int8x8_t a)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "cmle",
+      "function_en": "[vector] cmle [8]",
+      "function_cn": "[向量] 判断是否小于等于零寄存器 [8]"
+    },
+    {
+      "name": "vclezq_s8",
+      "full name": "uint8x16_t vclezq_s8(int8x16_t a)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "cmle",
+      "function_en": "[vector] cmle [8]",
+      "function_cn": "[向量] 判断是否小于等于零寄存器 [8]"
+    },
+    {
+      "name": "vclez_s16",
+      "full name": "uint16x4_t vclez_s16(int16x4_t a)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "cmle",
+      "function_en": "[vector] cmle [16]",
+      "function_cn": "[向量] 判断是否小于等于零寄存器 [16]"
+    },
+    {
+      "name": "vclezq_s16",
+      "full name": "uint16x8_t vclezq_s16(int16x8_t a)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "cmle",
+      "function_en": "[vector] cmle [16]",
+      "function_cn": "[向量] 判断是否小于等于零寄存器 [16]"
+    },
+    {
+      "name": "vclez_s32",
+      "full name": "uint32x2_t vclez_s32(int32x2_t a)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "cmle",
+      "function_en": "[vector] cmle [32]",
+      "function_cn": "[向量] 判断是否小于等于零寄存器 [32]"
+    },
+    {
+      "name": "vclezq_s32",
+      "full name": "uint32x4_t vclezq_s32(int32x4_t a)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "cmle",
+      "function_en": "[vector] cmle [32]",
+      "function_cn": "[向量] 判断是否小于等于零寄存器 [32]"
+    },
+    {
+      "name": "vclez_s64",
+      "full name": "uint64x1_t vclez_s64(int64x1_t a)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "cmle",
+      "function_en": "[vector] cmle [64]",
+      "function_cn": "[向量] 判断是否小于等于零寄存器 [64]"
+    },
+    {
+      "name": "vclezq_s64",
+      "full name": "uint64x2_t vclezq_s64(int64x2_t a)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "cmle",
+      "function_en": "[vector] cmle [64]",
+      "function_cn": "[向量] 判断是否小于等于零寄存器 [64]"
+    },
+    {
+      "name": "vclez_f32",
+      "full name": "uint32x2_t vclez_f32(float32x2_t a)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "cmle",
+      "function_en": "[vector] cmle [32]",
+      "function_cn": "[向量] 判断是否小于等于零寄存器 [32]"
+    },
+    {
+      "name": "vclezq_f32",
+      "full name": "uint32x4_t vclezq_f32(float32x4_t a)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "fcmle",
+      "function_en": "[vector] fcmle [32]",
+      "function_cn": "[向量] 判断是否小于等于零寄存器 [32]"
+    },
+    {
+      "name": "vclez_f64",
+      "full name": "uint64x1_t vclez_f64(float64x1_t a)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "fcmle",
+      "function_en": "[vector] fcmle [64]",
+      "function_cn": "[向量] 判断是否小于等于零寄存器 [64]"
+    },
+    {
+      "name": "vclezq_f64",
+      "full name": "uint64x2_t vclezq_f64(float64x2_t a)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "fcmle",
+      "function_en": "[vector] fcmle [64]",
+      "function_cn": "[向量] 判断是否小于等于零寄存器 [64]"
+    },
+    {
+      "name": "vclezd_s64",
+      "full name": "uint64_t vclezd_s64(int64_t a)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "cmle",
+      "function_en": "[scalar] cmle [64]",
+      "function_cn": "[标量] 判断是否小于等于零寄存器 [64]"
+    },
+    {
+      "name": "vclezs_f32",
+      "full name": "uint32_t vclezs_f32(float32_t a)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "fcmle",
+      "function_en": "[scalar] fcmle [32]",
+      "function_cn": "[标量] 判断是否小于等于零寄存器 [32]"
+    },
+    {
+      "name": "vclezd_f64",
+      "full name": "uint64_t vclezd_f64(float64_t a)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "fcmle",
+      "function_en": "[scalar] fcmle [64]",
+      "function_cn": "[标量] 判断是否小于等于零寄存器 [64]"
+    },
+    {
+      "name": "vcgt_s8",
+      "full name": "uint8x8_t vcgt_s8(int8x8_t a, int8x8_t b)",
+      "Intel name": "_mm_cmpgt_pi8",
+      "Intel Asm": "pcmpgtb",
+      "Arm Asm": "cmgt",
+      "function_en": "[vector] cmgt [8]",
+      "function_cn": "[向量] 比较大于 [8]"
+    },
+    {
+      "name": "vcgtq_s8",
+      "full name": "uint8x16_t vcgtq_s8(int8x16_t a, int8x16_t b)",
+      "Intel name": "_mm_cmpgt_epi8",
+      "Intel Asm": "pcmpgtb",
+      "Arm Asm": "cmgt",
+      "function_en": "[vector] cmgt [8]",
+      "function_cn": "[向量] 比较大于 [8]"
+    },
+    {
+      "name": "vcgt_s16",
+      "full name": "uint16x4_t vcgt_s16(int16x4_t a, int16x4_t b)",
+      "Intel name": "_mm_cmpgt_pi16",
+      "Intel Asm": "pcmpgtw",
+      "Arm Asm": "cmgt",
+      "function_en": "[vector] cmgt [16]",
+      "function_cn": "[向量] 比较大于 [16]"
+    },
+    {
+      "name": "vcgtq_s16",
+      "full name": "uint16x8_t vcgtq_s16(int16x8_t a, int16x8_t b)",
+      "Intel name": "_mm_cmpgt_epi16",
+      "Intel Asm": "pcmpgtw",
+      "Arm Asm": "cmgt",
+      "function_en": "[vector] cmgt [16]",
+      "function_cn": "[向量] 比较大于 [16]"
+    },
+    {
+      "name": "vcgt_s32",
+      "full name": "uint32x2_t vcgt_s32(int32x2_t a, int32x2_t b)",
+      "Intel name": "_mm_cmpgt_pi32",
+      "Intel Asm": "pcmpgtd",
+      "Arm Asm": "cmgt",
+      "function_en": "[vector] cmgt [32]",
+      "function_cn": "[向量] 比较大于 [32]"
+    },
+    {
+      "name": "vcgtq_s32",
+      "full name": "uint32x4_t vcgtq_s32(int32x4_t a, int32x4_t b)",
+      "Intel name": "_mm_cmpgt_epi32",
+      "Intel Asm": "pcmpgtd",
+      "Arm Asm": "cmgt",
+      "function_en": "[vector] cmgt [32]",
+      "function_cn": "[向量] 比较大于 [32]"
+    },
+    {
+      "name": "vcgt_u8",
+      "full name": "uint8x8_t vcgt_u8(uint8x8_t a, uint8x8_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "cmhi",
+      "function_en": "[vector] cmhi [8]",
+      "function_cn": "[向量] 比较大于 [8]"
+    },
+    {
+      "name": "vcgtq_u8",
+      "full name": "uint8x16_t vcgtq_u8(uint8x16_t a, uint8x16_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "cmhi",
+      "function_en": "[vector] cmhi [8]",
+      "function_cn": "[向量] 比较大于 [8]"
+    },
+    {
+      "name": "vcgt_u16",
+      "full name": "uint16x4_t vcgt_u16(uint16x4_t a, uint16x4_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "cmhi",
+      "function_en": "[vector] cmhi [16]",
+      "function_cn": "[向量] 比较大于 [16]"
+    },
+    {
+      "name": "vcgtq_u16",
+      "full name": "uint16x8_t vcgtq_u16(uint16x8_t a, uint16x8_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "cmhi",
+      "function_en": "[vector] cmhi [16]",
+      "function_cn": "[向量] 比较大于 [16]"
+    },
+    {
+      "name": "vcgt_u32",
+      "full name": "uint32x2_t vcgt_u32(uint32x2_t a, uint32x2_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "cmhi",
+      "function_en": "[vector] cmhi [32]",
+      "function_cn": "[向量] 比较大于 [32]"
+    },
+    {
+      "name": "vcgtq_u32",
+      "full name": "uint32x4_t vcgtq_u32(uint32x4_t a, uint32x4_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "cmhi",
+      "function_en": "[vector] cmhi [32]",
+      "function_cn": "[向量] 比较大于 [32]"
+    },
+    {
+      "name": "vcgt_f32",
+      "full name": "uint32x2_t vcgt_f32(float32x2_t a, float32x2_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "fcmgt",
+      "function_en": "[vector] fcmgt [32]",
+      "function_cn": "[向量] 比较大于 [32]"
+    },
+    {
+      "name": "vcgtq_f32",
+      "full name": "uint32x4_t vcgtq_f32(float32x4_t a, float32x4_t b)",
+      "Intel name": "_mm_cmpgt_ps",
+      "Intel Asm": "cmpps",
+      "Arm Asm": "fcmgt",
+      "function_en": "[vector] fcmgt [32]",
+      "function_cn": "[向量] 比较大于 [32]"
+    },
+    {
+      "name": "vcgt_s64",
+      "full name": "uint64x1_t vcgt_s64(int64x1_t a, int64x1_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "cmgt",
+      "function_en": "[vector] cmgt [64]",
+      "function_cn": "[向量] 比较大于 [64]"
+    },
+    {
+      "name": "vcgtq_s64",
+      "full name": "uint64x2_t vcgtq_s64(int64x2_t a, int64x2_t b)",
+      "Intel name": "_mm_cmpgt_epi64",
+      "Intel Asm": "pcmpgtq",
+      "Arm Asm": "cmgt",
+      "function_en": "[vector] cmgt [64]",
+      "function_cn": "[向量] 比较大于 [64]"
+    },
+    {
+      "name": "vcgt_u64",
+      "full name": "uint64x1_t vcgt_u64(uint64x1_t a, uint64x1_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "cmhi",
+      "function_en": "[vector] cmhi [64]",
+      "function_cn": "[向量] 比较大于 [64]"
+    },
+    {
+      "name": "vcgtq_u64",
+      "full name": "uint64x2_t vcgtq_u64(uint64x2_t a, uint64x2_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "cmhi",
+      "function_en": "[vector] cmhi [64]",
+      "function_cn": "[向量] 比较大于 [64]"
+    },
+    {
+      "name": "vcgt_f64",
+      "full name": "uint64x1_t vcgt_f64(float64x1_t a, float64x1_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "fcmgt",
+      "function_en": "[vector] fcmgt [64]",
+      "function_cn": "[向量] 比较大于 [64]"
+    },
+    {
+      "name": "vcgtq_f64",
+      "full name": "uint64x2_t vcgtq_f64(float64x2_t a, float64x2_t b)",
+      "Intel name": "_mm_cmpgt_pd",
+      "Intel Asm": "cmppd",
+      "Arm Asm": "fcmgt",
+      "function_en": "[vector] fcmgt [64]",
+      "function_cn": "[向量] 比较大于 [64]"
+    },
+    {
+      "name": "vcgtd_s64",
+      "full name": "uint64_t vcgtd_s64(int64_t a, int64_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "cmgt",
+      "function_en": "[scalar] cmgt [64]",
+      "function_cn": "[标量] 比较大于 [64]"
+    },
+    {
+      "name": "vcgtd_u64",
+      "full name": "uint64_t vcgtd_u64(uint64_t a, uint64_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "cmhi",
+      "function_en": "[scalar] cmhi [0]",
+      "function_cn": "[标量] 比较大于 [0]"
+    },
+    {
+      "name": "vcgts_f32",
+      "full name": "uint32_t vcgts_f32(float32_t a, float32_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "fcmgt",
+      "function_en": "[scalar] fcmgt [0]",
+      "function_cn": "[标量] 比较大于 [0]"
+    },
+    {
+      "name": "vcgtd_f64",
+      "full name": "uint64_t vcgtd_f64(float64_t a, float64_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "fcmgt",
+      "function_en": "[scalar] fcmgt [0]",
+      "function_cn": "[标量] 比较大于 [0]"
+    },
+    {
+      "name": "vcgtz_s8",
+      "full name": "uint8x8_t vcgtz_s8(int8x8_t a)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "cmgt",
+      "function_en": "[vector] cmgt [8]",
+      "function_cn": "[向量] 判断是否大于零寄存器 [8]"
+    },
+    {
+      "name": "vcgtzq_s8",
+      "full name": "uint8x16_t vcgtzq_s8(int8x16_t a)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "cmgt",
+      "function_en": "[vector] cmgt [8]",
+      "function_cn": "[向量] 判断是否大于零寄存器 [8]"
+    },
+    {
+      "name": "vcgtz_s16",
+      "full name": "uint16x4_t vcgtz_s16(int16x4_t a)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "cmgt",
+      "function_en": "[vector] cmgt [16]",
+      "function_cn": "[向量] 判断是否大于零寄存器 [16]"
+    },
+    {
+      "name": "vcgtzq_s16",
+      "full name": "uint16x8_t vcgtzq_s16(int16x8_t a)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "cmgt",
+      "function_en": "[vector] cmgt [16]",
+      "function_cn": "[向量] 判断是否大于零寄存器 [16]"
+    },
+    {
+      "name": "vcgtz_s32",
+      "full name": "uint32x2_t vcgtz_s32(int32x2_t a)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "cmgt",
+      "function_en": "[vector] cmgt [32]",
+      "function_cn": "[向量] 判断是否大于零寄存器 [32]"
+    },
+    {
+      "name": "vcgtzq_s32",
+      "full name": "uint32x4_t vcgtzq_s32(int32x4_t a)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "cmgt",
+      "function_en": "[vector] cmgt [32]",
+      "function_cn": "[向量] 判断是否大于零寄存器 [32]"
+    },
+    {
+      "name": "vcgtz_s64",
+      "full name": "uint64x1_t vcgtz_s64(int64x1_t a)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "cmgt",
+      "function_en": "[vector] cmgt [64]",
+      "function_cn": "[向量] 判断是否大于零寄存器 [64]"
+    },
+    {
+      "name": "vcgtzq_s64",
+      "full name": "uint64x2_t vcgtzq_s64(int64x2_t a)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "cmgt",
+      "function_en": "[vector] cmgt [64]",
+      "function_cn": "[向量] 判断是否大于零寄存器 [64]"
+    },
+    {
+      "name": "vcgtz_f32",
+      "full name": "uint32x2_t vcgtz_f32(float32x2_t a)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "fcmgt",
+      "function_en": "[vector] fcmgt [32]",
+      "function_cn": "[向量] 判断是否大于零寄存器 [32]"
+    },
+    {
+      "name": "vcgtzq_f32",
+      "full name": "uint32x4_t vcgtzq_f32(float32x4_t a)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "fcmgt",
+      "function_en": "[vector] fcmgt [32]",
+      "function_cn": "[向量] 判断是否大于零寄存器 [32]"
+    },
+    {
+      "name": "vcgtz_f64",
+      "full name": "uint64x1_t vcgtz_f64(float64x1_t a)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "fcmgt",
+      "function_en": "[vector] fcmgt [64]",
+      "function_cn": "[向量] 判断是否大于零寄存器 [64]"
+    },
+    {
+      "name": "vcgtzq_f64",
+      "full name": "uint64x2_t vcgtzq_f64(float64x2_t a)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "fcmgt",
+      "function_en": "[vector] fcmgt [64]",
+      "function_cn": "[向量] 判断是否大于零寄存器 [64]"
+    },
+    {
+      "name": "vcgtzd_s64",
+      "full name": "uint64_t vcgtzd_s64(int64_t a)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "cmgt",
+      "function_en": "[scalar] cmgt [64]",
+      "function_cn": "[标量] 判断是否大于零寄存器 [64]"
+    },
+    {
+      "name": "vcgtzs_f32",
+      "full name": "uint32_t vcgtzs_f32(float32_t a)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "fcmgt",
+      "function_en": "[scalar] fcmgt [32]",
+      "function_cn": "[标量] 判断是否大于零寄存器 [32]"
+    },
+    {
+      "name": "vcgtzd_f64",
+      "full name": "uint64_t vcgtzd_f64(float64_t a)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "fcmgt",
+      "function_en": "[scalar] fcmgt [64]",
+      "function_cn": "[标量] 判断是否大于零寄存器 [64]"
+    },
+    {
+      "name": "vclt_s8",
+      "full name": "uint8x8_t vclt_s8(int8x8_t a, int8x8_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "cmgt",
+      "function_en": "[vector] cmgt [8]",
+      "function_cn": "[向量] 比较小于 [8]"
+    },
+    {
+      "name": "vcltq_s8",
+      "full name": "uint8x16_t vcltq_s8(int8x16_t a, int8x16_t b)",
+      "Intel name": "_mm_cmplt_epi8",
+      "Intel Asm": "pcmpgtb",
+      "Arm Asm": "cmgt",
+      "function_en": "[vector] cmgt [8]",
+      "function_cn": "[向量] 比较小于 [8]"
+    },
+    {
+      "name": "vclt_s16",
+      "full name": "uint16x4_t vclt_s16(int16x4_t a, int16x4_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "cmgt",
+      "function_en": "[vector] cmgt [16]",
+      "function_cn": "[向量] 比较小于 [16]"
+    },
+    {
+      "name": "vcltq_s16",
+      "full name": "uint16x8_t vcltq_s16(int16x8_t a, int16x8_t b)",
+      "Intel name": "_mm_cmplt_epi16",
+      "Intel Asm": "pcmpgtw",
+      "Arm Asm": "cmgt",
+      "function_en": "[vector] cmgt [16]",
+      "function_cn": "[向量] 比较小于 [16]"
+    },
+    {
+      "name": "vclt_s32",
+      "full name": "uint32x2_t vclt_s32(int32x2_t a, int32x2_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "cmgt",
+      "function_en": "[vector] cmgt [32]",
+      "function_cn": "[向量] 比较小于 [32]"
+    },
+    {
+      "name": "vcltq_s32",
+      "full name": "uint32x4_t vcltq_s32(int32x4_t a, int32x4_t b)",
+      "Intel name": "_mm_cmplt_epi32",
+      "Intel Asm": "pcmpgtd",
+      "Arm Asm": "cmgt",
+      "function_en": "[vector] cmgt [32]",
+      "function_cn": "[向量] 比较小于 [32]"
+    },
+    {
+      "name": "vclt_u8",
+      "full name": "uint8x8_t vclt_u8(uint8x8_t a, uint8x8_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "cmhi",
+      "function_en": "[vector] cmhi [8]",
+      "function_cn": "[向量] 比较小于 [8]"
+    },
+    {
+      "name": "vcltq_u8",
+      "full name": "uint8x16_t vcltq_u8(uint8x16_t a, uint8x16_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "cmhi",
+      "function_en": "[vector] cmhi [8]",
+      "function_cn": "[向量] 比较小于 [8]"
+    },
+    {
+      "name": "vclt_u16",
+      "full name": "uint16x4_t vclt_u16(uint16x4_t a, uint16x4_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "cmhi",
+      "function_en": "[vector] cmhi [16]",
+      "function_cn": "[向量] 比较小于 [16]"
+    },
+    {
+      "name": "vcltq_u16",
+      "full name": "uint16x8_t vcltq_u16(uint16x8_t a, uint16x8_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "cmhi",
+      "function_en": "[vector] cmhi [16]",
+      "function_cn": "[向量] 比较小于 [16]"
+    },
+    {
+      "name": "vclt_u32",
+      "full name": "uint32x2_t vclt_u32(uint32x2_t a, uint32x2_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "cmhi",
+      "function_en": "[vector] cmhi [32]",
+      "function_cn": "[向量] 比较小于 [32]"
+    },
+    {
+      "name": "vcltq_u32",
+      "full name": "uint32x4_t vcltq_u32(uint32x4_t a, uint32x4_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "cmhi",
+      "function_en": "[vector] cmhi [32]",
+      "function_cn": "[向量] 比较小于 [32]"
+    },
+    {
+      "name": "vclt_f32",
+      "full name": "uint32x2_t vclt_f32(float32x2_t a, float32x2_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "fcmgt",
+      "function_en": "[vector] fcmgt [32]",
+      "function_cn": "[向量] 比较小于 [32]"
+    },
+    {
+      "name": "vcltq_f32",
+      "full name": "uint32x4_t vcltq_f32(float32x4_t a, float32x4_t b)",
+      "Intel name": "_mm_cmplt_ps",
+      "Intel Asm": "cmpps",
+      "Arm Asm": "fcmgt",
+      "function_en": "[vector] fcmgt [32]",
+      "function_cn": "[向量] 比较小于 [32]"
+    },
+    {
+      "name": "vclt_s64",
+      "full name": "uint64x1_t vclt_s64(int64x1_t a, int64x1_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "cmgt",
+      "function_en": "[vector] cmgt [64]",
+      "function_cn": "[向量] 比较小于 [64]"
+    },
+    {
+      "name": "vcltq_s64",
+      "full name": "uint64x2_t vcltq_s64(int64x2_t a, int64x2_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "cmgt",
+      "function_en": "[vector] cmgt [64]",
+      "function_cn": "[向量] 比较小于 [64]"
+    },
+    {
+      "name": "vclt_u64",
+      "full name": "uint64x1_t vclt_u64(uint64x1_t a, uint64x1_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "cmhi",
+      "function_en": "[vector] cmhi [64]",
+      "function_cn": "[向量] 比较小于 [64]"
+    },
+    {
+      "name": "vcltq_u64",
+      "full name": "uint64x2_t vcltq_u64(uint64x2_t a, uint64x2_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "cmhi",
+      "function_en": "[vector] cmhi [64]",
+      "function_cn": "[向量] 比较小于 [64]"
+    },
+    {
+      "name": "vclt_f64",
+      "full name": "uint64x1_t vclt_f64(float64x1_t a, float64x1_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "fcmgt",
+      "function_en": "[vector] fcmgt [64]",
+      "function_cn": "[向量] 比较小于 [64]"
+    },
+    {
+      "name": "vcltq_f64",
+      "full name": "uint64x2_t vcltq_f64(float64x2_t a, float64x2_t b)",
+      "Intel name": "_mm_cmplt_pd",
+      "Intel Asm": "cmppd",
+      "Arm Asm": "fcmgt",
+      "function_en": "[vector] fcmgt [64]",
+      "function_cn": "[向量] 比较小于 [64]"
+    },
+    {
+      "name": "vcltd_s64",
+      "full name": "uint64_t vcltd_s64(int64_t a, int64_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "cmgt",
+      "function_en": "[scalar] cmgt [64]",
+      "function_cn": "[标量] 比较小于 [64]"
+    },
+    {
+      "name": "vcltd_u64",
+      "full name": "uint64_t vcltd_u64(uint64_t a, uint64_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "cmhi",
+      "function_en": "[scalar] cmhi [64]",
+      "function_cn": "[标量] 比较小于 [64]"
+    },
+    {
+      "name": "vclts_f32",
+      "full name": "uint32_t vclts_f32(float32_t a, float32_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "fcmgt",
+      "function_en": "[scalar] fcmgt [32]",
+      "function_cn": "[标量] 比较小于 [32]"
+    },
+    {
+      "name": "vcltd_f64",
+      "full name": "uint64_t vcltd_f64(float64_t a, float64_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "fcmgt",
+      "function_en": "[scalar] fcmgt [64]",
+      "function_cn": "[标量] 比较小于 [64]"
+    },
+    {
+      "name": "vcltz_s8",
+      "full name": "uint8x8_t vcltz_s8(int8x8_t a)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "cmlt",
+      "function_en": "[vector] cmlt [8]",
+      "function_cn": "[向量] 判断是否小于零寄存器 [8]"
+    },
+    {
+      "name": "vcltzq_s8",
+      "full name": "uint8x16_t vcltzq_s8(int8x16_t a)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "cmlt",
+      "function_en": "[vector] cmlt [8]",
+      "function_cn": "[向量] 判断是否小于零寄存器 [8]"
+    },
+    {
+      "name": "vcltz_s16",
+      "full name": "uint16x4_t vcltz_s16(int16x4_t a)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "cmlt",
+      "function_en": "[vector] cmlt [16]",
+      "function_cn": "[向量] 判断是否小于零寄存器 [16]"
+    },
+    {
+      "name": "vcltzq_s16",
+      "full name": "uint16x8_t vcltzq_s16(int16x8_t a)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "cmlt",
+      "function_en": "[vector] cmlt [16]",
+      "function_cn": "[向量] 判断是否小于零寄存器 [16]"
+    },
+    {
+      "name": "vcltz_s32",
+      "full name": "uint32x2_t vcltz_s32(int32x2_t a)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "cmlt",
+      "function_en": "[vector] cmlt [32]",
+      "function_cn": "[向量] 判断是否小于零寄存器 [32]"
+    },
+    {
+      "name": "vcltzq_s32",
+      "full name": "uint32x4_t vcltzq_s32(int32x4_t a)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "cmlt",
+      "function_en": "[vector] cmlt [32]",
+      "function_cn": "[向量] 判断是否小于零寄存器 [32]"
+    },
+    {
+      "name": "vcltz_s64",
+      "full name": "uint64x1_t vcltz_s64(int64x1_t a)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "cmlt",
+      "function_en": "[vector] cmlt [64]",
+      "function_cn": "[向量] 判断是否小于零寄存器 [64]"
+    },
+    {
+      "name": "vcltzq_s64",
+      "full name": "uint64x2_t vcltzq_s64(int64x2_t a)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "cmlt",
+      "function_en": "[vector] cmlt [64]",
+      "function_cn": "[向量] 判断是否小于零寄存器 [64]"
+    },
+    {
+      "name": "vcltz_f32",
+      "full name": "uint32x2_t vcltz_f32(float32x2_t a)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "fcmlt",
+      "function_en": "[vector] fcmlt [32]",
+      "function_cn": "[向量] 判断是否小于零寄存器 [32]"
+    },
+    {
+      "name": "vcltzq_f32",
+      "full name": "uint32x4_t vcltzq_f32(float32x4_t a)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "fcmlt",
+      "function_en": "[vector] fcmlt [32]",
+      "function_cn": "[向量] 判断是否小于零寄存器 [32]"
+    },
+    {
+      "name": "vcltz_f64",
+      "full name": "uint64x1_t vcltz_f64(float64x1_t a)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "fcmlt",
+      "function_en": "[vector] fcmlt [64]",
+      "function_cn": "[向量] 判断是否小于零寄存器 [64]"
+    },
+    {
+      "name": "vcltzq_f64",
+      "full name": "uint64x2_t vcltzq_f64(float64x2_t a)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "fcmlt",
+      "function_en": "[vector] fcmlt [64]",
+      "function_cn": "[向量] 判断是否小于零寄存器 [64]"
+    },
+    {
+      "name": "vcltzd_s64",
+      "full name": "uint64_t vcltzd_s64(int64_t a)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "cmlt",
+      "function_en": "[scalar] cmlt [64]",
+      "function_cn": "[标量] 判断是否小于零寄存器 [64]"
+    },
+    {
+      "name": "vcltzs_f32",
+      "full name": "uint32_t vcltzs_f32(float32_t a)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "fcmlt",
+      "function_en": "[scalar] fcmlt [32]",
+      "function_cn": "[标量] 判断是否小于零寄存器 [32]"
+    },
+    {
+      "name": "vcltzd_f64",
+      "full name": "uint64_t vcltzd_f64(float64_t a)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "fcmlt",
+      "function_en": "[scalar] fcmlt [64]",
+      "function_cn": "[标量] 判断是否小于零寄存器 [64]"
+    },
+    {
+      "name": "vcage_f32",
+      "full name": "uint32x2_t vcage_f32(float32x2_t a, float32x2_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "facge",
+      "function_en": "[vector] facge [32]",
+      "function_cn": "[向量] 比较绝对值大于等于 [32]"
+    },
+    {
+      "name": "vcageq_f32",
+      "full name": "uint32x4_t vcageq_f32(float32x4_t a, float32x4_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "facge",
+      "function_en": "[vector] facge [32]",
+      "function_cn": "[向量] 比较绝对值大于等于 [32]"
+    },
+    {
+      "name": "vcage_f64",
+      "full name": "uint64x1_t vcage_f64(float64x1_t a, float64x1_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "facge",
+      "function_en": "[vector] facge [64]",
+      "function_cn": "[向量] 比较绝对值大于等于 [64]"
+    },
+    {
+      "name": "vcageq_f64",
+      "full name": "uint64x2_t vcageq_f64(float64x2_t a, float64x2_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "facge",
+      "function_en": "[vector] facge [64]",
+      "function_cn": "[向量] 比较绝对值大于等于 [64]"
+    },
+    {
+      "name": "vcages_f32",
+      "full name": "uint32_t vcages_f32(float32_t a, float32_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "facge",
+      "function_en": "[scalar] facge [32]",
+      "function_cn": "[标量] 比较绝对值大于等于 [32]"
+    },
+    {
+      "name": "vcaged_f64",
+      "full name": "uint64_t vcaged_f64(float64_t a, float64_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "facge",
+      "function_en": "[scalar] facge [64]",
+      "function_cn": "[标量] 比较绝对值大于等于 [64]"
+    },
+    {
+      "name": "vcale_f32",
+      "full name": "uint32x2_t vcale_f32(float32x2_t a, float32x2_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "facge",
+      "function_en": "[vector] facge [32]",
+      "function_cn": "[向量] 比较绝对值小于等于 [32]"
+    },
+    {
+      "name": "vcaleq_f32",
+      "full name": "uint32x4_t vcaleq_f32(float32x4_t a, float32x4_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "facge",
+      "function_en": "[vector] facge [32]",
+      "function_cn": "[向量] 比较绝对值小于等于 [32]"
+    },
+    {
+      "name": "vcale_f64",
+      "full name": "uint64x1_t vcale_f64(float64x1_t a, float64x1_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "facge",
+      "function_en": "[vector] facge [64]",
+      "function_cn": "[向量] 比较绝对值小于等于 [64]"
+    },
+    {
+      "name": "vcaleq_f64",
+      "full name": "uint64x2_t vcaleq_f64(float64x2_t a, float64x2_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "facge",
+      "function_en": "[vector] facge [64]",
+      "function_cn": "[向量] 比较绝对值小于等于 [64]"
+    },
+    {
+      "name": "vcales_f32",
+      "full name": "uint32_t vcales_f32(float32_t a, float32_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "facge",
+      "function_en": "[scalar] facge [32]",
+      "function_cn": "[标量] 比较绝对值小于等于 [32]"
+    },
+    {
+      "name": "vcaled_f64",
+      "full name": "uint64_t vcaled_f64(float64_t a, float64_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "facge",
+      "function_en": "[scalar] facge [64]",
+      "function_cn": "[标量] 比较绝对值小于等于 [64]"
+    },
+    {
+      "name": "vcagt_f32",
+      "full name": "uint32x2_t vcagt_f32(float32x2_t a, float32x2_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "facgt",
+      "function_en": "[vector] facgt [32]",
+      "function_cn": "[向量] 比较绝对值大于 [32]"
+    },
+    {
+      "name": "vcagtq_f32",
+      "full name": "uint32x4_t vcagtq_f32(float32x4_t a, float32x4_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "facgt",
+      "function_en": "[vector] facgt [32]",
+      "function_cn": "[向量] 比较绝对值大于 [32]"
+    },
+    {
+      "name": "vcagt_f64",
+      "full name": "uint64x1_t vcagt_f64(float64x1_t a, float64x1_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "facgt",
+      "function_en": "[vector] facgt [64]",
+      "function_cn": "[向量] 比较绝对值大于 [64]"
+    },
+    {
+      "name": "vcagtq_f64",
+      "full name": "uint64x2_t vcagtq_f64(float64x2_t a, float64x2_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "facgt",
+      "function_en": "[vector] facgt [64]",
+      "function_cn": "[向量] 比较绝对值大于 [64]"
+    },
+    {
+      "name": "vcagts_f32",
+      "full name": "uint32_t vcagts_f32(float32_t a, float32_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "facgt",
+      "function_en": "[scalar] facgt [32]",
+      "function_cn": "[标量] 比较绝对值大于 [32]"
+    },
+    {
+      "name": "vcagtd_f64",
+      "full name": "uint64_t vcagtd_f64(float64_t a, float64_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "facgt",
+      "function_en": "[scalar] facgt [32]",
+      "function_cn": "[标量] 比较绝对值大于 [32]"
+    },
+    {
+      "name": "vcalt_f32",
+      "full name": "uint32x2_t vcalt_f32(float32x2_t a, float32x2_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "facgt",
+      "function_en": "[vector] facgt [32]",
+      "function_cn": "[向量] 比较绝对值小于 [32]"
+    },
+    {
+      "name": "vcaltq_f32",
+      "full name": "uint32x4_t vcaltq_f32(float32x4_t a, float32x4_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "facgt",
+      "function_en": "[vector] facgt [32]",
+      "function_cn": "[向量] 比较绝对值小于 [32]"
+    },
+    {
+      "name": "vcalt_f64",
+      "full name": "uint64x1_t vcalt_f64(float64x1_t a, float64x1_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "facgt",
+      "function_en": "[vector] facgt [64]",
+      "function_cn": "[向量] 比较绝对值小于 [64]"
+    },
+    {
+      "name": "vcaltq_f64",
+      "full name": "uint64x2_t vcaltq_f64(float64x2_t a, float64x2_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "facgt",
+      "function_en": "[vector] facgt [64]",
+      "function_cn": "[向量] 比较绝对值小于 [64]"
+    },
+    {
+      "name": "vcalts_f32",
+      "full name": "uint32_t vcalts_f32(float32_t a, float32_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "facgt",
+      "function_en": "[scalar] facgt [32]",
+      "function_cn": "[标量] 比较绝对值小于 [32]"
+    },
+    {
+      "name": "vcaltd_f64",
+      "full name": "uint64_t vcaltd_f64(float64_t a, float64_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "facgt",
+      "function_en": "[scalar] facgt [64]",
+      "function_cn": "[标量] 比较绝对值小于 [64]"
+    },
+    {
+      "name": "vtst_s8",
+      "full name": "uint8x8_t vtst_s8(int8x8_t a, int8x8_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "cmtst",
+      "function_en": "[vector] cmtst [8]",
+      "function_cn": "[向量] 按位比较测试位非零 [8]"
+    },
+    {
+      "name": "vtstq_s8",
+      "full name": "uint8x16_t vtstq_s8(int8x16_t a, int8x16_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "cmtst",
+      "function_en": "[vector] cmtst [8]",
+      "function_cn": "[向量] 按位比较测试位非零 [8]"
+    },
+    {
+      "name": "vtst_s16",
+      "full name": "uint16x4_t vtst_s16(int16x4_t a, int16x4_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "cmtst",
+      "function_en": "[vector] cmtst [16]",
+      "function_cn": "[向量] 按位比较测试位非零 [16]"
+    },
+    {
+      "name": "vtstq_s16",
+      "full name": "uint16x8_t vtstq_s16(int16x8_t a, int16x8_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "cmtst",
+      "function_en": "[vector] cmtst [16]",
+      "function_cn": "[向量] 按位比较测试位非零 [16]"
+    },
+    {
+      "name": "vtst_s32",
+      "full name": "uint32x2_t vtst_s32(int32x2_t a, int32x2_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "cmtst",
+      "function_en": "[vector] cmtst [32]",
+      "function_cn": "[向量] 按位比较测试位非零 [32]"
+    },
+    {
+      "name": "vtstq_s32",
+      "full name": "uint32x4_t vtstq_s32(int32x4_t a, int32x4_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "cmtst",
+      "function_en": "[vector] cmtst [32]",
+      "function_cn": "[向量] 按位比较测试位非零 [32]"
+    },
+    {
+      "name": "vtst_u8",
+      "full name": "uint8x8_t vtst_u8(uint8x8_t a, uint8x8_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "cmtst",
+      "function_en": "[vector] cmtst [8]",
+      "function_cn": "[向量] 按位比较测试位非零 [8]"
+    },
+    {
+      "name": "vtstq_u8",
+      "full name": "uint8x16_t vtstq_u8(uint8x16_t a, uint8x16_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "cmtst",
+      "function_en": "[vector] cmtst [8]",
+      "function_cn": "[向量] 按位比较测试位非零 [8]"
+    },
+    {
+      "name": "vtst_u16",
+      "full name": "uint16x4_t vtst_u16(uint16x4_t a, uint16x4_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "cmtst",
+      "function_en": "[vector] cmtst [16]",
+      "function_cn": "[向量] 按位比较测试位非零 [16]"
+    },
+    {
+      "name": "vtstq_u16",
+      "full name": "uint16x8_t vtstq_u16(uint16x8_t a, uint16x8_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "cmtst",
+      "function_en": "[vector] cmtst [16]",
+      "function_cn": "[向量] 按位比较测试位非零 [16]"
+    },
+    {
+      "name": "vtst_u32",
+      "full name": "uint32x2_t vtst_u32(uint32x2_t a, uint32x2_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "cmtst",
+      "function_en": "[vector] cmtst [32]",
+      "function_cn": "[向量] 按位比较测试位非零 [32]"
+    },
+    {
+      "name": "vtstq_u32",
+      "full name": "uint32x4_t vtstq_u32(uint32x4_t a, uint32x4_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "cmtst",
+      "function_en": "[vector] cmtst [32]",
+      "function_cn": "[向量] 按位比较测试位非零 [32]"
+    },
+    {
+      "name": "vtst_p8",
+      "full name": "uint8x8_t vtst_p8(poly8x8_t a, poly8x8_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "cmtst",
+      "function_en": "[vector] cmtst [8]",
+      "function_cn": "[向量] 按位比较测试位非零 [8]"
+    },
+    {
+      "name": "vtstq_p8",
+      "full name": "uint8x16_t vtstq_p8(poly8x16_t a, poly8x16_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "cmtst",
+      "function_en": "[vector] cmtst [8]",
+      "function_cn": "[向量] 按位比较测试位非零 [8]"
+    },
+    {
+      "name": "vtst_p16",
+      "full name": "uint16x4_t vtst_p16(poly16x4_t a, poly16x4_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "cmtst",
+      "function_en": "[vector] cmtst [16]",
+      "function_cn": "[向量] 按位比较测试位非零 [16]"
+    },
+    {
+      "name": "vtstq_p16",
+      "full name": "uint16x8_t vtstq_p16(poly16x8_t a, poly16x8_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "cmtst",
+      "function_en": "[vector] cmtst [16]",
+      "function_cn": "[向量] 按位比较测试位非零 [16]"
+    },
+    {
+      "name": "vtst_s64",
+      "full name": "uint64x1_t vtst_s64(int64x1_t a, int64x1_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "cmtst",
+      "function_en": "[vector] cmtst [64]",
+      "function_cn": "[向量] 按位比较测试位非零 [64]"
+    },
+    {
+      "name": "vtstq_s64",
+      "full name": "uint64x2_t vtstq_s64(int64x2_t a, int64x2_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "cmtst",
+      "function_en": "[vector] cmtst [64]",
+      "function_cn": "[向量] 按位比较测试位非零 [64]"
+    },
+    {
+      "name": "vtst_u64",
+      "full name": "uint64x1_t vtst_u64(uint64x1_t a, uint64x1_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "cmtst",
+      "function_en": "[vector] cmtst [64]",
+      "function_cn": "[向量] 按位比较测试位非零 [64]"
+    },
+    {
+      "name": "vtstq_u64",
+      "full name": "uint64x2_t vtstq_u64(uint64x2_t a, uint64x2_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "cmtst",
+      "function_en": "[vector] cmtst [64]",
+      "function_cn": "[向量] 按位比较测试位非零 [64]"
+    },
+    {
+      "name": "vtst_p64",
+      "full name": "uint64x1_t vtst_p64(poly64x1_t a, poly64x1_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "cmtst",
+      "function_en": "[vector] cmtst [64]",
+      "function_cn": "[向量] 按位比较测试位非零 [64]"
+    },
+    {
+      "name": "vtstq_p64",
+      "full name": "uint64x2_t vtstq_p64(poly64x2_t a, poly64x2_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "cmtst",
+      "function_en": "[vector] cmtst [64]",
+      "function_cn": "[向量] 按位比较测试位非零 [64]"
+    },
+    {
+      "name": "vtstd_s64",
+      "full name": "uint64_t vtstd_s64(int64_t a, int64_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "cmtst",
+      "function_en": "[scalar] cmtst [64]",
+      "function_cn": "[标量] 按位比较测试位非零 [64]"
+    },
+    {
+      "name": "vtstd_u64",
+      "full name": "uint64_t vtstd_u64(uint64_t a, uint64_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "cmtst",
+      "function_en": "[scalar] cmtst [64]",
+      "function_cn": "[标量] 按位比较测试位非零 [64]"
+    },
+    {
+      "name": "vabd_s8",
+      "full name": "int8x8_t vabd_s8(int8x8_t a, int8x8_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "sabd",
+      "function_en": "[vector] sabd [8]",
+      "function_cn": "[向量] 绝对差值 [8]"
+    },
+    {
+      "name": "vabdq_s8",
+      "full name": "int8x16_t vabdq_s8(int8x16_t a, int8x16_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "sabd",
+      "function_en": "[vector] sabd [8]",
+      "function_cn": "[向量] 绝对差值 [8]"
+    },
+    {
+      "name": "vabd_s16",
+      "full name": "int16x4_t vabd_s16(int16x4_t a, int16x4_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "sabd",
+      "function_en": "[vector] sabd [16]",
+      "function_cn": "[向量] 绝对差值 [16]"
+    },
+    {
+      "name": "vabdq_s16",
+      "full name": "int16x8_t vabdq_s16(int16x8_t a, int16x8_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "sabd",
+      "function_en": "[vector] sabd [16]",
+      "function_cn": "[向量] 绝对差值 [16]"
+    },
+    {
+      "name": "vabd_s32",
+      "full name": "int32x2_t vabd_s32(int32x2_t a, int32x2_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "sabd",
+      "function_en": "[vector] sabd [32]",
+      "function_cn": "[向量] 绝对差值 [32]"
+    },
+    {
+      "name": "vabdq_s32",
+      "full name": "int32x4_t vabdq_s32(int32x4_t a, int32x4_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "sabd",
+      "function_en": "[vector] sabd [32]",
+      "function_cn": "[向量] 绝对差值 [32]"
+    },
+    {
+      "name": "vabd_u8",
+      "full name": "uint8x8_t vabd_u8(uint8x8_t a, uint8x8_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "uabd",
+      "function_en": "[vector] uabd [8]",
+      "function_cn": "[向量] 绝对差值 [8]"
+    },
+    {
+      "name": "vabdq_u8",
+      "full name": "uint8x16_t vabdq_u8(uint8x16_t a, uint8x16_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "uabd",
+      "function_en": "[vector] uabd [8]",
+      "function_cn": "[向量] 绝对差值 [8]"
+    },
+    {
+      "name": "vabd_u16",
+      "full name": "uint16x4_t vabd_u16(uint16x4_t a, uint16x4_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "uabd",
+      "function_en": "[vector] uabd [16]",
+      "function_cn": "[向量] 绝对差值 [16]"
+    },
+    {
+      "name": "vabdq_u16",
+      "full name": "uint16x8_t vabdq_u16(uint16x8_t a, uint16x8_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "uabd",
+      "function_en": "[vector] uabd [16]",
+      "function_cn": "[向量] 绝对差值 [16]"
+    },
+    {
+      "name": "vabd_u32",
+      "full name": "uint32x2_t vabd_u32(uint32x2_t a, uint32x2_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "uabd",
+      "function_en": "[vector] uabd [32]",
+      "function_cn": "[向量] 绝对差值 [32]"
+    },
+    {
+      "name": "vabdq_u32",
+      "full name": "uint32x4_t vabdq_u32(uint32x4_t a, uint32x4_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "uabd",
+      "function_en": "[vector] uabd [32]",
+      "function_cn": "[向量] 绝对差值 [32]"
+    },
+    {
+      "name": "vabd_f32",
+      "full name": "float32x2_t vabd_f32(float32x2_t a, float32x2_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "fabd",
+      "function_en": "[vector] fabd [32]",
+      "function_cn": "[向量] 绝对差值 [32]"
+    },
+    {
+      "name": "vabdq_f32",
+      "full name": "float32x4_t vabdq_f32(float32x4_t a, float32x4_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "fabd",
+      "function_en": "[vector] fabd [32]",
+      "function_cn": "[向量] 绝对差值 [32]"
+    },
+    {
+      "name": "vabd_f64",
+      "full name": "float64x1_t vabd_f64(float64x1_t a, float64x1_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "fabd",
+      "function_en": "[vector] fabd [64]",
+      "function_cn": "[向量] 绝对差值 [64]"
+    },
+    {
+      "name": "vabdq_f64",
+      "full name": "float64x2_t vabdq_f64(float64x2_t a, float64x2_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "fabd",
+      "function_en": "[vector] fabd [64]",
+      "function_cn": "[向量] 绝对差值 [64]"
+    },
+    {
+      "name": "vabds_f32",
+      "full name": "float32_t vabds_f32(float32_t a, float32_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "fabd",
+      "function_en": "[scalar] fabd [32]",
+      "function_cn": "[标量] 绝对差值 [32]"
+    },
+    {
+      "name": "vabdd_f64",
+      "full name": "float64_t vabdd_f64(float64_t a, float64_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "fabd",
+      "function_en": "[scalar] fabd [64]",
+      "function_cn": "[标量] 绝对差值 [64]"
+    },
+    {
+      "name": "vabdl_s8",
+      "full name": "int16x8_t vabdl_s8(int8x8_t a, int8x8_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "sabdl",
+      "function_en": "[vector] sabdl [8]",
+      "function_cn": "[向量] 长型绝对差值 [8]"
+    },
+    {
+      "name": "vabdl_s16",
+      "full name": "int32x4_t vabdl_s16(int16x4_t a, int16x4_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "sabdl",
+      "function_en": "[vector] sabdl [16]",
+      "function_cn": "[向量] 长型绝对差值 [16]"
+    },
+    {
+      "name": "vabdl_s32",
+      "full name": "int64x2_t vabdl_s32(int32x2_t a, int32x2_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "sabdl",
+      "function_en": "[vector] sabdl [32]",
+      "function_cn": "[向量] 长型绝对差值 [32]"
+    },
+    {
+      "name": "vabdl_u8",
+      "full name": "uint16x8_t vabdl_u8(uint8x8_t a, uint8x8_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "uabdl",
+      "function_en": "[vector] uabdl [8]",
+      "function_cn": "[向量] 长型绝对差值 [8]"
+    },
+    {
+      "name": "vabdl_u16",
+      "full name": "uint32x4_t vabdl_u16(uint16x4_t a, uint16x4_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "uabdl",
+      "function_en": "[vector] uabdl [16]",
+      "function_cn": "[向量] 长型绝对差值 [16]"
+    },
+    {
+      "name": "vabdl_u32",
+      "full name": "uint64x2_t vabdl_u32(uint32x2_t a, uint32x2_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "uabdl",
+      "function_en": "[vector] uabdl [32]",
+      "function_cn": "[向量] 长型绝对差值 [32]"
+    },
+    {
+      "name": "vabdl_high_s8",
+      "full name": "int16x8_t vabdl_high_s8(int8x16_t a, int8x16_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "sabdl2",
+      "function_en": "[vector] sabdl2 [8]",
+      "function_cn": "[向量] 长型绝对差值 [8]"
+    },
+    {
+      "name": "vabdl_high_s16",
+      "full name": "int32x4_t vabdl_high_s16(int16x8_t a, int16x8_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "sabdl2",
+      "function_en": "[vector] sabdl2 [16]",
+      "function_cn": "[向量] 长型绝对差值 [16]"
+    },
+    {
+      "name": "vabdl_high_s32",
+      "full name": "int64x2_t vabdl_high_s32(int32x4_t a, int32x4_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "sabdl2",
+      "function_en": "[vector] sabdl2 [32]",
+      "function_cn": "[向量] 长型绝对差值 [32]"
+    },
+    {
+      "name": "vabdl_high_u8",
+      "full name": "uint16x8_t vabdl_high_u8(uint8x16_t a, uint8x16_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "uabdl2",
+      "function_en": "[vector] uabdl2 [8]",
+      "function_cn": "[向量] 长型绝对差值 [8]"
+    },
+    {
+      "name": "vabdl_high_u16",
+      "full name": "uint32x4_t vabdl_high_u16(uint16x8_t a, uint16x8_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "uabdl2",
+      "function_en": "[vector] uabdl2 [16]",
+      "function_cn": "[向量] 长型绝对差值 [16]"
+    },
+    {
+      "name": "vabdl_high_u32",
+      "full name": "uint64x2_t vabdl_high_u32(uint32x4_t a, uint32x4_t b)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "uabdl2",
+      "function_en": "[vector] uabdl2 [32]",
+      "function_cn": "[向量] 长型绝对差值 [32]"
+    },
+    {
+      "name": "vaba_s8",
+      "full name": "int8x8_t vaba_s8(int8x8_t a, int8x8_t b, int8x8_t c)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "saba",
+      "function_en": "[vector] saba [8]",
+      "function_cn": "[向量] 绝对差值再相加 [8]"
+    },
+    {
+      "name": "vabaq_s8",
+      "full name": "int8x16_t vabaq_s8(int8x16_t a, int8x16_t b, int8x16_t c)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "saba",
+      "function_en": "[vector] saba [8]",
+      "function_cn": "[向量] 绝对差值再相加 [8]"
+    },
+    {
+      "name": "vaba_s16",
+      "full name": "int16x4_t vaba_s16(int16x4_t a, int16x4_t b, int16x4_t c)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "saba",
+      "function_en": "[vector] saba [16]",
+      "function_cn": "[向量] 绝对差值再相加 [16]"
+    },
+    {
+      "name": "vabaq_s16",
+      "full name": "int16x8_t vabaq_s16(int16x8_t a, int16x8_t b, int16x8_t c)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "saba",
+      "function_en": "[vector] saba [16]",
+      "function_cn": "[向量] 绝对差值再相加 [16]"
+    },
+    {
+      "name": "vaba_s32",
+      "full name": "int32x2_t vaba_s32(int32x2_t a, int32x2_t b, int32x2_t c)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "saba",
+      "function_en": "[vector] saba [32]",
+      "function_cn": "[向量] 绝对差值再相加 [32]"
+    },
+    {
+      "name": "vabaq_s32",
+      "full name": "int32x4_t vabaq_s32(int32x4_t a, int32x4_t b, int32x4_t c)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "saba",
+      "function_en": "[vector] saba [32]",
+      "function_cn": "[向量] 绝对差值再相加 [32]"
+    },
+    {
+      "name": "vaba_u8",
+      "full name": "uint8x8_t vaba_u8(uint8x8_t a, uint8x8_t b, uint8x8_t c)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "uaba",
+      "function_en": "[vector] uaba [8]",
+      "function_cn": "[向量] 绝对差值再相加 [8]"
+    },
+    {
+      "name": "vabaq_u8",
+      "full name": "uint8x16_t vabaq_u8(uint8x16_t a, uint8x16_t b, uint8x16_t c)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "uaba",
+      "function_en": "[vector] uaba [8]",
+      "function_cn": "[向量] 绝对差值再相加 [8]"
+    },
+    {
+      "name": "vaba_u16",
+      "full name": "uint16x4_t vaba_u16(uint16x4_t a, uint16x4_t b, uint16x4_t c)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "uaba",
+      "function_en": "[vector] uaba [16]",
+      "function_cn": "[向量] 绝对差值再相加 [16]"
+    },
+    {
+      "name": "vabaq_u16",
+      "full name": "uint16x8_t vabaq_u16(uint16x8_t a, uint16x8_t b, uint16x8_t c)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "uaba",
+      "function_en": "[vector] uaba [16]",
+      "function_cn": "[向量] 绝对差值再相加 [16]"
+    },
+    {
+      "name": "vaba_u32",
+      "full name": "uint32x2_t vaba_u32(uint32x2_t a, uint32x2_t b, uint32x2_t c)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "uaba",
+      "function_en": "[vector] uaba [32]",
+      "function_cn": "[向量] 绝对差值再相加 [32]"
+    },
+    {
+      "name": "vabaq_u32",
+      "full name": "uint32x4_t vabaq_u32(uint32x4_t a, uint32x4_t b, uint32x4_t c)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "uaba",
+      "function_en": "[vector] uaba [32]",
+      "function_cn": "[向量] 绝对差值再相加 [32]"
+    },
+    {
+      "name": "vabal_s8",
+      "full name": "int16x8_t vabal_s8(int16x8_t a, int8x8_t b, int8x8_t c)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "sabal",
+      "function_en": "[vector] sabal [8]",
+      "function_cn": "[向量] 长型绝对差值再相加 [8]"
+    },
+    {
+      "name": "vabal_s16",
+      "full name": "int32x4_t vabal_s16(int32x4_t a, int16x4_t b, int16x4_t c)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "sabal",
+      "function_en": "[vector] sabal [16]",
+      "function_cn": "[向量] 长型绝对差值再相加 [16]"
+    },
+    {
+      "name": "vabal_s32",
+      "full name": "int64x2_t vabal_s32(int64x2_t a, int32x2_t b, int32x2_t c)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "sabal",
+      "function_en": "[vector] sabal [32]",
+      "function_cn": "[向量] 长型绝对差值再相加 [32]"
+    },
+    {
+      "name": "vabal_u8",
+      "full name": "uint16x8_t vabal_u8(uint16x8_t a, uint8x8_t b, uint8x8_t c)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "uabal",
+      "function_en": "[vector] uabal [8]",
+      "function_cn": "[向量] 长型绝对差值再相加 [8]"
+    },
+    {
+      "name": "vabal_u16",
+      "full name": "uint32x4_t vabal_u16(uint32x4_t a, uint16x4_t b, uint16x4_t c)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "uabal",
+      "function_en": "[vector] uabal [16]",
+      "function_cn": "[向量] 长型绝对差值再相加 [16]"
+    },
+    {
+      "name": "vabal_u32",
+      "full name": "uint64x2_t vabal_u32(uint64x2_t a, uint32x2_t b, uint32x2_t c)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "uabal",
+      "function_en": "[vector] uabal [32]",
+      "function_cn": "[向量] 长型绝对差值再相加 [32]"
+    },
+    {
+      "name": "vabal_high_s8",
+      "full name": "int16x8_t vabal_high_s8(int16x8_t a, int8x16_t b, int8x16_t c)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "sabal2",
+      "function_en": "[vector] sabal2 [8]",
+      "function_cn": "[向量] 长型绝对差值再相加 [8]"
+    },
+    {
+      "name": "vabal_high_s16",
+      "full name": "int32x4_t vabal_high_s16(int32x4_t a, int16x8_t b, int16x8_t c)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "sabal2",
+      "function_en": "[vector] sabal2 [16]",
+      "function_cn": "[向量] 长型绝对差值再相加 [16]"
+    },
+    {
+      "name": "vabal_high_s32",
+      "full name": "int64x2_t vabal_high_s32(int64x2_t a, int32x4_t b, int32x4_t c)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "sabal2",
+      "function_en": "[vector] sabal2 [32]",
+      "function_cn": "[向量] 长型绝对差值再相加 [32]"
+    },
+    {
+      "name": "vabal_high_u8",
+      "full name": "uint16x8_t vabal_high_u8(uint16x8_t a, uint8x16_t b, uint8x16_t c)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "uabal2",
+      "function_en": "[vector] uabal2 [8]",
+      "function_cn": "[向量] 长型绝对差值再相加 [8]"
+    },
+    {
+      "name": "vabal_high_u16",
+      "full name": "uint32x4_t vabal_high_u16(uint32x4_t a, uint16x8_t b, uint16x8_t c)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "uabal2",
+      "function_en": "[vector] uabal2 [16]",
+      "function_cn": "[向量] 长型绝对差值再相加 [16]"
+    },
+    {
+      "name": "vabal_high_u32",
+      "full name": "uint64x2_t vabal_high_u32(uint64x2_t a, uint32x4_t b, uint32x4_t c)",
+      "Intel name": "",
+      "Intel Asm": "",
+      "Arm Asm": "uabal2",
+      "function_en": "[vector] uabal2 [32]",
+      "function_cn": "[向量] 长型绝对差值再相加 [32]"
+    },
   ]
 }
 
