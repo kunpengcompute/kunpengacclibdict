@@ -9252,7 +9252,7 @@
       "Intel Asm": "pcmpeqb",
       "Arm Asm": "cmeq",
       "function_en": "[vector] cmeq [8]",
-      "function_cn": "[向量] 判断等于 [8]"
+      "function_cn": "[向量] 比较等于 [8]"
     },
     {
       "name": "vceqq_s8",
@@ -9261,7 +9261,7 @@
       "Intel Asm": "pcmpeqb",
       "Arm Asm": "cmeq",
       "function_en": "[vector] cmeq [8]",
-      "function_cn": "[向量] 判断等于 [8]"
+      "function_cn": "[向量] 比较等于 [8]"
     },
     {
       "name": "vceq_s16",
@@ -9270,7 +9270,7 @@
       "Intel Asm": "pcmpeqw",
       "Arm Asm": "cmeq",
       "function_en": "[vector] cmeq [16]",
-      "function_cn": "[向量] 判断等于 [16]"
+      "function_cn": "[向量] 比较等于 [16]"
     },
     {
       "name": "vceqq_s16",
@@ -9279,7 +9279,7 @@
       "Intel Asm": "pcmpeqw",
       "Arm Asm": "cmeq",
       "function_en": "[vector] cmeq [16]",
-      "function_cn": "[向量] 判断等于 [16]"
+      "function_cn": "[向量] 比较等于 [16]"
     },
     {
       "name": "vceq_s32",
@@ -9288,7 +9288,7 @@
       "Intel Asm": "pcmpeqd",
       "Arm Asm": "cmeq",
       "function_en": "[vector] cmeq [32]",
-      "function_cn": "[向量] 判断等于 [32]"
+      "function_cn": "[向量] 比较等于 [32]"
     },
     {
       "name": "vceqq_s32",
@@ -9297,7 +9297,7 @@
       "Intel Asm": "pcmpeqd",
       "Arm Asm": "cmeq",
       "function_en": "[vector] cmeq [32]",
-      "function_cn": "[向量] 判断等于 [32]"
+      "function_cn": "[向量] 比较等于 [32]"
     },
     {
       "name": "vceq_u8",
@@ -9306,7 +9306,7 @@
       "Intel Asm": "",
       "Arm Asm": "cmeq",
       "function_en": "[vector] cmeq [8]",
-      "function_cn": "[向量] 判断等于 [8]"
+      "function_cn": "[向量] 比较等于 [8]"
     },
     {
       "name": "vceqq_u8",
@@ -9315,7 +9315,7 @@
       "Intel Asm": "",
       "Arm Asm": "cmeq",
       "function_en": "[vector] cmeq [8]",
-      "function_cn": "[向量] 判断等于 [8]"
+      "function_cn": "[向量] 比较等于 [8]"
     },
     {
       "name": "vceq_u16",
@@ -9324,7 +9324,7 @@
       "Intel Asm": "",
       "Arm Asm": "cmeq",
       "function_en": "[vector] cmeq [16]",
-      "function_cn": "[向量] 判断等于 [16]"
+      "function_cn": "[向量] 比较等于 [16]"
     },
     {
       "name": "vceqq_u16",
@@ -9333,7 +9333,7 @@
       "Intel Asm": "",
       "Arm Asm": "cmeq",
       "function_en": "[vector] cmeq [16]",
-      "function_cn": "[向量] 判断等于 [16]"
+      "function_cn": "[向量] 比较等于 [16]"
     },
     {
       "name": "vceq_u32",
@@ -9342,7 +9342,7 @@
       "Intel Asm": "",
       "Arm Asm": "cmeq",
       "function_en": "[vector] cmeq [32]",
-      "function_cn": "[向量] 判断等于 [32]"
+      "function_cn": "[向量] 比较等于 [32]"
     },
     {
       "name": "vceqq_u32",
@@ -9351,7 +9351,7 @@
       "Intel Asm": "",
       "Arm Asm": "cmeq",
       "function_en": "[vector] cmeq [32]",
-      "function_cn": "[向量] 判断等于 [32]"
+      "function_cn": "[向量] 比较等于 [32]"
     },
     {
       "name": "vceq_f32",
@@ -9360,7 +9360,7 @@
       "Intel Asm": "",
       "Arm Asm": "fcmeq",
       "function_en": "[vector] fcmeq [32]",
-      "function_cn": "[向量] 判断等于 [32]"
+      "function_cn": "[向量] 比较等于 [32]"
     },
     {
       "name": "vceqq_f32",
@@ -9369,7 +9369,7 @@
       "Intel Asm": "cmpps",
       "Arm Asm": "fcmeq",
       "function_en": "[vector] fcmeq [32]",
-      "function_cn": "[向量] 判断等于 [32]"
+      "function_cn": "[向量] 比较等于 [32]"
     },
     {
       "name": "vceq_p8",
@@ -9378,7 +9378,7 @@
       "Intel Asm": "",
       "Arm Asm": "cmeq",
       "function_en": "[vector] cmeq [8]",
-      "function_cn": "[向量] 判断等于 [8]"
+      "function_cn": "[向量] 比较等于 [8]"
     },
     {
       "name": "vceqq_p8",
@@ -9387,7 +9387,7 @@
       "Intel Asm": "",
       "Arm Asm": "cmeq",
       "function_en": "[vector] cmeq [8]",
-      "function_cn": "[向量] 判断等于 [8]"
+      "function_cn": "[向量] 比较等于 [8]"
     },
     {
       "name": "vceq_s64",
@@ -9396,7 +9396,7 @@
       "Intel Asm": "",
       "Arm Asm": "cmeq",
       "function_en": "[vector] cmeq [64]",
-      "function_cn": "[向量] 判断等于 [64]"
+      "function_cn": "[向量] 比较等于 [64]"
     },
     {
       "name": "vceqq_s64",
@@ -9405,7 +9405,7 @@
       "Intel Asm": "pcmpeqq",
       "Arm Asm": "cmeq",
       "function_en": "[vector] cmeq [64]",
-      "function_cn": "[向量] 判断等于 [64]"
+      "function_cn": "[向量] 比较等于 [64]"
     },
     {
       "name": "vceq_u64",
@@ -9414,7 +9414,7 @@
       "Intel Asm": "",
       "Arm Asm": "cmeq",
       "function_en": "[vector] cmeq [64]",
-      "function_cn": "[向量] 判断等于 [64]"
+      "function_cn": "[向量] 比较等于 [64]"
     },
     {
       "name": "vceqq_u64",
@@ -9423,7 +9423,7 @@
       "Intel Asm": "",
       "Arm Asm": "cmeq",
       "function_en": "[vector] cmeq [64]",
-      "function_cn": "[向量] 判断等于 [64]"
+      "function_cn": "[向量] 比较等于 [64]"
     },
     {
       "name": "vceq_p64",
@@ -9432,7 +9432,7 @@
       "Intel Asm": "",
       "Arm Asm": "cmeq",
       "function_en": "[vector] cmeq [64]",
-      "function_cn": "[向量] 判断等于 [64]"
+      "function_cn": "[向量] 比较等于 [64]"
     },
     {
       "name": "vceqq_p64",
@@ -9441,7 +9441,7 @@
       "Intel Asm": "",
       "Arm Asm": "cmeq",
       "function_en": "[vector] cmeq [64]",
-      "function_cn": "[向量] 判断等于 [64]"
+      "function_cn": "[向量] 比较等于 [64]"
     },
     {
       "name": "vceq_f64",
@@ -9450,7 +9450,7 @@
       "Intel Asm": "",
       "Arm Asm": "fcmeq",
       "function_en": "[vector] fcmeq [64]",
-      "function_cn": "[向量] 判断等于 [64]"
+      "function_cn": "[向量] 比较等于 [64]"
     },
     {
       "name": "vceqq_f64",
@@ -9459,7 +9459,7 @@
       "Intel Asm": "cmppd",
       "Arm Asm": "fcmeq",
       "function_en": "[vector] fcmeq [64]",
-      "function_cn": "[向量] 判断等于 [64]"
+      "function_cn": "[向量] 比较等于 [64]"
     },
     {
       "name": "vceqd_s64",
@@ -9468,7 +9468,7 @@
       "Intel Asm": "",
       "Arm Asm": "cmeq",
       "function_en": "[scalar] cmeq [64]",
-      "function_cn": "[标量] 判断等于 [64]"
+      "function_cn": "[标量] 比较等于 [64]"
     },
     {
       "name": "vceqd_u64",
@@ -9477,7 +9477,7 @@
       "Intel Asm": "",
       "Arm Asm": "cmeq",
       "function_en": "[scalar] cmeq [64]",
-      "function_cn": "[标量] 判断等于 [64]"
+      "function_cn": "[标量] 比较等于 [64]"
     },
     {
       "name": "vceqs_f32",
@@ -9486,7 +9486,7 @@
       "Intel Asm": "",
       "Arm Asm": "fcmeq",
       "function_en": "[scalar] fcmeq [32]",
-      "function_cn": "[标量] 判断等于 [32]"
+      "function_cn": "[标量] 比较等于 [32]"
     },
     {
       "name": "vceqd_f64",
@@ -9495,7 +9495,7 @@
       "Intel Asm": "",
       "Arm Asm": "fcmeq",
       "function_en": "[scalar] fcmeq [64]",
-      "function_cn": "[标量] 判断等于 [64]"
+      "function_cn": "[标量] 比较等于 [64]"
     },
     {
       "name": "vceqz_s8",
@@ -9504,7 +9504,7 @@
       "Intel Asm": "",
       "Arm Asm": "cmeq",
       "function_en": "[vector] cmeq [8]",
-      "function_cn": "[向量] 判断是否等于零寄存器 [8]"
+      "function_cn": "[向量] 比较是否等于零寄存器 [8]"
     },
     {
       "name": "vceqzq_s8",
@@ -9513,7 +9513,7 @@
       "Intel Asm": "",
       "Arm Asm": "cmeq",
       "function_en": "[vector] cmeq [8]",
-      "function_cn": "[向量] 判断是否等于零寄存器 [8]"
+      "function_cn": "[向量] 比较是否等于零寄存器 [8]"
     },
     {
       "name": "vceqz_s16",
@@ -9522,7 +9522,7 @@
       "Intel Asm": "",
       "Arm Asm": "cmeq",
       "function_en": "[vector] cmeq [16]",
-      "function_cn": "[向量] 判断是否等于零寄存器 [16]"
+      "function_cn": "[向量] 比较是否等于零寄存器 [16]"
     },
     {
       "name": "vceqzq_s16",
@@ -9531,7 +9531,7 @@
       "Intel Asm": "",
       "Arm Asm": "cmeq",
       "function_en": "[vector] cmeq [16]",
-      "function_cn": "[向量] 判断是否等于零寄存器 [16]"
+      "function_cn": "[向量] 比较是否等于零寄存器 [16]"
     },
     {
       "name": "vceqz_s32",
@@ -9540,7 +9540,7 @@
       "Intel Asm": "",
       "Arm Asm": "cmeq",
       "function_en": "[vector] cmeq [32]",
-      "function_cn": "[向量] 判断是否等于零寄存器 [32]"
+      "function_cn": "[向量] 比较是否等于零寄存器 [32]"
     },
     {
       "name": "vceqzq_s32",
@@ -9549,7 +9549,7 @@
       "Intel Asm": "",
       "Arm Asm": "cmeq",
       "function_en": "[vector] cmeq [32]",
-      "function_cn": "[向量] 判断是否等于零寄存器 [32]"
+      "function_cn": "[向量] 比较是否等于零寄存器 [32]"
     },
     {
       "name": "vceqz_u8",
@@ -9558,7 +9558,7 @@
       "Intel Asm": "",
       "Arm Asm": "cmeq",
       "function_en": "[vector] cmeq [8]",
-      "function_cn": "[向量] 判断是否等于零寄存器 [8]"
+      "function_cn": "[向量] 比较是否等于零寄存器 [8]"
     },
     {
       "name": "vceqzq_u8",
@@ -9567,7 +9567,7 @@
       "Intel Asm": "",
       "Arm Asm": "cmeq",
       "function_en": "[vector] cmeq [8]",
-      "function_cn": "[向量] 判断是否等于零寄存器 [8]"
+      "function_cn": "[向量] 比较是否等于零寄存器 [8]"
     },
     {
       "name": "vceqz_u16",
@@ -9576,7 +9576,7 @@
       "Intel Asm": "",
       "Arm Asm": "cmeq",
       "function_en": "[vector] cmeq [16]",
-      "function_cn": "[向量] 判断是否等于零寄存器 [16]"
+      "function_cn": "[向量] 比较是否等于零寄存器 [16]"
     },
     {
       "name": "vceqzq_u16",
@@ -9585,7 +9585,7 @@
       "Intel Asm": "",
       "Arm Asm": "cmeq",
       "function_en": "[vector] cmeq [16]",
-      "function_cn": "[向量] 判断是否等于零寄存器 [16]"
+      "function_cn": "[向量] 比较是否等于零寄存器 [16]"
     },
     {
       "name": "vceqz_u32",
@@ -9594,7 +9594,7 @@
       "Intel Asm": "",
       "Arm Asm": "cmeq",
       "function_en": "[vector] cmeq [32]",
-      "function_cn": "[向量] 判断是否等于零寄存器 [32]"
+      "function_cn": "[向量] 比较是否等于零寄存器 [32]"
     },
     {
       "name": "vceqzq_u32",
@@ -9603,7 +9603,7 @@
       "Intel Asm": "",
       "Arm Asm": "cmeq",
       "function_en": "[vector] cmeq [32]",
-      "function_cn": "[向量] 判断是否等于零寄存器 [32]"
+      "function_cn": "[向量] 比较是否等于零寄存器 [32]"
     },
     {
       "name": "vceqz_f32",
@@ -9612,7 +9612,7 @@
       "Intel Asm": "",
       "Arm Asm": "fcmeq",
       "function_en": "[vector] fcmeq [32]",
-      "function_cn": "[向量] 判断是否等于零寄存器 [32]"
+      "function_cn": "[向量] 比较是否等于零寄存器 [32]"
     },
     {
       "name": "vceqzq_f32",
@@ -9621,7 +9621,7 @@
       "Intel Asm": "",
       "Arm Asm": "fcmeq",
       "function_en": "[vector] fcmeq [32]",
-      "function_cn": "[向量] 判断是否等于零寄存器 [32]"
+      "function_cn": "[向量] 比较是否等于零寄存器 [32]"
     },
     {
       "name": "vceqz_p8",
@@ -9630,7 +9630,7 @@
       "Intel Asm": "",
       "Arm Asm": "cmeq",
       "function_en": "[vector] cmeq [8]",
-      "function_cn": "[向量] 判断是否等于零寄存器 [8]"
+      "function_cn": "[向量] 比较是否等于零寄存器 [8]"
     },
     {
       "name": "vceqzq_p8",
@@ -9639,7 +9639,7 @@
       "Intel Asm": "",
       "Arm Asm": "cmeq",
       "function_en": "[vector] cmeq [8]",
-      "function_cn": "[向量] 判断是否等于零寄存器 [8]"
+      "function_cn": "[向量] 比较是否等于零寄存器 [8]"
     },
     {
       "name": "vceqz_s64",
@@ -9648,7 +9648,7 @@
       "Intel Asm": "",
       "Arm Asm": "cmeq",
       "function_en": "[vector] cmeq [64]",
-      "function_cn": "[向量] 判断是否等于零寄存器 [64]"
+      "function_cn": "[向量] 比较是否等于零寄存器 [64]"
     },
     {
       "name": "vceqzq_s64",
@@ -9657,7 +9657,7 @@
       "Intel Asm": "",
       "Arm Asm": "cmeq",
       "function_en": "[vector] cmeq [64]",
-      "function_cn": "[向量] 判断是否等于零寄存器 [64]"
+      "function_cn": "[向量] 比较是否等于零寄存器 [64]"
     },
     {
       "name": "vceqz_u64",
@@ -9666,7 +9666,7 @@
       "Intel Asm": "",
       "Arm Asm": "cmeq",
       "function_en": "[vector] cmeq [64]",
-      "function_cn": "[向量] 判断是否等于零寄存器 [64]"
+      "function_cn": "[向量] 比较是否等于零寄存器 [64]"
     },
     {
       "name": "vceqzq_u64",
@@ -9675,7 +9675,7 @@
       "Intel Asm": "",
       "Arm Asm": "cmeq",
       "function_en": "[vector] cmeq [64]",
-      "function_cn": "[向量] 判断是否等于零寄存器 [64]"
+      "function_cn": "[向量] 比较是否等于零寄存器 [64]"
     },
     {
       "name": "vceqz_p64",
@@ -9684,7 +9684,7 @@
       "Intel Asm": "",
       "Arm Asm": "cmeq",
       "function_en": "[vector] cmeq [64]",
-      "function_cn": "[向量] 判断是否等于零寄存器 [64]"
+      "function_cn": "[向量] 比较是否等于零寄存器 [64]"
     },
     {
       "name": "vceqzq_p64",
@@ -9693,7 +9693,7 @@
       "Intel Asm": "",
       "Arm Asm": "cmeq",
       "function_en": "[vector] cmeq [64]",
-      "function_cn": "[向量] 判断是否等于零寄存器 [64]"
+      "function_cn": "[向量] 比较是否等于零寄存器 [64]"
     },
     {
       "name": "vceqz_f64",
@@ -9702,7 +9702,7 @@
       "Intel Asm": "",
       "Arm Asm": "fcmeq",
       "function_en": "[vector] fcmeq [64]",
-      "function_cn": "[向量] 判断是否等于零寄存器 [64]"
+      "function_cn": "[向量] 比较是否等于零寄存器 [64]"
     },
     {
       "name": "vceqzq_f64",
@@ -9711,7 +9711,7 @@
       "Intel Asm": "",
       "Arm Asm": "fcmeq",
       "function_en": "[vector] fcmeq [64]",
-      "function_cn": "[向量] 判断是否等于零寄存器 [64]"
+      "function_cn": "[向量] 比较是否等于零寄存器 [64]"
     },
     {
       "name": "vceqzd_s64",
@@ -9720,7 +9720,7 @@
       "Intel Asm": "",
       "Arm Asm": "cmeq",
       "function_en": "[scalar] cmeq [64]",
-      "function_cn": "[标量] 判断是否等于零寄存器 [64]"
+      "function_cn": "[标量] 比较是否等于零寄存器 [64]"
     },
     {
       "name": "vceqzd_u64",
@@ -9729,7 +9729,7 @@
       "Intel Asm": "",
       "Arm Asm": "cmeq",
       "function_en": "[scalar] cmeq [64]",
-      "function_cn": "[标量] 判断是否等于零寄存器 [64]"
+      "function_cn": "[标量] 比较是否等于零寄存器 [64]"
     },
     {
       "name": "vceqzs_f32",
@@ -9738,7 +9738,7 @@
       "Intel Asm": "",
       "Arm Asm": "fcmeq",
       "function_en": "[scalar] fcmeq [32]",
-      "function_cn": "[标量] 判断是否等于零寄存器 [32]"
+      "function_cn": "[标量] 比较是否等于零寄存器 [32]"
     },
     {
       "name": "vceqzd_f64",
@@ -9747,7 +9747,7 @@
       "Intel Asm": "",
       "Arm Asm": "fcmeq",
       "function_en": "[scalar] fcmeq [64]",
-      "function_cn": "[标量] 判断是否等于零寄存器 [64]"
+      "function_cn": "[标量] 比较是否等于零寄存器 [64]"
     },
     {
       "name": "vcge_s8",
@@ -9756,7 +9756,7 @@
       "Intel Asm": "",
       "Arm Asm": "cmge",
       "function_en": "[vector] cmge [8]",
-      "function_cn": "[向量] 判断大于等于 [8]"
+      "function_cn": "[向量] 比较大于等于 [8]"
     },
     {
       "name": "vcgeq_s8",
@@ -9765,7 +9765,7 @@
       "Intel Asm": "",
       "Arm Asm": "cmge",
       "function_en": "[vector] cmge [8]",
-      "function_cn": "[向量] 判断大于等于 [8]"
+      "function_cn": "[向量] 比较大于等于 [8]"
     },
     {
       "name": "vcge_s16",
@@ -9774,7 +9774,7 @@
       "Intel Asm": "",
       "Arm Asm": "cmge",
       "function_en": "[vector] cmge [16]",
-      "function_cn": "[向量] 判断大于等于 [16]"
+      "function_cn": "[向量] 比较大于等于 [16]"
     },
     {
       "name": "vcgeq_s16",
@@ -9783,7 +9783,7 @@
       "Intel Asm": "",
       "Arm Asm": "cmge",
       "function_en": "[vector] cmge [16]",
-      "function_cn": "[向量] 判断大于等于 [16]"
+      "function_cn": "[向量] 比较大于等于 [16]"
     },
     {
       "name": "vcge_s32",
@@ -9792,7 +9792,7 @@
       "Intel Asm": "",
       "Arm Asm": "cmge",
       "function_en": "[vector] cmge [32]",
-      "function_cn": "[向量] 判断大于等于 [32]"
+      "function_cn": "[向量] 比较大于等于 [32]"
     },
     {
       "name": "vcgeq_s32",
@@ -9801,7 +9801,7 @@
       "Intel Asm": "",
       "Arm Asm": "cmge",
       "function_en": "[vector] cmge [32]",
-      "function_cn": "[向量] 判断大于等于 [32]"
+      "function_cn": "[向量] 比较大于等于 [32]"
     },
     {
       "name": "vcge_u8",
@@ -9810,7 +9810,7 @@
       "Intel Asm": "",
       "Arm Asm": "cmhs",
       "function_en": "[vector] cmhs [8]",
-      "function_cn": "[向量] 判断大于等于 [8]"
+      "function_cn": "[向量] 比较大于等于 [8]"
     },
     {
       "name": "vcgeq_u8",
@@ -9819,7 +9819,7 @@
       "Intel Asm": "",
       "Arm Asm": "cmhs",
       "function_en": "[vector] cmhs [8]",
-      "function_cn": "[向量] 判断大于等于 [8]"
+      "function_cn": "[向量] 比较大于等于 [8]"
     },
     {
       "name": "vcge_u16",
@@ -9828,7 +9828,7 @@
       "Intel Asm": "",
       "Arm Asm": "cmhs",
       "function_en": "[vector] cmhs [16]",
-      "function_cn": "[向量] 判断大于等于 [16]"
+      "function_cn": "[向量] 比较大于等于 [16]"
     },
     {
       "name": "vcgeq_u16",
@@ -9837,7 +9837,7 @@
       "Intel Asm": "",
       "Arm Asm": "cmhs",
       "function_en": "[vector] cmhs [16]",
-      "function_cn": "[向量] 判断大于等于 [16]"
+      "function_cn": "[向量] 比较大于等于 [16]"
     },
     {
       "name": "vcge_u32",
@@ -9846,7 +9846,7 @@
       "Intel Asm": "",
       "Arm Asm": "cmhs",
       "function_en": "[vector] cmhs [32]",
-      "function_cn": "[向量] 判断大于等于 [32]"
+      "function_cn": "[向量] 比较大于等于 [32]"
     },
     {
       "name": "vcgeq_u32",
@@ -9855,7 +9855,7 @@
       "Intel Asm": "",
       "Arm Asm": "cmhs",
       "function_en": "[vector] cmhs [32]",
-      "function_cn": "[向量] 判断大于等于 [32]"
+      "function_cn": "[向量] 比较大于等于 [32]"
     },
     {
       "name": "vcge_f32",
@@ -9864,7 +9864,7 @@
       "Intel Asm": "",
       "Arm Asm": "fcmge",
       "function_en": "[vector] fcmge [32]",
-      "function_cn": "[向量] 判断大于等于 [32]"
+      "function_cn": "[向量] 比较大于等于 [32]"
     },
     {
       "name": "vcgeq_f32",
@@ -9873,7 +9873,7 @@
       "Intel Asm": "cmpps",
       "Arm Asm": "fcmge",
       "function_en": "[vector] fcmge [32]",
-      "function_cn": "[向量] 判断大于等于 [32]"
+      "function_cn": "[向量] 比较大于等于 [32]"
     },
     {
       "name": "vcge_s64",
@@ -9882,7 +9882,7 @@
       "Intel Asm": "",
       "Arm Asm": "cmge",
       "function_en": "[vector] cmge [64]",
-      "function_cn": "[向量] 判断大于等于 [64]"
+      "function_cn": "[向量] 比较大于等于 [64]"
     },
     {
       "name": "vcgeq_s64",
@@ -9891,7 +9891,7 @@
       "Intel Asm": "",
       "Arm Asm": "cmge",
       "function_en": "[vector] cmge [64]",
-      "function_cn": "[向量] 判断大于等于 [64]"
+      "function_cn": "[向量] 比较大于等于 [64]"
     },
     {
       "name": "vcge_u64",
@@ -9900,7 +9900,7 @@
       "Intel Asm": "",
       "Arm Asm": "cmhs",
       "function_en": "[vector] cmhs [64]",
-      "function_cn": "[向量] 判断大于等于 [64]"
+      "function_cn": "[向量] 比较大于等于 [64]"
     },
     {
       "name": "vcgeq_u64",
@@ -9909,7 +9909,7 @@
       "Intel Asm": "",
       "Arm Asm": "cmhs",
       "function_en": "[vector] cmhs [64]",
-      "function_cn": "[向量] 判断大于等于 [64]"
+      "function_cn": "[向量] 比较大于等于 [64]"
     },
     {
       "name": "vcge_f64",
@@ -9918,7 +9918,7 @@
       "Intel Asm": "",
       "Arm Asm": "fcmge",
       "function_en": "[vector] fcmge [64]",
-      "function_cn": "[向量] 判断大于等于 [64]"
+      "function_cn": "[向量] 比较大于等于 [64]"
     },
     {
       "name": "vcgeq_f64",
@@ -9927,7 +9927,7 @@
       "Intel Asm": "cmppd",
       "Arm Asm": "fcmge",
       "function_en": "[vector] fcmge [64]",
-      "function_cn": "[向量] 判断大于等于 [64]"
+      "function_cn": "[向量] 比较大于等于 [64]"
     },
     {
       "name": "vcged_s64",
@@ -9936,7 +9936,7 @@
       "Intel Asm": "",
       "Arm Asm": "cmge",
       "function_en": "[scalar] cmge [64]",
-      "function_cn": "[标量] 判断大于等于 [64]"
+      "function_cn": "[标量] 比较大于等于 [64]"
     },
     {
       "name": "vcged_u64",
@@ -9945,7 +9945,7 @@
       "Intel Asm": "",
       "Arm Asm": "cmhs",
       "function_en": "[scalar] cmhs [64]",
-      "function_cn": "[标量] 判断大于等于 [64]"
+      "function_cn": "[标量] 比较大于等于 [64]"
     },
     {
       "name": "vcges_f32",
@@ -9954,7 +9954,7 @@
       "Intel Asm": "",
       "Arm Asm": "fcmge",
       "function_en": "[scalar] fcmge [32]",
-      "function_cn": "[标量] 判断大于等于 [32]"
+      "function_cn": "[标量] 比较大于等于 [32]"
     },
     {
       "name": "vcged_f64",
@@ -9963,7 +9963,7 @@
       "Intel Asm": "",
       "Arm Asm": "fcmge",
       "function_en": "[scalar] fcmge [32]",
-      "function_cn": "[标量] 判断大于等于 [32]"
+      "function_cn": "[标量] 比较大于等于 [32]"
     },
     {
       "name": "vcgez_s8",
@@ -9972,7 +9972,7 @@
       "Intel Asm": "",
       "Arm Asm": "cmge",
       "function_en": "[vector] cmge [8]",
-      "function_cn": "[向量] 判断大于等于零寄存器 [8]"
+      "function_cn": "[向量] 比较大于等于零寄存器 [8]"
     },
     {
       "name": "vcgezq_s8",
@@ -9981,7 +9981,7 @@
       "Intel Asm": "",
       "Arm Asm": "cmge",
       "function_en": "[vector] cmge [8]",
-      "function_cn": "[向量] 判断大于等于零寄存器 [8]"
+      "function_cn": "[向量] 比较大于等于零寄存器 [8]"
     },
     {
       "name": "vcgez_s16",
@@ -9990,7 +9990,7 @@
       "Intel Asm": "",
       "Arm Asm": "cmge",
       "function_en": "[vector] cmge [16]",
-      "function_cn": "[向量] 判断大于等于零寄存器 [16]"
+      "function_cn": "[向量] 比较大于等于零寄存器 [16]"
     },
     {
       "name": "vcgezq_s16",
@@ -9999,7 +9999,7 @@
       "Intel Asm": "",
       "Arm Asm": "cmge",
       "function_en": "[vector] cmge [16]",
-      "function_cn": "[向量] 判断大于等于零寄存器 [16]"
+      "function_cn": "[向量] 比较大于等于零寄存器 [16]"
     },
     {
       "name": "vcgez_s32",
@@ -10008,7 +10008,7 @@
       "Intel Asm": "",
       "Arm Asm": "cmge",
       "function_en": "[vector] cmge [32]",
-      "function_cn": "[向量] 判断大于等于零寄存器 [32]"
+      "function_cn": "[向量] 比较大于等于零寄存器 [32]"
     },
     {
       "name": "vcgezq_s32",
@@ -10017,7 +10017,7 @@
       "Intel Asm": "",
       "Arm Asm": "cmge",
       "function_en": "[vector] cmge [32]",
-      "function_cn": "[向量] 判断大于等于零寄存器 [32]"
+      "function_cn": "[向量] 比较大于等于零寄存器 [32]"
     },
     {
       "name": "vcgez_s64",
@@ -10026,7 +10026,7 @@
       "Intel Asm": "",
       "Arm Asm": "cmge",
       "function_en": "[vector] cmge [64]",
-      "function_cn": "[向量] 判断大于等于零寄存器 [64]"
+      "function_cn": "[向量] 比较大于等于零寄存器 [64]"
     },
     {
       "name": "vcgezq_s64",
@@ -10035,7 +10035,7 @@
       "Intel Asm": "",
       "Arm Asm": "cmge",
       "function_en": "[vector] cmge [64]",
-      "function_cn": "[向量] 判断大于等于零寄存器 [64]"
+      "function_cn": "[向量] 比较大于等于零寄存器 [64]"
     },
     {
       "name": "vcgez_f32",
@@ -10044,7 +10044,7 @@
       "Intel Asm": "",
       "Arm Asm": "fcmge",
       "function_en": "[vector] fcmge [32]",
-      "function_cn": "[向量] 判断大于等于零寄存器 [32]"
+      "function_cn": "[向量] 比较大于等于零寄存器 [32]"
     },
     {
       "name": "vcgezq_f32",
@@ -10053,7 +10053,7 @@
       "Intel Asm": "",
       "Arm Asm": "fcmge",
       "function_en": "[vector] fcmge [32]",
-      "function_cn": "[向量] 判断大于等于零寄存器 [32]"
+      "function_cn": "[向量] 比较大于等于零寄存器 [32]"
     },
     {
       "name": "vcgez_f64",
@@ -10062,7 +10062,7 @@
       "Intel Asm": "",
       "Arm Asm": "fcmge",
       "function_en": "[vector] fcmge [64]",
-      "function_cn": "[向量] 判断大于等于零寄存器 [64]"
+      "function_cn": "[向量] 比较大于等于零寄存器 [64]"
     },
     {
       "name": "vcgezq_f64",
@@ -10071,7 +10071,7 @@
       "Intel Asm": "",
       "Arm Asm": "fcmge",
       "function_en": "[vector] fcmge [64]",
-      "function_cn": "[向量] 判断大于等于零寄存器 [64]"
+      "function_cn": "[向量] 比较大于等于零寄存器 [64]"
     },
     {
       "name": "vcgezd_s64",
@@ -10080,7 +10080,7 @@
       "Intel Asm": "",
       "Arm Asm": "cmge",
       "function_en": "[scalar] cmge [64]",
-      "function_cn": "[标量] 判断大于等于零寄存器 [64]"
+      "function_cn": "[标量] 比较大于等于零寄存器 [64]"
     },
     {
       "name": "vcgezs_f32",
@@ -10089,7 +10089,7 @@
       "Intel Asm": "",
       "Arm Asm": "fcmge",
       "function_en": "[scalar] fcmge [32]",
-      "function_cn": "[标量] 判断大于等于零寄存器 [32]"
+      "function_cn": "[标量] 比较大于等于零寄存器 [32]"
     },
     {
       "name": "vcgezd_f64",
@@ -10098,7 +10098,7 @@
       "Intel Asm": "",
       "Arm Asm": "fcmge",
       "function_en": "[scalar] fcmge [64]",
-      "function_cn": "[标量] 判断大于等于零寄存器 [64]"
+      "function_cn": "[标量] 比较大于等于零寄存器 [64]"
     },
     {
       "name": "vcle_s8",
@@ -10323,7 +10323,7 @@
       "Intel Asm": "",
       "Arm Asm": "cmle",
       "function_en": "[vector] cmle [8]",
-      "function_cn": "[向量] 判断是否小于等于零寄存器 [8]"
+      "function_cn": "[向量] 比较是否小于等于零寄存器 [8]"
     },
     {
       "name": "vclezq_s8",
@@ -10332,7 +10332,7 @@
       "Intel Asm": "",
       "Arm Asm": "cmle",
       "function_en": "[vector] cmle [8]",
-      "function_cn": "[向量] 判断是否小于等于零寄存器 [8]"
+      "function_cn": "[向量] 比较是否小于等于零寄存器 [8]"
     },
     {
       "name": "vclez_s16",
@@ -10341,7 +10341,7 @@
       "Intel Asm": "",
       "Arm Asm": "cmle",
       "function_en": "[vector] cmle [16]",
-      "function_cn": "[向量] 判断是否小于等于零寄存器 [16]"
+      "function_cn": "[向量] 比较是否小于等于零寄存器 [16]"
     },
     {
       "name": "vclezq_s16",
@@ -10350,7 +10350,7 @@
       "Intel Asm": "",
       "Arm Asm": "cmle",
       "function_en": "[vector] cmle [16]",
-      "function_cn": "[向量] 判断是否小于等于零寄存器 [16]"
+      "function_cn": "[向量] 比较是否小于等于零寄存器 [16]"
     },
     {
       "name": "vclez_s32",
@@ -10359,7 +10359,7 @@
       "Intel Asm": "",
       "Arm Asm": "cmle",
       "function_en": "[vector] cmle [32]",
-      "function_cn": "[向量] 判断是否小于等于零寄存器 [32]"
+      "function_cn": "[向量] 比较是否小于等于零寄存器 [32]"
     },
     {
       "name": "vclezq_s32",
@@ -10368,7 +10368,7 @@
       "Intel Asm": "",
       "Arm Asm": "cmle",
       "function_en": "[vector] cmle [32]",
-      "function_cn": "[向量] 判断是否小于等于零寄存器 [32]"
+      "function_cn": "[向量] 比较是否小于等于零寄存器 [32]"
     },
     {
       "name": "vclez_s64",
@@ -10377,7 +10377,7 @@
       "Intel Asm": "",
       "Arm Asm": "cmle",
       "function_en": "[vector] cmle [64]",
-      "function_cn": "[向量] 判断是否小于等于零寄存器 [64]"
+      "function_cn": "[向量] 比较是否小于等于零寄存器 [64]"
     },
     {
       "name": "vclezq_s64",
@@ -10386,7 +10386,7 @@
       "Intel Asm": "",
       "Arm Asm": "cmle",
       "function_en": "[vector] cmle [64]",
-      "function_cn": "[向量] 判断是否小于等于零寄存器 [64]"
+      "function_cn": "[向量] 比较是否小于等于零寄存器 [64]"
     },
     {
       "name": "vclez_f32",
@@ -10395,7 +10395,7 @@
       "Intel Asm": "",
       "Arm Asm": "cmle",
       "function_en": "[vector] cmle [32]",
-      "function_cn": "[向量] 判断是否小于等于零寄存器 [32]"
+      "function_cn": "[向量] 比较是否小于等于零寄存器 [32]"
     },
     {
       "name": "vclezq_f32",
@@ -10404,7 +10404,7 @@
       "Intel Asm": "",
       "Arm Asm": "fcmle",
       "function_en": "[vector] fcmle [32]",
-      "function_cn": "[向量] 判断是否小于等于零寄存器 [32]"
+      "function_cn": "[向量] 比较是否小于等于零寄存器 [32]"
     },
     {
       "name": "vclez_f64",
@@ -10413,7 +10413,7 @@
       "Intel Asm": "",
       "Arm Asm": "fcmle",
       "function_en": "[vector] fcmle [64]",
-      "function_cn": "[向量] 判断是否小于等于零寄存器 [64]"
+      "function_cn": "[向量] 比较是否小于等于零寄存器 [64]"
     },
     {
       "name": "vclezq_f64",
@@ -10422,7 +10422,7 @@
       "Intel Asm": "",
       "Arm Asm": "fcmle",
       "function_en": "[vector] fcmle [64]",
-      "function_cn": "[向量] 判断是否小于等于零寄存器 [64]"
+      "function_cn": "[向量] 比较是否小于等于零寄存器 [64]"
     },
     {
       "name": "vclezd_s64",
@@ -10431,7 +10431,7 @@
       "Intel Asm": "",
       "Arm Asm": "cmle",
       "function_en": "[scalar] cmle [64]",
-      "function_cn": "[标量] 判断是否小于等于零寄存器 [64]"
+      "function_cn": "[标量] 比较是否小于等于零寄存器 [64]"
     },
     {
       "name": "vclezs_f32",
@@ -10440,7 +10440,7 @@
       "Intel Asm": "",
       "Arm Asm": "fcmle",
       "function_en": "[scalar] fcmle [32]",
-      "function_cn": "[标量] 判断是否小于等于零寄存器 [32]"
+      "function_cn": "[标量] 比较是否小于等于零寄存器 [32]"
     },
     {
       "name": "vclezd_f64",
@@ -10449,7 +10449,7 @@
       "Intel Asm": "",
       "Arm Asm": "fcmle",
       "function_en": "[scalar] fcmle [64]",
-      "function_cn": "[标量] 判断是否小于等于零寄存器 [64]"
+      "function_cn": "[标量] 比较是否小于等于零寄存器 [64]"
     },
     {
       "name": "vcgt_s8",
@@ -10674,7 +10674,7 @@
       "Intel Asm": "",
       "Arm Asm": "cmgt",
       "function_en": "[vector] cmgt [8]",
-      "function_cn": "[向量] 判断是否大于零寄存器 [8]"
+      "function_cn": "[向量] 比较是否大于零寄存器 [8]"
     },
     {
       "name": "vcgtzq_s8",
@@ -10683,7 +10683,7 @@
       "Intel Asm": "",
       "Arm Asm": "cmgt",
       "function_en": "[vector] cmgt [8]",
-      "function_cn": "[向量] 判断是否大于零寄存器 [8]"
+      "function_cn": "[向量] 比较是否大于零寄存器 [8]"
     },
     {
       "name": "vcgtz_s16",
@@ -10692,7 +10692,7 @@
       "Intel Asm": "",
       "Arm Asm": "cmgt",
       "function_en": "[vector] cmgt [16]",
-      "function_cn": "[向量] 判断是否大于零寄存器 [16]"
+      "function_cn": "[向量] 比较是否大于零寄存器 [16]"
     },
     {
       "name": "vcgtzq_s16",
@@ -10701,7 +10701,7 @@
       "Intel Asm": "",
       "Arm Asm": "cmgt",
       "function_en": "[vector] cmgt [16]",
-      "function_cn": "[向量] 判断是否大于零寄存器 [16]"
+      "function_cn": "[向量] 比较是否大于零寄存器 [16]"
     },
     {
       "name": "vcgtz_s32",
@@ -10710,7 +10710,7 @@
       "Intel Asm": "",
       "Arm Asm": "cmgt",
       "function_en": "[vector] cmgt [32]",
-      "function_cn": "[向量] 判断是否大于零寄存器 [32]"
+      "function_cn": "[向量] 比较是否大于零寄存器 [32]"
     },
     {
       "name": "vcgtzq_s32",
@@ -10719,7 +10719,7 @@
       "Intel Asm": "",
       "Arm Asm": "cmgt",
       "function_en": "[vector] cmgt [32]",
-      "function_cn": "[向量] 判断是否大于零寄存器 [32]"
+      "function_cn": "[向量] 比较是否大于零寄存器 [32]"
     },
     {
       "name": "vcgtz_s64",
@@ -10728,7 +10728,7 @@
       "Intel Asm": "",
       "Arm Asm": "cmgt",
       "function_en": "[vector] cmgt [64]",
-      "function_cn": "[向量] 判断是否大于零寄存器 [64]"
+      "function_cn": "[向量] 比较是否大于零寄存器 [64]"
     },
     {
       "name": "vcgtzq_s64",
@@ -10737,7 +10737,7 @@
       "Intel Asm": "",
       "Arm Asm": "cmgt",
       "function_en": "[vector] cmgt [64]",
-      "function_cn": "[向量] 判断是否大于零寄存器 [64]"
+      "function_cn": "[向量] 比较是否大于零寄存器 [64]"
     },
     {
       "name": "vcgtz_f32",
@@ -10746,7 +10746,7 @@
       "Intel Asm": "",
       "Arm Asm": "fcmgt",
       "function_en": "[vector] fcmgt [32]",
-      "function_cn": "[向量] 判断是否大于零寄存器 [32]"
+      "function_cn": "[向量] 比较是否大于零寄存器 [32]"
     },
     {
       "name": "vcgtzq_f32",
@@ -10755,7 +10755,7 @@
       "Intel Asm": "",
       "Arm Asm": "fcmgt",
       "function_en": "[vector] fcmgt [32]",
-      "function_cn": "[向量] 判断是否大于零寄存器 [32]"
+      "function_cn": "[向量] 比较是否大于零寄存器 [32]"
     },
     {
       "name": "vcgtz_f64",
@@ -10764,7 +10764,7 @@
       "Intel Asm": "",
       "Arm Asm": "fcmgt",
       "function_en": "[vector] fcmgt [64]",
-      "function_cn": "[向量] 判断是否大于零寄存器 [64]"
+      "function_cn": "[向量] 比较是否大于零寄存器 [64]"
     },
     {
       "name": "vcgtzq_f64",
@@ -10773,7 +10773,7 @@
       "Intel Asm": "",
       "Arm Asm": "fcmgt",
       "function_en": "[vector] fcmgt [64]",
-      "function_cn": "[向量] 判断是否大于零寄存器 [64]"
+      "function_cn": "[向量] 比较是否大于零寄存器 [64]"
     },
     {
       "name": "vcgtzd_s64",
@@ -10782,7 +10782,7 @@
       "Intel Asm": "",
       "Arm Asm": "cmgt",
       "function_en": "[scalar] cmgt [64]",
-      "function_cn": "[标量] 判断是否大于零寄存器 [64]"
+      "function_cn": "[标量] 比较是否大于零寄存器 [64]"
     },
     {
       "name": "vcgtzs_f32",
@@ -10791,7 +10791,7 @@
       "Intel Asm": "",
       "Arm Asm": "fcmgt",
       "function_en": "[scalar] fcmgt [32]",
-      "function_cn": "[标量] 判断是否大于零寄存器 [32]"
+      "function_cn": "[标量] 比较是否大于零寄存器 [32]"
     },
     {
       "name": "vcgtzd_f64",
@@ -10800,7 +10800,7 @@
       "Intel Asm": "",
       "Arm Asm": "fcmgt",
       "function_en": "[scalar] fcmgt [64]",
-      "function_cn": "[标量] 判断是否大于零寄存器 [64]"
+      "function_cn": "[标量] 比较是否大于零寄存器 [64]"
     },
     {
       "name": "vclt_s8",
@@ -11025,7 +11025,7 @@
       "Intel Asm": "",
       "Arm Asm": "cmlt",
       "function_en": "[vector] cmlt [8]",
-      "function_cn": "[向量] 判断是否小于零寄存器 [8]"
+      "function_cn": "[向量] 比较是否小于零寄存器 [8]"
     },
     {
       "name": "vcltzq_s8",
@@ -11034,7 +11034,7 @@
       "Intel Asm": "",
       "Arm Asm": "cmlt",
       "function_en": "[vector] cmlt [8]",
-      "function_cn": "[向量] 判断是否小于零寄存器 [8]"
+      "function_cn": "[向量] 比较是否小于零寄存器 [8]"
     },
     {
       "name": "vcltz_s16",
@@ -11043,7 +11043,7 @@
       "Intel Asm": "",
       "Arm Asm": "cmlt",
       "function_en": "[vector] cmlt [16]",
-      "function_cn": "[向量] 判断是否小于零寄存器 [16]"
+      "function_cn": "[向量] 比较是否小于零寄存器 [16]"
     },
     {
       "name": "vcltzq_s16",
@@ -11052,7 +11052,7 @@
       "Intel Asm": "",
       "Arm Asm": "cmlt",
       "function_en": "[vector] cmlt [16]",
-      "function_cn": "[向量] 判断是否小于零寄存器 [16]"
+      "function_cn": "[向量] 比较是否小于零寄存器 [16]"
     },
     {
       "name": "vcltz_s32",
@@ -11061,7 +11061,7 @@
       "Intel Asm": "",
       "Arm Asm": "cmlt",
       "function_en": "[vector] cmlt [32]",
-      "function_cn": "[向量] 判断是否小于零寄存器 [32]"
+      "function_cn": "[向量] 比较是否小于零寄存器 [32]"
     },
     {
       "name": "vcltzq_s32",
@@ -11070,7 +11070,7 @@
       "Intel Asm": "",
       "Arm Asm": "cmlt",
       "function_en": "[vector] cmlt [32]",
-      "function_cn": "[向量] 判断是否小于零寄存器 [32]"
+      "function_cn": "[向量] 比较是否小于零寄存器 [32]"
     },
     {
       "name": "vcltz_s64",
@@ -11079,7 +11079,7 @@
       "Intel Asm": "",
       "Arm Asm": "cmlt",
       "function_en": "[vector] cmlt [64]",
-      "function_cn": "[向量] 判断是否小于零寄存器 [64]"
+      "function_cn": "[向量] 比较是否小于零寄存器 [64]"
     },
     {
       "name": "vcltzq_s64",
@@ -11088,7 +11088,7 @@
       "Intel Asm": "",
       "Arm Asm": "cmlt",
       "function_en": "[vector] cmlt [64]",
-      "function_cn": "[向量] 判断是否小于零寄存器 [64]"
+      "function_cn": "[向量] 比较是否小于零寄存器 [64]"
     },
     {
       "name": "vcltz_f32",
@@ -11097,7 +11097,7 @@
       "Intel Asm": "",
       "Arm Asm": "fcmlt",
       "function_en": "[vector] fcmlt [32]",
-      "function_cn": "[向量] 判断是否小于零寄存器 [32]"
+      "function_cn": "[向量] 比较是否小于零寄存器 [32]"
     },
     {
       "name": "vcltzq_f32",
@@ -11106,7 +11106,7 @@
       "Intel Asm": "",
       "Arm Asm": "fcmlt",
       "function_en": "[vector] fcmlt [32]",
-      "function_cn": "[向量] 判断是否小于零寄存器 [32]"
+      "function_cn": "[向量] 比较是否小于零寄存器 [32]"
     },
     {
       "name": "vcltz_f64",
@@ -11115,7 +11115,7 @@
       "Intel Asm": "",
       "Arm Asm": "fcmlt",
       "function_en": "[vector] fcmlt [64]",
-      "function_cn": "[向量] 判断是否小于零寄存器 [64]"
+      "function_cn": "[向量] 比较是否小于零寄存器 [64]"
     },
     {
       "name": "vcltzq_f64",
@@ -11124,7 +11124,7 @@
       "Intel Asm": "",
       "Arm Asm": "fcmlt",
       "function_en": "[vector] fcmlt [64]",
-      "function_cn": "[向量] 判断是否小于零寄存器 [64]"
+      "function_cn": "[向量] 比较是否小于零寄存器 [64]"
     },
     {
       "name": "vcltzd_s64",
@@ -11133,7 +11133,7 @@
       "Intel Asm": "",
       "Arm Asm": "cmlt",
       "function_en": "[scalar] cmlt [64]",
-      "function_cn": "[标量] 判断是否小于零寄存器 [64]"
+      "function_cn": "[标量] 比较是否小于零寄存器 [64]"
     },
     {
       "name": "vcltzs_f32",
@@ -11142,7 +11142,7 @@
       "Intel Asm": "",
       "Arm Asm": "fcmlt",
       "function_en": "[scalar] fcmlt [32]",
-      "function_cn": "[标量] 判断是否小于零寄存器 [32]"
+      "function_cn": "[标量] 比较是否小于零寄存器 [32]"
     },
     {
       "name": "vcltzd_f64",
@@ -11151,7 +11151,7 @@
       "Intel Asm": "",
       "Arm Asm": "fcmlt",
       "function_en": "[scalar] fcmlt [64]",
-      "function_cn": "[标量] 判断是否小于零寄存器 [64]"
+      "function_cn": "[标量] 比较是否小于零寄存器 [64]"
     },
     {
       "name": "vcage_f32",
