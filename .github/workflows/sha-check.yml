@@ -20,6 +20,7 @@ jobs:
 
       - name: Check sha256sum
         run: |
+          set -ex
           echo "The dictionary.json.sha256 should be:"
           sha256sum dictionary.json
           echo "Check results:"
