@@ -16,4 +16,4 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Check sha256sum
-        run: echo "$(cat dictionary.json.sha256) dictionary.json" | sha256sum --check
+        run: sha256sum --check dictionary.json.sha256
