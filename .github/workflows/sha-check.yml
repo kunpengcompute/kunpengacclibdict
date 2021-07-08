@@ -1,0 +1,19 @@
+name: sha256sum check
+
+# Controls when the workflow will run
+on:
+  # Triggers the workflow pull request events but only for the master branch
+  pull_request:
+    branches: [ master ]
+
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v2
+
+      # Runs a single command using the runners shell
+      - name: Check sha256sum
+        run: sha256sum --check dictionary.json.sha256
