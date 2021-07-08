@@ -1,0 +1,19 @@
+name: sha256sum check
+
+on:
+  pull_request:
+    branches: [ master ]
+
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Check sha256sum
+        run: |
+          echo "The dictionary.json.sha256 should be:"
+          sha256sum dictionary.json
+          echo "Check results:"
+          sha256sum --check dictionary.json.sha256
