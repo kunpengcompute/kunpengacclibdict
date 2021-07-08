@@ -17,3 +17,10 @@ jobs:
       # Runs a single command using the runners shell
       - name: Check sha256sum
         run: sha256sum --check dictionary.json.sha256
+
+      - name: Check sha256sum
+        run: |
+          echo "The dictionary.json.sha256 should be:"
+          sha256sum dictionary.json
+          echo "Check results:"
+          sha256sum --check dictionary.json.sha256
