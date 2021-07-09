@@ -1,4 +1,4 @@
-name: sha256sum check
+name: Json and sha256sum check
 
 on:
   pull_request:
@@ -10,6 +10,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+
+      - name: Check json format
+        run: |
+          python -mjson.tool ./dictionary.json > /dev/null
 
       - name: Check sha256sum
         run: |
