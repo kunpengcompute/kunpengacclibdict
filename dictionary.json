@@ -12070,7 +12070,7 @@
       "Arm Asm": "uabal2",
       "function_en": "[vector] uabal2 [32]",
       "function_cn": "[向量] 长型绝对差值再相加 [32]"
-    },
+    }
   ]
 }
 
