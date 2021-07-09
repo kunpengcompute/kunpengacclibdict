@@ -11,6 +11,10 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
+      - name: Check json format
+        run: |
+          python -mjson.tool ./dictionary.json > /dev/null
+
       - name: Check sha256sum
         run: |
           echo "The dictionary.json.sha256 should be:"
