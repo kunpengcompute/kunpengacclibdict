@@ -37,7 +37,7 @@
       "cnDesc": "鲲鹏数学库提供了基于鲲鹏平台优化的高性能数学函数，所有接口由C/C++、汇编语言实现。",
       "enDesc": "The Kunpeng Math Library (KML) provides high-performance mathematical functions optimized based on the Kunpeng platform. All interfaces are implemented by C/C++ and the assembly language.",
       "id": "5"
-    },
+    }
   ],
   "library": [
     {
