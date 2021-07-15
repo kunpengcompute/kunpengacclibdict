@@ -1,7 +1,7 @@
 {
-  "version": "1.0.2",
+  "version": "1.0.3",
   "homePage": "",
-  "Intrinsic_help_url": "https://developer.arm.com/architectures/instruction-sets/simd-isas/neon/intrinsics",
+  "Intrinsic_help_url": "https://developer..com/architectures/instruction-sets/simd-isas/neon/intrinsics",
   "Category": [
     {
       "cnName": "压缩库",
@@ -30,7 +30,14 @@
       "cnDesc": "基于鲲鹏加速指令提供高性能媒体原语库及视频编解码库",
       "enDesc": "High-performance media primitive library and video encoding/decoding library are provided based on Kunpeng acceleration instructions.",
       "id": "4"
-    }
+    },
+    {
+      "cnName": "数学库",
+      "enName": "Math library",
+      "cnDesc": "鲲鹏数学库提供了基于鲲鹏平台优化的高性能数学函数，所有接口由C/C++、汇编语言实现。",
+      "enDesc": "The Kunpeng Math Library (KML) provides high-performance mathematical functions optimized based on the Kunpeng platform. All interfaces are implemented by C/C++ and the assembly language.",
+      "id": "5"
+    },
   ],
   "library": [
     {
@@ -48,6 +55,14 @@
       "enDesc": "Kunpeng instructions are used to accelerate the compilation and scanning performance of regular expressions based on the advantages of the Kunpeng micro-architecture.",
       "kunpeng_url": "https://www.huaweicloud.com/kunpeng/software/hyperscan.html",
       "code_url": "https://github.com/kunpengcompute/hyperscan"
+    },
+    {
+      "name": "AVX2Neon",
+      "category id": "2",
+      "cnDesc": "AVX2Neon是一款接口集合库。当时用Intrinsic类接口的应用程序从传统平台迁移到鲲鹏计算平台时，由于各个平台的Intrinsic函数定义不同，需要逐一对Intrinsic函数重新进行适配开发。针对该问题，我们提供了AVX2Neon模块，将传统平台的Intrinsic接口集合使用鲲鹏指令重新实现，并封装为独立的接口模块(C语言头文件方式)，以减少大量迁移项目重复开发的工作量。用户可以通过将头文件导入应用程序即可继续使用传统平台的Intrinsic函数。",
+      "enDesc": "AVX2Neon is an interface collection library. When an application using the Intrinsic interface is ported from a conventional platform to the Kunpeng platform, Intrinsic functions need to be re-adapted and developed one by one due to the different Intrinsic function syntax on the platforms. To address this problem, the AVX2Neon module is provided. The Intrinsic interface collection on the conventional platform is re-implemented by using Kunpeng instructions and encapsulated as an independent interface module (in C language header file mode)to reduce the workload of repeated development of porting projects. Users can continue to use the Intrinsic functions of the conventional platform by importing the header file into the application.",
+      "kunpeng_url": "https://www.hikunpeng.com/developer/boostkit/library/system",
+      "code_url": "https://github.com/kunpengcompute/AvxToNeon"
     },
     {
       "name": "gzip",
@@ -96,6 +111,70 @@
       "enDesc": "The underlying x265 transcoding operators are accelerated and optimized by using the Kunpeng vector instruction to improve the transcoding performance in FFmpeg video transcoding scenarios.",
       "kunpeng_url": "https://www.huaweicloud.com/kunpeng/software/x265-patch.html",
       "code_url": "http://x265.org/blog/"
+    },
+    {
+      "name": "HW265",
+      "category id": "4",
+      "cnDesc": "HW265视频编码器是符合H.265/HEVC视频编码标准、基于鲲鹏处理器NEON指令加速的华为自研H.265视频编码器。HW265支持四个预设编码档位可选，对应不同编码速度的应用场景，码率控制支持平均比特率模式（ABR）和恒定QP模式（CQP），功能涵盖直播、点播等各个场景，整体性能优于目前的主流开源软件。",
+      "enDesc": "HW265 is a Huawei-developed H.265 video encoder that complies with the H.265/HEVC video encoding standard and uses the NEON instructions of Kunpeng processors for acceleration. HW265 supports four preset encoding levels that correspond to application scenarios with different encoding speeds. The bit rate control supports the average bit rate(ABR) and constant QP(CQP) modes. The functions cover various scenarios such as live TV and VOD. The overall performance of HW265 is better than that of mainstream open source software.",
+      "kunpeng_url": "https://www.hikunpeng.com/developer/boostkit/library/media",
+      "code_url": "软件包暂不支持公开下载，如有需求请发送申请信息至邮箱kunpengcompute@huawei.com"
+    }
+    {
+      "name": "HMPP",
+      "category id": "4",
+      "cnDesc": "鲲鹏超媒体性能库HMPP(Hyper Media Performance Primitives)包括向量缓冲区的分配与释放、向量初始化、向量数学运算与统计学运算、向量采样与向量变换、滤波函数、变换函数(快速傅里叶变换)，支持IEEE 754浮点数运算标准，支持鲲鹏平台下使用。",
+      "enDesc": "Kunpeng Hyper Media Performance Primitives(HMPP) prodives functions for allocating and releasing vector buffers, vector initialization, vector mathematical operations, vector statistics operations, vector sampling and conversion, filtering functions, as well as transform(such as fast fourier transform)functions. It complies with the IEEE 754(a technical standard for floating-point arithmetic)and can be used on the Kunpeng platform.",
+      "kunpeng_url": "https://www.hikunpeng.com/developer/boostkit/library/media",
+      "code_url": "软件包暂不支持公开下载，如有需求请发送申请信息至邮箱kunpengcompute@huawei.com"
+    },
+    {
+      "name": "KML_FFT",
+      "category id": "5",
+      "cnDesc": "KML_FFT基于鲲鹏架构，通过向量化、算法改进，对快速离散傅里叶变换进行了深度优化，使得快速傅里叶变换接口函数的性能由大幅度提升。",
+      "enDesc": "Based on the Kunpeng architecture, KML_FFT deeply optimizes the fast fourier transform(FFT) by using vectorization and algorithm improvement, which greatly improves the performance of the FFT interface functions.",
+      "kunpeng_url": "https://www.hikunpeng.com/developer/boostkit/library/math",
+      "code_url": "软件包暂不支持公开下载，如有需求请发送申请信息至邮箱kunpengcompute@huawei.com"
+    },
+    {
+      "name": "KML_BLAS",
+      "category id": "5",
+      "cnDesc": "KML_BLAS基于鲲鹏架构，通过向量化、数据预取、编译优化、数据重排等手段，对BLAS的计算效率进行了深度挖掘，使得BLAS接口函数的性能逼近理论峰值。",
+      "enDesc": "Based on the Kunpeng architecture, KML_BLAS performs in-depth mining on the computing efficiency of BLAS by means of vectorization, data prefetch, compilation optimization, and data rearrangement. As a result, the performance of BLAS interface functions approaches the theoretical peak.",
+      "kunpeng_url": "https://www.hikunpeng.com/developer/boostkit/library/math",
+      "code_url": "软件包暂不支持公开下载，如有需求请发送申请信息至邮箱kunpengcompute@huawei.com"
+    },
+    {
+      "name": "KML_SPBLAS",
+      "category id": "5",
+      "cnDesc": "KML_SPBLAS基于鲲鹏架构，充分利用鲲鹏的指令集和架构特点，开发了高性能稀疏矩阵运算库，提升HPC和大数据解决方案业务性能。",
+      "enDesc": "Based on the instruction set and architecture features of Kunpeng, KML_SPBLAS develops a high-performance sparse matrix operation library to improve the service performance of HPC and big data solutions.",
+      "kunpeng_url": "https://www.hikunpeng.com/developer/boostkit/library/math",
+      "code_url": "软件包暂不支持公开下载，如有需求请发送申请信息至邮箱kunpengcompute@huawei.com"
+    },
+    {
+      "name": "KML_MATH",
+      "category id": "5",
+      "cnDesc": "KML_MATH通过周期函数规约、算法改进等手段，提供了基于鲲鹏处理器性能提升较大的函数实现。",
+      "enDesc": "KML_MATH provides functions with high performance that is based on Kunpeng processors by means of periodic function reduction and algorithm improvement.",
+      "kunpeng_url": "https://www.hikunpeng.com/developer/boostkit/library/math",
+      "code_url": "软件包暂不支持公开下载，如有需求请发送申请信息至邮箱kunpengcompute@huawei.com"
+    },
+    {
+      "name": "KML_VML",
+      "category id": "5",
+      "cnDesc": "KML_VML通过NEON指令优化、内联汇编等方法，对输入数据进行向量化处理，充分利用了鲲鹏架构下的寄存器特点，实现了在鲲鹏处理器上的性能提升。",
+      "enDesc": "KML_VML performs vectorization on input data by using methods such as NEON instruction optimization and inline assembly. It uses the register features in the Kunpeng architecture to imporve the performance of Kunpeng processors.",
+      "kunpeng_url": "https://www.hikunpeng.com/developer/boostkit/library/math",
+      "code_url": "软件包暂不支持公开下载，如有需求请发送申请信息至邮箱kunpengcompute@huawei.com"
+    },
+    {
+      "name": "KML_LAPACK",
+      "category id": "5",
+      "cnDesc": "KML_LAPACK通过分块、求解算法组合、多线程、BLAS接口优化等手段，基于鲲鹏架构对LAPACK的计算效率进行了优化，实现了在鲲鹏处理器上的性能提升。",
+      "enDesc": "KML_LAPACK optimizes the LAPACK based on the Kunpeng architecture by means of block division, algorithm combination, multithreading, and Basic Linear Algebra Subprograms(BLAS) interface optimization,  imporving the performance of Kunpeng processors.",
+      "kunpeng_url": "https://www.hikunpeng.com/developer/boostkit/library/math",
+      "code_url": "软件包暂不支持公开下载，如有需求请发送申请信息至邮箱kunpengcompute@huawei.com"
     }
   ],
   "function": [
