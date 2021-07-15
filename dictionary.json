@@ -119,7 +119,7 @@
       "enDesc": "HW265 is a Huawei-developed H.265 video encoder that complies with the H.265/HEVC video encoding standard and uses the NEON instructions of Kunpeng processors for acceleration. HW265 supports four preset encoding levels that correspond to application scenarios with different encoding speeds. The bit rate control supports the average bit rate(ABR) and constant QP(CQP) modes. The functions cover various scenarios such as live TV and VOD. The overall performance of HW265 is better than that of mainstream open source software.",
       "kunpeng_url": "https://www.hikunpeng.com/developer/boostkit/library/media",
       "code_url": "软件包暂不支持公开下载，如有需求请发送申请信息至邮箱kunpengcompute@huawei.com"
-    }
+    },
     {
       "name": "HMPP",
       "category id": "4",
