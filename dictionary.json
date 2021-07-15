@@ -1,7 +1,7 @@
 {
   "version": "1.0.3",
   "homePage": "",
-  "Intrinsic_help_url": "https://developer..com/architectures/instruction-sets/simd-isas/neon/intrinsics",
+  "Intrinsic_help_url": "https://developer.arm.com/architectures/instruction-sets/simd-isas/neon/intrinsics",
   "Category": [
     {
       "cnName": "压缩库",
