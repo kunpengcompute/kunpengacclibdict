@@ -44670,5 +44670,4837 @@
 		"function_cn": "设置FPSR寄存器内容",
 		"support_version": "5.5 ~ 9.3"
 	}
+  ],
+  "gcc": [
+    {
+      "name": "gcc4.8.5",
+      "version": "4.8.5",
+      "help_url": "http://gcc.gnu.org/onlinedocs/gcc-4.8.5/gcc/AArch64-Options.html#AArch64-Options",
+      "description": "Aarch64 compilation option information of Gcc4.8.5"
+    },
+    {
+      "name": "gcc4.9.3",
+      "version": "4.9.3",
+      "help_url": "http://gcc.gnu.org/onlinedocs/gcc-4.9.3/gcc/AArch64-Options.html#AArch64-Options",
+      "description": "Aarch64 compilation option information of Gcc4.9.3"
+    },
+    {
+      "name": "gcc5.1.0",
+      "version": "5.1.0",
+      "help_url": "http://gcc.gnu.org/onlinedocs/gcc-5.1.0/gcc/AArch64-Options.html#AArch64-Options",
+      "description": "Aarch64 compilation option information of Gcc5.1.0"
+    },
+    {
+      "name": "gcc5.2.0",
+      "version": "5.2.0",
+      "help_url": "http://gcc.gnu.org/onlinedocs/gcc-5.2.0/gcc/AArch64-Options.html#AArch64-Options",
+      "description": "Aarch64 compilation option information of Gcc5.2.0"
+    },
+    {
+      "name": "gcc5.3.0",
+      "version": "5.3.0",
+      "help_url": "http://gcc.gnu.org/onlinedocs/gcc-5.3.0/gcc/AArch64-Options.html#AArch64-Options",
+      "description": "Aarch64 compilation option information of Gcc5.3.0"
+    },
+    {
+      "name": "gcc5.4.0",
+      "version": "5.4.0",
+      "help_url": "http://gcc.gnu.org/onlinedocs/gcc-5.4.0/gcc/AArch64-Options.html#AArch64-Options",
+      "description": "Aarch64 compilation option information of Gcc5.4.0"
+    },
+    {
+      "name": "gcc5.5.0",
+      "version": "5.5.0",
+      "help_url": "http://gcc.gnu.org/onlinedocs/gcc-5.5.0/gcc/AArch64-Options.html#AArch64-Options",
+      "description": "Aarch64 compilation option information of Gcc5.5.0"
+    },
+    {
+      "name": "gcc6.1.0",
+      "version": "6.1.0",
+      "help_url": "http://gcc.gnu.org/onlinedocs/gcc-6.1.0/gcc/AArch64-Options.html#AArch64-Options",
+      "description": "Aarch64 compilation option information of Gcc6.1.0"
+    },
+    {
+      "name": "gcc6.2.0",
+      "version": "6.2.0",
+      "help_url": "http://gcc.gnu.org/onlinedocs/gcc-6.2.0/gcc/AArch64-Options.html#AArch64-Options",
+      "description": "Aarch64 compilation option information of Gcc6.2.0"
+    },
+    {
+      "name": "gcc6.3.0",
+      "version": "6.3.0",
+      "help_url": "http://gcc.gnu.org/onlinedocs/gcc-6.3.0/gcc/AArch64-Options.html#AArch64-Options",
+      "description": "Aarch64 compilation option information of Gcc6.3.0"
+    },
+    {
+      "name": "gcc6.4.0",
+      "version": "6.4.0",
+      "help_url": "http://gcc.gnu.org/onlinedocs/gcc-6.4.0/gcc/AArch64-Options.html#AArch64-Options",
+      "description": "Aarch64 compilation option information of Gcc6.4.0"
+    },
+    {
+      "name": "gcc6.5.0",
+      "version": "6.5.0",
+      "help_url": "http://gcc.gnu.org/onlinedocs/gcc-6.5.0/gcc/AArch64-Options.html#AArch64-Options",
+      "description": "Aarch64 compilation option information of Gcc6.5.0"
+    },
+    {
+      "name": "gcc7.1.0",
+      "version": "7.1.0",
+      "help_url": "http://gcc.gnu.org/onlinedocs/gcc-7.1.0/gcc/AArch64-Options.html#AArch64-Options",
+      "description": "Aarch64 compilation option information of Gcc7.1.0"
+    },
+    {
+      "name": "gcc7.2.0",
+      "version": "7.2.0",
+      "help_url": "http://gcc.gnu.org/onlinedocs/gcc-7.2.0/gcc/AArch64-Options.html#AArch64-Options",
+      "description": "Aarch64 compilation option information of Gcc7.2.0"
+    },
+    {
+      "name": "gcc7.3.0",
+      "version": "7.3.0",
+      "help_url": "http://gcc.gnu.org/onlinedocs/gcc-7.3.0/gcc/AArch64-Options.html#AArch64-Options",
+      "description": "Aarch64 compilation option information of Gcc7.3.0"
+    },
+    {
+      "name": "gcc7.4.0",
+      "version": "7.4.0",
+      "help_url": "http://gcc.gnu.org/onlinedocs/gcc-7.4.0/gcc/AArch64-Options.html#AArch64-Options",
+      "description": "Aarch64 compilation option information of Gcc7.4.0"
+    },
+    {
+      "name": "gcc8.1.0",
+      "version": "8.1.0",
+      "help_url": "http://gcc.gnu.org/onlinedocs/gcc-8.1.0/gcc/AArch64-Options.html#AArch64-Options",
+      "description": "Aarch64 compilation option information of Gcc8.1.0"
+    },
+    {
+      "name": "gcc8.2.0",
+      "version": "8.2.0",
+      "help_url": "http://gcc.gnu.org/onlinedocs/gcc-8.2.0/gcc/AArch64-Options.html#AArch64-Options",
+      "description": "Aarch64 compilation option information of Gcc8.2.0"
+    },
+    {
+      "name": "gcc8.3.0",
+      "version": "8.3.0",
+      "help_url": "http://gcc.gnu.org/onlinedocs/gcc-8.3.0/gcc/AArch64-Options.html#AArch64-Options",
+      "description": "Aarch64 compilation option information of Gcc8.3.0"
+    },
+    {
+      "name": "gcc9.1.0",
+      "version": "9.1.0",
+      "help_url": "http://gcc.gnu.org/onlinedocs/gcc-9.1.0/gcc/AArch64-Options.html#AArch64-Options",
+      "description": "Aarch64 compilation option information of Gcc9.1.0"
+    },
+    {
+      "name": "gcc9.2.0",
+      "version": "9.2.0",
+      "help_url": "http://gcc.gnu.org/onlinedocs/gcc-9.2.0/gcc/AArch64-Options.html#AArch64-Options",
+      "description": "Aarch64 compilation option information of Gcc9.2.0"
+    },
+    {
+      "name": "gcc9.3.0",
+      "version": "9.3.0",
+      "help_url": "http://gcc.gnu.org/onlinedocs/gcc-9.3.0/gcc/AArch64-Options.html#AArch64-Options",
+      "description": "Aarch64 compilation option information of Gcc9.3.0"
+    }
+  ],
+  "compileOption": [
+    {
+      "gcc_version": "4.8.5",
+      "name": "-mbig-endian",
+      "range": [],
+      "description": "Generate big-endian code."
+    },
+    {
+      "gcc_version": "4.8.5",
+      "name": "-mgeneral-regs-only",
+      "range": [],
+      "description": "Generate code which uses only the general registers."
+    },
+    {
+      "gcc_version": "4.8.5",
+      "name": "-mlittle-endian",
+      "range": [],
+      "description": "Generate little-endian code."
+    },
+    {
+      "gcc_version": "4.8.5",
+      "name": "-mcmodel",
+      "range": [
+        "tiny",
+        "small",
+        "large"
+      ],
+      "description": "Generate code for the tiny, small, large code model."
+    },
+    {
+      "gcc_version": "4.8.5",
+      "name": "-mstrict-align",
+      "range": [],
+      "description": "Do not assume that unaligned memory references will be handled by the system."
+    },
+    {
+      "gcc_version": "4.8.5",
+      "name": "-momit-leaf-frame-pointer",
+      "range": [],
+      "description": "Omit or keep the frame pointer in leaf functions."
+    },
+    {
+      "gcc_version": "4.8.5",
+      "name": "-mno-omit-leaf-frame-pointer",
+      "range": [],
+      "description": "Omit or keep the frame pointer in leaf functions."
+    },
+    {
+      "gcc_version": "4.8.5",
+      "name": "-mtls-dialect",
+      "range": [
+        "desc",
+        "traditional"
+      ],
+      "description": "Use traditional TLS / TLS descriptors as the thread-local storage mechanism for dynamic accesses of TLS variables."
+    },
+    {
+      "gcc_version": "4.8.5",
+      "name": "-mfix-cortex-a53-835769",
+      "range": [],
+      "description": "Enable the workaround for the ARM Cortex-A53 erratum number 835769."
+    },
+    {
+      "gcc_version": "4.8.5",
+      "name": "-mno-fix-cortex-a53-835769",
+      "range": [],
+      "description": "Disable the workaround for the ARM Cortex-A53 erratum number 835769."
+    },
+    {
+      "gcc_version": "4.8.5",
+      "name": "-march",
+      "range": [
+        "armv8-a",
+        "crypto",
+        "fp",
+        "simd"
+      ],
+      "description": "Specify the name of the target architecture, optionally suffixed by one or more feature modifiers."
+    },
+    {
+      "gcc_version": "4.8.5",
+      "name": "-mcpu",
+      "range": [
+        "generic",
+        "large",
+        "crypto",
+        "fp",
+        "simd"
+      ],
+      "description": "Specify the name of the target processor, optionally suffixed by one or more feature modifiers."
+    },
+    {
+      "gcc_version": "4.8.5",
+      "name": "-mtune",
+      "range": [
+        "generic",
+        "large"
+      ],
+      "description": "Specify the name of the processor to tune the performance for."
+    },
+    {
+      "gcc_version": "4.9.3",
+      "name": "-mabi",
+      "range": [
+        "lp32",
+        "lp64"
+      ],
+      "description": "Generate code for the specified data model."
+    },
+    {
+      "gcc_version": "4.9.3",
+      "name": "-mbig-endian",
+      "range": [],
+      "description": "Generate big-endian code."
+    },
+    {
+      "gcc_version": "4.9.3",
+      "name": "-mgeneral-regs-only",
+      "range": [],
+      "description": "Generate code which uses only the general registers."
+    },
+    {
+      "gcc_version": "4.9.3",
+      "name": "-mlittle-endian",
+      "range": [],
+      "description": "Generate little-endian code."
+    },
+    {
+      "gcc_version": "4.9.3",
+      "name": "-mcmodel",
+      "range": [
+        "tiny",
+        "small",
+        "large"
+      ],
+      "description": "Generate code for the tiny, small, large code model."
+    },
+    {
+      "gcc_version": "4.9.3",
+      "name": "-mstrict-align",
+      "range": [],
+      "description": "Do not assume that unaligned memory references will be handled by the system."
+    },
+    {
+      "gcc_version": "4.9.3",
+      "name": "-momit-leaf-frame-pointer",
+      "range": [],
+      "description": "Omit the frame pointer in leaf functions."
+    },
+    {
+      "gcc_version": "4.9.3",
+      "name": "-mno-omit-leaf-frame-pointer",
+      "range": [],
+      "description": "Keep the frame pointer in leaf functions."
+    },
+    {
+      "gcc_version": "4.9.3",
+      "name": "-mtls-dialect",
+      "range": [
+        "desc",
+        "traditional"
+      ],
+      "description": "Use traditional TLS / TLS descriptors as the thread-local storage mechanism for dynamic accesses of TLS variables."
+    },
+    {
+      "gcc_version": "4.9.3",
+      "name": "-mfix-cortex-a53-835769",
+      "range": [],
+      "description": "Enable the workaround for the ARM Cortex-A53 erratum number 835769."
+    },
+    {
+      "gcc_version": "4.9.3",
+      "name": "-mno-fix-cortex-a53-835769",
+      "range": [],
+      "description": "Disable the workaround for the ARM Cortex-A53 erratum number 835769."
+    },
+    {
+      "gcc_version": "4.9.3",
+      "name": "-mfix-cortex-a53-843419",
+      "range": [],
+      "description": "Enable the workaround for the ARM Cortex-A53 erratum number 843419."
+    },
+    {
+      "gcc_version": "4.9.3",
+      "name": "-mno-fix-cortex-a53-843419",
+      "range": [],
+      "description": "Disable the workaround for the ARM Cortex-A53 erratum number 843419."
+    },
+    {
+      "gcc_version": "4.9.3",
+      "name": "-march",
+      "range": [
+        "armv8-a",
+        "crc",
+        "crypto",
+        "fp",
+        "simd"
+      ],
+      "description": "Specify the name of the target architecture, optionally suffixed by one or more feature modifiers."
+    },
+    {
+      "gcc_version": "4.9.3",
+      "name": "-mtune",
+      "range": [
+        "generic",
+        "cortex-a53",
+        "cortex-a57",
+        "cortex-a57.cortex-a53"
+      ],
+      "description": "Specify the name of the target processor for which GCC should tune the performance of the code."
+    },
+    {
+      "gcc_version": "4.9.3",
+      "name": "-mcpu",
+      "range": [
+        "crc",
+        "crypto",
+        "fp",
+        "simd"
+      ],
+      "description": "Specify the name of the target processor, optionally suffixed by one or more feature modifiers."
+    },
+    {
+      "gcc_version": "5.1.0",
+      "name": "-mabi",
+      "range": [
+        "ilp32",
+        "lp64"
+      ],
+      "description": "Generate code for the specified data model."
+    },
+    {
+      "gcc_version": "5.1.0",
+      "name": "-mbig-endian",
+      "range": [],
+      "description": "Generate big-endian code."
+    },
+    {
+      "gcc_version": "5.1.0",
+      "name": "-mgeneral-regs-only",
+      "range": [],
+      "description": "Generate code which uses only the general registers."
+    },
+    {
+      "gcc_version": "5.1.0",
+      "name": "-mlittle-endian",
+      "range": [],
+      "description": "Generate little-endian code."
+    },
+    {
+      "gcc_version": "5.1.0",
+      "name": "-mcmodel",
+      "range": [
+        "tiny",
+        "small",
+        "large"
+      ],
+      "description": "Generate code for the tiny, small, large code model."
+    },
+    {
+      "gcc_version": "5.1.0",
+      "name": "-mstrict-align",
+      "range": [],
+      "description": "Do not assume that unaligned memory references are handled by the system."
+    },
+    {
+      "gcc_version": "5.1.0",
+      "name": "-momit-leaf-frame-pointer",
+      "range": [],
+      "description": "Omit the frame pointer in leaf functions."
+    },
+    {
+      "gcc_version": "5.1.0",
+      "name": "-mno-omit-leaf-frame-pointer",
+      "range": [],
+      "description": "Keep the frame pointer in leaf functions."
+    },
+    {
+      "gcc_version": "5.1.0",
+      "name": "-mtls-dialect",
+      "range": [
+        "desc",
+        "traditional"
+      ],
+      "description": "Use traditional TLS / TLS descriptors as the thread-local storage mechanism for dynamic accesses of TLS variables."
+    },
+    {
+      "gcc_version": "5.1.0",
+      "name": "-mfix-cortex-a53-835769",
+      "range": [],
+      "description": "Enable the workaround for the ARM Cortex-A53 erratum number 835769."
+    },
+    {
+      "gcc_version": "5.1.0",
+      "name": "-mno-fix-cortex-a53-835769",
+      "range": [],
+      "description": "Disable the workaround for the ARM Cortex-A53 erratum number 835769."
+    },
+    {
+      "gcc_version": "5.1.0",
+      "name": "-march",
+      "range": [
+        "armv8-a",
+        "crc",
+        "crypto",
+        "fp",
+        "simd"
+      ],
+      "description": "Specify the name of the target architecture, optionally suffixed by one or more feature modifiers."
+    },
+    {
+      "gcc_version": "5.1.0",
+      "name": "-mtune",
+      "range": [
+        "generic",
+        "cortex-a53",
+        "cortex-a57",
+        "cortex-a72",
+        "exynos-m1",
+        "thunderx",
+        "xgene1",
+        "cortex-a57.cortex-a53",
+        "cortex-a72.cortex-a53"
+      ],
+      "description": "Specify the name of the target processor for which GCC should tune the performance of the code."
+    },
+    {
+      "gcc_version": "5.1.0",
+      "name": "-mcpu",
+      "range": [
+        "generic",
+        "cortex-a53",
+        "cortex-a57",
+        "cortex-a72",
+        "exynos-m1",
+        "thunderx",
+        "xgene1",
+        "cortex-a57.cortex-a53",
+        "cortex-a72.cortex-a53",
+        "crc",
+        "crypto",
+        "fp",
+        "simd"
+      ],
+      "description": "Specify the name of the target processor, optionally suffixed by one or more feature modifiers."
+    },
+    {
+      "gcc_version": "5.2.0",
+      "name": "-mabi",
+      "range": [
+        "ilp32",
+        "lp64"
+      ],
+      "description": "Generate code for the specified data model."
+    },
+    {
+      "gcc_version": "5.2.0",
+      "name": "-mbig-endian",
+      "range": [],
+      "description": "Generate big-endian code."
+    },
+    {
+      "gcc_version": "5.2.0",
+      "name": "-mgeneral-regs-only",
+      "range": [],
+      "description": "Generate code which uses only the general registers."
+    },
+    {
+      "gcc_version": "5.2.0",
+      "name": "-mlittle-endian",
+      "range": [],
+      "description": "Generate little-endian code."
+    },
+    {
+      "gcc_version": "5.2.0",
+      "name": "-mcmodel",
+      "range": [
+        "tiny",
+        "small",
+        "large"
+      ],
+      "description": "Generate code for the tiny, small, large code model."
+    },
+    {
+      "gcc_version": "5.2.0",
+      "name": "-mstrict-align",
+      "range": [],
+      "description": "Do not assume that unaligned memory references are handled by the system."
+    },
+    {
+      "gcc_version": "5.2.0",
+      "name": "-momit-leaf-frame-pointer",
+      "range": [],
+      "description": "Omit the frame pointer in leaf functions."
+    },
+    {
+      "gcc_version": "5.2.0",
+      "name": "-mno-omit-leaf-frame-pointer",
+      "range": [],
+      "description": "Keep the frame pointer in leaf functions."
+    },
+    {
+      "gcc_version": "5.2.0",
+      "name": "-mtls-dialect",
+      "range": [
+        "desc",
+        "traditional"
+      ],
+      "description": "Use traditional TLS / TLS descriptors as the thread-local storage mechanism for dynamic accesses of TLS variables."
+    },
+    {
+      "gcc_version": "5.2.0",
+      "name": "-mfix-cortex-a53-835769",
+      "range": [],
+      "description": "Enable the workaround for the ARM Cortex-A53 erratum number 835769."
+    },
+    {
+      "gcc_version": "5.2.0",
+      "name": "-mno-fix-cortex-a53-835769",
+      "range": [],
+      "description": "Disable the workaround for the ARM Cortex-A53 erratum number 835769."
+    },
+    {
+      "gcc_version": "5.2.0",
+      "name": "-mfix-cortex-a53-843419",
+      "range": [],
+      "description": "Enable the workaround for the ARM Cortex-A53 erratum number 843419."
+    },
+    {
+      "gcc_version": "5.2.0",
+      "name": "-mno-fix-cortex-a53-843419",
+      "range": [],
+      "description": "Disable the workaround for the ARM Cortex-A53 erratum number 843419."
+    },
+    {
+      "gcc_version": "5.2.0",
+      "name": "-march",
+      "range": [
+        "armv8-a",
+        "crc",
+        "crypto",
+        "fp",
+        "simd"
+      ],
+      "description": "Specify the name of the target architecture, optionally suffixed by one or more feature modifiers."
+    },
+    {
+      "gcc_version": "5.2.0",
+      "name": "-mtune",
+      "range": [
+        "generic",
+        "cortex-a53",
+        "cortex-a57",
+        "cortex-a72",
+        "exynos-m1",
+        "thunderx",
+        "xgene1",
+        "cortex-a57.cortex-a53",
+        "cortex-a72.cortex-a53"
+      ],
+      "description": "Specify the name of the target processor for which GCC should tune the performance of the code."
+    },
+    {
+      "gcc_version": "5.2.0",
+      "name": "-mcpu",
+      "range": [
+        "generic",
+        "cortex-a53",
+        "cortex-a57",
+        "cortex-a72",
+        "exynos-m1",
+        "thunderx",
+        "xgene1",
+        "cortex-a57.cortex-a53",
+        "cortex-a72.cortex-a53",
+        "crc",
+        "crypto",
+        "fp",
+        "simd"
+      ],
+      "description": "Specify the name of the target processor, optionally suffixed by one or more feature modifiers."
+    },
+    {
+      "gcc_version": "5.3.0",
+      "name": "-mabi",
+      "range": [
+        "ilp32",
+        "lp64"
+      ],
+      "description": "Generate code for the specified data model."
+    },
+    {
+      "gcc_version": "5.3.0",
+      "name": "-mbig-endian",
+      "range": [],
+      "description": "Generate big-endian code."
+    },
+    {
+      "gcc_version": "5.3.0",
+      "name": "-mgeneral-regs-only",
+      "range": [],
+      "description": "Generate code which uses only the general registers."
+    },
+    {
+      "gcc_version": "5.3.0",
+      "name": "-mlittle-endian",
+      "range": [],
+      "description": "Generate little-endian code."
+    },
+    {
+      "gcc_version": "5.3.0",
+      "name": "-mcmodel",
+      "range": [
+        "tiny",
+        "small",
+        "large"
+      ],
+      "description": "Generate code for the tiny, small, large code model."
+    },
+    {
+      "gcc_version": "5.3.0",
+      "name": "-mstrict-align",
+      "range": [],
+      "description": "Do not assume that unaligned memory references are handled by the system."
+    },
+    {
+      "gcc_version": "5.3.0",
+      "name": "-momit-leaf-frame-pointer",
+      "range": [],
+      "description": "Omit the frame pointer in leaf functions."
+    },
+    {
+      "gcc_version": "5.3.0",
+      "name": "-mno-omit-leaf-frame-pointer",
+      "range": [],
+      "description": "Keep the frame pointer in leaf functions."
+    },
+    {
+      "gcc_version": "5.3.0",
+      "name": "-mtls-dialect",
+      "range": [
+        "desc",
+        "traditional"
+      ],
+      "description": "Use traditional TLS / TLS descriptors as the thread-local storage mechanism for dynamic accesses of TLS variables."
+    },
+    {
+      "gcc_version": "5.3.0",
+      "name": "-mfix-cortex-a53-835769",
+      "range": [],
+      "description": "Enable the workaround for the ARM Cortex-A53 erratum number 835769."
+    },
+    {
+      "gcc_version": "5.3.0",
+      "name": "-mno-fix-cortex-a53-835769",
+      "range": [],
+      "description": "Disable the workaround for the ARM Cortex-A53 erratum number 835769."
+    },
+    {
+      "gcc_version": "5.3.0",
+      "name": "-mfix-cortex-a53-843419",
+      "range": [],
+      "description": "Enable the workaround for the ARM Cortex-A53 erratum number 843419."
+    },
+    {
+      "gcc_version": "5.3.0",
+      "name": "-mno-fix-cortex-a53-843419",
+      "range": [],
+      "description": "Disable the workaround for the ARM Cortex-A53 erratum number 843419."
+    },
+    {
+      "gcc_version": "5.3.0",
+      "name": "-march",
+      "range": [
+        "armv8-a",
+        "crc",
+        "crypto",
+        "fp",
+        "simd"
+      ],
+      "description": "Specify the name of the target architecture, optionally suffixed by one or more feature modifiers."
+    },
+    {
+      "gcc_version": "5.3.0",
+      "name": "-mtune",
+      "range": [
+        "generic",
+        "cortex-a53",
+        "cortex-a57",
+        "cortex-a72",
+        "exynos-m1",
+        "thunderx",
+        "xgene1",
+        "cortex-a57.cortex-a53",
+        "cortex-a72.cortex-a53"
+      ],
+      "description": "Specify the name of the target processor for which GCC should tune the performance of the code."
+    },
+    {
+      "gcc_version": "5.3.0",
+      "name": "-mcpu",
+      "range": [
+        "generic",
+        "cortex-a53",
+        "cortex-a57",
+        "cortex-a72",
+        "exynos-m1",
+        "thunderx",
+        "xgene1",
+        "cortex-a57.cortex-a53",
+        "cortex-a72.cortex-a53",
+        "crc",
+        "crypto",
+        "fp",
+        "simd"
+      ],
+      "description": "Specify the name of the target processor, optionally suffixed by one or more feature modifiers."
+    },
+    {
+      "gcc_version": "5.4.0",
+      "name": "-mabi",
+      "range": [
+        "ilp32",
+        "lp64"
+      ],
+      "description": "Generate code for the specified data model."
+    },
+    {
+      "gcc_version": "5.4.0",
+      "name": "-mbig-endian",
+      "range": [],
+      "description": "Generate big-endian code."
+    },
+    {
+      "gcc_version": "5.4.0",
+      "name": "-mgeneral-regs-only",
+      "range": [],
+      "description": "Generate code which uses only the general registers."
+    },
+    {
+      "gcc_version": "5.4.0",
+      "name": "-mlittle-endian",
+      "range": [],
+      "description": "Generate little-endian code."
+    },
+    {
+      "gcc_version": "5.4.0",
+      "name": "-mcmodel",
+      "range": [
+        "tiny",
+        "small",
+        "large"
+      ],
+      "description": "Generate code for the tiny, 'small', 'large' code model."
+    },
+    {
+      "gcc_version": "5.4.0",
+      "name": "-mstrict-align",
+      "range": [],
+      "description": "Do not assume that unaligned memory references are handled by the system."
+    },
+    {
+      "gcc_version": "5.4.0",
+      "name": "-momit-leaf-frame-pointer",
+      "range": [],
+      "description": "Omit the frame pointer in leaf functions."
+    },
+    {
+      "gcc_version": "5.4.0",
+      "name": "-mno-omit-leaf-frame-pointer",
+      "range": [],
+      "description": "Keep the frame pointer in leaf functions."
+    },
+    {
+      "gcc_version": "5.4.0",
+      "name": "-mtls-dialect",
+      "range": [
+        "desc",
+        "traditional"
+      ],
+      "description": "Use traditional TLS / TLS descriptors as the thread-local storage mechanism for dynamic accesses of TLS variables."
+    },
+    {
+      "gcc_version": "5.4.0",
+      "name": "-mfix-cortex-a53-835769",
+      "range": [],
+      "description": "Enable the workaround for the ARM Cortex-A53 erratum number 835769."
+    },
+    {
+      "gcc_version": "5.4.0",
+      "name": "-mno-fix-cortex-a53-835769",
+      "range": [],
+      "description": "Disable the workaround for the ARM Cortex-A53 erratum number 835769."
+    },
+    {
+      "gcc_version": "5.4.0",
+      "name": "-mfix-cortex-a53-843419",
+      "range": [],
+      "description": "Enable the workaround for the ARM Cortex-A53 erratum number 843419."
+    },
+    {
+      "gcc_version": "5.4.0",
+      "name": "-mno-fix-cortex-a53-843419",
+      "range": [],
+      "description": "Disable the workaround for the ARM Cortex-A53 erratum number 843419."
+    },
+    {
+      "gcc_version": "5.4.0",
+      "name": "-march",
+      "range": [
+        "armv8-a",
+        "crc",
+        "crypto",
+        "fp",
+        "simd"
+      ],
+      "description": "Specify the name of the target architecture, optionally suffixed by one or more feature modifiers."
+    },
+    {
+      "gcc_version": "5.4.0",
+      "name": "-mtune",
+      "range": [
+        "generic",
+        "cortex-a53",
+        "cortex-a57",
+        "cortex-a72",
+        "exynos-m1",
+        "thunderx",
+        "xgene1",
+        "cortex-a57.cortex-a53",
+        "cortex-a72.cortex-a53"
+      ],
+      "description": "Specify the name of the target processor for which GCC should tune the performance of the code."
+    },
+    {
+      "gcc_version": "5.4.0",
+      "name": "-mcpu",
+      "range": [
+        "crc",
+        "crypto",
+        "fp",
+        "simd"
+      ],
+      "description": "Specify the name of the target processor, optionally suffixed by one or more feature modifiers."
+    },
+    {
+      "gcc_version": "5.5.0",
+      "name": "-mabi",
+      "range": [
+        "ilp32",
+        "lp64"
+      ],
+      "description": "Generate code for the specified data model."
+    },
+    {
+      "gcc_version": "5.5.0",
+      "name": "-mbig-endian",
+      "range": [],
+      "description": "Generate big-endian code."
+    },
+    {
+      "gcc_version": "5.5.0",
+      "name": "-mgeneral-regs-only",
+      "range": [],
+      "description": "Generate code which uses only the general registers."
+    },
+    {
+      "gcc_version": "5.5.0",
+      "name": "-mlittle-endian",
+      "range": [],
+      "description": "Generate little-endian code."
+    },
+    {
+      "gcc_version": "5.5.0",
+      "name": "-mcmodel",
+      "range": [
+        "tiny",
+        "small",
+        "large"
+      ],
+      "description": "Generate code for the tiny, small, large code model."
+    },
+    {
+      "gcc_version": "5.5.0",
+      "name": "-mstrict-align",
+      "range": [],
+      "description": "Do not assume that unaligned memory references are handled by the system."
+    },
+    {
+      "gcc_version": "5.5.0",
+      "name": "-momit-leaf-frame-pointer",
+      "range": [],
+      "description": "Omit the frame pointer in leaf functions."
+    },
+    {
+      "gcc_version": "5.5.0",
+      "name": "-mno-omit-leaf-frame-pointer",
+      "range": [],
+      "description": "Keep the frame pointer in leaf functions."
+    },
+    {
+      "gcc_version": "5.5.0",
+      "name": "-mtls-dialect",
+      "range": [
+        "desc",
+        "traditional"
+      ],
+      "description": "Use traditional TLS / TLS descriptors as the thread-local storage mechanism for dynamic accesses of TLS variables."
+    },
+    {
+      "gcc_version": "5.5.0",
+      "name": "-mfix-cortex-a53-835769",
+      "range": [],
+      "description": "Enable the workaround for the ARM Cortex-A53 erratum number 835769."
+    },
+    {
+      "gcc_version": "5.5.0",
+      "name": "-mno-fix-cortex-a53-835769",
+      "range": [],
+      "description": "Disable the workaround for the ARM Cortex-A53 erratum number 835769."
+    },
+    {
+      "gcc_version": "5.5.0",
+      "name": "-mfix-cortex-a53-843419",
+      "range": [],
+      "description": "Enable the workaround for the ARM Cortex-A53 erratum number 843419."
+    },
+    {
+      "gcc_version": "5.5.0",
+      "name": "-mno-fix-cortex-a53-843419",
+      "range": [],
+      "description": "Disable the workaround for the ARM Cortex-A53 erratum number 843419."
+    },
+    {
+      "gcc_version": "5.5.0",
+      "name": "-march",
+      "range": [
+        "armv8-a",
+        "crc",
+        "crypto",
+        "fp",
+        "simd"
+      ],
+      "description": "Specify the name of the target architecture, optionally suffixed by one or more feature modifiers."
+    },
+    {
+      "gcc_version": "5.5.0",
+      "name": "-mtune",
+      "range": [
+        "generic",
+        "cortex-a53",
+        "cortex-a57",
+        "cortex-a72",
+        "exynos-m1",
+        "thunderx",
+        "xgene1",
+        "cortex-a57.cortex-a53",
+        "cortex-a72.cortex-a53"
+      ],
+      "description": "Specify the name of the target processor for which GCC should tune the performance of the code."
+    },
+    {
+      "gcc_version": "5.5.0",
+      "name": "-mcpu",
+      "range": [
+        "generic",
+        "cortex-a53",
+        "cortex-a57",
+        "cortex-a72",
+        "exynos-m1",
+        "thunderx",
+        "xgene1",
+        "cortex-a57.cortex-a53",
+        "cortex-a72.cortex-a53",
+        "crc",
+        "crypto",
+        "fp",
+        "simd"
+      ],
+      "description": "Specify the name of the target processor, optionally suffixed by one or more feature modifiers."
+    },
+    {
+      "gcc_version": "6.1.0",
+      "name": "-mabi",
+      "range": [
+        "ilp32",
+        "lp64"
+      ],
+      "description": "Generate code for the specified data model."
+    },
+    {
+      "gcc_version": "6.1.0",
+      "name": "-mbig-endian",
+      "range": [],
+      "description": "Generate big-endian code."
+    },
+    {
+      "gcc_version": "6.1.0",
+      "name": "-mgeneral-regs-only",
+      "range": [],
+      "description": "Generate code which uses only the general-purpose registers."
+    },
+    {
+      "gcc_version": "6.1.0",
+      "name": "-mlittle-endian",
+      "range": [],
+      "description": "Generate little-endian code."
+    },
+    {
+      "gcc_version": "6.1.0",
+      "name": "-mcmodel",
+      "range": [
+        "tiny",
+        "small",
+        "large"
+      ],
+      "description": "Generate code for the tiny, small, large code model."
+    },
+    {
+      "gcc_version": "6.1.0",
+      "name": "-mstrict-align",
+      "range": [],
+      "description": "Do not assume that unaligned memory references are handled by the system."
+    },
+    {
+      "gcc_version": "6.1.0",
+      "name": "-momit-leaf-frame-pointer",
+      "range": [],
+      "description": "Omit the frame pointer in leaf functions."
+    },
+    {
+      "gcc_version": "6.1.0",
+      "name": "-mno-omit-leaf-frame-pointer",
+      "range": [],
+      "description": "Keep the frame pointer in leaf functions."
+    },
+    {
+      "gcc_version": "6.1.0",
+      "name": "-mtls-dialect",
+      "range": [
+        "desc",
+        "traditional"
+      ],
+      "description": "Use traditional TLS / TLS descriptors as the thread-local storage mechanism for dynamic accesses of TLS variables."
+    },
+    {
+      "gcc_version": "6.1.0",
+      "name": "-mtls-size",
+      "range": [
+        "12",
+        "24",
+        "32",
+        "48"
+      ],
+      "description": "Specify bit size of immediate TLS offsets."
+    },
+    {
+      "gcc_version": "6.1.0",
+      "name": "-mfix-cortex-a53-835769",
+      "range": [],
+      "description": "Enable the workaround for the ARM Cortex-A53 erratum number 835769."
+    },
+    {
+      "gcc_version": "6.1.0",
+      "name": "-mno-fix-cortex-a53-835769",
+      "range": [],
+      "description": "Disable the workaround for the ARM Cortex-A53 erratum number 835769."
+    },
+    {
+      "gcc_version": "6.1.0",
+      "name": "-mfix-cortex-a53-843419",
+      "range": [],
+      "description": "Enable the workaround for the ARM Cortex-A53 erratum number 843419."
+    },
+    {
+      "gcc_version": "6.1.0",
+      "name": "-mno-fix-cortex-a53-843419",
+      "range": [],
+      "description": "Disable the workaround for the ARM Cortex-A53 erratum number 843419."
+    },
+    {
+      "gcc_version": "6.1.0",
+      "name": "-mlow-precision-recip-sqrt",
+      "range": [],
+      "description": "When calculating the reciprocal square root approximation, uses one less step than otherwise, thus reducing latency and precision."
+    },
+    {
+      "gcc_version": "6.1.0",
+      "name": "-mno-low-precision-recip-sqrt",
+      "range": [],
+      "description": "When calculating the reciprocal square root approximation, uses one less step than otherwise, thus reducing latency and precision."
+    },
+    {
+      "gcc_version": "6.1.0",
+      "name": "-march",
+      "range": [
+        "armv8-a",
+        "armv8.1-a",
+        "native",
+        "crc",
+        "crypto",
+        "fp",
+        "simd",
+        "lse"
+      ],
+      "description": "Specify the name of the target architecture and, optionally, one or more feature modifiers."
+    },
+    {
+      "gcc_version": "6.1.0",
+      "name": "-mtune",
+      "range": [
+        "generic",
+        "cortex-a35",
+        "cortex-a53",
+        "cortex-a57",
+        "cortex-a72",
+        "exynos-m1",
+        "qdf24xx",
+        "thunderx",
+        "xgene1",
+        "cortex-a57.cortex-a53",
+        "cortex-a72.cortex-a53",
+        "native"
+      ],
+      "description": "Specify the name of the target processor for which GCC should tune the performance of the code."
+    },
+    {
+      "gcc_version": "6.1.0",
+      "name": "-mcpu",
+      "range": [
+        "generic",
+        "cortex-a35",
+        "cortex-a53",
+        "cortex-a57",
+        "cortex-a72",
+        "exynos-m1",
+        "qdf24xx",
+        "thunderx",
+        "xgene1",
+        "cortex-a57.cortex-a53",
+        "cortex-a72.cortex-a53",
+        "native",
+        "crc",
+        "crypto",
+        "fp",
+        "simd",
+        "lse"
+      ],
+      "description": "Specify the name of the target processor, optionally suffixed by one or more feature modifiers."
+    },
+    {
+      "gcc_version": "6.1.0",
+      "name": "-moverride",
+      "range": [],
+      "description": "Override tuning decisions made by the back-end in response to a -mtune= switch."
+    },
+    {
+      "gcc_version": "6.1.0",
+      "name": "-mpc-relative-literal-loads",
+      "range": [],
+      "description": "Enable PC relative literal loads."
+    },
+    {
+      "gcc_version": "6.2.0",
+      "name": "-mabi",
+      "range": [
+        "ilp32",
+        "lp64"
+      ],
+      "description": "Generate code for the specified data model."
+    },
+    {
+      "gcc_version": "6.2.0",
+      "name": "-mbig-endian",
+      "range": [],
+      "description": "Generate big-endian code."
+    },
+    {
+      "gcc_version": "6.2.0",
+      "name": "-mgeneral-regs-only",
+      "range": [],
+      "description": "Generate code which uses only the general-purpose registers."
+    },
+    {
+      "gcc_version": "6.2.0",
+      "name": "-mlittle-endian",
+      "range": [],
+      "description": "Generate little-endian code."
+    },
+    {
+      "gcc_version": "6.2.0",
+      "name": "-mcmodel",
+      "range": [
+        "tiny",
+        "small",
+        "large"
+      ],
+      "description": "Generate code for the tiny, small, large code model."
+    },
+    {
+      "gcc_version": "6.2.0",
+      "name": "-mstrict-align",
+      "range": [],
+      "description": "Do not assume that unaligned memory references are handled by the system."
+    },
+    {
+      "gcc_version": "6.2.0",
+      "name": "-momit-leaf-frame-pointer",
+      "range": [],
+      "description": "Omit the frame pointer in leaf functions."
+    },
+    {
+      "gcc_version": "6.2.0",
+      "name": "-mno-omit-leaf-frame-pointer",
+      "range": [],
+      "description": "Keep the frame pointer in leaf functions."
+    },
+    {
+      "gcc_version": "6.2.0",
+      "name": "-mtls-dialect",
+      "range": [
+        "desc",
+        "traditional"
+      ],
+      "description": "Use traditional TLS / TLS descriptors as the thread-local storage mechanism for dynamic accesses of TLS variables."
+    },
+    {
+      "gcc_version": "6.2.0",
+      "name": "-mtls-size",
+      "range": [
+        "12",
+        "24",
+        "32",
+        "48"
+      ],
+      "description": "Specify bit size of immediate TLS offsets."
+    },
+    {
+      "gcc_version": "6.2.0",
+      "name": "-mfix-cortex-a53-835769",
+      "range": [],
+      "description": "Enable the workaround for the ARM Cortex-A53 erratum number 835769."
+    },
+    {
+      "gcc_version": "6.2.0",
+      "name": "-mno-fix-cortex-a53-835769",
+      "range": [],
+      "description": "Disable the workaround for the ARM Cortex-A53 erratum number 835769."
+    },
+    {
+      "gcc_version": "6.2.0",
+      "name": "-mfix-cortex-a53-843419",
+      "range": [],
+      "description": "Enable the workaround for the ARM Cortex-A53 erratum number 843419."
+    },
+    {
+      "gcc_version": "6.2.0",
+      "name": "-mno-fix-cortex-a53-843419",
+      "range": [],
+      "description": "Disable the workaround for the ARM Cortex-A53 erratum number 843419."
+    },
+    {
+      "gcc_version": "6.2.0",
+      "name": "-mlow-precision-recip-sqrt",
+      "range": [],
+      "description": "When calculating the reciprocal square root approximation, uses one less step than otherwise, thus reducing latency and precision."
+    },
+    {
+      "gcc_version": "6.2.0",
+      "name": "-mno-low-precision-recip-sqrt",
+      "range": [],
+      "description": "When calculating the reciprocal square root approximation, uses one less step than otherwise, thus reducing latency and precision."
+    },
+    {
+      "gcc_version": "6.2.0",
+      "name": "-march",
+      "range": [
+        "armv8-a",
+        "armv8.1-a",
+        "native",
+        "crc",
+        "crypto",
+        "fp",
+        "simd",
+        "lse"
+      ],
+      "description": "Specify the name of the target architecture and, optionally, one or more feature modifiers."
+    },
+    {
+      "gcc_version": "6.2.0",
+      "name": "-mtune",
+      "range": [
+        "generic",
+        "cortex-a35",
+        "cortex-a53",
+        "cortex-a57",
+        "cortex-a72",
+        "exynos-m1",
+        "qdf24xx",
+        "thunderx",
+        "xgene1",
+        "cortex-a57.cortex-a53",
+        "cortex-a72.cortex-a53",
+        "native"
+      ],
+      "description": "Specify the name of the target processor for which GCC should tune the performance of the code."
+    },
+    {
+      "gcc_version": "6.2.0",
+      "name": "-mcpu",
+      "range": [
+        "generic",
+        "cortex-a35",
+        "cortex-a53",
+        "cortex-a57",
+        "cortex-a72",
+        "exynos-m1",
+        "qdf24xx",
+        "thunderx",
+        "xgene1",
+        "cortex-a57.cortex-a53",
+        "cortex-a72.cortex-a53",
+        "native",
+        "crc",
+        "crypto",
+        "fp",
+        "simd",
+        "lse"
+      ],
+      "description": "Specify the name of the target processor, optionally suffixed by one or more feature modifiers."
+    },
+    {
+      "gcc_version": "6.2.0",
+      "name": "-moverride",
+      "range": [],
+      "description": "Override tuning decisions made by the back-end in response to a -mtune= switch."
+    },
+    {
+      "gcc_version": "6.2.0",
+      "name": "-mpc-relative-literal-loads",
+      "range": [],
+      "description": "Enable PC relative literal loads."
+    },
+    {
+      "gcc_version": "6.3.0",
+      "name": "-mabi",
+      "range": [
+        "ilp32",
+        "lp64"
+      ],
+      "description": "Generate code for the specified data model."
+    },
+    {
+      "gcc_version": "6.3.0",
+      "name": "-mbig-endian",
+      "range": [],
+      "description": "Generate big-endian code."
+    },
+    {
+      "gcc_version": "6.3.0",
+      "name": "-mgeneral-regs-only",
+      "range": [],
+      "description": "Generate code which uses only the general-purpose registers."
+    },
+    {
+      "gcc_version": "6.3.0",
+      "name": "-mlittle-endian",
+      "range": [],
+      "description": "Generate little-endian code."
+    },
+    {
+      "gcc_version": "6.3.0",
+      "name": "-mcmodel",
+      "range": [
+        "tiny",
+        "small",
+        "large"
+      ],
+      "description": "Generate code for the 'tiny', 'small' or 'large' code model."
+    },
+    {
+      "gcc_version": "6.3.0",
+      "name": "-mstrict-align",
+      "range": [],
+      "description": "Do not assume that unaligned memory references are handled by the system."
+    },
+    {
+      "gcc_version": "6.3.0",
+      "name": "-momit-leaf-frame-pointer",
+      "range": []
+    },
+    {
+      "gcc_version": "6.3.0",
+      "name": "-mno-omit-leaf-frame-pointer",
+      "range": [],
+      "description": "Omit or keep the frame pointer in leaf functions."
+    },
+    {
+      "gcc_version": "6.3.0",
+      "name": "-mtls-dialect",
+      "range": [],
+      "description": "Use TLS descriptors as the thread-local storage mechanism for dynamic accesses of TLS variables."
+    },
+    {
+      "gcc_version": "6.3.0",
+      "name": "-mtls-dialect",
+      "range": [],
+      "description": "Use traditional TLS as the thread-local storage mechanism for dynamic accesses of TLS variables."
+    },
+    {
+      "gcc_version": "6.3.0",
+      "name": "-mtls-size",
+      "range": [
+        "12",
+        "24",
+        "32",
+        "48"
+      ],
+      "description": "Specify bit size of immediate TLS offsets."
+    },
+    {
+      "gcc_version": "6.3.0",
+      "name": "-mfix-cortex-a53-835769",
+      "range": []
+    },
+    {
+      "gcc_version": "6.3.0",
+      "name": "-mno-fix-cortex-a53-835769",
+      "range": [],
+      "description": "Enable or disable the workaround for the ARM Cortex-A53 erratum number 835769."
+    },
+    {
+      "gcc_version": "6.3.0",
+      "name": "-mfix-cortex-a53-843419",
+      "range": []
+    },
+    {
+      "gcc_version": "6.3.0",
+      "name": "-mno-fix-cortex-a53-843419",
+      "range": [],
+      "description": "Enable or disable the workaround for the ARM Cortex-A53 erratum number 843419."
+    },
+    {
+      "gcc_version": "6.3.0",
+      "name": "-mlow-precision-recip-sqrt",
+      "range": []
+    },
+    {
+      "gcc_version": "6.3.0",
+      "name": "-mno-low-precision-recip-sqrt",
+      "range": [],
+      "description": "When calculating the reciprocal square root approximation, uses one less step than otherwise, thus reducing latency and precision."
+    },
+    {
+      "gcc_version": "6.3.0",
+      "name": "-march",
+      "range": [
+        "armv8-a",
+        "armv8.1-1",
+        "native"
+      ],
+      "description": "Specify the name of the target architecture and, optionally, one or more feature modifiers."
+    },
+    {
+      "gcc_version": "6.3.0",
+      "name": "-mtune",
+      "range": [
+        "generic",
+        "cortex-a35",
+        "cortex-a53",
+        "cortex-a57",
+        "cortex-a72",
+        "exynos-m1",
+        "qdf24xx",
+        "thunderx",
+        "xgene1",
+        "cortex-a57.cortex-a53",
+        "cortex-a72.cortex-a53",
+        "native"
+      ],
+      "description": "Specify the name of the target processor for which GCC should tune the performance of the code."
+    },
+    {
+      "gcc_version": "6.3.0",
+      "name": "-mcpu",
+      "range": [
+        "generic",
+        "cortex-a35",
+        "cortex-a53",
+        "cortex-a57",
+        "cortex-a72",
+        "exynos-m1",
+        "qdf24xx",
+        "thunderx",
+        "xgene1",
+        "cortex-a57.cortex-a53",
+        "cortex-a72.cortex-a53",
+        "native"
+      ],
+      "description": "Specify the name of the target processor, optionally suffixed by one or more feature modifiers."
+    },
+    {
+      "gcc_version": "6.3.0",
+      "name": "-moverride",
+      "range": [],
+      "description": "Override tuning decisions made by the back-end in response to a -mtune= switch."
+    },
+    {
+      "gcc_version": "6.3.0",
+      "name": "-mpc-relative-literal-loads",
+      "range": [
+        "crc",
+        "crypto",
+        "fp",
+        "simd",
+        "lse"
+      ],
+      "description": "Enable PC relative literal loads."
+    },
+    {
+      "gcc_version": "6.4.0",
+      "name": "-mabi",
+      "range": [
+        "ilp32",
+        "lp64"
+      ],
+      "description": "Generate code for the specified data model."
+    },
+    {
+      "gcc_version": "6.4.0",
+      "name": "-mbig-endian",
+      "range": [],
+      "description": "Generate big-endian code."
+    },
+    {
+      "gcc_version": "6.4.0",
+      "name": "-mgeneral-regs-only",
+      "range": [],
+      "description": "Generate code which uses only the general-purpose registers."
+    },
+    {
+      "gcc_version": "6.4.0",
+      "name": "-mlittle-endian",
+      "range": [],
+      "description": "Generate little-endian code."
+    },
+    {
+      "gcc_version": "6.4.0",
+      "name": "-mcmodel",
+      "range": [
+        "tiny",
+        "small",
+        "large"
+      ],
+      "description": "Generate code for the tiny, small, large code model."
+    },
+    {
+      "gcc_version": "6.4.0",
+      "name": "-mstrict-align",
+      "range": [],
+      "description": "Do not assume that unaligned memory references are handled by the system."
+    },
+    {
+      "gcc_version": "6.4.0",
+      "name": "-momit-leaf-frame-pointer",
+      "range": [],
+      "description": "Omit the frame pointer in leaf functions."
+    },
+    {
+      "gcc_version": "6.4.0",
+      "name": "-mno-omit-leaf-frame-pointer",
+      "range": [],
+      "description": "Keep the frame pointer in leaf functions."
+    },
+    {
+      "gcc_version": "6.4.0",
+      "name": "-mtls-dialect",
+      "range": [
+        "desc",
+        "traditional"
+      ],
+      "description": "Use traditional TLS / TLS descriptors as the thread-local storage mechanism for dynamic accesses of TLS variables."
+    },
+    {
+      "gcc_version": "6.4.0",
+      "name": "-mtls-size",
+      "range": [
+        "12",
+        "24",
+        "32",
+        "48"
+      ]
+    },
+    {
+      "gcc_version": "6.4.0",
+      "name": "-mfix-cortex-a53-835769",
+      "range": [],
+      "description": "Enable the workaround for the ARM Cortex-A53 erratum number 835769."
+    },
+    {
+      "gcc_version": "6.4.0",
+      "name": "-mno-fix-cortex-a53-835769",
+      "range": [],
+      "description": "Disable the workaround for the ARM Cortex-A53 erratum number 835769."
+    },
+    {
+      "gcc_version": "6.4.0",
+      "name": "-mfix-cortex-a53-843419",
+      "range": [],
+      "description": "Enable the workaround for the ARM Cortex-A53 erratum number 843419."
+    },
+    {
+      "gcc_version": "6.4.0",
+      "name": "-mno-fix-cortex-a53-843419",
+      "range": [],
+      "description": "Disable the workaround for the ARM Cortex-A53 erratum number 843419."
+    },
+    {
+      "gcc_version": "6.4.0",
+      "name": "-mlow-precision-recip-sqrt",
+      "range": [],
+      "description": "When calculating the reciprocal square root approximation, uses one less step than otherwise, thus reducing latency and precision."
+    },
+    {
+      "gcc_version": "6.4.0",
+      "name": "-mno-low-precision-recip-sqrt",
+      "range": [],
+      "description": "When calculating the reciprocal square root approximation, uses one less step than otherwise, thus reducing latency and precision."
+    },
+    {
+      "gcc_version": "6.4.0",
+      "name": "-march",
+      "range": [
+        "armv8-a",
+        "armv8.1-a",
+        "native",
+        "crc",
+        "crypto",
+        "fp",
+        "simd",
+        "lse"
+      ],
+      "description": "Specify the name of the target architecture and, optionally, one or more feature modifiers."
+    },
+    {
+      "gcc_version": "6.4.0",
+      "name": "-mtune",
+      "range": [
+        "generic",
+        "cortex-a35",
+        "cortex-a53",
+        "cortex-a57",
+        "cortex-a72",
+        "exynos-m1",
+        "qdf24xx",
+        "thunderx",
+        "xgene1"
+      ],
+      "description": "Specify the name of the target processor for which GCC should tune the performance of the code."
+    },
+    {
+      "gcc_version": "6.4.0",
+      "name": "-mcpu",
+      "range": [
+        "generic",
+        "cortex-a35",
+        "cortex-a53",
+        "cortex-a57",
+        "cortex-a72",
+        "exynos-m1",
+        "qdf24xx",
+        "thunderx",
+        "xgene1",
+        "native",
+        "crc",
+        "crypto",
+        "fp",
+        "simd",
+        "lse"
+      ],
+      "description": "Specify the name of the target processor, optionally suffixed by one or more feature modifiers."
+    },
+    {
+      "gcc_version": "6.4.0",
+      "name": "-moverride",
+      "range": [],
+      "description": "Override tuning decisions made by the back-end in response to a -mtune= switch."
+    },
+    {
+      "gcc_version": "6.4.0",
+      "name": "-mpc-relative-literal-loads",
+      "range": [],
+      "description": "Enable PC relative literal loads."
+    },
+    {
+      "gcc_version": "6.5.0",
+      "name": "-mabi",
+      "range": [
+        "ilp32",
+        "lp64"
+      ],
+      "description": "Generate code for the specified data model."
+    },
+    {
+      "gcc_version": "6.5.0",
+      "name": "-mbig-endian",
+      "range": [],
+      "description": "Generate big-endian code."
+    },
+    {
+      "gcc_version": "6.5.0",
+      "name": "-mgeneral-regs-only",
+      "range": [],
+      "description": "Generate code which uses only the general-purpose registers."
+    },
+    {
+      "gcc_version": "6.5.0",
+      "name": "-mlittle-endian",
+      "range": [],
+      "description": "Generate little-endian code."
+    },
+    {
+      "gcc_version": "6.5.0",
+      "name": "-mcmodel",
+      "range": [
+        "tiny",
+        "small",
+        "large"
+      ],
+      "description": "Generate code for the tiny, small, large code model."
+    },
+    {
+      "gcc_version": "6.5.0",
+      "name": "-mstrict-align",
+      "range": [],
+      "description": "Do not assume that unaligned memory references are handled by the system."
+    },
+    {
+      "gcc_version": "6.5.0",
+      "name": "-momit-leaf-frame-pointer",
+      "range": [],
+      "description": "Omit the frame pointer in leaf functions."
+    },
+    {
+      "gcc_version": "6.5.0",
+      "name": "-mno-omit-leaf-frame-pointer",
+      "range": [],
+      "description": "Keep the frame pointer in leaf functions."
+    },
+    {
+      "gcc_version": "6.5.0",
+      "name": "-mtls-dialect",
+      "range": [
+        "desc",
+        "traditional"
+      ],
+      "description": "Use traditional TLS / TLS descriptors as the thread-local storage mechanism for dynamic accesses of TLS variables."
+    },
+    {
+      "gcc_version": "6.5.0",
+      "name": "-mtls-size",
+      "range": [
+        "12",
+        "24",
+        "32",
+        "48"
+      ],
+      "description": "Specify bit size of immediate TLS offsets."
+    },
+    {
+      "gcc_version": "6.5.0",
+      "name": "-mfix-cortex-a53-835769",
+      "range": [],
+      "description": "Enable the workaround for the ARM Cortex-A53 erratum number 835769."
+    },
+    {
+      "gcc_version": "6.5.0",
+      "name": "-mno-fix-cortex-a53-835769",
+      "range": [],
+      "description": "Disable the workaround for the ARM Cortex-A53 erratum number 835769."
+    },
+    {
+      "gcc_version": "6.5.0",
+      "name": "-mfix-cortex-a53-843419",
+      "range": [],
+      "description": "Enable the workaround for the ARM Cortex-A53 erratum number 843419."
+    },
+    {
+      "gcc_version": "6.5.0",
+      "name": "-mno-fix-cortex-a53-843419",
+      "range": [],
+      "description": "Disable the workaround for the ARM Cortex-A53 erratum number 843419."
+    },
+    {
+      "gcc_version": "6.5.0",
+      "name": "-mlow-precision-recip-sqrt",
+      "range": [],
+      "description": "When calculating the reciprocal square root approximation, uses one less step than otherwise, thus reducing latency and precision."
+    },
+    {
+      "gcc_version": "6.5.0",
+      "name": "-mno-low-precision-recip-sqrt",
+      "range": [],
+      "description": "When calculating the reciprocal square root approximation, uses one less step than otherwise, thus reducing latency and precision."
+    },
+    {
+      "gcc_version": "6.5.0",
+      "name": "-march",
+      "range": [
+        "armv8-a",
+        "armv8.1-a",
+        "native",
+        "crc",
+        "crypto",
+        "fp",
+        "simd",
+        "lse"
+      ],
+      "description": "Specify the name of the target architecture and, optionally, one or more feature modifiers."
+    },
+    {
+      "gcc_version": "6.5.0",
+      "name": "-mtune",
+      "range": [
+        "generic",
+        "cortex-a35",
+        "cortex-a53",
+        "cortex-a57",
+        "cortex-a72",
+        "exynos-m1",
+        "qdf24xx",
+        "thunderx",
+        "xgene1",
+        "cortex-a57.cortex-a53",
+        "cortex-a72.cortex-a53",
+        "native"
+      ],
+      "description": "Specify the name of the target processor for which GCC should tune the performance of the code."
+    },
+    {
+      "gcc_version": "6.5.0",
+      "name": "-mcpu",
+      "range": [
+        "generic",
+        "cortex-a35",
+        "cortex-a53",
+        "cortex-a57",
+        "cortex-a72",
+        "exynos-m1",
+        "qdf24xx",
+        "thunderx",
+        "xgene1",
+        "cortex-a57.cortex-a53",
+        "cortex-a72.cortex-a53",
+        "native",
+        "crc",
+        "crypto",
+        "fp",
+        "simd",
+        "lse"
+      ],
+      "description": "Specify the name of the target processor, optionally suffixed by one or more feature modifiers."
+    },
+    {
+      "gcc_version": "6.5.0",
+      "name": "-moverride",
+      "range": [],
+      "description": "Override tuning decisions made by the back-end in response to a -mtune= switch."
+    },
+    {
+      "gcc_version": "6.5.0",
+      "name": "-mpc-relative-literal-loads",
+      "range": [],
+      "description": "Enable PC relative literal loads."
+    },
+    {
+      "gcc_version": "7.1.0",
+      "name": "-mabi",
+      "range": [
+        "ilp32",
+        "lp64"
+      ],
+      "description": "Generate code for the specified data model."
+    },
+    {
+      "gcc_version": "7.1.0",
+      "name": "-mbig-endian",
+      "range": [],
+      "description": "Generate big-endian code."
+    },
+    {
+      "gcc_version": "7.1.0",
+      "name": "-mgeneral-regs-only",
+      "range": [],
+      "description": "Generate code which uses only the general-purpose registers."
+    },
+    {
+      "gcc_version": "7.1.0",
+      "name": "-mlittle-endian",
+      "range": [],
+      "description": "Generate little-endian code."
+    },
+    {
+      "gcc_version": "7.1.0",
+      "name": "-mcmodel",
+      "range": [
+        "tiny",
+        "small",
+        "large"
+      ],
+      "description": "Generate code for the tiny, small, large code model."
+    },
+    {
+      "gcc_version": "7.1.0",
+      "name": "-mstrict-align",
+      "range": [],
+      "description": "Avoid generating memory accesses that may not be aligned on a natural object boundary as described in the architecture specification."
+    },
+    {
+      "gcc_version": "7.1.0",
+      "name": "-momit-leaf-frame-pointer",
+      "range": [],
+      "description": "Omit the frame pointer in leaf functions."
+    },
+    {
+      "gcc_version": "7.1.0",
+      "name": "-mno-omit-leaf-frame-pointer",
+      "range": [],
+      "description": "Keep the frame pointer in leaf functions."
+    },
+    {
+      "gcc_version": "7.1.0",
+      "name": "-mtls-dialect",
+      "range": [
+        "desc",
+        "traditional"
+      ],
+      "description": "Use traditional TLS / TLS descriptors as the thread-local storage mechanism for dynamic accesses of TLS variables."
+    },
+    {
+      "gcc_version": "7.1.0",
+      "name": "-mtls-size",
+      "range": [
+        "12",
+        "24",
+        "32",
+        "48"
+      ],
+      "description": "Specify bit size of immediate TLS offsets."
+    },
+    {
+      "gcc_version": "7.1.0",
+      "name": "-mfix-cortex-a53-835769",
+      "range": [],
+      "description": "Enable the workaround for the ARM Cortex-A53 erratum number 835769."
+    },
+    {
+      "gcc_version": "7.1.0",
+      "name": "-mno-fix-cortex-a53-835769",
+      "range": [],
+      "description": "Disable the workaround for the ARM Cortex-A53 erratum number 835769."
+    },
+    {
+      "gcc_version": "7.1.0",
+      "name": "-mfix-cortex-a53-843419",
+      "range": [],
+      "description": "Enable the workaround for the ARM Cortex-A53 erratum number 843419."
+    },
+    {
+      "gcc_version": "7.1.0",
+      "name": "-mno-fix-cortex-a53-843419",
+      "range": [],
+      "description": "Disable the workaround for the ARM Cortex-A53 erratum number 843419."
+    },
+    {
+      "gcc_version": "7.1.0",
+      "name": "-mlow-precision-recip-sqrt",
+      "range": [],
+      "description": "Enable the reciprocal square root approximation."
+    },
+    {
+      "gcc_version": "7.1.0",
+      "name": "-mno-low-precision-recip-sqrt",
+      "range": [],
+      "description": "Disable the reciprocal square root approximation."
+    },
+    {
+      "gcc_version": "7.1.0",
+      "name": "-mlow-precision-sqrt",
+      "range": [],
+      "description": "Enable the square root approximation."
+    },
+    {
+      "gcc_version": "7.1.0",
+      "name": "-mno-low-precision-sqrt",
+      "range": [],
+      "description": "Disable the square root approximation."
+    },
+    {
+      "gcc_version": "7.1.0",
+      "name": "-mlow-precision-div",
+      "range": [],
+      "description": "Enable the division approximation."
+    },
+    {
+      "gcc_version": "7.1.0",
+      "name": "-mno-low-precision-div",
+      "range": [],
+      "description": "Disable the division approximation."
+    },
+    {
+      "gcc_version": "7.1.0",
+      "name": "-march",
+      "range": [
+        "armv8-a",
+        "armv8.1-a",
+        "armv8.2-a",
+        "armv8.3-a",
+        "native",
+        "crc",
+        "crypto",
+        "fp",
+        "simd",
+        "lse",
+        "fp16"
+      ],
+      "description": "Specify the name of the target architecture and, optionally, one or more feature modifiers."
+    },
+    {
+      "gcc_version": "7.1.0",
+      "name": "-mtune",
+      "range": [
+        "generic",
+        "cortex-a35",
+        "cortex-a53",
+        "cortex-a57",
+        "cortex-a72",
+        "cortex-a73",
+        "exynos-m1",
+        "falkor",
+        "qdf24xx",
+        "xgene1",
+        "vulcan",
+        "thunderx",
+        "thunderxt88",
+        "thunderxt88p1",
+        "thunderxt81",
+        "thunderxt83",
+        "thunderx2t99",
+        "cortex-a57.cortex-a53",
+        "cortex-a72.cortex-a53",
+        "cortex-a73.cortex-a35",
+        "cortex-a73.cortex-a53",
+        "native"
+      ],
+      "description": "Specify the name of the target processor for which GCC should tune the performance of the code."
+    },
+    {
+      "gcc_version": "7.1.0",
+      "name": "-mcpu",
+      "range": [
+        "generic",
+        "cortex-a35",
+        "cortex-a53",
+        "cortex-a57",
+        "cortex-a72",
+        "cortex-a73",
+        "exynos-m1",
+        "falkor",
+        "qdf24xx",
+        "xgene1",
+        "vulcan",
+        "thunderx",
+        "thunderxt88",
+        "thunderxt88p1",
+        "thunderxt81",
+        "thunderxt83",
+        "thunderx2t99",
+        "cortex-a57.cortex-a53",
+        "cortex-a72.cortex-a53",
+        "cortex-a73.cortex-a35",
+        "cortex-a73.cortex-a53",
+        "native",
+        "crc",
+        "crypto",
+        "fp",
+        "simd",
+        "lse",
+        "fp16"
+      ],
+      "description": "Specify the name of the target processor, optionally suffixed by one or more feature modifiers."
+    },
+    {
+      "gcc_version": "7.1.0",
+      "name": "-moverride",
+      "range": [],
+      "description": "Override tuning decisions made by the back-end in response to a -mtune= switch."
+    },
+    {
+      "gcc_version": "7.1.0",
+      "name": "-mpc-relative-literal-loads",
+      "range": [],
+      "description": "Enable PC-relative literal loads."
+    },
+    {
+      "gcc_version": "7.1.0",
+      "name": "-msign-return-address",
+      "range": [
+        "none",
+        "non-leaf",
+        "all"
+      ],
+      "description": "Select the function scope on which return address signing will be applied."
+    },
+    {
+      "gcc_version": "7.2.0",
+      "name": "-mabi",
+      "range": [
+        "ilp32",
+        "lp64"
+      ],
+      "description": "Generate code for the specified data model."
+    },
+    {
+      "gcc_version": "7.2.0",
+      "name": "-mbig-endian",
+      "range": [],
+      "description": "Generate big-endian code."
+    },
+    {
+      "gcc_version": "7.2.0",
+      "name": "-mgeneral-regs-only",
+      "range": [],
+      "description": "Generate code which uses only the general-purpose registers."
+    },
+    {
+      "gcc_version": "7.2.0",
+      "name": "-mlittle-endian",
+      "range": [],
+      "description": "Generate little-endian code."
+    },
+    {
+      "gcc_version": "7.2.0",
+      "name": "-mcmodel",
+      "range": [
+        "tiny",
+        "small",
+        "large"
+      ],
+      "description": "Generate code for the tiny, small, large code model."
+    },
+    {
+      "gcc_version": "7.2.0",
+      "name": "-mstrict-align",
+      "range": [],
+      "description": "Avoid generating memory accesses that may not be aligned on a natural object boundary as described in the architecture specification."
+    },
+    {
+      "gcc_version": "7.2.0",
+      "name": "-momit-leaf-frame-pointer",
+      "range": [],
+      "description": "Omit the frame pointer in leaf functions."
+    },
+    {
+      "gcc_version": "7.2.0",
+      "name": "-mno-omit-leaf-frame-pointer",
+      "range": [],
+      "description": "Keep the frame pointer in leaf functions."
+    },
+    {
+      "gcc_version": "7.2.0",
+      "name": "-mtls-dialect",
+      "range": [
+        "desc",
+        "traditional"
+      ],
+      "description": "Use traditional TLS / TLS descriptors as the thread-local storage mechanism for dynamic accesses of TLS variables."
+    },
+    {
+      "gcc_version": "7.2.0",
+      "name": "-mtls-size",
+      "range": [
+        "12",
+        "24",
+        "32",
+        "48"
+      ],
+      "description": "Specify bit size of immediate TLS offsets."
+    },
+    {
+      "gcc_version": "7.2.0",
+      "name": "-mfix-cortex-a53-835769",
+      "range": [],
+      "description": "Enable the workaround for the ARM Cortex-A53 erratum number 835769."
+    },
+    {
+      "gcc_version": "7.2.0",
+      "name": "-mno-fix-cortex-a53-835769",
+      "range": [],
+      "description": "Disable the workaround for the ARM Cortex-A53 erratum number 835769."
+    },
+    {
+      "gcc_version": "7.2.0",
+      "name": "-mfix-cortex-a53-843419",
+      "range": [],
+      "description": "Enable the workaround for the ARM Cortex-A53 erratum number 843419."
+    },
+    {
+      "gcc_version": "7.2.0",
+      "name": "-mno-fix-cortex-a53-843419",
+      "range": [],
+      "description": "Disable the workaround for the ARM Cortex-A53 erratum number 843419."
+    },
+    {
+      "gcc_version": "7.2.0",
+      "name": "-mlow-precision-recip-sqrt",
+      "range": [],
+      "description": "Enable the reciprocal square root approximation."
+    },
+    {
+      "gcc_version": "7.2.0",
+      "name": "-mno-low-precision-recip-sqrt",
+      "range": [],
+      "description": "Disable the reciprocal square root approximation."
+    },
+    {
+      "gcc_version": "7.2.0",
+      "name": "-mlow-precision-sqrt",
+      "range": [],
+      "description": "Enable the square root approximation."
+    },
+    {
+      "gcc_version": "7.2.0",
+      "name": "-mno-low-precision-sqrt",
+      "range": [],
+      "description": "Disable the square root approximation."
+    },
+    {
+      "gcc_version": "7.2.0",
+      "name": "-mlow-precision-div",
+      "range": [],
+      "description": "Enable the division approximation."
+    },
+    {
+      "gcc_version": "7.2.0",
+      "name": "-mno-low-precision-div",
+      "range": [],
+      "description": "Disable the division approximation."
+    },
+    {
+      "gcc_version": "7.2.0",
+      "name": "-march",
+      "range": [
+        "armv8-a",
+        "armv8.1-a",
+        "armv8.2-a",
+        "armv8.3-a",
+        "native",
+        "crc",
+        "crypto",
+        "fp",
+        "simd",
+        "lse",
+        "fp16"
+      ],
+      "description": "Specify the name of the target architecture and, optionally, one or more feature modifiers."
+    },
+    {
+      "gcc_version": "7.2.0",
+      "name": "-mtune",
+      "range": [
+        "generic",
+        "cortex-a35",
+        "cortex-a53",
+        "cortex-a57",
+        "cortex-a72",
+        "cortex-a73",
+        "exynos-m1",
+        "falkor",
+        "qdf24xx",
+        "xgene1",
+        "vulcan",
+        "thunderx",
+        "thunderxt88",
+        "thunderxt88p1",
+        "thunderxt81",
+        "thunderxt83",
+        "thunderx2t99",
+        "cortex-a57.cortex-a53",
+        "cortex-a72.cortex-a53",
+        "cortex-a73.cortex-a35",
+        "cortex-a73.cortex-a53",
+        "native"
+      ],
+      "description": "Specify the name of the target processor for which GCC should tune the performance of the code."
+    },
+    {
+      "gcc_version": "7.2.0",
+      "name": "-mcpu",
+      "range": [
+        "generic",
+        "cortex-a35",
+        "cortex-a53",
+        "cortex-a57",
+        "cortex-a72",
+        "cortex-a73",
+        "exynos-m1",
+        "falkor",
+        "qdf24xx",
+        "xgene1",
+        "vulcan",
+        "thunderx",
+        "thunderxt88",
+        "thunderxt88p1",
+        "thunderxt81",
+        "thunderxt83",
+        "thunderx2t99",
+        "cortex-a57.cortex-a53",
+        "cortex-a72.cortex-a53",
+        "cortex-a73.cortex-a35",
+        "cortex-a73.cortex-a53",
+        "native",
+        "crc",
+        "crypto",
+        "fp",
+        "simd",
+        "lse",
+        "fp16"
+      ],
+      "description": "Specify the name of the target processor, optionally suffixed by one or more feature modifiers."
+    },
+    {
+      "gcc_version": "7.2.0",
+      "name": "-moverride",
+      "range": [],
+      "description": "Override tuning decisions made by the back-end in response to a -mtune= switch."
+    },
+    {
+      "gcc_version": "7.2.0",
+      "name": "-mpc-relative-literal-loads",
+      "range": [],
+      "description": "Enable PC-relative literal loads."
+    },
+    {
+      "gcc_version": "7.2.0",
+      "name": "-msign-return-address",
+      "range": [
+        "none",
+        "non-leaf",
+        "all"
+      ],
+      "description": "Select the function scope on which return address signing will be applied."
+    },
+    {
+      "gcc_version": "7.3.0",
+      "name": "-mabi",
+      "range": [
+        "ilp32",
+        "lp32"
+      ],
+      "description": "Generate code for the specified data model."
+    },
+    {
+      "gcc_version": "7.3.0",
+      "name": "-mbig-endian",
+      "range": [],
+      "description": "Generate big-endian code."
+    },
+    {
+      "gcc_version": "7.3.0",
+      "name": "-mgeneral-regs-only",
+      "range": [],
+      "description": "Generate code which uses only the general-purpose registers."
+    },
+    {
+      "gcc_version": "7.3.0",
+      "name": "-mlittle-endian",
+      "range": [],
+      "description": "Generate little-endian code."
+    },
+    {
+      "gcc_version": "7.3.0",
+      "name": "-mcmodel",
+      "range": [
+        "tiny",
+        "small",
+        "large"
+      ],
+      "description": "Generate code for the 'tiny', 'small' or 'large' code model."
+    },
+    {
+      "gcc_version": "7.3.0",
+      "name": "-mstrict-align",
+      "range": [],
+      "description": "Avoid generating memory accesses that may not be aligned on a natural object boundary as described in the architecture specification."
+    },
+    {
+      "gcc_version": "7.3.0",
+      "name": "-momit-leaf-frame-pointer",
+      "range": [],
+      "description": "Omit or keep the frame pointer in leaf functions."
+    },
+    {
+      "gcc_version": "7.3.0",
+      "name": "-mno-omit-leaf-frame-pointer",
+      "range": [],
+      "description": "Omit or keep the frame pointer in leaf functions."
+    },
+    {
+      "gcc_version": "7.3.0",
+      "name": "-mtls-dialect",
+      "range": [
+        "desc",
+        "traditional"
+      ],
+      "description": "Use traditional TLS or TLS descriptors as the thread-local storage mechanism for dynamic accesses of TLS variables."
+    },
+    {
+      "gcc_version": "7.3.0",
+      "name": "-mtls-size",
+      "range": [],
+      "description": "Specify bit size of immediate TLS offsets. Valid values are 12, 24, 32, 48. This option requires binutils 2.26 or newer."
+    },
+    {
+      "gcc_version": "7.3.0",
+      "name": "-mfix-cortex-a53-835769",
+      "range": [],
+      "description": "Enable the workaround for the ARM Cortex-A53 erratum number 835769."
+    },
+    {
+      "gcc_version": "7.3.0",
+      "name": "-mno-fix-cortex-a53-835769",
+      "range": [],
+      "description": "Disable the workaround for the ARM Cortex-A53 erratum number 835769."
+    },
+    {
+      "gcc_version": "7.3.0",
+      "name": "-mfix-cortex-a53-843419",
+      "range": [],
+      "description": "Enable the workaround for the ARM Cortex-A53 erratum number 843419."
+    },
+    {
+      "gcc_version": "7.3.0",
+      "name": "-mno-fix-cortex-a53-843419",
+      "range": [],
+      "description": "Disable the workaround for the ARM Cortex-A53 erratum number 843419."
+    },
+    {
+      "gcc_version": "7.3.0",
+      "name": "-mlow-precision-recip-sqrt",
+      "range": [],
+      "description": "Enable the reciprocal square root approximation."
+    },
+    {
+      "gcc_version": "7.3.0",
+      "name": "-mno-low-precision-recip-sqrt",
+      "range": [],
+      "description": "Disable the reciprocal square root approximation."
+    },
+    {
+      "gcc_version": "7.3.0",
+      "name": "-mlow-precision-sqrt",
+      "range": [],
+      "description": "Enable the square root approximation."
+    },
+    {
+      "gcc_version": "7.3.0",
+      "name": "-mno-low-precision-sqrt",
+      "range": [],
+      "description": "Disable the square root approximation."
+    },
+    {
+      "gcc_version": "7.3.0",
+      "name": "-mlow-precision-div",
+      "range": [],
+      "description": "Enable the division approximation."
+    },
+    {
+      "gcc_version": "7.3.0",
+      "name": "-mno-low-precision-div",
+      "range": [],
+      "description": "Disable the division approximation."
+    },
+    {
+      "gcc_version": "7.3.0",
+      "name": "-march",
+      "range": [
+        "armv8-a",
+        "armv8.1-a",
+        "armv8.2-a",
+        "armv8.3-a",
+        "native"
+      ]
+    },
+    {
+      "gcc_version": "7.3.0",
+      "name": "-mtune",
+      "range": [
+        "generic",
+        "cortex-a35",
+        "cortex-a53",
+        "cortex-a57",
+        "cortex-a72",
+        "cortex-a73",
+        "exynos-m1",
+        "falkor",
+        "qdf24xx",
+        "xgene1",
+        "vulcan",
+        "thunderx",
+        "thunderxt88",
+        "thunderxt88p1",
+        "thunderxt81",
+        "thunderxt83",
+        "thunderx2t99",
+        "cortex-a57.cortex-a53",
+        "cortex-a72.cortex-a53",
+        "cortex-a73.cortex-a35",
+        "cortex-a73.cortex-a53",
+        "native"
+      ],
+      "description": "Specify the name of the target processor for which GCC should tune the performance of the code."
+    },
+    {
+      "gcc_version": "7.3.0",
+      "name": "-mcpu",
+      "range": [
+        "generic",
+        "cortex-a35",
+        "cortex-a53",
+        "cortex-a57",
+        "cortex-a72",
+        "cortex-a73",
+        "exynos-m1",
+        "falkor",
+        "qdf24xx",
+        "xgene1",
+        "vulcan",
+        "thunderx",
+        "thunderxt88",
+        "thunderxt88p1",
+        "thunderxt81",
+        "thunderxt83",
+        "thunderx2t99",
+        "cortex-a57.cortex-a53",
+        "cortex-a72.cortex-a53",
+        "cortex-a73.cortex-a35",
+        "cortex-a73.cortex-a53",
+        "native"
+      ],
+      "description": "Specify the name of the target processor, optionally suffixed by one or more feature modifiers."
+    },
+    {
+      "gcc_version": "7.3.0",
+      "name": "-moverride",
+      "range": [],
+      "description": "Override tuning decisions made by the back-end in response to a -mtune= switch."
+    },
+    {
+      "gcc_version": "7.3.0",
+      "name": "-mpc-relative-literal-loads",
+      "range": [],
+      "description": "Enable PC-relative literal loads."
+    },
+    {
+      "gcc_version": "7.3.0",
+      "name": "-msign-return-address",
+      "range": [
+        "none",
+        "none-leaf",
+        "all",
+        "crc",
+        "crypto",
+        "fp",
+        "simd",
+        "lse",
+        "fp16"
+      ],
+      "description": "Select the function scope on which return address signing will be applied."
+    },
+    {
+      "gcc_version": "7.4.0",
+      "name": "-mabi",
+      "range": [
+        "ilp32",
+        "lp64"
+      ],
+      "description": "Generate code for the specified data model."
+    },
+    {
+      "gcc_version": "7.4.0",
+      "name": "-mbig-endian",
+      "range": [],
+      "description": "Generate big-endian code."
+    },
+    {
+      "gcc_version": "7.4.0",
+      "name": "-mgeneral-regs-only",
+      "range": [],
+      "description": "Generate code which uses only the general-purpose registers."
+    },
+    {
+      "gcc_version": "7.4.0",
+      "name": "-mlittle-endian",
+      "range": [],
+      "description": "Generate little-endian code."
+    },
+    {
+      "gcc_version": "7.4.0",
+      "name": "-mcmodel",
+      "range": [
+        "tiny",
+        "small",
+        "large"
+      ],
+      "description": "Generate code for the tiny, small, large code model."
+    },
+    {
+      "gcc_version": "7.4.0",
+      "name": "-mstrict-align",
+      "range": [],
+      "description": "Avoid generating memory accesses that may not be aligned on a natural object boundary as described in the architecture specification."
+    },
+    {
+      "gcc_version": "7.4.0",
+      "name": "-momit-leaf-frame-pointer",
+      "range": [],
+      "description": "Omit the frame pointer in leaf functions."
+    },
+    {
+      "gcc_version": "7.4.0",
+      "name": "-mno-omit-leaf-frame-pointer",
+      "range": [],
+      "description": "Keep the frame pointer in leaf functions."
+    },
+    {
+      "gcc_version": "7.4.0",
+      "name": "-mtls-dialect",
+      "range": [
+        "desc",
+        "traditional"
+      ],
+      "description": "Use traditional TLS / TLS descriptors as the thread-local storage mechanism for dynamic accesses of TLS variables."
+    },
+    {
+      "gcc_version": "7.4.0",
+      "name": "-mtls-size",
+      "range": [
+        "12",
+        "24",
+        "32",
+        "48"
+      ],
+      "description": "Specify bit size of immediate TLS offsets."
+    },
+    {
+      "gcc_version": "7.4.0",
+      "name": "-mfix-cortex-a53-835769",
+      "range": [],
+      "description": "Enable the workaround for the ARM Cortex-A53 erratum number 835769."
+    },
+    {
+      "gcc_version": "7.4.0",
+      "name": "-mno-fix-cortex-a53-835769",
+      "range": [],
+      "description": "Disable the workaround for the ARM Cortex-A53 erratum number 835769."
+    },
+    {
+      "gcc_version": "7.4.0",
+      "name": "-mfix-cortex-a53-843419",
+      "range": [],
+      "description": "Enable the workaround for the ARM Cortex-A53 erratum number 843419."
+    },
+    {
+      "gcc_version": "7.4.0",
+      "name": "-mno-fix-cortex-a53-843419",
+      "range": [],
+      "description": "Disable the workaround for the ARM Cortex-A53 erratum number 843419."
+    },
+    {
+      "gcc_version": "7.4.0",
+      "name": "-mlow-precision-recip-sqrt",
+      "range": [],
+      "description": "Enable the reciprocal square root approximation."
+    },
+    {
+      "gcc_version": "7.4.0",
+      "name": "-mno-low-precision-recip-sqrt",
+      "range": [],
+      "description": "Disable the reciprocal square root approximation."
+    },
+    {
+      "gcc_version": "7.4.0",
+      "name": "-mlow-precision-sqrt",
+      "range": [],
+      "description": "Enable the square root approximation."
+    },
+    {
+      "gcc_version": "7.4.0",
+      "name": "-mno-low-precision-sqrt",
+      "range": [],
+      "description": "Disable the square root approximation."
+    },
+    {
+      "gcc_version": "7.4.0",
+      "name": "-mlow-precision-div",
+      "range": [],
+      "description": "Enable the division approximation."
+    },
+    {
+      "gcc_version": "7.4.0",
+      "name": "-mno-low-precision-div",
+      "range": [],
+      "description": "Disable the division approximation."
+    },
+    {
+      "gcc_version": "7.4.0",
+      "name": "-march",
+      "range": [
+        "armv8-a",
+        "armv8.1-a",
+        "armv8.2-a",
+        "armv8.3-a",
+        "native",
+        "crc",
+        "crypto",
+        "fp",
+        "simd",
+        "lse",
+        "fp16"
+      ],
+      "description": "Specify the name of the target architecture and, optionally, one or more feature modifiers."
+    },
+    {
+      "gcc_version": "7.4.0",
+      "name": "-mtune",
+      "range": [
+        "generic",
+        "cortex-a35",
+        "cortex-a53",
+        "cortex-a57",
+        "cortex-a72",
+        "cortex-a73",
+        "exynos-m1",
+        "falkor",
+        "qdf24xx",
+        "xgene1",
+        "vulcan",
+        "thunderx",
+        "thunderxt88",
+        "thunderxt88p1",
+        "thunderxt81",
+        "thunderxt83",
+        "thunderx2t99",
+        "cortex-a57.cortex-a53",
+        "cortex-a72.cortex-a53",
+        "cortex-a73.cortex-a35",
+        "cortex-a73.cortex-a53",
+        "native"
+      ],
+      "description": "Specify the name of the target processor for which GCC should tune the performance of the code."
+    },
+    {
+      "gcc_version": "7.4.0",
+      "name": "-mcpu",
+      "range": [
+        "generic",
+        "cortex-a35",
+        "cortex-a53",
+        "cortex-a57",
+        "cortex-a72",
+        "cortex-a73",
+        "exynos-m1",
+        "falkor",
+        "qdf24xx",
+        "xgene1",
+        "vulcan",
+        "thunderx",
+        "thunderxt88",
+        "thunderxt88p1",
+        "thunderxt81",
+        "thunderxt83",
+        "thunderx2t99",
+        "cortex-a57.cortex-a53",
+        "cortex-a72.cortex-a53",
+        "cortex-a73.cortex-a35",
+        "cortex-a73.cortex-a53",
+        "native",
+        "crc",
+        "crypto",
+        "fp",
+        "simd",
+        "lse",
+        "fp16"
+      ],
+      "description": "Specify the name of the target processor, optionally suffixed by one or more feature modifiers."
+    },
+    {
+      "gcc_version": "7.4.0",
+      "name": "-moverride",
+      "range": [],
+      "description": "Override tuning decisions made by the back-end in response to a -mtune= switch."
+    },
+    {
+      "gcc_version": "7.4.0",
+      "name": "-mpc-relative-literal-loads",
+      "range": [],
+      "description": "Enable PC-relative literal loads. With this option literal pools are accessed using a single instruction and emitted after each function."
+    },
+    {
+      "gcc_version": "7.4.0",
+      "name": "-msign-return-address",
+      "range": [
+        "none",
+        "non-leaf",
+        "all"
+      ],
+      "description": "Select the function scope on which return address signing will be applied."
+    },
+    {
+      "gcc_version": "8.1.0",
+      "name": "-mabi",
+      "range": [
+        "ilp32",
+        "lp64"
+      ],
+      "description": "Generate code for the specified data model."
+    },
+    {
+      "gcc_version": "8.1.0",
+      "name": "-mbig-endian",
+      "range": [],
+      "description": "Generate big-endian code."
+    },
+    {
+      "gcc_version": "8.1.0",
+      "name": "-mgeneral-regs-only",
+      "range": [],
+      "description": "Generate code which uses only the general-purpose registers."
+    },
+    {
+      "gcc_version": "8.1.0",
+      "name": "-mlittle-endian",
+      "range": [],
+      "description": "Generate little-endian code."
+    },
+    {
+      "gcc_version": "8.1.0",
+      "name": "-mcmodel",
+      "range": [
+        "tiny",
+        "small",
+        "large"
+      ],
+      "description": "Generate code for the tiny, small, large code model."
+    },
+    {
+      "gcc_version": "8.1.0",
+      "name": "-mstrict-align",
+      "range": [],
+      "description": "Avoid generating memory accesses that may not be aligned on a natural object boundary as described in the architecture specification."
+    },
+    {
+      "gcc_version": "8.1.0",
+      "name": "-momit-leaf-frame-pointer",
+      "range": [],
+      "description": "Omit the frame pointer in leaf functions."
+    },
+    {
+      "gcc_version": "8.1.0",
+      "name": "-mno-omit-leaf-frame-pointer",
+      "range": [],
+      "description": "Keep the frame pointer in leaf functions."
+    },
+    {
+      "gcc_version": "8.1.0",
+      "name": "-mtls-dialect",
+      "range": [
+        "desc",
+        "traditional"
+      ],
+      "description": "Use traditional TLS / TLS descriptors as the thread-local storage mechanism for dynamic accesses of TLS variables."
+    },
+    {
+      "gcc_version": "8.1.0",
+      "name": "-mtls-size",
+      "range": [
+        "12",
+        "24",
+        "32",
+        "48"
+      ],
+      "description": "Specify bit size of immediate TLS offsets."
+    },
+    {
+      "gcc_version": "8.1.0",
+      "name": "-mfix-cortex-a53-835769",
+      "range": [],
+      "description": "Enable the workaround for the ARM Cortex-A53 erratum number 835769."
+    },
+    {
+      "gcc_version": "8.1.0",
+      "name": "-mno-fix-cortex-a53-835769",
+      "range": [],
+      "description": "Disable the workaround for the ARM Cortex-A53 erratum number 835769."
+    },
+    {
+      "gcc_version": "8.1.0",
+      "name": "-mfix-cortex-a53-843419",
+      "range": [],
+      "description": "Enable the workaround for the ARM Cortex-A53 erratum number 843419."
+    },
+    {
+      "gcc_version": "8.1.0",
+      "name": "-mno-fix-cortex-a53-843419",
+      "range": [],
+      "description": "Disable the workaround for the ARM Cortex-A53 erratum number 843419."
+    },
+    {
+      "gcc_version": "8.1.0",
+      "name": "-mlow-precision-recip-sqrt",
+      "range": [],
+      "description": "Enable the reciprocal square root approximation."
+    },
+    {
+      "gcc_version": "8.1.0",
+      "name": "-mno-low-precision-recip-sqrt",
+      "range": [],
+      "description": "Disable the reciprocal square root approximation."
+    },
+    {
+      "gcc_version": "8.1.0",
+      "name": "-mlow-precision-sqrt",
+      "range": [],
+      "description": "Enable the square root approximation."
+    },
+    {
+      "gcc_version": "8.1.0",
+      "name": "-mno-low-precision-sqrt",
+      "range": [],
+      "description": "Disable the square root approximation."
+    },
+    {
+      "gcc_version": "8.1.0",
+      "name": "-mlow-precision-div",
+      "range": [],
+      "description": "Enable the division approximation."
+    },
+    {
+      "gcc_version": "8.1.0",
+      "name": "-mno-low-precision-div",
+      "range": [],
+      "description": "Disable the division approximation."
+    },
+    {
+      "gcc_version": "8.1.0",
+      "name": "-march",
+      "range": [
+        "armv8-a",
+        "armv8.1-a",
+        "armv8.2-a",
+        "armv8.3-a",
+        "armv8.4-a",
+        "native",
+        "crc",
+        "crypto",
+        "fp",
+        "simd",
+        "sve",
+        "lse",
+        "rdma",
+        "fp16",
+        "fp16fml",
+        "rcpc",
+        "dotprod",
+        "aes",
+        "sha2",
+        "sha3",
+        "sm4"
+      ],
+      "description": "Specify the name of the target architecture and, optionally, one or more feature modifiers."
+    },
+    {
+      "gcc_version": "8.1.0",
+      "name": "-mtune",
+      "range": [
+        "generic",
+        "cortex-a35",
+        "cortex-a53",
+        "cortex-a55",
+        "cortex-a57",
+        "cortex-a72",
+        "cortex-a73",
+        "cortex-a75",
+        "exynos-m1",
+        "falkor",
+        "qdf24xx",
+        "saphira",
+        "xgene1",
+        "vulcan",
+        "thunderx",
+        "thunderxt88",
+        "thunderxt88p1",
+        "thunderxt81",
+        "thunderxt83",
+        "thunderx2t99",
+        "cortex-a57.cortex-a53",
+        "cortex-a72.cortex-a53",
+        "cortex-a73.cortex-a35",
+        "cortex-a73.cortex-a53",
+        "cortex-a75.cortex-a55",
+        "native"
+      ],
+      "description": "Specify the name of the target processor for which GCC should tune the performance of the code."
+    },
+    {
+      "gcc_version": "8.1.0",
+      "name": "-mcpu",
+      "range": [
+        "generic",
+        "cortex-a35",
+        "cortex-a53",
+        "cortex-a55",
+        "cortex-a57",
+        "cortex-a72",
+        "cortex-a73",
+        "cortex-a75",
+        "exynos-m1",
+        "falkor",
+        "qdf24xx",
+        "saphira",
+        "xgene1",
+        "vulcan",
+        "thunderx",
+        "thunderxt88",
+        "thunderxt88p1",
+        "thunderxt81",
+        "thunderxt83",
+        "thunderx2t99",
+        "cortex-a57.cortex-a53",
+        "cortex-a72.cortex-a53",
+        "cortex-a73.cortex-a35",
+        "cortex-a73.cortex-a53",
+        "cortex-a75.cortex-a55",
+        "native",
+        "crc",
+        "crypto",
+        "fp",
+        "simd",
+        "sve",
+        "lse",
+        "rdma",
+        "fp16",
+        "fp16fml",
+        "rcpc",
+        "dotprod",
+        "aes",
+        "sha2",
+        "sha3",
+        "sm4"
+      ],
+      "description": "Specify the name of the target processor, optionally suffixed by one or more feature modifiers."
+    },
+    {
+      "gcc_version": "8.1.0",
+      "name": "-moverride",
+      "range": [],
+      "description": "Override tuning decisions made by the back-end in response to a -mtune= switch."
+    },
+    {
+      "gcc_version": "8.1.0",
+      "name": "-mverbose-cost-dump",
+      "range": [],
+      "description": "Enable verbose cost model dumping in the debug dump files."
+    },
+    {
+      "gcc_version": "8.1.0",
+      "name": "-mpc-relative-literal-loads",
+      "range": [],
+      "description": "Enable PC-relative literal loads."
+    },
+    {
+      "gcc_version": "8.1.0",
+      "name": "-mno-pc-relative-literal-loads",
+      "range": [],
+      "description": "Disable PC-relative literal loads."
+    },
+    {
+      "gcc_version": "8.1.0",
+      "name": "-msign-return-address",
+      "range": [
+        "none",
+        "non-leaf",
+        "all"
+      ],
+      "description": "Select the function scope on which return address signing will be applied."
+    },
+    {
+      "gcc_version": "8.1.0",
+      "name": "-msve-vector-bits",
+      "range": [],
+      "description": "Specify the number of bits in an SVE vector register."
+    },
+    {
+      "gcc_version": "8.2.0",
+      "name": "-mabi",
+      "range": [
+        "ilp32",
+        "lp64"
+      ],
+      "description": "Generate code for the specified data model."
+    },
+    {
+      "gcc_version": "8.2.0",
+      "name": "-mbig-endian",
+      "range": [],
+      "description": "Generate big-endian code."
+    },
+    {
+      "gcc_version": "8.2.0",
+      "name": "-mgeneral-regs-only",
+      "range": [],
+      "description": "Generate code which uses only the general-purpose registers."
+    },
+    {
+      "gcc_version": "8.2.0",
+      "name": "-mlittle-endian",
+      "range": [],
+      "description": "Generate little-endian code."
+    },
+    {
+      "gcc_version": "8.2.0",
+      "name": "-mcmodel",
+      "range": [
+        "tiny",
+        "small",
+        "large"
+      ],
+      "description": "Generate code for the tiny, small, large code model."
+    },
+    {
+      "gcc_version": "8.2.0",
+      "name": "-mstrict-align",
+      "range": [],
+      "description": "Avoid generating memory accesses that may not be aligned on a natural object boundary as described in the architecture specification."
+    },
+    {
+      "gcc_version": "8.2.0",
+      "name": "-momit-leaf-frame-pointer",
+      "range": [],
+      "description": "Omit the frame pointer in leaf functions."
+    },
+    {
+      "gcc_version": "8.2.0",
+      "name": "-mno-omit-leaf-frame-pointer",
+      "range": [],
+      "description": "Keep the frame pointer in leaf functions."
+    },
+    {
+      "gcc_version": "8.2.0",
+      "name": "-mtls-dialect",
+      "range": [
+        "desc",
+        "traditional"
+      ],
+      "description": "Use traditional TLS / TLS descriptors as the thread-local storage mechanism for dynamic accesses of TLS variables."
+    },
+    {
+      "gcc_version": "8.2.0",
+      "name": "-mtls-size",
+      "range": [
+        "12",
+        "24",
+        "32",
+        "48"
+      ],
+      "description": "Specify bit size of immediate TLS offsets."
+    },
+    {
+      "gcc_version": "8.2.0",
+      "name": "-mfix-cortex-a53-835769",
+      "range": [],
+      "description": "Enable the workaround for the ARM Cortex-A53 erratum number 835769."
+    },
+    {
+      "gcc_version": "8.2.0",
+      "name": "-mno-fix-cortex-a53-835769",
+      "range": [],
+      "description": "Disable the workaround for the ARM Cortex-A53 erratum number 835769."
+    },
+    {
+      "gcc_version": "8.2.0",
+      "name": "-mfix-cortex-a53-843419",
+      "range": [],
+      "description": "Enable the workaround for the ARM Cortex-A53 erratum number 843419."
+    },
+    {
+      "gcc_version": "8.2.0",
+      "name": "-mno-fix-cortex-a53-843419",
+      "range": [],
+      "description": "Disable the workaround for the ARM Cortex-A53 erratum number 843419."
+    },
+    {
+      "gcc_version": "8.2.0",
+      "name": "-mlow-precision-recip-sqrt",
+      "range": [],
+      "description": "Enable the reciprocal square root approximation."
+    },
+    {
+      "gcc_version": "8.2.0",
+      "name": "-mno-low-precision-recip-sqrt",
+      "range": [],
+      "description": "Disable the reciprocal square root approximation."
+    },
+    {
+      "gcc_version": "8.2.0",
+      "name": "-mlow-precision-sqrt",
+      "range": [],
+      "description": "Enable the square root approximation."
+    },
+    {
+      "gcc_version": "8.2.0",
+      "name": "-mno-low-precision-sqrt",
+      "range": [],
+      "description": "Disable the square root approximation."
+    },
+    {
+      "gcc_version": "8.2.0",
+      "name": "-mlow-precision-div",
+      "range": [],
+      "description": "Enable the division approximation."
+    },
+    {
+      "gcc_version": "8.2.0",
+      "name": "-mno-low-precision-div",
+      "range": [],
+      "description": "Disable the division approximation."
+    },
+    {
+      "gcc_version": "8.2.0",
+      "name": "-march",
+      "range": [
+        "armv8-a",
+        "armv8.1-a",
+        "armv8.2-a",
+        "armv8.3-a",
+        "armv8.4-a",
+        "native",
+        "crc",
+        "crypto",
+        "fp",
+        "simd",
+        "sve",
+        "lse",
+        "rdma",
+        "fp16",
+        "fp16fml",
+        "rcpc",
+        "dotprod",
+        "aes",
+        "sha2",
+        "sha3",
+        "sm4"
+      ],
+      "description": "Specify the name of the target architecture and, optionally, one or more feature modifiers."
+    },
+    {
+      "gcc_version": "8.2.0",
+      "name": "-mtune",
+      "range": [
+        "generic",
+        "cortex-a35",
+        "cortex-a53",
+        "cortex-a55",
+        "cortex-a57",
+        "cortex-a72",
+        "cortex-a73",
+        "cortex-a75",
+        "exynos-m1",
+        "falkor",
+        "qdf24xx",
+        "saphira",
+        "xgene1",
+        "vulcan",
+        "thunderx",
+        "thunderxt88",
+        "thunderxt88p1",
+        "thunderxt81",
+        "thunderxt83",
+        "thunderx2t99",
+        "cortex-a57.cortex-a53",
+        "cortex-a72.cortex-a53",
+        "cortex-a73.cortex-a35",
+        "cortex-a73.cortex-a53",
+        "cortex-a75.cortex-a55",
+        "native"
+      ],
+      "description": "Specify the name of the target processor for which GCC should tune the performance of the code."
+    },
+    {
+      "gcc_version": "8.2.0",
+      "name": "-mcpu",
+      "range": [
+        "generic",
+        "cortex-a35",
+        "cortex-a53",
+        "cortex-a55",
+        "cortex-a57",
+        "cortex-a72",
+        "cortex-a73",
+        "cortex-a75",
+        "exynos-m1",
+        "falkor",
+        "qdf24xx",
+        "saphira",
+        "xgene1",
+        "vulcan",
+        "thunderx",
+        "thunderxt88",
+        "thunderxt88p1",
+        "thunderxt81",
+        "thunderxt83",
+        "thunderx2t99",
+        "cortex-a57.cortex-a53",
+        "cortex-a72.cortex-a53",
+        "cortex-a73.cortex-a35",
+        "cortex-a73.cortex-a53",
+        "cortex-a75.cortex-a55",
+        "native",
+        "crc",
+        "crypto",
+        "fp",
+        "simd",
+        "sve",
+        "lse",
+        "rdma",
+        "fp16",
+        "fp16fml",
+        "rcpc",
+        "dotprod",
+        "aes",
+        "sha2",
+        "sha3",
+        "sm4"
+      ],
+      "description": "Specify the name of the target processor, optionally suffixed by one or more feature modifiers."
+    },
+    {
+      "gcc_version": "8.2.0",
+      "name": "-moverride",
+      "range": [],
+      "description": "Override tuning decisions made by the back-end in response to a -mtune= switch."
+    },
+    {
+      "gcc_version": "8.2.0",
+      "name": "-mverbose-cost-dump",
+      "range": [],
+      "description": "Enable verbose cost model dumping in the debug dump files."
+    },
+    {
+      "gcc_version": "8.2.0",
+      "name": "-mpc-relative-literal-loads",
+      "range": [],
+      "description": "Enable PC-relative literal loads."
+    },
+    {
+      "gcc_version": "8.2.0",
+      "name": "-mno-pc-relative-literal-loads",
+      "range": [],
+      "description": "Disable PC-relative literal loads."
+    },
+    {
+      "gcc_version": "8.2.0",
+      "name": "-msign-return-address",
+      "range": [
+        "none",
+        "non-leaf",
+        "all"
+      ],
+      "description": "Select the function scope on which return address signing will be applied."
+    },
+    {
+      "gcc_version": "8.2.0",
+      "name": "-msve-vector-bits",
+      "range": [],
+      "description": "Specify the number of bits in an SVE vector register."
+    },
+    {
+      "gcc_version": "8.3.0",
+      "name": "-mabi",
+      "range": [
+        "ilp32",
+        "lp64"
+      ],
+      "description": "Generate code for the specified data model."
+    },
+    {
+      "gcc_version": "8.3.0",
+      "name": "-mbig-endian",
+      "range": [],
+      "description": "Generate big-endian code."
+    },
+    {
+      "gcc_version": "8.3.0",
+      "name": "-mgeneral-regs-only",
+      "range": [],
+      "description": "Generate code which uses only the general-purpose registers."
+    },
+    {
+      "gcc_version": "8.3.0",
+      "name": "-mlittle-endian",
+      "range": [],
+      "description": "Generate little-endian code."
+    },
+    {
+      "gcc_version": "8.3.0",
+      "name": "-mcmodel",
+      "range": [
+        "tiny",
+        "small",
+        "large"
+      ],
+      "description": "Generate code for the tiny, small, large code model."
+    },
+    {
+      "gcc_version": "8.3.0",
+      "name": "-mstrict-align",
+      "range": [],
+      "description": "Avoid generating memory accesses that may not be aligned on a natural object boundary as described in the architecture specification."
+    },
+    {
+      "gcc_version": "8.3.0",
+      "name": "-momit-leaf-frame-pointer",
+      "range": [],
+      "description": "Omit the frame pointer in leaf functions."
+    },
+    {
+      "gcc_version": "8.3.0",
+      "name": "-mno-omit-leaf-frame-pointer",
+      "range": [],
+      "description": "Keep the frame pointer in leaf functions."
+    },
+    {
+      "gcc_version": "8.3.0",
+      "name": "-mtls-dialect",
+      "range": [
+        "desc",
+        "traditional"
+      ],
+      "description": "Use traditional TLS / TLS descriptors as the thread-local storage mechanism for dynamic accesses of TLS variables."
+    },
+    {
+      "gcc_version": "8.3.0",
+      "name": "-mtls-size",
+      "range": [
+        "12",
+        "24",
+        "32",
+        "48"
+      ],
+      "description": "Specify bit size of immediate TLS offsets."
+    },
+    {
+      "gcc_version": "8.3.0",
+      "name": "-mfix-cortex-a53-835769",
+      "range": [],
+      "description": "Enable the workaround for the ARM Cortex-A53 erratum number 835769."
+    },
+    {
+      "gcc_version": "8.3.0",
+      "name": "-mno-fix-cortex-a53-835769",
+      "range": [],
+      "description": "Disable the workaround for the ARM Cortex-A53 erratum number 835769."
+    },
+    {
+      "gcc_version": "8.3.0",
+      "name": "-mfix-cortex-a53-843419",
+      "range": [],
+      "description": "Enable the workaround for the ARM Cortex-A53 erratum number 843419."
+    },
+    {
+      "gcc_version": "8.3.0",
+      "name": "-mno-fix-cortex-a53-843419",
+      "range": [],
+      "description": "Disable the workaround for the ARM Cortex-A53 erratum number 843419."
+    },
+    {
+      "gcc_version": "8.3.0",
+      "name": "-mlow-precision-recip-sqrt",
+      "range": [],
+      "description": "Enable the reciprocal square root approximation."
+    },
+    {
+      "gcc_version": "8.3.0",
+      "name": "-mno-low-precision-recip-sqrt",
+      "range": [],
+      "description": "Disable the reciprocal square root approximation."
+    },
+    {
+      "gcc_version": "8.3.0",
+      "name": "-mlow-precision-sqrt",
+      "range": [],
+      "description": "Enable the square root approximation."
+    },
+    {
+      "gcc_version": "8.3.0",
+      "name": "-mno-low-precision-sqrt",
+      "range": [],
+      "description": "Disable the square root approximation."
+    },
+    {
+      "gcc_version": "8.3.0",
+      "name": "-mlow-precision-div",
+      "range": [],
+      "description": "Enable the division approximation."
+    },
+    {
+      "gcc_version": "8.3.0",
+      "name": "-mno-low-precision-div",
+      "range": [],
+      "description": "Disable the division approximation."
+    },
+    {
+      "gcc_version": "8.3.0",
+      "name": "-march",
+      "range": [
+        "crc",
+        "crypto",
+        "fp",
+        "simd",
+        "sve",
+        "lse",
+        "rdma",
+        "fp16",
+        "fp16fml",
+        "rcpc",
+        "dotprod",
+        "aes",
+        "sha2",
+        "sha3",
+        "sm4",
+        "armv8-a",
+        "armv8.1-a",
+        "armv8.2-a",
+        "armv8.3-a",
+        "armv8.4-a",
+        "native"
+      ],
+      "description": "Specify the name of the target architecture and, optionally, one or more feature modifiers."
+    },
+    {
+      "gcc_version": "8.3.0",
+      "name": "-mtune",
+      "range": [
+        "generic",
+        "cortex-a35",
+        "cortex-a53",
+        "cortex-a55",
+        "cortex-a57",
+        "cortex-a72",
+        "cortex-a73",
+        "cortex-a75",
+        "exynos-m1",
+        "falkor",
+        "qdf24xx",
+        "saphira",
+        "xgene1",
+        "vulcan",
+        "thunderx",
+        "thunderxt88",
+        "thunderxt88p1",
+        "thunderxt81",
+        "thunderxt83",
+        "thunderx2t99",
+        "cortex-a57.cortex-a53",
+        "cortex-a72.cortex-a53",
+        "cortex-a73.cortex-a35",
+        "cortex-a73.cortex-a53",
+        "cortex-a75.cortex-a55",
+        "native"
+      ],
+      "description": "Specify the name of the target processor for which GCC should tune the performance of the code."
+    },
+    {
+      "gcc_version": "8.3.0",
+      "name": "-mcpu",
+      "range": [
+        "crc",
+        "crypto",
+        "fp",
+        "simd",
+        "sve",
+        "lse",
+        "rdma",
+        "fp16",
+        "fp16fml",
+        "rcpc",
+        "dotprod",
+        "aes",
+        "sha2",
+        "sha3",
+        "sm4",
+        "generic",
+        "cortex-a35",
+        "cortex-a53",
+        "cortex-a55",
+        "cortex-a57",
+        "cortex-a72",
+        "cortex-a73",
+        "cortex-a75",
+        "exynos-m1",
+        "falkor",
+        "qdf24xx",
+        "saphira",
+        "xgene1",
+        "vulcan",
+        "thunderx",
+        "thunderxt88",
+        "thunderxt88p1",
+        "thunderxt81",
+        "thunderxt83",
+        "thunderx2t99",
+        "cortex-a57.cortex-a53",
+        "cortex-a72.cortex-a53",
+        "cortex-a73.cortex-a35",
+        "cortex-a73.cortex-a53",
+        "cortex-a75.cortex-a55",
+        "native"
+      ],
+      "description": "Specify the name of the target processor, optionally suffixed by one or more feature modifiers."
+    },
+    {
+      "gcc_version": "8.3.0",
+      "name": "-moverride",
+      "range": [],
+      "description": "Override tuning decisions made by the back-end in response to a -mtune= switch."
+    },
+    {
+      "gcc_version": "8.3.0",
+      "name": "-mverbose-cost-dump",
+      "range": [],
+      "description": "Enable verbose cost model dumping in the debug dump files."
+    },
+    {
+      "gcc_version": "8.3.0",
+      "name": "-mpc-relative-literal-loads",
+      "range": [],
+      "description": "Enable PC-relative literal loads."
+    },
+    {
+      "gcc_version": "8.3.0",
+      "name": "-mno-pc-relative-literal-loads",
+      "range": [],
+      "description": "Disable PC-relative literal loads."
+    },
+    {
+      "gcc_version": "8.3.0",
+      "name": "-msign-return-address",
+      "range": [
+        "none",
+        "non-leaf",
+        "all"
+      ],
+      "description": "Select the function scope on which return address signing will be applied."
+    },
+    {
+      "gcc_version": "8.3.0",
+      "name": "-msve-vector-bits",
+      "range": [
+        "scalable",
+        "128",
+        "256",
+        "512",
+        "1024",
+        "2048"
+      ],
+      "description": "Specify the number of bits in an SVE vector register."
+    },
+    {
+      "gcc_version": "9.1.0",
+      "name": "-mabi",
+      "range": [
+        "ilp32",
+        "lp64"
+      ],
+      "description": "Generate code for the specified data model."
+    },
+    {
+      "gcc_version": "9.1.0",
+      "name": "-mbig-endian",
+      "range": [],
+      "description": "Generate big-endian code."
+    },
+    {
+      "gcc_version": "9.1.0",
+      "name": "-mgeneral-regs-only",
+      "range": [],
+      "description": "Generate code which uses only the general-purpose registers."
+    },
+    {
+      "gcc_version": "9.1.0",
+      "name": "-mlittle-endian",
+      "range": [],
+      "description": "Generate little-endian code."
+    },
+    {
+      "gcc_version": "9.1.0",
+      "name": "-mcmodel",
+      "range": [
+        "tiny",
+        "small",
+        "large"
+      ],
+      "description": "Generate code for the tiny, small, large code model."
+    },
+    {
+      "gcc_version": "9.1.0",
+      "name": "-mstrict-align",
+      "range": [],
+      "description": "Avoid generating memory accesses that may not be aligned on a natural object boundary as described in the architecture specification."
+    },
+    {
+      "gcc_version": "9.1.0",
+      "name": "-mno-strict-align",
+      "range": [],
+      "description": "Allow generating memory accesses that may not be aligned on a natural object boundary as described in the architecture specification."
+    },
+    {
+      "gcc_version": "9.1.0",
+      "name": "-momit-leaf-frame-pointer",
+      "range": [],
+      "description": "Omit the frame pointer in leaf functions."
+    },
+    {
+      "gcc_version": "9.1.0",
+      "name": "-mno-omit-leaf-frame-pointer",
+      "range": [],
+      "description": "Keep the frame pointer in leaf functions."
+    },
+    {
+      "gcc_version": "9.1.0",
+      "name": "-mstack-protector-guard",
+      "range": [],
+      "description": "Generate stack protection code using canary at guard."
+    },
+    {
+      "gcc_version": "9.1.0",
+      "name": "-mstack-protector-guard-reg",
+      "range": [],
+      "description": "Generate stack protection code using canary with base register."
+    },
+    {
+      "gcc_version": "9.1.0",
+      "name": "-mstack-protector-guard-offset",
+      "range": [],
+      "description": "Generate stack protection code using canary with base register which offset from."
+    },
+    {
+      "gcc_version": "9.1.0",
+      "name": "-mtls-dialect",
+      "range": [
+        "desc",
+        "traditional"
+      ],
+      "description": "Use traditional TLS / TLS descriptors as the thread-local storage mechanism for dynamic accesses of TLS variables."
+    },
+    {
+      "gcc_version": "9.1.0",
+      "name": "-mtls-size",
+      "range": [
+        "12",
+        "24",
+        "32",
+        "48"
+      ],
+      "description": "Specify bit size of immediate TLS offsets."
+    },
+    {
+      "gcc_version": "9.1.0",
+      "name": "-mfix-cortex-a53-835769",
+      "range": [],
+      "description": "Enable the workaround for the ARM Cortex-A53 erratum number 835769."
+    },
+    {
+      "gcc_version": "9.1.0",
+      "name": "-mno-fix-cortex-a53-835769",
+      "range": [],
+      "description": "Disable the workaround for the ARM Cortex-A53 erratum number 835769."
+    },
+    {
+      "gcc_version": "9.1.0",
+      "name": "-mfix-cortex-a53-843419",
+      "range": [],
+      "description": "Enable the workaround for the ARM Cortex-A53 erratum number 843419."
+    },
+    {
+      "gcc_version": "9.1.0",
+      "name": "-mno-fix-cortex-a53-843419",
+      "range": [],
+      "description": "Disable the workaround for the ARM Cortex-A53 erratum number 843419."
+    },
+    {
+      "gcc_version": "9.1.0",
+      "name": "-mlow-precision-recip-sqrt",
+      "range": [],
+      "description": "Enable the reciprocal square root approximation."
+    },
+    {
+      "gcc_version": "9.1.0",
+      "name": "-mno-low-precision-recip-sqrt",
+      "range": [],
+      "description": "Disable the reciprocal square root approximation."
+    },
+    {
+      "gcc_version": "9.1.0",
+      "name": "-mlow-precision-sqrt",
+      "range": [],
+      "description": "Enable the square root approximation."
+    },
+    {
+      "gcc_version": "9.1.0",
+      "name": "-mno-low-precision-sqrt",
+      "range": [],
+      "description": "Disable the square root approximation."
+    },
+    {
+      "gcc_version": "9.1.0",
+      "name": "-mlow-precision-div",
+      "range": [],
+      "description": "Enable the division approximation."
+    },
+    {
+      "gcc_version": "9.1.0",
+      "name": "-mno-low-precision-div",
+      "range": [],
+      "description": "Disable the division approximation."
+    },
+    {
+      "gcc_version": "9.1.0",
+      "name": "-mtrack-speculation",
+      "range": [],
+      "description": "Enable generation of additional code to track speculative execution through conditional branches."
+    },
+    {
+      "gcc_version": "9.1.0",
+      "name": "-mno-track-speculation",
+      "range": [],
+      "description": "Disable generation of additional code to track speculative execution through conditional branches."
+    },
+    {
+      "gcc_version": "9.1.0",
+      "name": "-march",
+      "range": [
+        "armv8-a",
+        "armv8.1-a",
+        "armv8.2-a",
+        "armv8.3-a",
+        "armv8.4-a",
+        "armv8.5-a",
+        "native",
+        "crc",
+        "crypto",
+        "fp",
+        "simd",
+        "sve",
+        "lse",
+        "rdma",
+        "fp16",
+        "fp16fml",
+        "rcpc",
+        "dotprod",
+        "aes",
+        "sha2",
+        "sha3",
+        "sm4",
+        "profile",
+        "rng",
+        "memtag",
+        "sb",
+        "ssbs",
+        "predres"
+      ],
+      "description": "Specify the name of the target architecture and, optionally, one or more feature modifiers."
+    },
+    {
+      "gcc_version": "9.1.0",
+      "name": "-mtune",
+      "range": [
+        "generic",
+        "cortex-a35",
+        "cortex-a53",
+        "cortex-a55",
+        "cortex-a57",
+        "cortex-a72",
+        "cortex-a73",
+        "cortex-a75",
+        "cortex-a76",
+        "ares",
+        "exynos-m1",
+        "emag",
+        "falkor",
+        "neoverse-e1",
+        "neoverse-n1",
+        "qdf24xx",
+        "saphira",
+        "phecda",
+        "xgene1",
+        "vulcan",
+        "octeontx",
+        "octeontx81",
+        "octeontx83",
+        "thunderx",
+        "thunderxt88",
+        "thunderxt88p1",
+        "thunderxt81",
+        "tsv110",
+        "thunderxt83",
+        "thunderx2t99",
+        "cortex-a57.cortex-a53",
+        "cortex-a72.cortex-a53",
+        "cortex-a73.cortex-a35",
+        "cortex-a73.cortex-a53",
+        "cortex-a75.cortex-a55",
+        "cortex-a76.cortex-a55",
+        "native"
+      ],
+      "description": "Specify the name of the target processor for which GCC should tune the performance of the code."
+    },
+    {
+      "gcc_version": "9.1.0",
+      "name": "-mcpu",
+      "range": [
+        "generic",
+        "cortex-a35",
+        "cortex-a53",
+        "cortex-a55",
+        "cortex-a57",
+        "cortex-a72",
+        "cortex-a73",
+        "cortex-a75",
+        "cortex-a76",
+        "ares",
+        "exynos-m1",
+        "emag",
+        "falkor",
+        "neoverse-e1",
+        "neoverse-n1",
+        "qdf24xx",
+        "saphira",
+        "phecda",
+        "xgene1",
+        "vulcan",
+        "octeontx",
+        "octeontx81",
+        "octeontx83",
+        "thunderx",
+        "thunderxt88",
+        "thunderxt88p1",
+        "thunderxt81",
+        "tsv110",
+        "thunderxt83",
+        "thunderx2t99",
+        "cortex-a57.cortex-a53",
+        "cortex-a72.cortex-a53",
+        "cortex-a73.cortex-a35",
+        "cortex-a73.cortex-a53",
+        "cortex-a75.cortex-a55",
+        "cortex-a76.cortex-a55",
+        "native",
+        "crc",
+        "crypto",
+        "fp",
+        "simd",
+        "sve",
+        "lse",
+        "rdma",
+        "fp16",
+        "fp16fml",
+        "rcpc",
+        "dotprod",
+        "aes",
+        "sha2",
+        "sha3",
+        "sm4",
+        "profile",
+        "rng",
+        "memtag",
+        "sb",
+        "ssbs",
+        "predres"
+      ],
+      "description": "Specify the name of the target processor, optionally suffixed by one or more feature modifiers."
+    },
+    {
+      "gcc_version": "9.1.0",
+      "name": "-moverride",
+      "range": [],
+      "description": "Override tuning decisions made by the back-end in response to a -mtune= switch."
+    },
+    {
+      "gcc_version": "9.1.0",
+      "name": "-mverbose-cost-dump",
+      "range": [],
+      "description": "Enable verbose cost model dumping in the debug dump files."
+    },
+    {
+      "gcc_version": "9.1.0",
+      "name": "-mpc-relative-literal-loads",
+      "range": [],
+      "description": "Enable PC-relative literal loads."
+    },
+    {
+      "gcc_version": "9.1.0",
+      "name": "-mno-pc-relative-literal-loads",
+      "range": [],
+      "description": "Disable PC-relative literal loads."
+    },
+    {
+      "gcc_version": "9.1.0",
+      "name": "-msign-return-address",
+      "range": [
+        "none",
+        "non-leaf",
+        "all"
+      ],
+      "description": "Select the function scope on which return address signing will be applied."
+    },
+    {
+      "gcc_version": "9.1.0",
+      "name": "-mbranch-protection",
+      "range": [
+        "none",
+        "standard",
+        "pac-ret[+leaf]",
+        "bti"
+      ],
+      "description": "Select the branch protection features to use."
+    },
+    {
+      "gcc_version": "9.1.0",
+      "name": "-msve-vector-bits",
+      "range": [
+        "scalable",
+        "128",
+        "256",
+        "512",
+        "1024",
+        "2048"
+      ],
+      "description": "Specify the number of bits in an SVE vector register."
+    },
+    {
+      "gcc_version": "9.2.0",
+      "name": "-mabi",
+      "range": [
+        "ilp32",
+        "lp64"
+      ],
+      "description": "Generate code for the specified data model."
+    },
+    {
+      "gcc_version": "9.2.0",
+      "name": "-mbig-endian",
+      "range": [],
+      "description": "Generate big-endian code."
+    },
+    {
+      "gcc_version": "9.2.0",
+      "name": "-mgeneral-regs-only",
+      "range": [],
+      "description": "Generate code which uses only the general-purpose registers."
+    },
+    {
+      "gcc_version": "9.2.0",
+      "name": "-mlittle-endian",
+      "range": [],
+      "description": "Generate little-endian code."
+    },
+    {
+      "gcc_version": "9.2.0",
+      "name": "-mcmodel",
+      "range": [
+        "tiny",
+        "small",
+        "large"
+      ],
+      "description": "Generate code for the tiny, small, large code model."
+    },
+    {
+      "gcc_version": "9.2.0",
+      "name": "-mstrict-align",
+      "range": [],
+      "description": "Avoid generating memory accesses that may not be aligned on a natural object boundary as described in the architecture specification."
+    },
+    {
+      "gcc_version": "9.2.0",
+      "name": "-mno-strict-align",
+      "range": [],
+      "description": "Allow generating memory accesses that may not be aligned on a natural object boundary as described in the architecture specification."
+    },
+    {
+      "gcc_version": "9.2.0",
+      "name": "-momit-leaf-frame-pointer",
+      "range": [],
+      "description": "Omit the frame pointer in leaf functions."
+    },
+    {
+      "gcc_version": "9.2.0",
+      "name": "-mno-omit-leaf-frame-pointer",
+      "range": [],
+      "description": "Keep the frame pointer in leaf functions."
+    },
+    {
+      "gcc_version": "9.2.0",
+      "name": "-mstack-protector-guard",
+      "range": [],
+      "description": "Generate stack protection code using canary at guard."
+    },
+    {
+      "gcc_version": "9.2.0",
+      "name": "-mstack-protector-guard-reg",
+      "range": [],
+      "description": "Generate stack protection code using canary with base register."
+    },
+    {
+      "gcc_version": "9.2.0",
+      "name": "-mstack-protector-guard-offset",
+      "range": [],
+      "description": "Generate stack protection code using canary with base register which offset from."
+    },
+    {
+      "gcc_version": "9.2.0",
+      "name": "-mtls-dialect",
+      "range": [
+        "desc",
+        "traditional"
+      ],
+      "description": "Use traditional TLS / TLS descriptors as the thread-local storage mechanism for dynamic accesses of TLS variables."
+    },
+    {
+      "gcc_version": "9.2.0",
+      "name": "-mtls-size",
+      "range": [
+        "12",
+        "24",
+        "32",
+        "48"
+      ],
+      "description": "Specify bit size of immediate TLS offsets."
+    },
+    {
+      "gcc_version": "9.2.0",
+      "name": "-mfix-cortex-a53-835769",
+      "range": [],
+      "description": "Enable the workaround for the ARM Cortex-A53 erratum number 835769."
+    },
+    {
+      "gcc_version": "9.2.0",
+      "name": "-mno-fix-cortex-a53-835769",
+      "range": [],
+      "description": "Disable the workaround for the ARM Cortex-A53 erratum number 835769."
+    },
+    {
+      "gcc_version": "9.2.0",
+      "name": "-mfix-cortex-a53-843419",
+      "range": [],
+      "description": "Enable the workaround for the ARM Cortex-A53 erratum number 843419."
+    },
+    {
+      "gcc_version": "9.2.0",
+      "name": "-mno-fix-cortex-a53-843419",
+      "range": [],
+      "description": "Disable the workaround for the ARM Cortex-A53 erratum number 843419."
+    },
+    {
+      "gcc_version": "9.2.0",
+      "name": "-mlow-precision-recip-sqrt",
+      "range": [],
+      "description": "Enable the reciprocal square root approximation."
+    },
+    {
+      "gcc_version": "9.2.0",
+      "name": "-mno-low-precision-recip-sqrt",
+      "range": [],
+      "description": "Disable the reciprocal square root approximation."
+    },
+    {
+      "gcc_version": "9.2.0",
+      "name": "-mlow-precision-sqrt",
+      "range": [],
+      "description": "Enable the square root approximation."
+    },
+    {
+      "gcc_version": "9.2.0",
+      "name": "-mno-low-precision-sqrt",
+      "range": [],
+      "description": "Disable the square root approximation."
+    },
+    {
+      "gcc_version": "9.2.0",
+      "name": "-mlow-precision-div",
+      "range": [],
+      "description": "Enable the division approximation."
+    },
+    {
+      "gcc_version": "9.2.0",
+      "name": "-mno-low-precision-div",
+      "range": [],
+      "description": "Disable the division approximation."
+    },
+    {
+      "gcc_version": "9.2.0",
+      "name": "-mtrack-speculation",
+      "range": [],
+      "description": "Enable generation of additional code to track speculative execution through conditional branches."
+    },
+    {
+      "gcc_version": "9.2.0",
+      "name": "-mno-track-speculation",
+      "range": [],
+      "description": "Disable generation of additional code to track speculative execution through conditional branches."
+    },
+    {
+      "gcc_version": "9.2.0",
+      "name": "-march",
+      "range": [
+        "armv8-a",
+        "armv8.1-a",
+        "armv8.2-a",
+        "armv8.3-a",
+        "armv8.4-a",
+        "armv8.5-a",
+        "native",
+        "crc",
+        "crypto",
+        "fp",
+        "simd",
+        "sve",
+        "lse",
+        "rdma",
+        "fp16",
+        "fp16fml",
+        "rcpc",
+        "dotprod",
+        "aes",
+        "sha2",
+        "sha3",
+        "sm4",
+        "profile",
+        "rng",
+        "memtag",
+        "sb",
+        "ssbs",
+        "predres"
+      ],
+      "description": "Specify the name of the target architecture and, optionally, one or more feature modifiers."
+    },
+    {
+      "gcc_version": "9.2.0",
+      "name": "-mtune",
+      "range": [
+        "generic",
+        "cortex-a35",
+        "cortex-a53",
+        "cortex-a55",
+        "cortex-a57",
+        "cortex-a72",
+        "cortex-a73",
+        "cortex-a75",
+        "cortex-a76",
+        "ares",
+        "exynos-m1",
+        "emag",
+        "falkor",
+        "neoverse-e1",
+        "neoverse-n1",
+        "qdf24xx",
+        "saphira",
+        "phecda",
+        "xgene1",
+        "vulcan",
+        "octeontx",
+        "octeontx81",
+        "octeontx83",
+        "thunderx",
+        "thunderxt88",
+        "thunderxt88p1",
+        "thunderxt81",
+        "tsv110",
+        "thunderxt83",
+        "thunderx2t99",
+        "cortex-a57.cortex-a53",
+        "cortex-a72.cortex-a53",
+        "cortex-a73.cortex-a35",
+        "cortex-a73.cortex-a53",
+        "cortex-a75.cortex-a55",
+        "cortex-a76.cortex-a55",
+        "native"
+      ],
+      "description": "Specify the name of the target processor for which GCC should tune the performance of the code."
+    },
+    {
+      "gcc_version": "9.2.0",
+      "name": "-mcpu",
+      "range": [
+        "generic",
+        "cortex-a35",
+        "cortex-a53",
+        "cortex-a55",
+        "cortex-a57",
+        "cortex-a72",
+        "cortex-a73",
+        "cortex-a75",
+        "cortex-a76",
+        "ares",
+        "exynos-m1",
+        "emag",
+        "falkor",
+        "neoverse-e1",
+        "neoverse-n1",
+        "qdf24xx",
+        "saphira",
+        "phecda",
+        "xgene1",
+        "vulcan",
+        "octeontx",
+        "octeontx81",
+        "octeontx83",
+        "thunderx",
+        "thunderxt88",
+        "thunderxt88p1",
+        "thunderxt81",
+        "tsv110",
+        "thunderxt83",
+        "thunderx2t99",
+        "cortex-a57.cortex-a53",
+        "cortex-a72.cortex-a53",
+        "cortex-a73.cortex-a35",
+        "cortex-a73.cortex-a53",
+        "cortex-a75.cortex-a55",
+        "cortex-a76.cortex-a55",
+        "native",
+        "crc",
+        "crypto",
+        "fp",
+        "simd",
+        "sve",
+        "lse",
+        "rdma",
+        "fp16",
+        "fp16fml",
+        "rcpc",
+        "dotprod",
+        "aes",
+        "sha2",
+        "sha3",
+        "sm4",
+        "profile",
+        "rng",
+        "memtag",
+        "sb",
+        "ssbs",
+        "predres"
+      ],
+      "description": "Specify the name of the target processor, optionally suffixed by one or more feature modifiers."
+    },
+    {
+      "gcc_version": "9.2.0",
+      "name": "-moverride",
+      "range": [],
+      "description": "Override tuning decisions made by the back-end in response to a -mtune= switch."
+    },
+    {
+      "gcc_version": "9.2.0",
+      "name": "-mverbose-cost-dump",
+      "range": [],
+      "description": "Enable verbose cost model dumping in the debug dump files."
+    },
+    {
+      "gcc_version": "9.2.0",
+      "name": "-mpc-relative-literal-loads",
+      "range": [],
+      "description": "Enable PC-relative literal loads."
+    },
+    {
+      "gcc_version": "9.2.0",
+      "name": "-mno-pc-relative-literal-loads",
+      "range": [],
+      "description": "Disable PC-relative literal loads."
+    },
+    {
+      "gcc_version": "9.2.0",
+      "name": "-msign-return-address",
+      "range": [
+        "none",
+        "non-leaf",
+        "all"
+      ],
+      "description": "Select the function scope on which return address signing will be applied."
+    },
+    {
+      "gcc_version": "9.2.0",
+      "name": "-mbranch-protection",
+      "range": [
+        "none",
+        "standard",
+        "pac-ret[+leaf]",
+        "bti"
+      ],
+      "description": "Select the branch protection features to use."
+    },
+    {
+      "gcc_version": "9.2.0",
+      "name": "-msve-vector-bits",
+      "range": [
+        "scalable",
+        "128",
+        "256",
+        "512",
+        "1024",
+        "2048"
+      ],
+      "description": "Specify the number of bits in an SVE vector register."
+    },
+    {
+      "gcc_version": "9.3.0",
+      "name": "-mabi",
+      "range": [
+        "ilp32",
+        "lp64"
+      ],
+      "description": "Generate code for the specified data model."
+    },
+    {
+      "gcc_version": "9.3.0",
+      "name": "-mbig-endian",
+      "range": [],
+      "description": "Generate big-endian code."
+    },
+    {
+      "gcc_version": "9.3.0",
+      "name": "-mgeneral-regs-only",
+      "range": [],
+      "description": "Generate code which uses only the general-purpose registers."
+    },
+    {
+      "gcc_version": "9.3.0",
+      "name": "-mlittle-endian",
+      "range": [],
+      "description": "Generate little-endian code."
+    },
+    {
+      "gcc_version": "9.3.0",
+      "name": "-mcmodel",
+      "range": [
+        "tiny",
+        "small",
+        "large"
+      ],
+      "description": "Generate code for the tiny, small, large code model."
+    },
+    {
+      "gcc_version": "9.3.0",
+      "name": "-mstrict-align",
+      "range": [],
+      "description": "Avoid generating memory accesses that may not be aligned on a natural object boundary as described in the architecture specification."
+    },
+    {
+      "gcc_version": "9.3.0",
+      "name": "-mno-strict-align",
+      "range": [],
+      "description": "Allow generating memory accesses that may not be aligned on a natural object boundary as described in the architecture specification."
+    },
+    {
+      "gcc_version": "9.3.0",
+      "name": "-momit-leaf-frame-pointer",
+      "range": [],
+      "description": "Omit the frame pointer in leaf functions."
+    },
+    {
+      "gcc_version": "9.3.0",
+      "name": "-mno-omit-leaf-frame-pointer",
+      "range": [],
+      "description": "Keep the frame pointer in leaf functions."
+    },
+    {
+      "gcc_version": "9.3.0",
+      "name": "-mstack-protector-guard",
+      "range": [],
+      "description": "Generate stack protection code using canary at guard."
+    },
+    {
+      "gcc_version": "9.3.0",
+      "name": "-mstack-protector-guard-reg",
+      "range": [],
+      "description": "Generate stack protection code using canary with base register."
+    },
+    {
+      "gcc_version": "9.3.0",
+      "name": "-mstack-protector-guard-offset",
+      "range": [],
+      "description": "Generate stack protection code using canary with base register which offset from."
+    },
+    {
+      "gcc_version": "9.3.0",
+      "name": "-mtls-dialect",
+      "range": [
+        "desc",
+        "traditional"
+      ],
+      "description": "Use traditional TLS / TLS descriptors as the thread-local storage mechanism for dynamic accesses of TLS variables."
+    },
+    {
+      "gcc_version": "9.3.0",
+      "name": "-mtls-size",
+      "range": [
+        "12",
+        "24",
+        "32",
+        "48"
+      ],
+      "description": "Specify bit size of immediate TLS offsets."
+    },
+    {
+      "gcc_version": "9.3.0",
+      "name": "-mfix-cortex-a53-835769",
+      "range": [],
+      "description": "Enable the workaround for the ARM Cortex-A53 erratum number 835769."
+    },
+    {
+      "gcc_version": "9.3.0",
+      "name": "-mno-fix-cortex-a53-835769",
+      "range": [],
+      "description": "Disable the workaround for the ARM Cortex-A53 erratum number 835769."
+    },
+    {
+      "gcc_version": "9.3.0",
+      "name": "-mfix-cortex-a53-843419",
+      "range": [],
+      "description": "Enable the workaround for the ARM Cortex-A53 erratum number 843419."
+    },
+    {
+      "gcc_version": "9.3.0",
+      "name": "-mno-fix-cortex-a53-843419",
+      "range": [],
+      "description": "Disable the workaround for the ARM Cortex-A53 erratum number 843419."
+    },
+    {
+      "gcc_version": "9.3.0",
+      "name": "-mlow-precision-recip-sqrt",
+      "range": [],
+      "description": "Enable the reciprocal square root approximation."
+    },
+    {
+      "gcc_version": "9.3.0",
+      "name": "-mno-low-precision-recip-sqrt",
+      "range": [],
+      "description": "Disable the reciprocal square root approximation."
+    },
+    {
+      "gcc_version": "9.3.0",
+      "name": "-mlow-precision-sqrt",
+      "range": [],
+      "description": "Enable the square root approximation."
+    },
+    {
+      "gcc_version": "9.3.0",
+      "name": "-mno-low-precision-sqrt",
+      "range": [],
+      "description": "Disable the square root approximation."
+    },
+    {
+      "gcc_version": "9.3.0",
+      "name": "-mlow-precision-div",
+      "range": [],
+      "description": "Enable the division approximation."
+    },
+    {
+      "gcc_version": "9.3.0",
+      "name": "-mno-low-precision-div",
+      "range": [],
+      "description": "Disable the division approximation."
+    },
+    {
+      "gcc_version": "9.3.0",
+      "name": "-mtrack-speculation",
+      "range": [],
+      "description": "Enable generation of additional code to track speculative execution through conditional branches."
+    },
+    {
+      "gcc_version": "9.3.0",
+      "name": "-mno-track-speculation",
+      "range": [],
+      "description": "Disable generation of additional code to track speculative execution through conditional branches."
+    },
+    {
+      "gcc_version": "9.3.0",
+      "name": "-march",
+      "range": [
+        "armv8-a",
+        "armv8.1-a",
+        "armv8.2-a",
+        "armv8.3-a",
+        "armv8.4-a",
+        "armv8.5-a",
+        "native",
+        "crc",
+        "crypto",
+        "fp",
+        "simd",
+        "sve",
+        "lse",
+        "rdma",
+        "fp16",
+        "fp16fml",
+        "rcpc",
+        "dotprod",
+        "aes",
+        "sha2",
+        "sha3",
+        "sm4",
+        "profile",
+        "rng",
+        "memtag",
+        "sb",
+        "ssbs",
+        "predres"
+      ],
+      "description": "Specify the name of the target architecture and, optionally, one or more feature modifiers."
+    },
+    {
+      "gcc_version": "9.3.0",
+      "name": "-mtune",
+      "range": [
+        "generic",
+        "cortex-a35",
+        "cortex-a53",
+        "cortex-a55",
+        "cortex-a57",
+        "cortex-a72",
+        "cortex-a73",
+        "cortex-a75",
+        "cortex-a76",
+        "ares",
+        "exynos-m1",
+        "emag",
+        "falkor",
+        "neoverse-e1",
+        "neoverse-n1",
+        "qdf24xx",
+        "saphira",
+        "phecda",
+        "xgene1",
+        "vulcan",
+        "octeontx",
+        "octeontx81",
+        "octeontx83",
+        "thunderx",
+        "thunderxt88",
+        "thunderxt88p1",
+        "thunderxt81",
+        "tsv110",
+        "thunderxt83",
+        "thunderx2t99",
+        "cortex-a57.cortex-a53",
+        "cortex-a72.cortex-a53",
+        "cortex-a73.cortex-a35",
+        "cortex-a73.cortex-a53",
+        "cortex-a75.cortex-a55",
+        "cortex-a76.cortex-a55",
+        "native"
+      ],
+      "description": "Specify the name of the target processor for which GCC should tune the performance of the code."
+    },
+    {
+      "gcc_version": "9.3.0",
+      "name": "-mcpu",
+      "range": [
+        "generic",
+        "cortex-a35",
+        "cortex-a53",
+        "cortex-a55",
+        "cortex-a57",
+        "cortex-a72",
+        "cortex-a73",
+        "cortex-a75",
+        "cortex-a76",
+        "ares",
+        "exynos-m1",
+        "emag",
+        "falkor",
+        "neoverse-e1",
+        "neoverse-n1",
+        "qdf24xx",
+        "saphira",
+        "phecda",
+        "xgene1",
+        "vulcan",
+        "octeontx",
+        "octeontx81",
+        "octeontx83",
+        "thunderx",
+        "thunderxt88",
+        "thunderxt88p1",
+        "thunderxt81",
+        "tsv110",
+        "thunderxt83",
+        "thunderx2t99",
+        "cortex-a57.cortex-a53",
+        "cortex-a72.cortex-a53",
+        "cortex-a73.cortex-a35",
+        "cortex-a73.cortex-a53",
+        "cortex-a75.cortex-a55",
+        "cortex-a76.cortex-a55",
+        "native",
+        "crc",
+        "crypto",
+        "fp",
+        "simd",
+        "sve",
+        "lse",
+        "rdma",
+        "fp16",
+        "fp16fml",
+        "rcpc",
+        "dotprod",
+        "aes",
+        "sha2",
+        "sha3",
+        "sm4",
+        "profile",
+        "rng",
+        "memtag",
+        "sb",
+        "ssbs",
+        "predres"
+      ],
+      "description": "Specify the name of the target processor, optionally suffixed by one or more feature modifiers."
+    },
+    {
+      "gcc_version": "9.3.0",
+      "name": "-moverride",
+      "range": [],
+      "description": "Override tuning decisions made by the back-end in response to a -mtune= switch."
+    },
+    {
+      "gcc_version": "9.3.0",
+      "name": "-mverbose-cost-dump",
+      "range": [],
+      "description": "Enable verbose cost model dumping in the debug dump files."
+    },
+    {
+      "gcc_version": "9.3.0",
+      "name": "-mpc-relative-literal-loads",
+      "range": [],
+      "description": "Enable PC-relative literal loads."
+    },
+    {
+      "gcc_version": "9.3.0",
+      "name": "-mno-pc-relative-literal-loads",
+      "range": [],
+      "description": "Disable PC-relative literal loads."
+    },
+    {
+      "gcc_version": "9.3.0",
+      "name": "-msign-return-address",
+      "range": [
+        "none",
+        "non-leaf",
+        "all"
+      ],
+      "description": "Select the function scope on which return address signing will be applied."
+    },
+    {
+      "gcc_version": "9.3.0",
+      "name": "-mbranch-protection",
+      "range": [
+        "none",
+        "standard",
+        "pac-ret[+leaf]",
+        "bti"
+      ],
+      "description": "Select the branch protection features to use."
+    },
+    {
+      "gcc_version": "9.3.0",
+      "name": "-msve-vector-bits",
+      "range": [
+        "scalable",
+        "128",
+        "256",
+        "512",
+        "1024",
+        "2048"
+      ],
+      "description": "Specify the number of bits in an SVE vector register."
+    }
   ]
 }
