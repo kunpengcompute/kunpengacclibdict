@@ -1,0 +1,51 @@
+{
+  "ver": "0.0.1",
+  "category": [
+    {
+      "name_en": "Kunpeng Security Compute",
+      "name_cn": "鲲鹏安全计算",
+      "id": "01",
+      "app": {
+        "app_en": "Kunpeng Security Compute Application",
+        "app_cn": "鲲鹏安全计算应用",
+        "app_id": "00",
+        "sdk_list": [
+          {
+            "id": "0",
+            "ver": "1.0.0",
+            "SDK_name_en": "TEE SDK",
+            "SDK_name_cn": "TEE SDK",
+            "SDK_url": "xxx",
+            "checkpoints": [
+              {
+                "checkpoint": "teecd",
+                "path": "/usr/bin/"
+              },
+              {
+                "checkpoint": "tlogcat",
+                "path": "/usr/bin/"
+              },
+              {
+                "checkpoint": "libboundscheck.so",
+                "path": "/lib64/"
+              },
+              {
+                "checkpoint": "libteec.so",
+                "path": "/lib64/"
+              },
+              {
+                "checkpoint": "libteec_adaptor.so",
+                "path": "/lib64/"
+              },
+              {
+                "checkpoint": "tzdriver.ko",
+                "path": "",
+                "command": "smod | grep tzdriver.ko"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}
