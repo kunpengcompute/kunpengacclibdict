@@ -40,7 +40,7 @@
               {
                 "checkpoint": "tzdriver.ko",
                 "path": "",
-                "command": "smod | grep tzdriver.ko"
+                "command": "lsmod | grep tzdriver.ko"
               }
             ]
           }
