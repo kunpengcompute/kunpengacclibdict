@@ -3,7 +3,10 @@ project (rsa_demo)
 cmake_policy (SET CMP0037 OLD)
 
 # Set variable
-set(iTrustee_SDK_PATH ${PROJECT_SOURCE_DIR}/../../../../)
+# TEE_SDK-1.0.0 path set
+set(iTrustee_SDK_PATH /usr/local/TEE_SDK-1.0.0)
+# TEE-devel_SDK-1.0.0 path set
+# set(iTrustee_SDK_PATH /usr/local/TEE-devel_SDK-1.0.0)
 set(iTrustee_SDK_HEADER_PATH /usr/include/itrustee_sdk)
 set(SIGNTOOL_DIR ${iTrustee_SDK_PATH}/utils/signtools)
 set(LIBC ${iTrustee_SDK_HEADER_PATH}/thirdparty/musl)

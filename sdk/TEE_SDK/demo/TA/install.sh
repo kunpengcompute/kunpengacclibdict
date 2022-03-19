@@ -1,14 +1,5 @@
 #!/bin/bash
-if [ $# != 2 ]; then
-    echo "Parameter should contain signed_config and TA_cert."
-    exit 1
-fi
-
 cd cloud
-
-# copy signed_config and TA_cert
-cp -r $1 .
-cp -r $2 .
 
 # build
 mkdir build
