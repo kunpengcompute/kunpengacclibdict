@@ -14,6 +14,7 @@ TA demo展示安全侧示例，如果需要运行，请和CA demo配合使用
 	修改iTrustee_SDK_PATH为TEE SDK安装路径；
 	vim ./cloud/config_cloud.ini
 	修改signKey为private_key.pem绝对路径；
+	修改configPath为config绝对路径；
   2）安装TA demo
     ./install.sh
 

@@ -13,9 +13,9 @@
           {
             "id": "0",
             "ver": "1.0.0",
-            "SDK_name_en": "TEE SDK",
-            "SDK_name_cn": "TEE SDK",
-            "SDK_url": "https://mirrors.huaweicloud.com/kunpeng/archive/Porting_Dependency/SDK/itrustee/RPM/",
+            "SDK_name_en": "TEE_SDK-1.0.0-1.aarch64.rpm",
+            "SDK_name_cn": "TEE_SDK-1.0.0-1.aarch64.rpm",
+            "SDK_url": "https://mirrors.huaweicloud.com/kunpeng/archive/Kunpeng_SDK/itrustee/CentOS7.6/TEE_SDK-1.0.0-1.aarch64.rpm",
             "checkpoints": [
               {
                 "checkpoint": "teecd",
@@ -43,7 +43,177 @@
                 "command": "lsmod | grep tzdriver.ko"
               }
             ]
-          }
+          },
+		  {
+			"id": "1",
+            "ver": "1.0.0",
+            "SDK_name_en": "TEE-devel_SDK-1.0.0-1.aarch64.rpm",
+            "SDK_name_cn": "TEE-devel_SDK-1.0.0-1.aarch64.rpm",
+            "SDK_url": "https://mirrors.huaweicloud.com/kunpeng/archive/Kunpeng_SDK/itrustee/CentOS7.6/TEE-devel_SDK-1.0.0-1.aarch64.rpm",
+            "checkpoints": [
+              {
+                "checkpoint": "teecd",
+                "path": "/usr/bin/"
+              },
+              {
+                "checkpoint": "tlogcat",
+                "path": "/usr/bin/"
+              },
+              {
+                "checkpoint": "libboundscheck.so",
+                "path": "/lib64/"
+              },
+              {
+                "checkpoint": "libteec.so",
+                "path": "/lib64/"
+              },
+              {
+                "checkpoint": "libteec_adaptor.so",
+                "path": "/lib64/"
+              },
+              {
+                "checkpoint": "tzdriver.ko",
+                "path": "",
+                "command": "lsmod | grep tzdriver.ko"
+              }
+            ]
+		  },
+		  {
+			"id": "2",
+            "ver": "1.0.0",
+            "SDK_name_en": "TEE_SDK-1.0.0-1.aarch64.rpm",
+            "SDK_name_cn": "TEE_SDK-1.0.0-1.aarch64.rpm",
+            "SDK_url": "https://mirrors.huaweicloud.com/kunpeng/archive/Kunpeng_SDK/itrustee/openEuler20.03/TEE_SDK-1.0.0-1.aarch64.rpm",
+            "checkpoints": [
+              {
+                "checkpoint": "teecd",
+                "path": "/usr/bin/"
+              },
+              {
+                "checkpoint": "tlogcat",
+                "path": "/usr/bin/"
+              },
+              {
+                "checkpoint": "libboundscheck.so",
+                "path": "/lib64/"
+              },
+              {
+                "checkpoint": "libteec.so",
+                "path": "/lib64/"
+              },
+              {
+                "checkpoint": "libteec_adaptor.so",
+                "path": "/lib64/"
+              },
+              {
+                "checkpoint": "tzdriver.ko",
+                "path": "",
+                "command": "lsmod | grep tzdriver.ko"
+              }
+            ]
+		  },
+		  {
+			"id": "3",
+            "ver": "1.0.0",
+            "SDK_name_en": "TEE-devel_SDK-1.0.0-1.aarch64.rpm",
+            "SDK_name_cn": "TEE-devel_SDK-1.0.0-1.aarch64.rpm",
+            "SDK_url": "https://mirrors.huaweicloud.com/kunpeng/archive/Kunpeng_SDK/itrustee/openEuler20.03/TEE-devel_SDK-1.0.0-1.aarch64.rpm",
+            "checkpoints": [
+              {
+                "checkpoint": "teecd",
+                "path": "/usr/bin/"
+              },
+              {
+                "checkpoint": "tlogcat",
+                "path": "/usr/bin/"
+              },
+              {
+                "checkpoint": "libboundscheck.so",
+                "path": "/lib64/"
+              },
+              {
+                "checkpoint": "libteec.so",
+                "path": "/lib64/"
+              },
+              {
+                "checkpoint": "libteec_adaptor.so",
+                "path": "/lib64/"
+              },
+              {
+                "checkpoint": "tzdriver.ko",
+                "path": "",
+                "command": "lsmod | grep tzdriver.ko"
+              }
+            ]
+		  },
+		  {
+			"id": "4",
+            "ver": "1.0.0",
+            "SDK_name_en": "TEE_SDK_1.0.0_arm64.deb",
+            "SDK_name_cn": "TEE_SDK_1.0.0_arm64.deb",
+            "SDK_url": "https://mirrors.huaweicloud.com/kunpeng/archive/Kunpeng_SDK/itrustee/UOS_20_SP1/TEE_SDK_1.0.0_arm64.deb",
+            "checkpoints": [
+              {
+                "checkpoint": "teecd",
+                "path": "/usr/bin/"
+              },
+              {
+                "checkpoint": "tlogcat",
+                "path": "/usr/bin/"
+              },
+              {
+                "checkpoint": "libboundscheck.so",
+                "path": "/lib64/"
+              },
+              {
+                "checkpoint": "libteec.so",
+                "path": "/lib64/"
+              },
+              {
+                "checkpoint": "libteec_adaptor.so",
+                "path": "/lib64/"
+              },
+              {
+                "checkpoint": "tzdriver.ko",
+                "path": "",
+                "command": "lsmod | grep tzdriver.ko"
+              }
+            ]
+		  },
+		  {
+			"id": "5",
+            "ver": "1.0.0",
+            "SDK_name_en": "TEE-devel_SDK_1.0.0_arm64.deb",
+            "SDK_name_cn": "TEE-devel_SDK_1.0.0_arm64.deb",
+            "SDK_url": "https://mirrors.huaweicloud.com/kunpeng/archive/Kunpeng_SDK/itrustee/UOS_20_SP1/TEE-devel_SDK_1.0.0_arm64.deb",
+            "checkpoints": [
+              {
+                "checkpoint": "teecd",
+                "path": "/usr/bin/"
+              },
+              {
+                "checkpoint": "tlogcat",
+                "path": "/usr/bin/"
+              },
+              {
+                "checkpoint": "libboundscheck.so",
+                "path": "/lib64/"
+              },
+              {
+                "checkpoint": "libteec.so",
+                "path": "/lib64/"
+              },
+              {
+                "checkpoint": "libteec_adaptor.so",
+                "path": "/lib64/"
+              },
+              {
+                "checkpoint": "tzdriver.ko",
+                "path": "",
+                "command": "lsmod | grep tzdriver.ko"
+              }
+            ]
+		  }
         ]
       }
     }

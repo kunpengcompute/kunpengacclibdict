@@ -15,6 +15,7 @@ RSA demo展示TA与CA安全通信示例
 	修改iTrustee_SDK_PATH为TEE SDK安装路径；
 	vim ./cloud/config_cloud.ini
 	修改signKey为private_key.pem绝对路径；
+	修改configPath为config绝对路径；
   2）安装TA demo
     ./install.sh
   3）安装CA demo
