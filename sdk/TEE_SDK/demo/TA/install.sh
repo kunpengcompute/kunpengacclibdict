@@ -13,7 +13,7 @@ if [ ! -d"/data" ]; then
     mkdir -p /data
 fi
 
-if [ ! -x "" ]; then
+if [ ! -f "/data/f68fd704-6eb1-4d14-b218-722850eb3ef0.sec" ]; then
     rm -rf /data/f68fd704-6eb1-4d14-b218-722850eb3ef0.sec
 fi
 
@@ -24,6 +24,4 @@ rm -rf build
 rm -rf *.sec
 rm -rf libcombine.so
 rm -rf manifest.txt
-rm -rf signed_config
-rm -rf TA_cert
 cd ..

@@ -1,7 +1,6 @@
 /*
  * Copyright (c) Huawei Technologies Co., Ltd. 2020-2020. All rights reserved.
  * Description: rsa_ta_interface.h
- * Author: 王纪锋 w30001513
  * Create: 2020-04-18
  */
 #ifndef __RSA_TA_INTERFACE_H
