@@ -13,9 +13,9 @@
           {
             "id": "0",
             "ver": "1.0.0",
-            "SDK_name_en": "TEE_SDK-1.0.0-1.aarch64.rpm",
-            "SDK_name_cn": "TEE_SDK-1.0.0-1.aarch64.rpm",
-            "SDK_url": "https://mirrors.huaweicloud.com/kunpeng/archive/Kunpeng_SDK/itrustee/CentOS7.6/TEE_SDK-1.0.0-1.aarch64.rpm",
+            "SDK_name_en": "kunpeng-sc-1.0.0-1.aarch64.rpm",
+            "SDK_name_cn": "kunpeng-sc-1.0.0-1.aarch64.rpm",
+            "SDK_url": "https://mirrors.huaweicloud.com/kunpeng/archive/Kunpeng_SDK/itrustee/CentOS7.6/kunpeng-sc-1.0.0-1.aarch64.rpm",
             "checkpoints": [
               {
                 "checkpoint": "teecd",
@@ -47,9 +47,9 @@
 		  {
 			"id": "1",
             "ver": "1.0.0",
-            "SDK_name_en": "TEE-devel_SDK-1.0.0-1.aarch64.rpm",
-            "SDK_name_cn": "TEE-devel_SDK-1.0.0-1.aarch64.rpm",
-            "SDK_url": "https://mirrors.huaweicloud.com/kunpeng/archive/Kunpeng_SDK/itrustee/CentOS7.6/TEE-devel_SDK-1.0.0-1.aarch64.rpm",
+            "SDK_name_en": "kunpeng-sc-devel-1.0.0-1.aarch64.rpm",
+            "SDK_name_cn": "kunpeng-sc-devel-1.0.0-1.aarch64.rpm",
+            "SDK_url": "https://mirrors.huaweicloud.com/kunpeng/archive/Kunpeng_SDK/itrustee/CentOS7.6/kunpeng-sc-devel-1.0.0-1.aarch64.rpm",
             "checkpoints": [
               {
                 "checkpoint": "teecd",
@@ -81,9 +81,9 @@
 		  {
 			"id": "2",
             "ver": "1.0.0",
-            "SDK_name_en": "TEE_SDK-1.0.0-1.aarch64.rpm",
-            "SDK_name_cn": "TEE_SDK-1.0.0-1.aarch64.rpm",
-            "SDK_url": "https://mirrors.huaweicloud.com/kunpeng/archive/Kunpeng_SDK/itrustee/openEuler20.03/TEE_SDK-1.0.0-1.aarch64.rpm",
+            "SDK_name_en": "kunpeng-sc-1.0.0-1.aarch64.rpm",
+            "SDK_name_cn": "kunpeng-sc-1.0.0-1.aarch64.rpm",
+            "SDK_url": "https://mirrors.huaweicloud.com/kunpeng/archive/Kunpeng_SDK/itrustee/openEuler20.03/kunpeng-sc-1.0.0-1.aarch64.rpm",
             "checkpoints": [
               {
                 "checkpoint": "teecd",
@@ -115,9 +115,9 @@
 		  {
 			"id": "3",
             "ver": "1.0.0",
-            "SDK_name_en": "TEE-devel_SDK-1.0.0-1.aarch64.rpm",
-            "SDK_name_cn": "TEE-devel_SDK-1.0.0-1.aarch64.rpm",
-            "SDK_url": "https://mirrors.huaweicloud.com/kunpeng/archive/Kunpeng_SDK/itrustee/openEuler20.03/TEE-devel_SDK-1.0.0-1.aarch64.rpm",
+            "SDK_name_en": "kunpeng-sc-devel-1.0.0-1.aarch64.rpm",
+            "SDK_name_cn": "kunpeng-sc-devel-1.0.0-1.aarch64.rpm",
+            "SDK_url": "https://mirrors.huaweicloud.com/kunpeng/archive/Kunpeng_SDK/itrustee/openEuler20.03/kunpeng-sc-devel-1.0.0-1.aarch64.rpm",
             "checkpoints": [
               {
                 "checkpoint": "teecd",
@@ -149,9 +149,9 @@
 		  {
 			"id": "4",
             "ver": "1.0.0",
-            "SDK_name_en": "TEE_SDK_1.0.0_arm64.deb",
-            "SDK_name_cn": "TEE_SDK_1.0.0_arm64.deb",
-            "SDK_url": "https://mirrors.huaweicloud.com/kunpeng/archive/Kunpeng_SDK/itrustee/UOS_20_SP1/TEE_SDK_1.0.0_arm64.deb",
+            "SDK_name_en": "kunpeng-sc_1.0.0_arm64.deb",
+            "SDK_name_cn": "kunpeng-sc_1.0.0_arm64.deb",
+            "SDK_url": "https://mirrors.huaweicloud.com/kunpeng/archive/Kunpeng_SDK/itrustee/UOS_20_SP1/kunpeng-sc_1.0.0_arm64.deb",
             "checkpoints": [
               {
                 "checkpoint": "teecd",
@@ -183,9 +183,9 @@
 		  {
 			"id": "5",
             "ver": "1.0.0",
-            "SDK_name_en": "TEE-devel_SDK_1.0.0_arm64.deb",
-            "SDK_name_cn": "TEE-devel_SDK_1.0.0_arm64.deb",
-            "SDK_url": "https://mirrors.huaweicloud.com/kunpeng/archive/Kunpeng_SDK/itrustee/UOS_20_SP1/TEE-devel_SDK_1.0.0_arm64.deb",
+            "SDK_name_en": "kunpeng-sc-devel_1.0.0_arm64.deb",
+            "SDK_name_cn": "kunpeng-sc-devel_1.0.0_arm64.deb",
+            "SDK_url": "https://mirrors.huaweicloud.com/kunpeng/archive/Kunpeng_SDK/itrustee/UOS_20_SP1/kunpeng-sc-devel_1.0.0_arm64.deb",
             "checkpoints": [
               {
                 "checkpoint": "teecd",
